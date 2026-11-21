@@ -1,0 +1,15 @@
+{
+  "source_metadata_file": "GSE203608_cell_annotation.csv.gz",
+  "metadata_sha256": "1a0973ae719990ce234e5328ca4897081c36b57e6840c03a57f78c5f058697b4",
+  "gene_annotation_sha256": "e243c8de69128cffe740314b888b32bc374582563fe4177b996c60b44ae3f09c",
+  "expression_sha256": "e6fd8d7c545298f3cbf41e5cc840fb50add3b600b345fc4d0ef9d57f430d07cd",
+  "source_coordinates": 315102049,
+  "source_rows": 33694,
+  "source_cells": 126014,
+  "unambiguous_symbols": 33626,
+  "in_vivo_cells": 59661,
+  "in_vivo_specimens": 24,
+  "donors": 15,
+  "elapsed_seconds": 37.95744784699946,
+  "peak_rss_bytes": 1048940544
+}

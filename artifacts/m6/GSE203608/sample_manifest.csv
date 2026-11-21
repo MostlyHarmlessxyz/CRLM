@@ -1,0 +1,25 @@
+sample_uid,donor_uid,tissue,lesion_uid,dataset,role,input_scale,patient_mapping_verified,counts_values_verified,counts_provenance
+GSE203608:Colon_07,GSE203608:07,NC,GSE203608:Colon_07,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Colon_09,GSE203608:09,NC,GSE203608:Colon_09,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Colon_08,GSE203608:08,NC,GSE203608:Colon_08,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_07,GSE203608:07,PT,GSE203608:Tumor_07,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_09,GSE203608:09,PT,GSE203608:Tumor_09,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_08,GSE203608:08,PT,GSE203608:Tumor_08,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Liver_09,GSE203608:09,NL,GSE203608:Liver_09,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:LiverMet_09,GSE203608:09,LM,GSE203608:LiverMet_09,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_24,GSE203608:24,PT,GSE203608:Tumor_24,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_26,GSE203608:26,PT,GSE203608:Tumor_26,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_27,GSE203608:27,PT,GSE203608:Tumor_27,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:LiverMet_27,GSE203608:27,LM,GSE203608:LiverMet_27,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_28,GSE203608:28,PT,GSE203608:Tumor_28,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_44,GSE203608:44,PT,GSE203608:Tumor_44,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Liver_44,GSE203608:44,NL,GSE203608:Liver_44,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:LiverMet_44,GSE203608:44,LM,GSE203608:LiverMet_44,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_49,GSE203608:49,PT,GSE203608:Tumor_49,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:LiverMet_49,GSE203608:49,LM,GSE203608:LiverMet_49,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_80,GSE203608:80,PT,GSE203608:Tumor_80,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_81,GSE203608:81,PT,GSE203608:Tumor_81,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_83,GSE203608:83,PT,GSE203608:Tumor_83,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_84,GSE203608:84,PT,GSE203608:Tumor_84,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_86,GSE203608:86,PT,GSE203608:Tumor_86,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
+GSE203608:Tumor_87,GSE203608:87,PT,GSE203608:Tumor_87,GSE203608,external,raw_counts,True,True,Published original gene_by_cell_count_matrix and ordered annotations; checked integer entries
