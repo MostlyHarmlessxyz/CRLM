@@ -2,7 +2,7 @@
 
 **研究目标：** 寻找结直肠癌原发灶与肝转移灶之间跨患者、跨独立来源可复现的免疫细胞状态与分子程序，评估组成、状态及器官背景。项目意图以 [说明.md](docs/source_brief/说明.md) 为最高依据。
 
-GSE245552 的全部 39 个公开样本已从原始交付计数导入稀疏 H5AD，覆盖 16 位患者。190,190 个输入细胞中有 190,031 个通过开发集 QC。患者与各谱系实际覆盖见 [M2 阶段报告](artifacts/m2/stage_report.md)，当前分析进度见 [STATUS.md](STATUS.md)。
+**[V1 实证报告与主图](artifacts/m8/final_report.md)**。髓系 Mac_SPP1 与 B/Plasma UPR 在发现集和主要外部来源的患者多数方向一致，均未通过预登记的外部 Holm 校正。四组织分析显示 UPR 的正常器官差与肿瘤差幅度相近。独立的 UPenn 患者差、三位空间患者及组织分类的结果均已归档。[全部登记检验](artifacts/m6/registered_tests/registered_test_results.csv) · [复算入口](artifacts/m8/reproduce.md) · [项目状态](STATUS.md)
 
 ## 从这里开始
 

@@ -1,0 +1,20 @@
+stage,analysis,source_or_version,entrypoint,principal_table,verification_or_run,environment
+M0,Donor audit and environment,c01a974,artifacts/m0/stage_report.md,data/manifests/m0/sample_manifest_validated.csv,artifacts/m0/output_sha256.txt,artifacts/m0/environment_report.md
+M1,Pt18 four-tissue import,c01a974,scripts/import_gse245552.py,artifacts/m1/matrix_audit.csv,artifacts/m1/source_inputs.csv,artifacts/m1/python-packages.txt
+M2,Full discovery sparse import and annotated profiles,1e8b44b,scripts/process_gse245552.py,artifacts/m2/object_manifest.csv,artifacts/m2/pseudobulk_manifest.csv,artifacts/m2/python-packages.txt
+M3,Patient programs and composition,5e49e81,scripts/analyze_discovery_programs.py,artifacts/m3/patient_effects/patient_contrasts.csv,artifacts/m3/output_sha256.txt,artifacts/m1/python-packages.txt
+M3,Detection-depth standardization,5e49e81,scripts/analyze_paired_depth.py,artifacts/m3/patient_depth_standardized.csv,artifacts/m3/paired_depth_run.log,artifacts/m1/python-packages.txt
+M3,Paired negative-binomial count models,5e49e81,scripts/analyze_paired_counts.py,artifacts/m3/paired_counts/reference_readouts.csv,artifacts/m3/paired_counts/profile.json,artifacts/m3/paired_counts_packages.txt
+M4,Shared patient-fold classifiers,ff1f1a3,scripts/benchmark_discovery.py,artifacts/m4/oof_predictions.csv,artifacts/m4/benchmark_runs.csv,artifacts/m4/python-packages.txt
+M4,Frozen scGPT CLS embeddings,ff1f1a3,scripts/encode_scgpt.py,artifacts/m4/resource_profiles/scgpt_cache_manifest.csv,artifacts/m4/resource_profiles/scgpt_profile.json,artifacts/m4/resource_profiles/xpu-packages.txt
+M4,HA CTA and MixMIL,ff1f1a3,scripts/benchmark_prior_mil.py,artifacts/m4/direct_prior/matched_mean_comparisons.csv,artifacts/m4/direct_prior/upstream_equivalence.json,artifacts/m4/direct_prior/extra_packages.txt
+M4,Full development fits,ff1f1a3,scripts/fit_transfer_models.py,artifacts/m4/full_data_models.csv,artifacts/m4/full_data_fit.log,artifacts/m4/python-packages.txt
+M5,Candidate and model freeze,72ee86b,scripts/freeze_validation.py,artifacts/m5/registered_tests.csv,artifacts/m5/frozen_inputs_sha256.txt,artifacts/m4/python-packages.txt
+M6,GSE164522 processed four-tissue validation,72a0f5d,scripts/validate_gse164522.py,artifacts/m6/GSE164522/patient_effects/patient_contrasts.csv,artifacts/m6/GSE164522/acceptance.json,artifacts/m2/python-packages.txt
+M6,GSE203608 original in-vivo count matrix,72a0f5d,scripts/validate_gse203608.py,artifacts/m6/GSE203608/patient_effects/patient_contrasts.csv,artifacts/m6/GSE203608/resource_profile.json,artifacts/m4/python-packages.txt
+M6,GSE178318 held pending author terms,72a0f5d,artifacts/m6/GSE178318/access_status.md,artifacts/m6/GSE178318/registered_tests/registered_results.csv,starter/audit_data/geo/GSE178318_metadata_only.soft,
+M6,External frozen classification inference,72a0f5d,scripts/predict_gse164522.py,artifacts/m6/GSE164522/model_predictions/bag_predictions.csv,artifacts/m6/GSE164522/model_predictions/output_sha256.txt,artifacts/m6/GSE164522/model_predictions/stage_report.md
+M6,Registered family adjustment,72a0f5d,scripts/assemble_validation.py,artifacts/m6/registered_tests/registered_test_results.csv,artifacts/m6/registered_tests/registered_test_audit.json,artifacts/m4/python-packages.txt
+M7,Measured spatial marker proximity,d3aed4c,scripts/spatial_support.py,artifacts/m7/spatial_measurement_audit/local_distances.csv,artifacts/m7/spatial_measurement_audit/source_inputs.csv,artifacts/m4/python-packages.txt
+M7,Human experimental design only,f8f9c45,artifacts/m7/candidate_validation_design.md,artifacts/m7/material_and_readout_requirements.csv,artifacts/m7/stage_report.md,
+M8,Result figures and source data,CRLM_V1_245_F1,scripts/build_paper_figures.py,artifacts/m8/final_report.md,artifacts/m8/output_sha256.txt,artifacts/m4/python-packages.txt

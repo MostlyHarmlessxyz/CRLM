@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "project_id": "crlm_immune_programs",
   "research_version": "V1_FROZEN",
-  "status": "external_validation_in_progress",
+  "status": "local_v1_delivered",
   "created_on": "2026-11-21",
   "purpose": "Planning defaults; a configuration file is not a completed preregistration or analysis result.",
   "source_brief": "docs/source_brief/说明.md",
@@ -92,9 +92,9 @@
     "M3": "completed",
     "M4": "completed",
     "M5": "completed",
-    "M6": "in_progress",
-    "M7": "pending",
-    "M8": "pending"
+    "M6": "completed_for_available_sources_GSE178318_terms_pending",
+    "M7": "completed_spatial_measurement_and_experimental_design",
+    "M8": "completed"
   },
   "candidate_registration": {
     "status": "frozen",

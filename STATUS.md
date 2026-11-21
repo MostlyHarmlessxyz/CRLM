@@ -17,9 +17,9 @@
 | M3 患者程序 | completed | 髓系 Mac_SPP1 在 11/11 对中升高；B/Plasma UPR 在 7/8 对中降低，深度标准化后为 5/8。六个配对负二项拟合及组成/状态分解已归档。[M3 报告](artifacts/m3/stage_report.md) |
 | M4 模型比较 | completed | 390 次拟合，2,279 个折外袋预测；在相同患者与袋上完成 PCA/scGPT、均值/attention 和三个直接前作；15 个迁移头已拟合。[M4 报告](artifacts/m4/stage_report.md) |
 | M5 冻结 | completed | 两个程序，八项预登记检验，四个家族，十五个固定分类头。版本 CRLM_V1_245_F1。[冻结包](artifacts/m5/freeze_record.md) |
-| M6 外部复现 | in_progress | 164 的四组织公开标本和 203608 的原始体内标本按冻结规则处理，178 使用条件待落实。 |
-| M7 空间/功能 | pending | 实测空间支持、可实施实验及其证据边界 |
-| M8 交付 | pending | 可复现研究结果、图表、方法与全部局限 |
+| M6 外部复现 | 已完成可用来源，178 待条款 | 八项登记中六项有观测值。164 两个候选方向一致，主要家族 Holm 均未通过。203608 两项的患者方向均分。[外部报告](artifacts/m6/stage_report.md) |
+| M7 空间/功能 | 已完成空间测量及实验准备 | 3 位患者、4 张切片；SPP1 阳性髓系在三张转移切片中与 CD3/CD8 细胞距离较大。功能工作止于人源设计。[M7 报告](artifacts/m7/stage_report.md) |
+| M8 交付 | completed | 实证研究报告、4 幅主图及源表、限定结论、阶段入口与验证记录。[最终报告](artifacts/m8/final_report.md) |
 
 GSE245552 的状态估计基于作者交付且可测的基因与固定谱系标记。组成分母是各库捕获并通过 QC 的细胞。冻结后外部结果与开发结果分别归档。
 
