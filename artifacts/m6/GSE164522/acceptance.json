@@ -1,0 +1,23 @@
+{
+  "status": "verified",
+  "organs_checked": 4,
+  "patient_specimens": 42,
+  "donors": 10,
+  "rank_background": 24662,
+  "native_nonempty_cells": 163347,
+  "native_scale_median_min": 9999.999934366975,
+  "native_scale_median_max": 10000.000058323205,
+  "all_specimens_have_fraction_in_scale_bounds": true,
+  "retained_frozen_cell_program_rows": 109523,
+  "model_input_rows": 75,
+  "raw_double_precision_cells_rescored_with_scipy_rankdata": 24,
+  "max_cell_score_difference": 5.551115123125783e-17,
+  "recomputed_patient_by_primary_program_rows": 20,
+  "recomputed_tissue_means_and_contrasts": 150,
+  "missing_tissue_means_and_contrasts": 30,
+  "max_patient_mean_or_contrast_difference": 0.0,
+  "exact_tests_recomputed": 4,
+  "tested_families": 2,
+  "max_abs_p_difference": 0.0,
+  "max_abs_holm_difference": 0.0
+}

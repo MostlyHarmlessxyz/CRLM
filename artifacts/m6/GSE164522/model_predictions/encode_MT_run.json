@@ -1,0 +1,19 @@
+{
+  "command": [
+    "scripts/predict_gse164522.py",
+    "encode",
+    "--freeze-commit",
+    "72ee86b",
+    "--tissue-code",
+    "MT",
+    "--device",
+    "xpu",
+    "--batch",
+    "4"
+  ],
+  "freeze_commit": "72ee86bb6a9891609077a08f8350a3e84e102ffd",
+  "python": "3.12.13",
+  "executable": "/home/mostly_harmless/Projects/CRLM/.venv-scgpt/bin/python",
+  "seconds": 98.41106095499981,
+  "peak_rss_bytes": 2926956544
+}

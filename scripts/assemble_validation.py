@@ -44,6 +44,10 @@ def main():
     adjusted = pd.read_csv(out / "registered_tests/registered_test_results.csv")
     assert len(adjusted) == len(pd.read_csv(plan)) and adjusted.test_id.is_unique
     assert adjusted.groupby("family").size().eq(2).all()
+    for accession in ("GSE203608", "GSE178318"):
+        folder = out / accession / "registered_tests"
+        folder.mkdir(parents=True, exist_ok=True)
+        adjusted.loc[adjusted.cohort.eq(accession)].to_csv(folder / "registered_results.csv", index=False)
     print(
         adjusted[
             [

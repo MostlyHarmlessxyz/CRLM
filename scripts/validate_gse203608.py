@@ -98,6 +98,8 @@ def run():
         raise ValueError("A real frozen registry is required")
     sets = pd.read_csv(FROZEN / "gene_sets/program_genes.csv")
     OUT.mkdir(parents=True, exist_ok=True)
+    coverage_dir = OUT / "coverage"
+    coverage_dir.mkdir(exist_ok=True)
     cell_file = RAW / "GSE203608_cell_annotation.csv.gz"
     source_meta = json.loads(
         (AUDIT / "GSE203608_download_provenance.json").read_text()
@@ -148,7 +150,7 @@ def run():
         .size()
         .unstack(fill_value=0)
     )
-    coverage.to_csv(OUT / "captured_composition_counts.csv")
+    coverage.to_csv(coverage_dir / "captured_composition_counts.csv")
     gene_file = RAW / "GSE203608_gene_annotation.csv.gz"
     genes = pd.read_csv(gene_file, dtype=str, keep_default_na=False)
     if genes.gene_id.duplicated().any():
@@ -213,8 +215,8 @@ def run():
                     score=value,
                 )
             )
-    samples.to_csv(OUT / "sample_manifest.csv", index=False)
-    pd.DataFrame(measured).to_csv(OUT / "measurement_coverage.csv", index=False)
+    samples.to_csv(coverage_dir / "sample_manifest.csv", index=False)
+    pd.DataFrame(measured).to_csv(coverage_dir / "measurement_coverage.csv", index=False)
     all_scores = pd.DataFrame(result)
     all_scores.to_csv(OUT / "sample_program_measurements.csv", index=False)
     for cutoff in (20, 50, 100):

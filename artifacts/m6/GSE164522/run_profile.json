@@ -1,0 +1,72 @@
+{
+  "completed_utc": "2026-11-21T12:54:57+00:00",
+  "command": "/home/mostly_harmless/Projects/CRLM/.venv-m2/bin/python scripts/validate_gse164522.py score --freeze-commit 72ee86b",
+  "freeze_commit": "72ee86b",
+  "seconds": 20.29047559100036,
+  "peak_rss_bytes": 2430124032,
+  "code_sha256": "a465b91aed22d5df22e0fabea29bbb757bcd148f114e1b78e38e87829466d31c",
+  "rank_code_sha256": "2228c4722eacc026b1077256431da520829c1b54dd9fca0e80ab0140239d05a3",
+  "n_rank_genes": 24662,
+  "datasets": [
+    {
+      "code": "PT",
+      "tissue": "PT",
+      "input_bytes": 627881778,
+      "source_sha256": "9262db6779faadf58a49507568abe130abb25f3e002dcbfe12ca7b150359d2e9",
+      "genes": 24662,
+      "cells": 37529,
+      "nnz": 68909540,
+      "source_entries_checked": 32,
+      "ambiguous_symbols": [],
+      "conversion_seconds": 127.57,
+      "h5ad_bytes": 360111423,
+      "h5ad_sha256": "39694206c7ba3619bd04af8bca1af8a99e58e695cbbaced05a539a52c6aa7a70",
+      "completed_utc": "2026-11-21T12:47:38+00:00"
+    },
+    {
+      "code": "MT",
+      "tissue": "LM",
+      "input_bytes": 610164930,
+      "source_sha256": "e7b47ac440f3445a2105869197c440c156deeb0d0048468044ba69ddfa28d860",
+      "genes": 24662,
+      "cells": 37359,
+      "nnz": 67103317,
+      "source_entries_checked": 32,
+      "ambiguous_symbols": [],
+      "conversion_seconds": 122.2,
+      "h5ad_bytes": 350852846,
+      "h5ad_sha256": "49ace3f59a0d0485d1feb2b8fe7dec29c597dfe00dbc00b64d1e2d80737be13f",
+      "completed_utc": "2026-11-21T12:49:51+00:00"
+    },
+    {
+      "code": "PN",
+      "tissue": "NC",
+      "input_bytes": 465402747,
+      "source_sha256": "cde0d1fb75302772e7134a758108983a317b0cdc06f92e1ec7f66f11b2814612",
+      "genes": 24662,
+      "cells": 29795,
+      "nnz": 50784809,
+      "source_entries_checked": 32,
+      "ambiguous_symbols": [],
+      "conversion_seconds": 94.34,
+      "h5ad_bytes": 262557226,
+      "h5ad_sha256": "ad780ad9ea29f0bc336ee789edd281be63eea806032c51d5bc08f3f5b8955bb9",
+      "completed_utc": "2026-11-21T12:51:26+00:00"
+    },
+    {
+      "code": "MN",
+      "tissue": "NL",
+      "input_bytes": 882136610,
+      "source_sha256": "a8e6341ae38cd3cb59f4591526b67b2d1dd03f389ffef9a50995180c8c098755",
+      "genes": 24662,
+      "cells": 58664,
+      "nnz": 97659561,
+      "source_entries_checked": 32,
+      "ambiguous_symbols": [],
+      "conversion_seconds": 179.99,
+      "h5ad_bytes": 497636837,
+      "h5ad_sha256": "11566726fd5f8411ce5be6c611d38551d0dbb60727120de8bf82d2f21db0a269",
+      "completed_utc": "2026-11-21T12:54:26+00:00"
+    }
+  ]
+}
