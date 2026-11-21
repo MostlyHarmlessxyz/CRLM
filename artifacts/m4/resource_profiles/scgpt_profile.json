@@ -1,0 +1,48 @@
+{
+  "checkpoint": {
+    "args.json": "c18e075e018140cb8b2d9029387b9de26607a5ce6a8ccabd6ead70cd76b95d60",
+    "vocab.json": "acca93d114ca62c3f0f50debbd23e8c87f0714f4737764454f6b2b13f2e8580f",
+    "best_model.pt": "6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922"
+  },
+  "upstream_commit": "cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+  "torch": "2.15.0+xpu",
+  "cells": 12,
+  "ids": [
+    "GSM7844847:R5218-3_AAACGGGAGAGGACGG-1",
+    "GSM7844847:R5218-3_AAACGGGCACTCTGTC-1",
+    "GSM7844847:R5218-3_AAAGTAGAGTACGTTC-1",
+    "GSM7844847:R5218-3_AACCGCGGTAGCCTAT-1",
+    "GSM7844847:R5218-3_AAACCTGCACCCAGTG-1",
+    "GSM7844847:R5218-3_AAACGGGCACCTGGTG-1",
+    "GSM7844847:R5218-3_AAAGATGCAAATACAG-1",
+    "GSM7844847:R5218-3_AAAGCAAGTATGCTTG-1",
+    "GSM7844847:R5218-3_AGGCCACTCAGTTTGG-1",
+    "GSM7844847:R5218-3_CGATTGATCGTGGGAA-1",
+    "GSM7844847:R5218-3_AACACGTGTATTAGCC-1",
+    "GSM7844847:R5218-3_AACTCTTAGGATCGCA-1"
+  ],
+  "max_length": 1200,
+  "batch_size": 4,
+  "xpu_available": true,
+  "cuda_available": false,
+  "devices": {
+    "cpu": {
+      "seconds": 5.003984618999766,
+      "cells_per_second": 2.398088905876503,
+      "min_cosine_vs_cpu": 0.9999997615814209,
+      "min_cosine_rebatched": 0.9999998211860657,
+      "accepted": true,
+      "peak_allocated_bytes": null
+    },
+    "xpu": {
+      "seconds": 0.3313832510002612,
+      "cells_per_second": 36.21184825659925,
+      "min_cosine_vs_cpu": 0.9999997615814209,
+      "min_cosine_rebatched": 0.9999998807907104,
+      "accepted": true,
+      "peak_allocated_bytes": 655762944
+    }
+  },
+  "xpu_name": "Intel(R) Arc(TM) A750 Graphics",
+  "process_peak_rss_bytes": 2854334464
+}

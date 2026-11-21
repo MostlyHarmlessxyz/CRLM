@@ -1,0 +1,21 @@
+WARN `--no-project` was provided, but no project was found
+/home/mostly_harmless/Projects/CRLM/models/scGPT-whole-human/scGPT-cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/model/flash_attn_compat.py:463: SyntaxWarning: invalid escape sequence '\.'
+  >>> # rules = {r"self_attn\.Wqkv\.": "self_attn._impl.Wqkv.",
+{
+  "cpu": {
+    "seconds": 5.003984618999766,
+    "cells_per_second": 2.398088905876503,
+    "min_cosine_vs_cpu": 0.9999997615814209,
+    "min_cosine_rebatched": 0.9999998211860657,
+    "accepted": true,
+    "peak_allocated_bytes": null
+  },
+  "xpu": {
+    "seconds": 0.3313832510002612,
+    "cells_per_second": 36.21184825659925,
+    "min_cosine_vs_cpu": 0.9999997615814209,
+    "min_cosine_rebatched": 0.9999998807907104,
+    "accepted": true,
+    "peak_allocated_bytes": 655762944
+  }
+}

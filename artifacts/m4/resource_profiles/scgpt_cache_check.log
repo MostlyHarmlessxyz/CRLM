@@ -1,0 +1,3 @@
+WARN `--no-project` was provided, but no project was found
+/home/mostly_harmless/Projects/CRLM/models/scGPT-whole-human/scGPT-cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/model/flash_attn_compat.py:463: SyntaxWarning: invalid escape sequence '\.'
+  >>> # rules = {r"self_attn\.Wqkv\.": "self_attn._impl.Wqkv.",

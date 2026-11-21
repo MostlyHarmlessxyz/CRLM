@@ -15,7 +15,7 @@
 | M1 最小真实导入 | completed | Pt18 四组织，1 位患者、22,179 个细胞；4 个稀疏对象重读、原始计数抽查与初级谱系覆盖。[M1 报告](artifacts/m1/stage_report.md) |
 | M2 全开发集 | completed | 39 库共 190,190 个细胞，统一 QC 保留 190,031 个。每病灶至少 50 个相应细胞时，T/NK、Mono/Mac/DC、B/Plasma 的 PT–LM 患者对分别为 12、11、8。[M2 验收](artifacts/m2/stage_report.md) |
 | M3 患者程序 | completed | 髓系 Mac_SPP1 在 11/11 对中升高；B/Plasma UPR 在 7/8 对中降低，深度标准化后为 5/8。六个配对负二项拟合及组成/状态分解已归档。[M3 报告](artifacts/m3/stage_report.md) |
-| M4 模型比较 | in_progress | 患者分折的程序、组成、技术对照及 PCA 模型已产生 OOF 预测；Arc A750 上的冻结 scGPT 已通过 CPU 对照，正在编码。 |
+| M4 模型比较 | completed | 390 次拟合，2,279 个折外袋预测；在相同患者与袋上完成 PCA/scGPT、均值/attention 和三个直接前作；15 个迁移头已拟合。[M4 报告](artifacts/m4/stage_report.md) |
 | M5 冻结 | pending | 程序定义、方向、范围、检验家族与验证规则锁定 |
 | M6 外部复现 | pending | 独立来源效应、同一共同子集背景与失败记录 |
 | M7 空间/功能 | pending | 实测空间支持、可实施实验及其证据边界 |
