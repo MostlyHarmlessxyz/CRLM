@@ -1,0 +1,8 @@
+unit,material_or_record,primary_readout,decision
+donor,Paired human myeloid and CD8 cells with documented consent and source,Independent donor identifier and usable cell counts,Patient or donor is the independent unit
+donor_condition,Matched control and SPP1-lowered and restored myeloid conditions in two prespecified IFN backgrounds,Secreted and intracellular SPP1 plus cell survival,Only interpret conditions meeting predefined viability and target-engagement ranges
+donor_condition,Viable CD3-positive CD8-positive cells matched to donor and equal input,Live migrated cells divided by live input cells,Prespecify migration proportion and time window using separate calibration material
+assay_control,Blank medium and migration positive control and direct stimulus or carryover control,Baseline dynamic range and assay specificity,Record failed plates and rerun only according to prior quality rules
+measurement,Blinded readout and balanced plate locations,Technical wells averaged within donor and condition,Use donor contrasts and report uncertainty across donors
+clinical_tissue,CRLM surgical specimen pathology and optional matched adjacent liver,Direct spatial marker localization and available sampling regions,Interrogate tissue context separately from the blood-cell migration assay
+planning,Independent calibration donor variance and tissue failure rate,Precision of donor difference and background interaction,Set confirmatory donor N using target interval half-width before study enrollment
