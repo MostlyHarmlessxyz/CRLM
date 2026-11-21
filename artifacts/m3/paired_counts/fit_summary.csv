@@ -1,0 +1,7 @@
+lineage,analysis,n_pairs,n_samples,n_input_genes,n_expression_eligible,n_gene_p,n_BH_005,rank,residual_df,convergence_flags_false
+T/NK,pooled_lesions,12,24,29569,10407,10407,841,13,11,"{""_genewise_converged"": 54, ""_MAP_converged"": 4, ""_LFC_converged"": 0}"
+T/NK,first_eligible_specimen,12,24,29569,10209,10209,648,13,11,"{""_genewise_converged"": 39, ""_MAP_converged"": 1, ""_LFC_converged"": 0}"
+Mono/Mac/DC,pooled_lesions,11,22,29569,9055,9055,1405,12,10,"{""_genewise_converged"": 8, ""_MAP_converged"": 2, ""_LFC_converged"": 0}"
+Mono/Mac/DC,first_eligible_specimen,11,22,29569,8893,8893,1313,12,10,"{""_genewise_converged"": 7, ""_MAP_converged"": 1, ""_LFC_converged"": 0}"
+B/Plasma,pooled_lesions,8,16,29569,9292,9292,47,9,7,"{""_genewise_converged"": 8, ""_MAP_converged"": 3, ""_LFC_converged"": 1}"
+B/Plasma,first_eligible_specimen,8,16,29569,9030,9030,71,9,7,"{""_genewise_converged"": 10, ""_MAP_converged"": 4, ""_LFC_converged"": 0}"

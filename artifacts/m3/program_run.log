@@ -1,0 +1,45 @@
+WARN `--no-project` was provided, but no project was found
+GSM7844812 4593 QC-retained cells; completed program scoring
+GSM7844813 6464 QC-retained cells; completed program scoring
+GSM7844814 3704 QC-retained cells; completed program scoring
+GSM7844815 6243 QC-retained cells; completed program scoring
+GSM7844816 2526 QC-retained cells; completed program scoring
+GSM7844817 3693 QC-retained cells; completed program scoring
+GSM7844818 2775 QC-retained cells; completed program scoring
+GSM7844819 4111 QC-retained cells; completed program scoring
+GSM7844820 3842 QC-retained cells; completed program scoring
+GSM7844821 4447 QC-retained cells; completed program scoring
+GSM7844822 2963 QC-retained cells; completed program scoring
+GSM7844823 815 QC-retained cells; completed program scoring
+GSM7844824 1454 QC-retained cells; completed program scoring
+GSM7844825 7277 QC-retained cells; completed program scoring
+GSM7844826 4513 QC-retained cells; completed program scoring
+GSM7844827 5018 QC-retained cells; completed program scoring
+GSM7844828 7745 QC-retained cells; completed program scoring
+GSM7844829 3950 QC-retained cells; completed program scoring
+GSM7844830 6327 QC-retained cells; completed program scoring
+GSM7844831 6152 QC-retained cells; completed program scoring
+GSM7844832 5516 QC-retained cells; completed program scoring
+GSM7844833 8176 QC-retained cells; completed program scoring
+GSM7844834 8503 QC-retained cells; completed program scoring
+GSM7844835 7175 QC-retained cells; completed program scoring
+GSM7844836 5352 QC-retained cells; completed program scoring
+GSM7844837 4471 QC-retained cells; completed program scoring
+GSM7844838 8136 QC-retained cells; completed program scoring
+GSM7844839 11377 QC-retained cells; completed program scoring
+GSM7844840 5752 QC-retained cells; completed program scoring
+GSM7844841 5853 QC-retained cells; completed program scoring
+GSM7844842 396 QC-retained cells; completed program scoring
+GSM7844843 285 QC-retained cells; completed program scoring
+GSM7844844 1677 QC-retained cells; completed program scoring
+GSM7844845 1907 QC-retained cells; completed program scoring
+GSM7844846 4801 QC-retained cells; completed program scoring
+GSM7844847 4639 QC-retained cells; completed program scoring
+GSM7844848 7009 QC-retained cells; completed program scoring
+GSM7844849 3089 QC-retained cells; completed program scoring
+GSM7844850 7305 QC-retained cells; completed program scoring
+    lineage                            program  n_pairs  mean_D_T  shortlisted
+Mono/Mac/DC                    B19_S4_Mac_SPP1       11  0.019736         True
+   B/Plasma HALLMARK_UNFOLDED_PROTEIN_RESPONSE        8 -0.012189         True
+Mono/Mac/DC                  B19_S4_Mac_CXCL10       11 -0.005706        False
+       T/NK HALLMARK_INTERFERON_GAMMA_RESPONSE       12  0.001384        False

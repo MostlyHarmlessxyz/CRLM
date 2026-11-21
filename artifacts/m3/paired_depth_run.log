@@ -1,0 +1,7 @@
+WARN `--no-project` was provided, but no project was found
+                                    count      mean    median
+program                                                      
+B19_S4_Mac_CXCL10                      11 -0.007601 -0.015937
+B19_S4_Mac_SPP1                        11  0.018334  0.017487
+HALLMARK_INTERFERON_GAMMA_RESPONSE     12  0.001741 -0.001506
+HALLMARK_UNFOLDED_PROTEIN_RESPONSE      8 -0.004000 -0.005491
