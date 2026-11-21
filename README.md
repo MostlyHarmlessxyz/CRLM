@@ -2,13 +2,13 @@
 
 **研究目标：** 寻找结直肠癌原发灶与肝转移灶之间跨患者、跨独立来源可复现的免疫细胞状态与分子程序，评估组成、状态及器官背景。项目意图以 [说明.md](docs/source_brief/说明.md) 为最高依据。
 
-**M0、M1 已完成。** GSE245552 的 39 个公开样本已核对到 16 位患者。Pt18 的四个组织已从 GEO 计数矩阵导入为稀疏 H5AD，覆盖 22,179 个细胞。各阶段状态见 [STATUS.md](STATUS.md)。
+GSE245552 的全部 39 个公开样本已从原始交付计数导入稀疏 H5AD，覆盖 16 位患者。190,190 个输入细胞中有 190,031 个通过开发集 QC。患者与各谱系实际覆盖见 [M2 阶段报告](artifacts/m2/stage_report.md)，当前分析进度见 [STATUS.md](STATUS.md)。
 
 ## 从这里开始
 
 1. 研究问题、数据角色和阶段验收见 [完整报告](docs/CRLM_Research_Plan.md) 与 [实施计划](docs/IMPLEMENTATION_PLAN.md)。
 2. 患者身份和本机自检见 [M0 报告](artifacts/m0/stage_report.md)。重建 Pt18 对象、检查基因范围和初级谱系覆盖见 [M1 报告](artifacts/m1/stage_report.md)。
-3. 下一阶段 M2 将按文库处理其余 35 个 GSM，统一注释后计算各谱系实际支持的患者数。
+3. 患者程序分析使用 [M3 开发规则](artifacts/m3/program_definitions_draft/development_rules.md)，模型比较使用 [M4 患者分折方案](artifacts/m4/benchmark_design.md)。
 
 ## 目录与用途
 
@@ -32,7 +32,7 @@
 | `references/supplements/`、`references/code/` | 新增原始补充材料与第三方代码 provenance 的位置 |
 | `data/raw/`、`data/processed/`、`data/manifests/` | 真实数据的位置；交付时没有新增全量矩阵 |
 | `embeddings/`、`models/` | 冻结表示和模型版本的位置；交付时为空 |
-| `artifacts/m0/` … `artifacts/m8/` | 正式阶段产物，M0、M1 已有执行记录 |
+| `artifacts/m0/` … `artifacts/m8/` | 各阶段的正式执行与验收记录 |
 | `artifacts/handoff/` | **本次交接包核验**，不属于真实研究或用户主机验收 |
 
 ## 两条现在可运行的轻量命令

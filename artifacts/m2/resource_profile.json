@@ -1,0 +1,21 @@
+{
+  "ended_utc": "2026-11-21T12:20:55+00:00",
+  "command": "/home/mostly_harmless/Projects/CRLM/.venv-m2/bin/python scripts/process_gse245552.py --reports-only",
+  "source_versions": {
+    "m2_code": "1a8546f5ad59913549775e9b2caebd89d4e04e6912cae94f777282b05b4dec0b",
+    "m1_import": "67d9f2afd5e4dbd2164d6378ceaabde10ca4f17b81075d19ed90bbb56265ce75",
+    "m1_annotation": "08109ad793eec0f7a2f01ded38d2c2c9965fb2fe6550b502b4f56d1383a8649d",
+    "manifest": "e00890459bffd45c93785f248bca9d9a8fc3ba01f7d52107f21b2b46b9942d35",
+    "marker_table": "b619be6abd6dbe8e9d8ff819466142c80d3b541e442c0cf822d0a20dbfad2cde",
+    "common_genes": "18710b4b5504ffe87de04af89ecb645375735ee0b806a5cdab9207e5360b2788",
+    "normal_extra": "42ce2f12fff98b20b03c4e99f7ec9d1f9b961382c83dec65746df3b6a52cb499"
+  },
+  "python": "3.12.13 (main, Jun 11 2026, 04:03:26) [Clang 22.1.3 ]",
+  "build_seconds_sum": 54.487,
+  "summary_seconds": 24.17071470699966,
+  "summary_peak_rss_bytes": 828149760,
+  "max_build_peak_rss_bytes": 844378112,
+  "source_bytes": 1065655466,
+  "h5ad_bytes": 1881892842,
+  "pseudobulk_bytes": 42984640
+}

@@ -1,0 +1,1857 @@
+donor_uid,tissue,level,lineage,group,n_sampled_lesions,cells_all_sampled_lesions,n_eligible_lesions_20,eligible_gsms_20,n_eligible_lesions_50,eligible_gsms_50,n_eligible_lesions_100,eligible_gsms_100,status_50
+GSE245552:Pt01,PT,lineage,T/NK,T/NK,1,1112.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,206.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,lineage,B/Plasma,B/Plasma,1,1019.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,lineage,Neutrophil,Neutrophil,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,PT,lineage,Mast,Mast,1,124.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,lineage,Nonimmune,Nonimmune,1,1417.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,lineage,Mixed,Mixed,1,564.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,lineage,Unknown,Unknown,1,144.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,T/NK,T cell,1,571.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,119.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,Mono/Mac/DC,conventional DC,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,PT,subtype,Mono/Mac/DC,mature DC,1,15.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,PT,subtype,B/Plasma,B cell,1,121.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,B/Plasma,plasma cell,1,523.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,Neutrophil,neutrophil,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,PT,subtype,Mast,mast cell,1,124.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,Nonimmune,epithelial,1,1232.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt01,PT,subtype,Nonimmune,endothelial,1,13.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,PT,subtype,Nonimmune,fibroblast,1,69.0,1,GSM7844812,1,GSM7844812,0,,eligible
+GSE245552:Pt01,PT,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt01,PT,subtype,T/NK,T/NK unresolved,1,523.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,67.0,1,GSM7844812,1,GSM7844812,0,,eligible
+GSE245552:Pt01,PT,subtype,B/Plasma,B/Plasma unresolved,1,375.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,Nonimmune,Nonimmune unresolved,1,103.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,Mixed,Mixed,1,564.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,PT,subtype,Unknown,Unknown,1,144.0,1,GSM7844812,1,GSM7844812,1,GSM7844812,eligible
+GSE245552:Pt01,LM,lineage,T/NK,T/NK,1,1264.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,343.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,lineage,B/Plasma,B/Plasma,1,720.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,lineage,Neutrophil,Neutrophil,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,LM,lineage,Mast,Mast,1,56.0,1,GSM7844813,1,GSM7844813,0,,eligible
+GSE245552:Pt01,LM,lineage,Nonimmune,Nonimmune,1,2781.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,lineage,Mixed,Mixed,1,1156.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,lineage,Unknown,Unknown,1,136.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,T/NK,T cell,1,546.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,14.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,287.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,Mono/Mac/DC,conventional DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt01,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,LM,subtype,Mono/Mac/DC,mature DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,LM,subtype,B/Plasma,B cell,1,16.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,LM,subtype,B/Plasma,plasma cell,1,160.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,Neutrophil,neutrophil,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,LM,subtype,Mast,mast cell,1,56.0,1,GSM7844813,1,GSM7844813,0,,eligible
+GSE245552:Pt01,LM,subtype,Nonimmune,epithelial,1,2427.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt01,LM,subtype,Nonimmune,endothelial,1,26.0,1,GSM7844813,0,,0,,below_lesion_threshold
+GSE245552:Pt01,LM,subtype,Nonimmune,fibroblast,1,63.0,1,GSM7844813,1,GSM7844813,0,,eligible
+GSE245552:Pt01,LM,subtype,Nonimmune,mural,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt01,LM,subtype,T/NK,T/NK unresolved,1,704.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,52.0,1,GSM7844813,1,GSM7844813,0,,eligible
+GSE245552:Pt01,LM,subtype,B/Plasma,B/Plasma unresolved,1,544.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,Nonimmune,Nonimmune unresolved,1,264.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,Mixed,Mixed,1,1156.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,LM,subtype,Unknown,Unknown,1,136.0,1,GSM7844813,1,GSM7844813,1,GSM7844813,eligible
+GSE245552:Pt01,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt01,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,PT,lineage,T/NK,T/NK,1,494.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,124.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,lineage,B/Plasma,B/Plasma,1,647.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,lineage,Neutrophil,Neutrophil,1,188.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,lineage,Mast,Mast,1,163.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,lineage,Nonimmune,Nonimmune,1,1535.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,lineage,Mixed,Mixed,1,486.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,lineage,Unknown,Unknown,1,67.0,1,GSM7844814,1,GSM7844814,0,,eligible
+GSE245552:Pt02,PT,subtype,T/NK,T cell,1,255.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,58.0,1,GSM7844814,1,GSM7844814,0,,eligible
+GSE245552:Pt02,PT,subtype,Mono/Mac/DC,conventional DC,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,PT,subtype,Mono/Mac/DC,mature DC,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,PT,subtype,B/Plasma,B cell,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,PT,subtype,B/Plasma,plasma cell,1,173.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Neutrophil,neutrophil,1,188.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Mast,mast cell,1,163.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Nonimmune,epithelial,1,701.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt02,PT,subtype,Nonimmune,endothelial,1,162.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Nonimmune,fibroblast,1,239.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt02,PT,subtype,T/NK,T/NK unresolved,1,232.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,43.0,1,GSM7844814,0,,0,,below_lesion_threshold
+GSE245552:Pt02,PT,subtype,B/Plasma,B/Plasma unresolved,1,456.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Nonimmune,Nonimmune unresolved,1,433.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Mixed,Mixed,1,486.0,1,GSM7844814,1,GSM7844814,1,GSM7844814,eligible
+GSE245552:Pt02,PT,subtype,Unknown,Unknown,1,67.0,1,GSM7844814,1,GSM7844814,0,,eligible
+GSE245552:Pt02,LM,lineage,T/NK,T/NK,1,2500.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,300.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,lineage,B/Plasma,B/Plasma,1,77.0,1,GSM7844815,1,GSM7844815,0,,eligible
+GSE245552:Pt02,LM,lineage,Neutrophil,Neutrophil,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,lineage,Mast,Mast,1,40.0,1,GSM7844815,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,lineage,Nonimmune,Nonimmune,1,2503.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,lineage,Mixed,Mixed,1,751.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,lineage,Unknown,Unknown,1,62.0,1,GSM7844815,1,GSM7844815,0,,eligible
+GSE245552:Pt02,LM,subtype,T/NK,T cell,1,1582.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,16.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,173.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,subtype,Mono/Mac/DC,conventional DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt02,LM,subtype,Mono/Mac/DC,mature DC,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,B/Plasma,B cell,1,33.0,1,GSM7844815,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,B/Plasma,plasma cell,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,Neutrophil,neutrophil,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,Mast,mast cell,1,40.0,1,GSM7844815,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,Nonimmune,epithelial,1,1775.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt02,LM,subtype,Nonimmune,endothelial,1,64.0,1,GSM7844815,1,GSM7844815,0,,eligible
+GSE245552:Pt02,LM,subtype,Nonimmune,fibroblast,1,14.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt02,LM,subtype,T/NK,T/NK unresolved,1,902.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,122.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,subtype,B/Plasma,B/Plasma unresolved,1,35.0,1,GSM7844815,0,,0,,below_lesion_threshold
+GSE245552:Pt02,LM,subtype,Nonimmune,Nonimmune unresolved,1,650.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,subtype,Mixed,Mixed,1,751.0,1,GSM7844815,1,GSM7844815,1,GSM7844815,eligible
+GSE245552:Pt02,LM,subtype,Unknown,Unknown,1,62.0,1,GSM7844815,1,GSM7844815,0,,eligible
+GSE245552:Pt02,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt02,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,PT,lineage,T/NK,T/NK,1,354.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,186.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,lineage,B/Plasma,B/Plasma,1,189.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,lineage,Neutrophil,Neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt03,PT,lineage,Mast,Mast,1,27.0,1,GSM7844816,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,lineage,Nonimmune,Nonimmune,1,1457.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,lineage,Mixed,Mixed,1,268.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,lineage,Unknown,Unknown,1,45.0,1,GSM7844816,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,subtype,T/NK,T cell,1,292.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,119.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,subtype,Mono/Mac/DC,conventional DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt03,PT,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt03,PT,subtype,B/Plasma,B cell,1,36.0,1,GSM7844816,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,subtype,B/Plasma,plasma cell,1,105.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,subtype,Neutrophil,neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt03,PT,subtype,Mast,mast cell,1,27.0,1,GSM7844816,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,subtype,Nonimmune,epithelial,1,1268.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt03,PT,subtype,Nonimmune,endothelial,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,subtype,Nonimmune,fibroblast,1,17.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt03,PT,subtype,T/NK,T/NK unresolved,1,52.0,1,GSM7844816,1,GSM7844816,0,,eligible
+GSE245552:Pt03,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,64.0,1,GSM7844816,1,GSM7844816,0,,eligible
+GSE245552:Pt03,PT,subtype,B/Plasma,B/Plasma unresolved,1,48.0,1,GSM7844816,0,,0,,below_lesion_threshold
+GSE245552:Pt03,PT,subtype,Nonimmune,Nonimmune unresolved,1,165.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,subtype,Mixed,Mixed,1,268.0,1,GSM7844816,1,GSM7844816,1,GSM7844816,eligible
+GSE245552:Pt03,PT,subtype,Unknown,Unknown,1,45.0,1,GSM7844816,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,lineage,T/NK,T/NK,1,431.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,546.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,lineage,B/Plasma,B/Plasma,1,16.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,lineage,Neutrophil,Neutrophil,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,lineage,Mast,Mast,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,lineage,Nonimmune,Nonimmune,1,2282.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,lineage,Mixed,Mixed,1,321.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,lineage,Unknown,Unknown,1,93.0,1,GSM7844817,1,GSM7844817,0,,eligible
+GSE245552:Pt03,LM,subtype,T/NK,T cell,1,350.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,393.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,subtype,Mono/Mac/DC,conventional DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt03,LM,subtype,Mono/Mac/DC,mature DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,B/Plasma,B cell,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,B/Plasma,plasma cell,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,Neutrophil,neutrophil,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,Mast,mast cell,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,Nonimmune,epithelial,1,2145.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt03,LM,subtype,Nonimmune,endothelial,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,Nonimmune,fibroblast,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,Nonimmune,mural,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,T/NK,T/NK unresolved,1,76.0,1,GSM7844817,1,GSM7844817,0,,eligible
+GSE245552:Pt03,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,151.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,subtype,B/Plasma,B/Plasma unresolved,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt03,LM,subtype,Nonimmune,Nonimmune unresolved,1,115.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,subtype,Mixed,Mixed,1,321.0,1,GSM7844817,1,GSM7844817,1,GSM7844817,eligible
+GSE245552:Pt03,LM,subtype,Unknown,Unknown,1,93.0,1,GSM7844817,1,GSM7844817,0,,eligible
+GSE245552:Pt03,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt03,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,PT,lineage,T/NK,T/NK,1,503.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,14.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,PT,lineage,B/Plasma,B/Plasma,1,716.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,lineage,Neutrophil,Neutrophil,1,446.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,lineage,Mast,Mast,1,141.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,lineage,Nonimmune,Nonimmune,1,417.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,lineage,Mixed,Mixed,1,495.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,lineage,Unknown,Unknown,1,43.0,1,GSM7844818,0,,0,,below_lesion_threshold
+GSE245552:Pt04,PT,subtype,T/NK,T cell,1,220.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,14.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,PT,subtype,Mono/Mac/DC,conventional DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,PT,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,PT,subtype,B/Plasma,B cell,1,96.0,1,GSM7844818,1,GSM7844818,0,,eligible
+GSE245552:Pt04,PT,subtype,B/Plasma,plasma cell,1,202.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,subtype,Neutrophil,neutrophil,1,446.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,subtype,Mast,mast cell,1,141.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,subtype,Nonimmune,epithelial,1,254.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,PT,subtype,Nonimmune,endothelial,1,20.0,1,GSM7844818,0,,0,,below_lesion_threshold
+GSE245552:Pt04,PT,subtype,Nonimmune,fibroblast,1,55.0,1,GSM7844818,1,GSM7844818,0,,eligible
+GSE245552:Pt04,PT,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,PT,subtype,T/NK,T/NK unresolved,1,279.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,PT,subtype,B/Plasma,B/Plasma unresolved,1,418.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,subtype,Nonimmune,Nonimmune unresolved,1,88.0,1,GSM7844818,1,GSM7844818,0,,eligible
+GSE245552:Pt04,PT,subtype,Mixed,Mixed,1,495.0,1,GSM7844818,1,GSM7844818,1,GSM7844818,eligible
+GSE245552:Pt04,PT,subtype,Unknown,Unknown,1,43.0,1,GSM7844818,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,lineage,T/NK,T/NK,1,128.0,1,GSM7844819,1,GSM7844819,1,GSM7844819,eligible
+GSE245552:Pt04,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,126.0,1,GSM7844819,1,GSM7844819,1,GSM7844819,eligible
+GSE245552:Pt04,LM,lineage,B/Plasma,B/Plasma,1,19.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,lineage,Neutrophil,Neutrophil,1,29.0,1,GSM7844819,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,lineage,Mast,Mast,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,lineage,Nonimmune,Nonimmune,1,3438.0,1,GSM7844819,1,GSM7844819,1,GSM7844819,eligible
+GSE245552:Pt04,LM,lineage,Mixed,Mixed,1,302.0,1,GSM7844819,1,GSM7844819,1,GSM7844819,eligible
+GSE245552:Pt04,LM,lineage,Unknown,Unknown,1,51.0,1,GSM7844819,1,GSM7844819,0,,eligible
+GSE245552:Pt04,LM,subtype,T/NK,T cell,1,94.0,1,GSM7844819,1,GSM7844819,0,,eligible
+GSE245552:Pt04,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,121.0,1,GSM7844819,1,GSM7844819,1,GSM7844819,eligible
+GSE245552:Pt04,LM,subtype,Mono/Mac/DC,conventional DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,LM,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,LM,subtype,B/Plasma,B cell,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,B/Plasma,plasma cell,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,Neutrophil,neutrophil,1,29.0,1,GSM7844819,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,Mast,mast cell,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,Nonimmune,epithelial,1,3071.0,1,GSM7844819,1,GSM7844819,1,GSM7844819,eligible
+GSE245552:Pt04,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt04,LM,subtype,Nonimmune,endothelial,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,Nonimmune,fibroblast,1,69.0,1,GSM7844819,1,GSM7844819,0,,eligible
+GSE245552:Pt04,LM,subtype,Nonimmune,mural,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,T/NK,T/NK unresolved,1,32.0,1,GSM7844819,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,B/Plasma,B/Plasma unresolved,1,13.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt04,LM,subtype,Nonimmune,Nonimmune unresolved,1,289.0,1,GSM7844819,1,GSM7844819,1,GSM7844819,eligible
+GSE245552:Pt04,LM,subtype,Mixed,Mixed,1,302.0,1,GSM7844819,1,GSM7844819,1,GSM7844819,eligible
+GSE245552:Pt04,LM,subtype,Unknown,Unknown,1,51.0,1,GSM7844819,1,GSM7844819,0,,eligible
+GSE245552:Pt04,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt04,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,PT,lineage,T/NK,T/NK,1,184.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,101.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,lineage,B/Plasma,B/Plasma,1,177.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,lineage,Neutrophil,Neutrophil,1,1498.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,lineage,Mast,Mast,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,lineage,Nonimmune,Nonimmune,1,500.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,lineage,Mixed,Mixed,1,1131.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,lineage,Unknown,Unknown,1,249.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,subtype,T/NK,T cell,1,105.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,83.0,1,GSM7844820,1,GSM7844820,0,,eligible
+GSE245552:Pt05,PT,subtype,Mono/Mac/DC,conventional DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,PT,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,PT,subtype,B/Plasma,B cell,1,42.0,1,GSM7844820,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,subtype,B/Plasma,plasma cell,1,49.0,1,GSM7844820,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,subtype,Neutrophil,neutrophil,1,1498.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,subtype,Mast,mast cell,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,subtype,Nonimmune,epithelial,1,464.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,PT,subtype,Nonimmune,endothelial,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,subtype,Nonimmune,fibroblast,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,PT,subtype,T/NK,T/NK unresolved,1,76.0,1,GSM7844820,1,GSM7844820,0,,eligible
+GSE245552:Pt05,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,subtype,B/Plasma,B/Plasma unresolved,1,86.0,1,GSM7844820,1,GSM7844820,0,,eligible
+GSE245552:Pt05,PT,subtype,Nonimmune,Nonimmune unresolved,1,25.0,1,GSM7844820,0,,0,,below_lesion_threshold
+GSE245552:Pt05,PT,subtype,Mixed,Mixed,1,1131.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,PT,subtype,Unknown,Unknown,1,249.0,1,GSM7844820,1,GSM7844820,1,GSM7844820,eligible
+GSE245552:Pt05,LM,lineage,T/NK,T/NK,2,3577.0,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,eligible
+GSE245552:Pt05,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,2,171.0,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,1,GSM7844821,eligible
+GSE245552:Pt05,LM,lineage,B/Plasma,B/Plasma,2,468.0,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,eligible
+GSE245552:Pt05,LM,lineage,Neutrophil,Neutrophil,2,817.0,1,GSM7844821,1,GSM7844821,1,GSM7844821,eligible
+GSE245552:Pt05,LM,lineage,Mast,Mast,2,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,lineage,Nonimmune,Nonimmune,2,415.0,1,GSM7844821,1,GSM7844821,1,GSM7844821,eligible
+GSE245552:Pt05,LM,lineage,Mixed,Mixed,2,1628.0,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,eligible
+GSE245552:Pt05,LM,lineage,Unknown,Unknown,2,328.0,1,GSM7844821,1,GSM7844821,1,GSM7844821,eligible
+GSE245552:Pt05,LM,subtype,T/NK,T cell,2,1467.0,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,eligible
+GSE245552:Pt05,LM,subtype,T/NK,NK/cytotoxic lymphocyte,2,24.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,subtype,Mono/Mac/DC,monocyte/macrophage,2,111.0,2,GSM7844821|GSM7844822,1,GSM7844821,0,,eligible
+GSE245552:Pt05,LM,subtype,Mono/Mac/DC,conventional DC,2,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,subtype,Mono/Mac/DC,plasmacytoid DC,2,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,LM,subtype,Mono/Mac/DC,mature DC,2,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,LM,subtype,B/Plasma,B cell,2,181.0,1,GSM7844821,1,GSM7844821,1,GSM7844821,eligible
+GSE245552:Pt05,LM,subtype,B/Plasma,plasma cell,2,76.0,2,GSM7844821|GSM7844822,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,subtype,Neutrophil,neutrophil,2,817.0,1,GSM7844821,1,GSM7844821,1,GSM7844821,eligible
+GSE245552:Pt05,LM,subtype,Mast,mast cell,2,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,subtype,Nonimmune,epithelial,2,350.0,1,GSM7844821,1,GSM7844821,1,GSM7844821,eligible
+GSE245552:Pt05,LM,subtype,Nonimmune,hepatocyte,2,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,LM,subtype,Nonimmune,endothelial,2,21.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,subtype,Nonimmune,fibroblast,2,11.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,subtype,Nonimmune,mural,2,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt05,LM,subtype,T/NK,T/NK unresolved,2,2086.0,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,eligible
+GSE245552:Pt05,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,2,57.0,1,GSM7844821,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,subtype,B/Plasma,B/Plasma unresolved,2,211.0,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,1,GSM7844821,eligible
+GSE245552:Pt05,LM,subtype,Nonimmune,Nonimmune unresolved,2,33.0,1,GSM7844821,0,,0,,below_lesion_threshold
+GSE245552:Pt05,LM,subtype,Mixed,Mixed,2,1628.0,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,2,GSM7844821|GSM7844822,eligible
+GSE245552:Pt05,LM,subtype,Unknown,Unknown,2,328.0,1,GSM7844821,1,GSM7844821,1,GSM7844821,eligible
+GSE245552:Pt05,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt05,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,PT,lineage,T/NK,T/NK,1,147.0,1,GSM7844823,1,GSM7844823,1,GSM7844823,eligible
+GSE245552:Pt06,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,lineage,B/Plasma,B/Plasma,1,81.0,1,GSM7844823,1,GSM7844823,0,,eligible
+GSE245552:Pt06,PT,lineage,Neutrophil,Neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt06,PT,lineage,Mast,Mast,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,lineage,Nonimmune,Nonimmune,1,505.0,1,GSM7844823,1,GSM7844823,1,GSM7844823,eligible
+GSE245552:Pt06,PT,lineage,Mixed,Mixed,1,48.0,1,GSM7844823,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,lineage,Unknown,Unknown,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,T/NK,T cell,1,107.0,1,GSM7844823,1,GSM7844823,1,GSM7844823,eligible
+GSE245552:Pt06,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt06,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,Mono/Mac/DC,conventional DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt06,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt06,PT,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt06,PT,subtype,B/Plasma,B cell,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,B/Plasma,plasma cell,1,21.0,1,GSM7844823,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,Neutrophil,neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt06,PT,subtype,Mast,mast cell,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,Nonimmune,epithelial,1,375.0,1,GSM7844823,1,GSM7844823,1,GSM7844823,eligible
+GSE245552:Pt06,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt06,PT,subtype,Nonimmune,endothelial,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,Nonimmune,fibroblast,1,47.0,1,GSM7844823,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt06,PT,subtype,T/NK,T/NK unresolved,1,40.0,1,GSM7844823,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,B/Plasma,B/Plasma unresolved,1,42.0,1,GSM7844823,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,Nonimmune,Nonimmune unresolved,1,74.0,1,GSM7844823,1,GSM7844823,0,,eligible
+GSE245552:Pt06,PT,subtype,Mixed,Mixed,1,48.0,1,GSM7844823,0,,0,,below_lesion_threshold
+GSE245552:Pt06,PT,subtype,Unknown,Unknown,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,LM,lineage,T/NK,T/NK,2,1938.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,2,1919.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,lineage,B/Plasma,B/Plasma,2,325.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,1,GSM7844825,eligible
+GSE245552:Pt06,LM,lineage,Neutrophil,Neutrophil,2,144.0,2,GSM7844824|GSM7844825,1,GSM7844824,0,,eligible
+GSE245552:Pt06,LM,lineage,Mast,Mast,2,74.0,2,GSM7844824|GSM7844825,1,GSM7844825,0,,eligible
+GSE245552:Pt06,LM,lineage,Nonimmune,Nonimmune,2,1834.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,lineage,Mixed,Mixed,2,2325.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,lineage,Unknown,Unknown,2,172.0,2,GSM7844824|GSM7844825,1,GSM7844825,1,GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,T/NK,T cell,2,1483.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,T/NK,NK/cytotoxic lymphocyte,2,33.0,1,GSM7844825,0,,0,,below_lesion_threshold
+GSE245552:Pt06,LM,subtype,Mono/Mac/DC,monocyte/macrophage,2,1568.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,Mono/Mac/DC,conventional DC,2,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,LM,subtype,Mono/Mac/DC,plasmacytoid DC,2,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,LM,subtype,Mono/Mac/DC,mature DC,2,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,LM,subtype,B/Plasma,B cell,2,73.0,1,GSM7844825,1,GSM7844825,0,,eligible
+GSE245552:Pt06,LM,subtype,B/Plasma,plasma cell,2,108.0,1,GSM7844825,1,GSM7844825,0,,eligible
+GSE245552:Pt06,LM,subtype,Neutrophil,neutrophil,2,144.0,2,GSM7844824|GSM7844825,1,GSM7844824,0,,eligible
+GSE245552:Pt06,LM,subtype,Mast,mast cell,2,74.0,2,GSM7844824|GSM7844825,1,GSM7844825,0,,eligible
+GSE245552:Pt06,LM,subtype,Nonimmune,epithelial,2,939.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,1,GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,Nonimmune,hepatocyte,2,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,LM,subtype,Nonimmune,endothelial,2,59.0,1,GSM7844825,0,,0,,below_lesion_threshold
+GSE245552:Pt06,LM,subtype,Nonimmune,fibroblast,2,282.0,2,GSM7844824|GSM7844825,1,GSM7844825,1,GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,Nonimmune,mural,2,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt06,LM,subtype,T/NK,T/NK unresolved,2,422.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,2,327.0,2,GSM7844824|GSM7844825,1,GSM7844825,1,GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,B/Plasma,B/Plasma unresolved,2,144.0,2,GSM7844824|GSM7844825,1,GSM7844825,1,GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,Nonimmune,Nonimmune unresolved,2,547.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,Mixed,Mixed,2,2325.0,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,2,GSM7844824|GSM7844825,eligible
+GSE245552:Pt06,LM,subtype,Unknown,Unknown,2,172.0,2,GSM7844824|GSM7844825,1,GSM7844825,1,GSM7844825,eligible
+GSE245552:Pt06,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt06,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,PT,lineage,T/NK,T/NK,1,1303.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,172.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,lineage,B/Plasma,B/Plasma,1,1677.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,lineage,Neutrophil,Neutrophil,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,PT,lineage,Mast,Mast,1,110.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,lineage,Nonimmune,Nonimmune,1,701.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,lineage,Mixed,Mixed,1,344.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,lineage,Unknown,Unknown,1,188.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,T/NK,T cell,1,981.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,65.0,1,GSM7844826,1,GSM7844826,0,,eligible
+GSE245552:Pt07,PT,subtype,Mono/Mac/DC,conventional DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt07,PT,subtype,Mono/Mac/DC,mature DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,PT,subtype,B/Plasma,B cell,1,435.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,B/Plasma,plasma cell,1,754.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,Neutrophil,neutrophil,1,18.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,PT,subtype,Mast,mast cell,1,110.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,Nonimmune,epithelial,1,308.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt07,PT,subtype,Nonimmune,endothelial,1,67.0,1,GSM7844826,1,GSM7844826,0,,eligible
+GSE245552:Pt07,PT,subtype,Nonimmune,fibroblast,1,53.0,1,GSM7844826,1,GSM7844826,0,,eligible
+GSE245552:Pt07,PT,subtype,Nonimmune,mural,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,PT,subtype,T/NK,T/NK unresolved,1,315.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,101.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,B/Plasma,B/Plasma unresolved,1,488.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,Nonimmune,Nonimmune unresolved,1,266.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,Mixed,Mixed,1,344.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,PT,subtype,Unknown,Unknown,1,188.0,1,GSM7844826,1,GSM7844826,1,GSM7844826,eligible
+GSE245552:Pt07,LM,lineage,T/NK,T/NK,1,785.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,665.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,lineage,B/Plasma,B/Plasma,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,lineage,Neutrophil,Neutrophil,1,1372.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,lineage,Mast,Mast,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,lineage,Nonimmune,Nonimmune,1,749.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,lineage,Mixed,Mixed,1,984.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,lineage,Unknown,Unknown,1,455.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,subtype,T/NK,T cell,1,515.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,573.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,subtype,Mono/Mac/DC,conventional DC,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt07,LM,subtype,Mono/Mac/DC,mature DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,subtype,B/Plasma,B cell,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,subtype,B/Plasma,plasma cell,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt07,LM,subtype,Neutrophil,neutrophil,1,1372.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,subtype,Mast,mast cell,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,subtype,Nonimmune,epithelial,1,669.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt07,LM,subtype,Nonimmune,endothelial,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,subtype,Nonimmune,fibroblast,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt07,LM,subtype,T/NK,T/NK unresolved,1,262.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,87.0,1,GSM7844827,1,GSM7844827,0,,eligible
+GSE245552:Pt07,LM,subtype,B/Plasma,B/Plasma unresolved,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt07,LM,subtype,Nonimmune,Nonimmune unresolved,1,76.0,1,GSM7844827,1,GSM7844827,0,,eligible
+GSE245552:Pt07,LM,subtype,Mixed,Mixed,1,984.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,LM,subtype,Unknown,Unknown,1,455.0,1,GSM7844827,1,GSM7844827,1,GSM7844827,eligible
+GSE245552:Pt07,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt07,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,PT,lineage,T/NK,T/NK,2,5384.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,2,382.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,lineage,B/Plasma,B/Plasma,2,2341.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,lineage,Neutrophil,Neutrophil,2,421.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,lineage,Mast,Mast,2,116.0,2,GSM7844828|GSM7844829,1,GSM7844829,0,,eligible
+GSE245552:Pt08,PT,lineage,Nonimmune,Nonimmune,2,1435.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,lineage,Mixed,Mixed,2,1380.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,lineage,Unknown,Unknown,2,236.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,1,GSM7844828,eligible
+GSE245552:Pt08,PT,subtype,T/NK,T cell,2,4567.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,subtype,T/NK,NK/cytotoxic lymphocyte,2,16.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,PT,subtype,Mono/Mac/DC,monocyte/macrophage,2,87.0,2,GSM7844828|GSM7844829,1,GSM7844828,0,,eligible
+GSE245552:Pt08,PT,subtype,Mono/Mac/DC,conventional DC,2,12.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,PT,subtype,Mono/Mac/DC,plasmacytoid DC,2,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt08,PT,subtype,Mono/Mac/DC,mature DC,2,57.0,1,GSM7844828,0,,0,,below_lesion_threshold
+GSE245552:Pt08,PT,subtype,B/Plasma,B cell,2,186.0,1,GSM7844828,1,GSM7844828,1,GSM7844828,eligible
+GSE245552:Pt08,PT,subtype,B/Plasma,plasma cell,2,835.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,subtype,Neutrophil,neutrophil,2,421.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,subtype,Mast,mast cell,2,116.0,2,GSM7844828|GSM7844829,1,GSM7844829,0,,eligible
+GSE245552:Pt08,PT,subtype,Nonimmune,epithelial,2,676.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,subtype,Nonimmune,hepatocyte,2,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt08,PT,subtype,Nonimmune,endothelial,2,137.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,0,,eligible
+GSE245552:Pt08,PT,subtype,Nonimmune,fibroblast,2,243.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,1,GSM7844828,eligible
+GSE245552:Pt08,PT,subtype,Nonimmune,mural,2,17.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,PT,subtype,T/NK,T/NK unresolved,2,801.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,2,226.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,1,GSM7844828,eligible
+GSE245552:Pt08,PT,subtype,B/Plasma,B/Plasma unresolved,2,1320.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,subtype,Nonimmune,Nonimmune unresolved,2,362.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,subtype,Mixed,Mixed,2,1380.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,eligible
+GSE245552:Pt08,PT,subtype,Unknown,Unknown,2,236.0,2,GSM7844828|GSM7844829,2,GSM7844828|GSM7844829,1,GSM7844828,eligible
+GSE245552:Pt08,LM,lineage,T/NK,T/NK,2,1731.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,2,1112.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,lineage,B/Plasma,B/Plasma,2,331.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,lineage,Neutrophil,Neutrophil,2,11.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,lineage,Mast,Mast,2,29.0,1,GSM7844830,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,lineage,Nonimmune,Nonimmune,2,6851.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,lineage,Mixed,Mixed,2,1142.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,lineage,Unknown,Unknown,2,1272.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,subtype,T/NK,T cell,2,1366.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,subtype,T/NK,NK/cytotoxic lymphocyte,2,41.0,1,GSM7844830,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,Mono/Mac/DC,monocyte/macrophage,2,788.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,subtype,Mono/Mac/DC,conventional DC,2,29.0,1,GSM7844830,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,Mono/Mac/DC,plasmacytoid DC,2,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,Mono/Mac/DC,mature DC,2,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,B/Plasma,B cell,2,25.0,1,GSM7844830,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,B/Plasma,plasma cell,2,175.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,1,GSM7844830,eligible
+GSE245552:Pt08,LM,subtype,Neutrophil,neutrophil,2,11.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,Mast,mast cell,2,29.0,1,GSM7844830,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,Nonimmune,epithelial,2,6563.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,subtype,Nonimmune,hepatocyte,2,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,Nonimmune,endothelial,2,47.0,2,GSM7844830|GSM7844831,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,Nonimmune,fibroblast,2,32.0,1,GSM7844830,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,Nonimmune,mural,2,17.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt08,LM,subtype,T/NK,T/NK unresolved,2,324.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,2,287.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,1,GSM7844830,eligible
+GSE245552:Pt08,LM,subtype,B/Plasma,B/Plasma unresolved,2,131.0,2,GSM7844830|GSM7844831,1,GSM7844831,0,,eligible
+GSE245552:Pt08,LM,subtype,Nonimmune,Nonimmune unresolved,2,191.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,1,GSM7844830,eligible
+GSE245552:Pt08,LM,subtype,Mixed,Mixed,2,1142.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,LM,subtype,Unknown,Unknown,2,1272.0,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,2,GSM7844830|GSM7844831,eligible
+GSE245552:Pt08,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt08,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,PT,lineage,T/NK,T/NK,1,2025.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,103.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,lineage,B/Plasma,B/Plasma,1,1990.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,lineage,Neutrophil,Neutrophil,1,34.0,1,GSM7844832,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,lineage,Mast,Mast,1,50.0,1,GSM7844832,1,GSM7844832,0,,eligible
+GSE245552:Pt09,PT,lineage,Nonimmune,Nonimmune,1,654.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,lineage,Mixed,Mixed,1,524.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,lineage,Unknown,Unknown,1,136.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,T/NK,T cell,1,1200.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,23.0,1,GSM7844832,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,39.0,1,GSM7844832,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,subtype,Mono/Mac/DC,conventional DC,1,12.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt09,PT,subtype,Mono/Mac/DC,mature DC,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,subtype,B/Plasma,B cell,1,248.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,B/Plasma,plasma cell,1,816.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,Neutrophil,neutrophil,1,34.0,1,GSM7844832,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,subtype,Mast,mast cell,1,50.0,1,GSM7844832,1,GSM7844832,0,,eligible
+GSE245552:Pt09,PT,subtype,Nonimmune,epithelial,1,167.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt09,PT,subtype,Nonimmune,endothelial,1,28.0,1,GSM7844832,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,subtype,Nonimmune,fibroblast,1,270.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,Nonimmune,mural,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,subtype,T/NK,T/NK unresolved,1,802.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,48.0,1,GSM7844832,0,,0,,below_lesion_threshold
+GSE245552:Pt09,PT,subtype,B/Plasma,B/Plasma unresolved,1,926.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,Nonimmune,Nonimmune unresolved,1,186.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,Mixed,Mixed,1,524.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,PT,subtype,Unknown,Unknown,1,136.0,1,GSM7844832,1,GSM7844832,1,GSM7844832,eligible
+GSE245552:Pt09,LM,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,LM,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt09,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,PT,lineage,T/NK,T/NK,1,2382.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,173.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,lineage,B/Plasma,B/Plasma,1,3369.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,lineage,Neutrophil,Neutrophil,1,305.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,lineage,Mast,Mast,1,121.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,lineage,Nonimmune,Nonimmune,1,770.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,lineage,Mixed,Mixed,1,801.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,lineage,Unknown,Unknown,1,255.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,T/NK,T cell,1,1877.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,28.0,1,GSM7844833,0,,0,,below_lesion_threshold
+GSE245552:Pt10,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,59.0,1,GSM7844833,1,GSM7844833,0,,eligible
+GSE245552:Pt10,PT,subtype,Mono/Mac/DC,conventional DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,PT,subtype,Mono/Mac/DC,mature DC,1,17.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,PT,subtype,B/Plasma,B cell,1,278.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,B/Plasma,plasma cell,1,1518.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,Neutrophil,neutrophil,1,305.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,Mast,mast cell,1,121.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,Nonimmune,epithelial,1,754.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt10,PT,subtype,Nonimmune,endothelial,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,PT,subtype,Nonimmune,fibroblast,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt10,PT,subtype,Nonimmune,mural,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,PT,subtype,T/NK,T/NK unresolved,1,477.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,93.0,1,GSM7844833,1,GSM7844833,0,,eligible
+GSE245552:Pt10,PT,subtype,B/Plasma,B/Plasma unresolved,1,1573.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,Nonimmune,Nonimmune unresolved,1,13.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,PT,subtype,Mixed,Mixed,1,801.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,PT,subtype,Unknown,Unknown,1,255.0,1,GSM7844833,1,GSM7844833,1,GSM7844833,eligible
+GSE245552:Pt10,LM,lineage,T/NK,T/NK,1,4178.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,760.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,lineage,B/Plasma,B/Plasma,1,198.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,lineage,Neutrophil,Neutrophil,1,706.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,lineage,Mast,Mast,1,27.0,1,GSM7844834,0,,0,,below_lesion_threshold
+GSE245552:Pt10,LM,lineage,Nonimmune,Nonimmune,1,214.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,lineage,Mixed,Mixed,1,2142.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,lineage,Unknown,Unknown,1,278.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,subtype,T/NK,T cell,1,2717.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,52.0,1,GSM7844834,1,GSM7844834,0,,eligible
+GSE245552:Pt10,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,487.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,subtype,Mono/Mac/DC,conventional DC,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,LM,subtype,Mono/Mac/DC,mature DC,1,39.0,1,GSM7844834,0,,0,,below_lesion_threshold
+GSE245552:Pt10,LM,subtype,B/Plasma,B cell,1,65.0,1,GSM7844834,1,GSM7844834,0,,eligible
+GSE245552:Pt10,LM,subtype,B/Plasma,plasma cell,1,42.0,1,GSM7844834,0,,0,,below_lesion_threshold
+GSE245552:Pt10,LM,subtype,Neutrophil,neutrophil,1,706.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,subtype,Mast,mast cell,1,27.0,1,GSM7844834,0,,0,,below_lesion_threshold
+GSE245552:Pt10,LM,subtype,Nonimmune,epithelial,1,11.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt10,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt10,LM,subtype,Nonimmune,endothelial,1,37.0,1,GSM7844834,0,,0,,below_lesion_threshold
+GSE245552:Pt10,LM,subtype,Nonimmune,fibroblast,1,67.0,1,GSM7844834,1,GSM7844834,0,,eligible
+GSE245552:Pt10,LM,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt10,LM,subtype,T/NK,T/NK unresolved,1,1409.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,224.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,subtype,B/Plasma,B/Plasma unresolved,1,91.0,1,GSM7844834,1,GSM7844834,0,,eligible
+GSE245552:Pt10,LM,subtype,Nonimmune,Nonimmune unresolved,1,99.0,1,GSM7844834,1,GSM7844834,0,,eligible
+GSE245552:Pt10,LM,subtype,Mixed,Mixed,1,2142.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,LM,subtype,Unknown,Unknown,1,278.0,1,GSM7844834,1,GSM7844834,1,GSM7844834,eligible
+GSE245552:Pt10,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt10,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,PT,lineage,T/NK,T/NK,1,1032.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,413.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,lineage,B/Plasma,B/Plasma,1,1389.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,lineage,Neutrophil,Neutrophil,1,342.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,lineage,Mast,Mast,1,56.0,1,GSM7844835,1,GSM7844835,0,,eligible
+GSE245552:Pt11,PT,lineage,Nonimmune,Nonimmune,1,2537.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,lineage,Mixed,Mixed,1,1270.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,lineage,Unknown,Unknown,1,136.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,T/NK,T cell,1,772.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,15.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,246.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,Mono/Mac/DC,conventional DC,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,PT,subtype,Mono/Mac/DC,mature DC,1,36.0,1,GSM7844835,0,,0,,below_lesion_threshold
+GSE245552:Pt11,PT,subtype,B/Plasma,B cell,1,192.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,B/Plasma,plasma cell,1,409.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,Neutrophil,neutrophil,1,342.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,Mast,mast cell,1,56.0,1,GSM7844835,1,GSM7844835,0,,eligible
+GSE245552:Pt11,PT,subtype,Nonimmune,epithelial,1,2230.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt11,PT,subtype,Nonimmune,endothelial,1,60.0,1,GSM7844835,1,GSM7844835,0,,eligible
+GSE245552:Pt11,PT,subtype,Nonimmune,fibroblast,1,81.0,1,GSM7844835,1,GSM7844835,0,,eligible
+GSE245552:Pt11,PT,subtype,Nonimmune,mural,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,PT,subtype,T/NK,T/NK unresolved,1,245.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,128.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,B/Plasma,B/Plasma unresolved,1,788.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,Nonimmune,Nonimmune unresolved,1,162.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,Mixed,Mixed,1,1270.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,PT,subtype,Unknown,Unknown,1,136.0,1,GSM7844835,1,GSM7844835,1,GSM7844835,eligible
+GSE245552:Pt11,LM,lineage,T/NK,T/NK,1,3435.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,339.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,lineage,B/Plasma,B/Plasma,1,184.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,lineage,Neutrophil,Neutrophil,1,12.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,lineage,Mast,Mast,1,36.0,1,GSM7844836,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,lineage,Nonimmune,Nonimmune,1,698.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,lineage,Mixed,Mixed,1,573.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,lineage,Unknown,Unknown,1,75.0,1,GSM7844836,1,GSM7844836,0,,eligible
+GSE245552:Pt11,LM,subtype,T/NK,T cell,1,1539.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,21.0,1,GSM7844836,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,203.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,subtype,Mono/Mac/DC,conventional DC,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,Mono/Mac/DC,mature DC,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,B/Plasma,B cell,1,48.0,1,GSM7844836,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,B/Plasma,plasma cell,1,48.0,1,GSM7844836,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,Neutrophil,neutrophil,1,12.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,Mast,mast cell,1,36.0,1,GSM7844836,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,Nonimmune,epithelial,1,594.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt11,LM,subtype,Nonimmune,endothelial,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,Nonimmune,fibroblast,1,19.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt11,LM,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt11,LM,subtype,T/NK,T/NK unresolved,1,1875.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,115.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,subtype,B/Plasma,B/Plasma unresolved,1,88.0,1,GSM7844836,1,GSM7844836,0,,eligible
+GSE245552:Pt11,LM,subtype,Nonimmune,Nonimmune unresolved,1,77.0,1,GSM7844836,1,GSM7844836,0,,eligible
+GSE245552:Pt11,LM,subtype,Mixed,Mixed,1,573.0,1,GSM7844836,1,GSM7844836,1,GSM7844836,eligible
+GSE245552:Pt11,LM,subtype,Unknown,Unknown,1,75.0,1,GSM7844836,1,GSM7844836,0,,eligible
+GSE245552:Pt11,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt11,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,PT,lineage,T/NK,T/NK,1,1990.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,78.0,1,GSM7844837,1,GSM7844837,0,,eligible
+GSE245552:Pt13,PT,lineage,B/Plasma,B/Plasma,1,922.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,lineage,Neutrophil,Neutrophil,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,lineage,Mast,Mast,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,lineage,Nonimmune,Nonimmune,1,939.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,lineage,Mixed,Mixed,1,253.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,lineage,Unknown,Unknown,1,277.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,subtype,T/NK,T cell,1,1587.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,15.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,38.0,1,GSM7844837,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,Mono/Mac/DC,conventional DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt13,PT,subtype,Mono/Mac/DC,mature DC,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,B/Plasma,B cell,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,B/Plasma,plasma cell,1,386.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,subtype,Neutrophil,neutrophil,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,Mast,mast cell,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,Nonimmune,epithelial,1,897.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt13,PT,subtype,Nonimmune,endothelial,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,Nonimmune,fibroblast,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt13,PT,subtype,T/NK,T/NK unresolved,1,388.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,29.0,1,GSM7844837,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,B/Plasma,B/Plasma unresolved,1,535.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,subtype,Nonimmune,Nonimmune unresolved,1,28.0,1,GSM7844837,0,,0,,below_lesion_threshold
+GSE245552:Pt13,PT,subtype,Mixed,Mixed,1,253.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,PT,subtype,Unknown,Unknown,1,277.0,1,GSM7844837,1,GSM7844837,1,GSM7844837,eligible
+GSE245552:Pt13,LM,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,LM,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NC,lineage,T/NK,T/NK,1,262.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,1,26.0,1,GSM7844838,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,lineage,B/Plasma,B/Plasma,1,4242.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,lineage,Neutrophil,Neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt13,NC,lineage,Mast,Mast,1,262.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,lineage,Nonimmune,Nonimmune,1,2501.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,lineage,Mixed,Mixed,1,280.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,lineage,Unknown,Unknown,1,563.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,subtype,T/NK,T cell,1,136.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,subtype,T/NK,NK/cytotoxic lymphocyte,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,Mono/Mac/DC,monocyte/macrophage,1,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,Mono/Mac/DC,conventional DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt13,NC,subtype,Mono/Mac/DC,mature DC,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,B/Plasma,B cell,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,B/Plasma,plasma cell,1,3264.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,subtype,Neutrophil,neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt13,NC,subtype,Mast,mast cell,1,262.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,subtype,Nonimmune,epithelial,1,2445.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt13,NC,subtype,Nonimmune,endothelial,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,Nonimmune,fibroblast,1,25.0,1,GSM7844838,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,Nonimmune,mural,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,T/NK,T/NK unresolved,1,124.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,17.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,B/Plasma,B/Plasma unresolved,1,976.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,subtype,Nonimmune,Nonimmune unresolved,1,25.0,1,GSM7844838,0,,0,,below_lesion_threshold
+GSE245552:Pt13,NC,subtype,Mixed,Mixed,1,280.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NC,subtype,Unknown,Unknown,1,563.0,1,GSM7844838,1,GSM7844838,1,GSM7844838,eligible
+GSE245552:Pt13,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt13,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,PT,lineage,T/NK,T/NK,1,4042.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,148.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,lineage,B/Plasma,B/Plasma,1,1227.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,lineage,Neutrophil,Neutrophil,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,PT,lineage,Mast,Mast,1,394.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,lineage,Nonimmune,Nonimmune,1,3745.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,lineage,Mixed,Mixed,1,1140.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,lineage,Unknown,Unknown,1,674.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,T/NK,T cell,1,3234.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,37.0,1,GSM7844839,0,,0,,below_lesion_threshold
+GSE245552:Pt15,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,38.0,1,GSM7844839,0,,0,,below_lesion_threshold
+GSE245552:Pt15,PT,subtype,Mono/Mac/DC,conventional DC,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,PT,subtype,Mono/Mac/DC,mature DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,PT,subtype,B/Plasma,B cell,1,848.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,B/Plasma,plasma cell,1,138.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Neutrophil,neutrophil,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,PT,subtype,Mast,mast cell,1,394.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Nonimmune,epithelial,1,708.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,PT,subtype,Nonimmune,endothelial,1,572.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Nonimmune,fibroblast,1,942.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Nonimmune,mural,1,72.0,1,GSM7844839,1,GSM7844839,0,,eligible
+GSE245552:Pt15,PT,subtype,T/NK,T/NK unresolved,1,771.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,101.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,B/Plasma,B/Plasma unresolved,1,241.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Nonimmune,Nonimmune unresolved,1,1451.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Mixed,Mixed,1,1140.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,PT,subtype,Unknown,Unknown,1,674.0,1,GSM7844839,1,GSM7844839,1,GSM7844839,eligible
+GSE245552:Pt15,LM,lineage,T/NK,T/NK,1,35.0,1,GSM7844840,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,59.0,1,GSM7844840,1,GSM7844840,0,,eligible
+GSE245552:Pt15,LM,lineage,B/Plasma,B/Plasma,1,22.0,1,GSM7844840,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,lineage,Neutrophil,Neutrophil,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,lineage,Mast,Mast,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,lineage,Nonimmune,Nonimmune,1,3471.0,1,GSM7844840,1,GSM7844840,1,GSM7844840,eligible
+GSE245552:Pt15,LM,lineage,Mixed,Mixed,1,2096.0,1,GSM7844840,1,GSM7844840,1,GSM7844840,eligible
+GSE245552:Pt15,LM,lineage,Unknown,Unknown,1,64.0,1,GSM7844840,1,GSM7844840,0,,eligible
+GSE245552:Pt15,LM,subtype,T/NK,T cell,1,28.0,1,GSM7844840,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,41.0,1,GSM7844840,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Mono/Mac/DC,conventional DC,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,LM,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,LM,subtype,B/Plasma,B cell,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,B/Plasma,plasma cell,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Neutrophil,neutrophil,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Mast,mast cell,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Nonimmune,epithelial,1,2995.0,1,GSM7844840,1,GSM7844840,1,GSM7844840,eligible
+GSE245552:Pt15,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,LM,subtype,Nonimmune,endothelial,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Nonimmune,fibroblast,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,LM,subtype,T/NK,T/NK unresolved,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,16.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,B/Plasma,B/Plasma unresolved,1,12.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,LM,subtype,Nonimmune,Nonimmune unresolved,1,472.0,1,GSM7844840,1,GSM7844840,1,GSM7844840,eligible
+GSE245552:Pt15,LM,subtype,Mixed,Mixed,1,2096.0,1,GSM7844840,1,GSM7844840,1,GSM7844840,eligible
+GSE245552:Pt15,LM,subtype,Unknown,Unknown,1,64.0,1,GSM7844840,1,GSM7844840,0,,eligible
+GSE245552:Pt15,NC,lineage,T/NK,T/NK,1,738.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,1,31.0,1,GSM7844841,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,lineage,B/Plasma,B/Plasma,1,75.0,1,GSM7844841,1,GSM7844841,0,,eligible
+GSE245552:Pt15,NC,lineage,Neutrophil,Neutrophil,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,lineage,Mast,Mast,1,20.0,1,GSM7844841,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,lineage,Nonimmune,Nonimmune,1,4503.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NC,lineage,Mixed,Mixed,1,331.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NC,lineage,Unknown,Unknown,1,154.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NC,subtype,T/NK,T cell,1,313.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NC,subtype,T/NK,NK/cytotoxic lymphocyte,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Mono/Mac/DC,monocyte/macrophage,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Mono/Mac/DC,conventional DC,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,NC,subtype,Mono/Mac/DC,mature DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,B/Plasma,B cell,1,55.0,1,GSM7844841,1,GSM7844841,0,,eligible
+GSE245552:Pt15,NC,subtype,B/Plasma,plasma cell,1,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Neutrophil,neutrophil,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Mast,mast cell,1,20.0,1,GSM7844841,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Nonimmune,epithelial,1,4441.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NC,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt15,NC,subtype,Nonimmune,endothelial,1,24.0,1,GSM7844841,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Nonimmune,fibroblast,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Nonimmune,mural,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,T/NK,T/NK unresolved,1,416.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,24.0,1,GSM7844841,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,B/Plasma,B/Plasma unresolved,1,14.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Nonimmune,Nonimmune unresolved,1,33.0,1,GSM7844841,0,,0,,below_lesion_threshold
+GSE245552:Pt15,NC,subtype,Mixed,Mixed,1,331.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NC,subtype,Unknown,Unknown,1,154.0,1,GSM7844841,1,GSM7844841,1,GSM7844841,eligible
+GSE245552:Pt15,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt15,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,PT,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,LM,lineage,T/NK,T/NK,1,269.0,1,GSM7844842,1,GSM7844842,1,GSM7844842,eligible
+GSE245552:Pt16,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,17.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,lineage,B/Plasma,B/Plasma,1,21.0,1,GSM7844842,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,lineage,Neutrophil,Neutrophil,1,11.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,lineage,Mast,Mast,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,LM,lineage,Nonimmune,Nonimmune,1,25.0,1,GSM7844842,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,lineage,Mixed,Mixed,1,29.0,1,GSM7844842,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,lineage,Unknown,Unknown,1,24.0,1,GSM7844842,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,T/NK,T cell,1,189.0,1,GSM7844842,1,GSM7844842,1,GSM7844842,eligible
+GSE245552:Pt16,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Mono/Mac/DC,conventional DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,LM,subtype,Mono/Mac/DC,mature DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,B/Plasma,B cell,1,13.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,B/Plasma,plasma cell,1,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Neutrophil,neutrophil,1,11.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Mast,mast cell,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,LM,subtype,Nonimmune,epithelial,1,24.0,1,GSM7844842,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,LM,subtype,Nonimmune,endothelial,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,LM,subtype,Nonimmune,fibroblast,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,LM,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,LM,subtype,T/NK,T/NK unresolved,1,79.0,1,GSM7844842,1,GSM7844842,0,,eligible
+GSE245552:Pt16,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,B/Plasma,B/Plasma unresolved,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Nonimmune,Nonimmune unresolved,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Mixed,Mixed,1,29.0,1,GSM7844842,0,,0,,below_lesion_threshold
+GSE245552:Pt16,LM,subtype,Unknown,Unknown,1,24.0,1,GSM7844842,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NC,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NC,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt16,NL,lineage,T/NK,T/NK,1,135.0,1,GSM7844843,1,GSM7844843,1,GSM7844843,eligible
+GSE245552:Pt16,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,1,37.0,1,GSM7844843,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,lineage,B/Plasma,B/Plasma,1,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,lineage,Neutrophil,Neutrophil,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,lineage,Mast,Mast,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,NL,lineage,Nonimmune,Nonimmune,1,41.0,1,GSM7844843,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,lineage,Mixed,Mixed,1,30.0,1,GSM7844843,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,lineage,Unknown,Unknown,1,26.0,1,GSM7844843,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,T/NK,T cell,1,54.0,1,GSM7844843,1,GSM7844843,0,,eligible
+GSE245552:Pt16,NL,subtype,T/NK,NK/cytotoxic lymphocyte,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Mono/Mac/DC,monocyte/macrophage,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Mono/Mac/DC,conventional DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Mono/Mac/DC,plasmacytoid DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,NL,subtype,B/Plasma,B cell,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,B/Plasma,plasma cell,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Neutrophil,neutrophil,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Mast,mast cell,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,NL,subtype,Nonimmune,epithelial,1,19.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,NL,subtype,Nonimmune,endothelial,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Nonimmune,fibroblast,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt16,NL,subtype,Nonimmune,mural,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,T/NK,T/NK unresolved,1,77.0,1,GSM7844843,1,GSM7844843,0,,eligible
+GSE245552:Pt16,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,24.0,1,GSM7844843,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,B/Plasma,B/Plasma unresolved,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Nonimmune,Nonimmune unresolved,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Mixed,Mixed,1,30.0,1,GSM7844843,0,,0,,below_lesion_threshold
+GSE245552:Pt16,NL,subtype,Unknown,Unknown,1,26.0,1,GSM7844843,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,lineage,T/NK,T/NK,1,884.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,62.0,1,GSM7844844,1,GSM7844844,0,,eligible
+GSE245552:Pt17,PT,lineage,B/Plasma,B/Plasma,1,297.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,lineage,Neutrophil,Neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,PT,lineage,Mast,Mast,1,66.0,1,GSM7844844,1,GSM7844844,0,,eligible
+GSE245552:Pt17,PT,lineage,Nonimmune,Nonimmune,1,167.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,lineage,Mixed,Mixed,1,123.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,lineage,Unknown,Unknown,1,78.0,1,GSM7844844,1,GSM7844844,0,,eligible
+GSE245552:Pt17,PT,subtype,T/NK,T cell,1,680.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,23.0,1,GSM7844844,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,subtype,Mono/Mac/DC,conventional DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,PT,subtype,Mono/Mac/DC,mature DC,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,subtype,B/Plasma,B cell,1,21.0,1,GSM7844844,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,subtype,B/Plasma,plasma cell,1,145.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,subtype,Neutrophil,neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,PT,subtype,Mast,mast cell,1,66.0,1,GSM7844844,1,GSM7844844,0,,eligible
+GSE245552:Pt17,PT,subtype,Nonimmune,epithelial,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,PT,subtype,Nonimmune,endothelial,1,22.0,1,GSM7844844,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,subtype,Nonimmune,fibroblast,1,79.0,1,GSM7844844,1,GSM7844844,0,,eligible
+GSE245552:Pt17,PT,subtype,Nonimmune,mural,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,subtype,T/NK,T/NK unresolved,1,196.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,30.0,1,GSM7844844,0,,0,,below_lesion_threshold
+GSE245552:Pt17,PT,subtype,B/Plasma,B/Plasma unresolved,1,131.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,subtype,Nonimmune,Nonimmune unresolved,1,62.0,1,GSM7844844,1,GSM7844844,0,,eligible
+GSE245552:Pt17,PT,subtype,Mixed,Mixed,1,123.0,1,GSM7844844,1,GSM7844844,1,GSM7844844,eligible
+GSE245552:Pt17,PT,subtype,Unknown,Unknown,1,78.0,1,GSM7844844,1,GSM7844844,0,,eligible
+GSE245552:Pt17,LM,lineage,T/NK,T/NK,1,1078.0,1,GSM7844845,1,GSM7844845,1,GSM7844845,eligible
+GSE245552:Pt17,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,124.0,1,GSM7844845,1,GSM7844845,1,GSM7844845,eligible
+GSE245552:Pt17,LM,lineage,B/Plasma,B/Plasma,1,87.0,1,GSM7844845,1,GSM7844845,0,,eligible
+GSE245552:Pt17,LM,lineage,Neutrophil,Neutrophil,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,lineage,Mast,Mast,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,LM,lineage,Nonimmune,Nonimmune,1,195.0,1,GSM7844845,1,GSM7844845,1,GSM7844845,eligible
+GSE245552:Pt17,LM,lineage,Mixed,Mixed,1,347.0,1,GSM7844845,1,GSM7844845,1,GSM7844845,eligible
+GSE245552:Pt17,LM,lineage,Unknown,Unknown,1,68.0,1,GSM7844845,1,GSM7844845,0,,eligible
+GSE245552:Pt17,LM,subtype,T/NK,T cell,1,737.0,1,GSM7844845,1,GSM7844845,1,GSM7844845,eligible
+GSE245552:Pt17,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,16.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,81.0,1,GSM7844845,1,GSM7844845,0,,eligible
+GSE245552:Pt17,LM,subtype,Mono/Mac/DC,conventional DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,LM,subtype,Mono/Mac/DC,mature DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,B/Plasma,B cell,1,21.0,1,GSM7844845,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,B/Plasma,plasma cell,1,33.0,1,GSM7844845,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,Neutrophil,neutrophil,1,8.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,Mast,mast cell,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,LM,subtype,Nonimmune,epithelial,1,98.0,1,GSM7844845,1,GSM7844845,0,,eligible
+GSE245552:Pt17,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,LM,subtype,Nonimmune,endothelial,1,21.0,1,GSM7844845,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,Nonimmune,fibroblast,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,Nonimmune,mural,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,T/NK,T/NK unresolved,1,325.0,1,GSM7844845,1,GSM7844845,1,GSM7844845,eligible
+GSE245552:Pt17,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,41.0,1,GSM7844845,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,B/Plasma,B/Plasma unresolved,1,33.0,1,GSM7844845,0,,0,,below_lesion_threshold
+GSE245552:Pt17,LM,subtype,Nonimmune,Nonimmune unresolved,1,72.0,1,GSM7844845,1,GSM7844845,0,,eligible
+GSE245552:Pt17,LM,subtype,Mixed,Mixed,1,347.0,1,GSM7844845,1,GSM7844845,1,GSM7844845,eligible
+GSE245552:Pt17,LM,subtype,Unknown,Unknown,1,68.0,1,GSM7844845,1,GSM7844845,0,,eligible
+GSE245552:Pt17,NC,lineage,T/NK,T/NK,1,1266.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,1,131.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,lineage,B/Plasma,B/Plasma,1,2207.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,lineage,Neutrophil,Neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,NC,lineage,Mast,Mast,1,30.0,1,GSM7844846,0,,0,,below_lesion_threshold
+GSE245552:Pt17,NC,lineage,Nonimmune,Nonimmune,1,653.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,lineage,Mixed,Mixed,1,369.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,lineage,Unknown,Unknown,1,145.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,subtype,T/NK,T cell,1,939.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,subtype,T/NK,NK/cytotoxic lymphocyte,1,17.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,NC,subtype,Mono/Mac/DC,monocyte/macrophage,1,62.0,1,GSM7844846,1,GSM7844846,0,,eligible
+GSE245552:Pt17,NC,subtype,Mono/Mac/DC,conventional DC,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,NC,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,NC,subtype,Mono/Mac/DC,mature DC,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt17,NC,subtype,B/Plasma,B cell,1,1046.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,subtype,B/Plasma,plasma cell,1,564.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,subtype,Neutrophil,neutrophil,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,NC,subtype,Mast,mast cell,1,30.0,1,GSM7844846,0,,0,,below_lesion_threshold
+GSE245552:Pt17,NC,subtype,Nonimmune,epithelial,1,510.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,NC,subtype,Nonimmune,endothelial,1,29.0,1,GSM7844846,0,,0,,below_lesion_threshold
+GSE245552:Pt17,NC,subtype,Nonimmune,fibroblast,1,79.0,1,GSM7844846,1,GSM7844846,0,,eligible
+GSE245552:Pt17,NC,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt17,NC,subtype,T/NK,T/NK unresolved,1,310.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,64.0,1,GSM7844846,1,GSM7844846,0,,eligible
+GSE245552:Pt17,NC,subtype,B/Plasma,B/Plasma unresolved,1,597.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,subtype,Nonimmune,Nonimmune unresolved,1,35.0,1,GSM7844846,0,,0,,below_lesion_threshold
+GSE245552:Pt17,NC,subtype,Mixed,Mixed,1,369.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NC,subtype,Unknown,Unknown,1,145.0,1,GSM7844846,1,GSM7844846,1,GSM7844846,eligible
+GSE245552:Pt17,NL,lineage,T/NK,T/NK,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,lineage,B/Plasma,B/Plasma,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,lineage,Neutrophil,Neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,lineage,Mast,Mast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,lineage,Nonimmune,Nonimmune,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,lineage,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,lineage,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,T/NK,T cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,T/NK,NK/cytotoxic lymphocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Mono/Mac/DC,monocyte/macrophage,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Mono/Mac/DC,conventional DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Mono/Mac/DC,plasmacytoid DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Mono/Mac/DC,mature DC,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,B/Plasma,B cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,B/Plasma,plasma cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Neutrophil,neutrophil,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Mast,mast cell,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Nonimmune,epithelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Nonimmune,hepatocyte,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Nonimmune,endothelial,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Nonimmune,fibroblast,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Nonimmune,mural,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,T/NK,T/NK unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,B/Plasma,B/Plasma unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Nonimmune,Nonimmune unresolved,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Mixed,Mixed,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt17,NL,subtype,Unknown,Unknown,0,,0,,0,,0,,tissue_unavailable
+GSE245552:Pt18,PT,lineage,T/NK,T/NK,1,469.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,lineage,Mono/Mac/DC,Mono/Mac/DC,1,409.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,lineage,B/Plasma,B/Plasma,1,172.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,lineage,Neutrophil,Neutrophil,1,204.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,lineage,Mast,Mast,1,15.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,PT,lineage,Nonimmune,Nonimmune,1,2355.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,lineage,Mixed,Mixed,1,462.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,lineage,Unknown,Unknown,1,553.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,subtype,T/NK,T cell,1,357.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,subtype,T/NK,NK/cytotoxic lymphocyte,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,PT,subtype,Mono/Mac/DC,monocyte/macrophage,1,333.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,subtype,Mono/Mac/DC,conventional DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,PT,subtype,Mono/Mac/DC,plasmacytoid DC,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,PT,subtype,Mono/Mac/DC,mature DC,1,17.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,PT,subtype,B/Plasma,B cell,1,83.0,1,GSM7844847,1,GSM7844847,0,,eligible
+GSE245552:Pt18,PT,subtype,B/Plasma,plasma cell,1,31.0,1,GSM7844847,0,,0,,below_lesion_threshold
+GSE245552:Pt18,PT,subtype,Neutrophil,neutrophil,1,204.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,subtype,Mast,mast cell,1,15.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,PT,subtype,Nonimmune,epithelial,1,2152.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,PT,subtype,Nonimmune,endothelial,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,PT,subtype,Nonimmune,fibroblast,1,15.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,PT,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,PT,subtype,T/NK,T/NK unresolved,1,109.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,57.0,1,GSM7844847,1,GSM7844847,0,,eligible
+GSE245552:Pt18,PT,subtype,B/Plasma,B/Plasma unresolved,1,58.0,1,GSM7844847,1,GSM7844847,0,,eligible
+GSE245552:Pt18,PT,subtype,Nonimmune,Nonimmune unresolved,1,188.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,subtype,Mixed,Mixed,1,462.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,PT,subtype,Unknown,Unknown,1,553.0,1,GSM7844847,1,GSM7844847,1,GSM7844847,eligible
+GSE245552:Pt18,LM,lineage,T/NK,T/NK,1,321.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,LM,lineage,Mono/Mac/DC,Mono/Mac/DC,1,95.0,1,GSM7844848,1,GSM7844848,0,,eligible
+GSE245552:Pt18,LM,lineage,B/Plasma,B/Plasma,1,10.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,lineage,Neutrophil,Neutrophil,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,lineage,Mast,Mast,1,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,lineage,Nonimmune,Nonimmune,1,5955.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,LM,lineage,Mixed,Mixed,1,414.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,LM,lineage,Unknown,Unknown,1,205.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,LM,subtype,T/NK,T cell,1,265.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,LM,subtype,T/NK,NK/cytotoxic lymphocyte,1,9.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,Mono/Mac/DC,monocyte/macrophage,1,83.0,1,GSM7844848,1,GSM7844848,0,,eligible
+GSE245552:Pt18,LM,subtype,Mono/Mac/DC,conventional DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,LM,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,LM,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,LM,subtype,B/Plasma,B cell,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,B/Plasma,plasma cell,1,6.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,Neutrophil,neutrophil,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,Mast,mast cell,1,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,Nonimmune,epithelial,1,5547.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,LM,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,LM,subtype,Nonimmune,endothelial,1,4.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,Nonimmune,fibroblast,1,16.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,Nonimmune,mural,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,T/NK,T/NK unresolved,1,47.0,1,GSM7844848,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,12.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,B/Plasma,B/Plasma unresolved,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,LM,subtype,Nonimmune,Nonimmune unresolved,1,386.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,LM,subtype,Mixed,Mixed,1,414.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,LM,subtype,Unknown,Unknown,1,205.0,1,GSM7844848,1,GSM7844848,1,GSM7844848,eligible
+GSE245552:Pt18,NC,lineage,T/NK,T/NK,1,695.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,lineage,Mono/Mac/DC,Mono/Mac/DC,1,56.0,1,GSM7844849,1,GSM7844849,0,,eligible
+GSE245552:Pt18,NC,lineage,B/Plasma,B/Plasma,1,898.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,lineage,Neutrophil,Neutrophil,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,lineage,Mast,Mast,1,52.0,1,GSM7844849,1,GSM7844849,0,,eligible
+GSE245552:Pt18,NC,lineage,Nonimmune,Nonimmune,1,1127.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,lineage,Mixed,Mixed,1,195.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,lineage,Unknown,Unknown,1,64.0,1,GSM7844849,1,GSM7844849,0,,eligible
+GSE245552:Pt18,NC,subtype,T/NK,T cell,1,351.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,subtype,T/NK,NK/cytotoxic lymphocyte,1,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,subtype,Mono/Mac/DC,monocyte/macrophage,1,21.0,1,GSM7844849,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,subtype,Mono/Mac/DC,conventional DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,subtype,Mono/Mac/DC,plasmacytoid DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,NC,subtype,Mono/Mac/DC,mature DC,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,NC,subtype,B/Plasma,B cell,1,36.0,1,GSM7844849,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,subtype,B/Plasma,plasma cell,1,515.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,subtype,Neutrophil,neutrophil,1,2.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,subtype,Mast,mast cell,1,52.0,1,GSM7844849,1,GSM7844849,0,,eligible
+GSE245552:Pt18,NC,subtype,Nonimmune,epithelial,1,778.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,subtype,Nonimmune,hepatocyte,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,NC,subtype,Nonimmune,endothelial,1,7.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,subtype,Nonimmune,fibroblast,1,315.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,subtype,Nonimmune,mural,1,0.0,0,,0,,0,,no_labeled_cells
+GSE245552:Pt18,NC,subtype,T/NK,T/NK unresolved,1,339.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,32.0,1,GSM7844849,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,subtype,B/Plasma,B/Plasma unresolved,1,347.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,subtype,Nonimmune,Nonimmune unresolved,1,27.0,1,GSM7844849,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NC,subtype,Mixed,Mixed,1,195.0,1,GSM7844849,1,GSM7844849,1,GSM7844849,eligible
+GSE245552:Pt18,NC,subtype,Unknown,Unknown,1,64.0,1,GSM7844849,1,GSM7844849,0,,eligible
+GSE245552:Pt18,NL,lineage,T/NK,T/NK,1,3575.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,lineage,Mono/Mac/DC,Mono/Mac/DC,1,586.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,lineage,B/Plasma,B/Plasma,1,374.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,lineage,Neutrophil,Neutrophil,1,312.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,lineage,Mast,Mast,1,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NL,lineage,Nonimmune,Nonimmune,1,574.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,lineage,Mixed,Mixed,1,1435.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,lineage,Unknown,Unknown,1,444.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,T/NK,T cell,1,1539.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,T/NK,NK/cytotoxic lymphocyte,1,66.0,1,GSM7844850,1,GSM7844850,0,,eligible
+GSE245552:Pt18,NL,subtype,Mono/Mac/DC,monocyte/macrophage,1,367.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,Mono/Mac/DC,conventional DC,1,52.0,1,GSM7844850,1,GSM7844850,0,,eligible
+GSE245552:Pt18,NL,subtype,Mono/Mac/DC,plasmacytoid DC,1,3.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NL,subtype,Mono/Mac/DC,mature DC,1,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NL,subtype,B/Plasma,B cell,1,274.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,B/Plasma,plasma cell,1,23.0,1,GSM7844850,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NL,subtype,Neutrophil,neutrophil,1,312.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,Mast,mast cell,1,5.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NL,subtype,Nonimmune,epithelial,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NL,subtype,Nonimmune,hepatocyte,1,1.0,0,,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NL,subtype,Nonimmune,endothelial,1,333.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,Nonimmune,fibroblast,1,25.0,1,GSM7844850,0,,0,,below_lesion_threshold
+GSE245552:Pt18,NL,subtype,Nonimmune,mural,1,57.0,1,GSM7844850,1,GSM7844850,0,,eligible
+GSE245552:Pt18,NL,subtype,T/NK,T/NK unresolved,1,1970.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,Mono/Mac/DC,Mono/Mac/DC unresolved,1,159.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,B/Plasma,B/Plasma unresolved,1,77.0,1,GSM7844850,1,GSM7844850,0,,eligible
+GSE245552:Pt18,NL,subtype,Nonimmune,Nonimmune unresolved,1,157.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,Mixed,Mixed,1,1435.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
+GSE245552:Pt18,NL,subtype,Unknown,Unknown,1,444.0,1,GSM7844850,1,GSM7844850,1,GSM7844850,eligible
