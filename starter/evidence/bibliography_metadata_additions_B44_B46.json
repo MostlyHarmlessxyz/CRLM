@@ -1,0 +1,545 @@
+{
+  "scope": "Only B44/B45/B46 appended after the initial 73-main-DOI audit",
+  "audit_date_utc": "2026-11-21",
+  "n_additional_main_dois": 3,
+  "n_crossref": 3,
+  "n_europepmc_exact_doi_matches": 3,
+  "confirmed_conflicts": [],
+  "rows": [
+    {
+      "doi": "10.1158/2159-8290.cd-25-0820",
+      "reference_ids": [
+        "B44"
+      ],
+      "scope_group": "later_biology_additions_B44_B46",
+      "expected_citation_source": "biology_references.json",
+      "metadata": [
+        {
+          "source": "Crossref",
+          "doi": "10.1158/2159-8290.cd-25-0820",
+          "title": "Senescent-Like Neutrophils Shape Angiogenic Immunosuppressive Niches in Colorectal Cancer Liver Metastasis",
+          "subtitle": [],
+          "first_author": {
+            "given": "Zhihang",
+            "family": "Chen",
+            "sequence": "first"
+          },
+          "publication_years": [
+            2026
+          ],
+          "publication_dates": {
+            "published": [
+              [
+                2026,
+                5,
+                19
+              ]
+            ],
+            "published-online": [
+              [
+                2026,
+                5,
+                19
+              ]
+            ],
+            "published-print": [
+              [
+                2026,
+                10,
+                1
+              ]
+            ],
+            "issued": [
+              [
+                2026,
+                5,
+                19
+              ]
+            ]
+          },
+          "publication_status": "published",
+          "record_type": "journal-article",
+          "container_title": [
+            "Cancer Discovery"
+          ],
+          "relation": {
+            "is-supplemented-by": [
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041257",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041224",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041245",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041233",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041221",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041254",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041230",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041218",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041239",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041227",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041215",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041248",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.34041236",
+                "asserted-by": "object"
+              }
+            ],
+            "has-preprint": [
+              {
+                "id-type": "doi",
+                "id": "10.1158/2159-8290.c.8748200",
+                "asserted-by": "object"
+              }
+            ]
+          },
+          "created_date": "2026-05-19T16:24:11Z",
+          "url": "https://api.crossref.org/works/10.1158%2F2159-8290.CD-25-0820",
+          "cache_file": "bibliography_metadata_cache/crossref/26e12d4b8ce0a2b4105f.json"
+        },
+        {
+          "source": "Europe PMC",
+          "doi": "10.1158/2159-8290.cd-25-0820",
+          "title": "Senescent-Like Neutrophils Shape Angiogenic Immunosuppressive Niches in Colorectal Cancer Liver Metastasis.",
+          "first_author": {
+            "given": "Zhihang",
+            "family": "Chen",
+            "name": "Chen Z"
+          },
+          "publication_years": [
+            2026
+          ],
+          "publication_dates": {
+            "pubYear": "2026",
+            "firstPublicationDate": "2026-10-01",
+            "printPublicationDate": "2026-10-01"
+          },
+          "publication_status": "published",
+          "record_type": [
+            "research-article",
+            "Journal Article"
+          ],
+          "europepmc_source": "MED",
+          "pmid_or_record_id": "42154581",
+          "pmcid": "PMC13628106",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F2159-8290.CD-25-0820%22&format=json&resultType=core&pageSize=10",
+          "cache_file": "bibliography_metadata_cache/europepmc/26e12d4b8ce0a2b4105f.json"
+        }
+      ],
+      "comparisons": [
+        {
+          "reference_id": "B44",
+          "metadata_source": "Crossref",
+          "cited_title": "Senescent-Like Neutrophils Shape Angiogenic Immunosuppressive Niches in Colorectal Cancer Liver Metastasis",
+          "title_matches_after_format_normalization": true,
+          "title_similarity": 1.0,
+          "cited_year": 2026,
+          "year_matches_a_publication_date": true,
+          "cited_first_author": "Zhihang Chen",
+          "cited_first_author_origin": "explicit_field",
+          "first_author_compatible": true,
+          "cited_publication_status": null,
+          "publication_status_matches": null,
+          "publication_status_note": "No explicit publication_status field in biology_references; both official sources independently identify this as a published journal article."
+        },
+        {
+          "reference_id": "B44",
+          "metadata_source": "Europe PMC",
+          "cited_title": "Senescent-Like Neutrophils Shape Angiogenic Immunosuppressive Niches in Colorectal Cancer Liver Metastasis",
+          "title_matches_after_format_normalization": true,
+          "title_similarity": 1.0,
+          "cited_year": 2026,
+          "year_matches_a_publication_date": true,
+          "cited_first_author": "Zhihang Chen",
+          "cited_first_author_origin": "explicit_field",
+          "first_author_compatible": true,
+          "cited_publication_status": null,
+          "publication_status_matches": null,
+          "publication_status_note": "No explicit publication_status field in biology_references; both official sources independently identify this as a published journal article."
+        }
+      ],
+      "review_flags": [],
+      "attempts": [
+        {
+          "source": "crossref",
+          "status": "retrieved",
+          "http_status": 200,
+          "requested_url": "https://api.crossref.org/works/10.1158%2F2159-8290.CD-25-0820",
+          "cache_file": "bibliography_metadata_cache/crossref/26e12d4b8ce0a2b4105f.json",
+          "elapsed_seconds": 5.95
+        },
+        {
+          "source": "europepmc",
+          "status": "retrieved",
+          "http_status": 200,
+          "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F2159-8290.CD-25-0820%22&format=json&resultType=core&pageSize=10",
+          "cache_file": "bibliography_metadata_cache/europepmc/26e12d4b8ce0a2b4105f.json",
+          "elapsed_seconds": 6.564,
+          "reported_hit_count": 1,
+          "exact_doi_record_count": 1
+        }
+      ],
+      "automatic_assessment": "matching_metadata",
+      "final_assessment": "metadata_supports_citation"
+    },
+    {
+      "doi": "10.1007/s00018-026-06338-3",
+      "reference_ids": [
+        "B45"
+      ],
+      "scope_group": "later_biology_additions_B44_B46",
+      "expected_citation_source": "biology_references.json",
+      "metadata": [
+        {
+          "source": "Crossref",
+          "doi": "10.1007/s00018-026-06338-3",
+          "title": "APOC1⁺IFI30⁺ TAMs orchestrate colorectal cancer liver metastasis by coupling cholesterol biosynthesis with secretion of immunosuppressive factors",
+          "subtitle": [],
+          "first_author": {
+            "given": "Zheyou",
+            "family": "Cai",
+            "sequence": "first"
+          },
+          "publication_years": [
+            2026
+          ],
+          "publication_dates": {
+            "published": [
+              [
+                2026,
+                7,
+                11
+              ]
+            ],
+            "published-online": [
+              [
+                2026,
+                7,
+                11
+              ]
+            ],
+            "issued": [
+              [
+                2026,
+                7,
+                11
+              ]
+            ]
+          },
+          "publication_status": "published",
+          "record_type": "journal-article",
+          "container_title": [
+            "Cellular and Molecular Life Sciences"
+          ],
+          "relation": {},
+          "created_date": "2026-07-11T14:15:06Z",
+          "url": "https://api.crossref.org/works/10.1007%2Fs00018-026-06338-3",
+          "cache_file": "bibliography_metadata_cache/crossref/cc91637aa375568ad385.json"
+        },
+        {
+          "source": "Europe PMC",
+          "doi": "10.1007/s00018-026-06338-3",
+          "title": "APOC1⁺IFI30⁺ TAMs orchestrate colorectal cancer liver metastasis by coupling cholesterol biosynthesis with secretion of immunosuppressive factors.",
+          "first_author": {
+            "given": "Zheyou",
+            "family": "Cai",
+            "name": "Cai Z"
+          },
+          "publication_years": [
+            2026
+          ],
+          "publication_dates": {
+            "pubYear": "2026",
+            "firstPublicationDate": "2026-07-11",
+            "electronicPublicationDate": "2026-07-11",
+            "printPublicationDate": "2026-07-01"
+          },
+          "publication_status": "published",
+          "record_type": [
+            "research-article",
+            "Journal Article"
+          ],
+          "europepmc_source": "MED",
+          "pmid_or_record_id": "42435217",
+          "pmcid": "PMC13646245",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs00018-026-06338-3%22&format=json&resultType=core&pageSize=10",
+          "cache_file": "bibliography_metadata_cache/europepmc/cc91637aa375568ad385.json"
+        }
+      ],
+      "comparisons": [
+        {
+          "reference_id": "B45",
+          "metadata_source": "Crossref",
+          "cited_title": "APOC1⁺IFI30⁺ TAMs orchestrate colorectal cancer liver metastasis by coupling cholesterol biosynthesis with secretion of immunosuppressive factors",
+          "title_matches_after_format_normalization": true,
+          "title_similarity": 1.0,
+          "cited_year": 2026,
+          "year_matches_a_publication_date": true,
+          "cited_first_author": "Zheyou Cai",
+          "cited_first_author_origin": "explicit_field",
+          "first_author_compatible": true,
+          "cited_publication_status": null,
+          "publication_status_matches": null,
+          "publication_status_note": "No explicit publication_status field in biology_references; both official sources independently identify this as a published journal article."
+        },
+        {
+          "reference_id": "B45",
+          "metadata_source": "Europe PMC",
+          "cited_title": "APOC1⁺IFI30⁺ TAMs orchestrate colorectal cancer liver metastasis by coupling cholesterol biosynthesis with secretion of immunosuppressive factors",
+          "title_matches_after_format_normalization": true,
+          "title_similarity": 1.0,
+          "cited_year": 2026,
+          "year_matches_a_publication_date": true,
+          "cited_first_author": "Zheyou Cai",
+          "cited_first_author_origin": "explicit_field",
+          "first_author_compatible": true,
+          "cited_publication_status": null,
+          "publication_status_matches": null,
+          "publication_status_note": "No explicit publication_status field in biology_references; both official sources independently identify this as a published journal article."
+        }
+      ],
+      "review_flags": [],
+      "attempts": [
+        {
+          "source": "crossref",
+          "status": "retrieved",
+          "http_status": 200,
+          "requested_url": "https://api.crossref.org/works/10.1007%2Fs00018-026-06338-3",
+          "cache_file": "bibliography_metadata_cache/crossref/cc91637aa375568ad385.json",
+          "elapsed_seconds": 4.151
+        },
+        {
+          "source": "europepmc",
+          "status": "retrieved",
+          "http_status": 200,
+          "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs00018-026-06338-3%22&format=json&resultType=core&pageSize=10",
+          "cache_file": "bibliography_metadata_cache/europepmc/cc91637aa375568ad385.json",
+          "elapsed_seconds": 9.766,
+          "reported_hit_count": 1,
+          "exact_doi_record_count": 1
+        }
+      ],
+      "automatic_assessment": "matching_metadata",
+      "final_assessment": "metadata_supports_citation"
+    },
+    {
+      "doi": "10.1038/s41467-023-43746-6",
+      "reference_ids": [
+        "B46"
+      ],
+      "scope_group": "later_biology_additions_B44_B46",
+      "expected_citation_source": "biology_references.json",
+      "metadata": [
+        {
+          "source": "Crossref",
+          "doi": "10.1038/s41467-023-43746-6",
+          "title": "Mapping and modeling human colorectal carcinoma interactions with the tumor microenvironment",
+          "subtitle": [],
+          "first_author": {
+            "given": "Ning",
+            "family": "Li",
+            "sequence": "first"
+          },
+          "publication_years": [
+            2023
+          ],
+          "publication_dates": {
+            "published": [
+              [
+                2023,
+                11,
+                30
+              ]
+            ],
+            "published-online": [
+              [
+                2023,
+                11,
+                30
+              ]
+            ],
+            "issued": [
+              [
+                2023,
+                11,
+                30
+              ]
+            ]
+          },
+          "publication_status": "published",
+          "record_type": "journal-article",
+          "container_title": [
+            "Nature Communications"
+          ],
+          "relation": {
+            "has-preprint": [
+              {
+                "id-type": "doi",
+                "id": "10.1101/2022.09.13.506996",
+                "asserted-by": "object"
+              }
+            ]
+          },
+          "created_date": "2023-11-30T13:02:00Z",
+          "url": "https://api.crossref.org/works/10.1038%2Fs41467-023-43746-6",
+          "cache_file": "bibliography_metadata_cache/crossref/5b124e09a3f7f4c419f2.json"
+        },
+        {
+          "source": "Europe PMC",
+          "doi": "10.1038/s41467-023-43746-6",
+          "title": "Mapping and modeling human colorectal carcinoma interactions with the tumor microenvironment.",
+          "first_author": {
+            "given": "Ning",
+            "family": "Li",
+            "name": "Li N"
+          },
+          "publication_years": [
+            2023
+          ],
+          "publication_dates": {
+            "pubYear": "2023",
+            "firstPublicationDate": "2023-11-30",
+            "electronicPublicationDate": "2023-11-30",
+            "printPublicationDate": "2023-11-01"
+          },
+          "publication_status": "published",
+          "record_type": [
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "europepmc_source": "MED",
+          "pmid_or_record_id": "38036590",
+          "pmcid": "PMC10689473",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41467-023-43746-6%22&format=json&resultType=core&pageSize=10",
+          "cache_file": "bibliography_metadata_cache/europepmc/5b124e09a3f7f4c419f2.json"
+        }
+      ],
+      "comparisons": [
+        {
+          "reference_id": "B46",
+          "metadata_source": "Crossref",
+          "cited_title": "Mapping and modeling human colorectal carcinoma interactions with the tumor microenvironment",
+          "title_matches_after_format_normalization": true,
+          "title_similarity": 1.0,
+          "cited_year": 2023,
+          "year_matches_a_publication_date": true,
+          "cited_first_author": "Ning Li",
+          "cited_first_author_origin": "explicit_field",
+          "first_author_compatible": true,
+          "cited_publication_status": null,
+          "publication_status_matches": null,
+          "publication_status_note": "No explicit publication_status field in biology_references; both official sources independently identify this as a published journal article."
+        },
+        {
+          "reference_id": "B46",
+          "metadata_source": "Europe PMC",
+          "cited_title": "Mapping and modeling human colorectal carcinoma interactions with the tumor microenvironment",
+          "title_matches_after_format_normalization": true,
+          "title_similarity": 1.0,
+          "cited_year": 2023,
+          "year_matches_a_publication_date": true,
+          "cited_first_author": "Ning Li",
+          "cited_first_author_origin": "explicit_field",
+          "first_author_compatible": true,
+          "cited_publication_status": null,
+          "publication_status_matches": null,
+          "publication_status_note": "No explicit publication_status field in biology_references; both official sources independently identify this as a published journal article."
+        }
+      ],
+      "review_flags": [],
+      "attempts": [
+        {
+          "source": "crossref",
+          "status": "retrieved",
+          "http_status": 200,
+          "requested_url": "https://api.crossref.org/works/10.1038%2Fs41467-023-43746-6",
+          "cache_file": "bibliography_metadata_cache/crossref/5b124e09a3f7f4c419f2.json",
+          "elapsed_seconds": 3.901
+        },
+        {
+          "source": "europepmc",
+          "status": "retrieved",
+          "http_status": 200,
+          "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41467-023-43746-6%22&format=json&resultType=core&pageSize=10",
+          "cache_file": "bibliography_metadata_cache/europepmc/5b124e09a3f7f4c419f2.json",
+          "elapsed_seconds": 5.209,
+          "reported_hit_count": 1,
+          "exact_doi_record_count": 1
+        }
+      ],
+      "automatic_assessment": "matching_metadata",
+      "final_assessment": "metadata_supports_citation"
+    }
+  ],
+  "source": {
+    "path": "/workspace/scratch/70c7ad287157/research/biology_references.json",
+    "sha256": "c83f643aa6492f0230b5946aef74bb3d6c68df71c9e7b902957d5d4373f318fe",
+    "selected_ids": [
+      "B44",
+      "B45",
+      "B46"
+    ],
+    "new_requests_only_for_these_three_dois": true
+  },
+  "final_scope_breakdown": {
+    "initial_main_distinct_dois": 73,
+    "later_main_additions_distinct_dois": 3,
+    "later_main_addition_ids": [
+      "B44",
+      "B45",
+      "B46"
+    ],
+    "final_main_distinct_dois": 76,
+    "additional_Tabula_Sapiens_D07j_distinct_dois": 1,
+    "total_distinct_dois_audited": 77,
+    "initial_main_reference_entries": 81,
+    "final_main_reference_entries": 84,
+    "scope_equation": "73 initial main + 3 B44/B45/B46 = 76 final main; plus 1 D07j = 77 audited independent DOIs"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE306nnn/GSE306755/suppl/GSE306755_TSP1_30_metadata_min200_2500_decontx_scvi_donorassay_version2d_20241112.csv.gz",
+  "data_version": "GEO GSE306755 version2d 2024-11-12 snapshot, public 2026-08-26",
+  "paper_doi": "10.1016/j.cell.2026.08.010",
+  "full_metadata_cells": 1136218,
+  "full_metadata_donors": 24,
+  "full_metadata_tissues": 28,
+  "n_selected_liver_large_intestine_cells": 52298,
+  "liver_donors": [
+    "TSP14",
+    "TSP17",
+    "TSP19",
+    "TSP6"
+  ],
+  "large_intestine_donors": [
+    "TSP14",
+    "TSP2",
+    "TSP25",
+    "TSP26",
+    "TSP27"
+  ],
+  "paired_donors": [
+    "TSP14"
+  ],
+  "strict_myeloid_definition": [
+    "classical monocyte",
+    "colon macrophage",
+    "intermediate monocyte",
+    "macrophage",
+    "monocyte",
+    "myeloid dendritic cell",
+    "non-classical monocyte",
+    "plasmacytoid dendritic cell"
+  ],
+  "paired_strict_myeloid_at50_per_organ": [],
+  "paired_broader_author_myeloid_at50_per_organ": [
+    "TSP14"
+  ],
+  "TSP14_liver_strict_myeloid": 338,
+  "TSP14_large_intestine_strict_myeloid": 41,
+  "TSP14_large_intestine_broader_author_myeloid": 54,
+  "large_intestine_anatomy_labels": [
+    "AscendingProximal",
+    "ColonAscending",
+    "ColonSigmoid",
+    "Distal",
+    "Proximal",
+    "SigmoidDistal"
+  ],
+  "rectum_label_observed": false,
+  "small_intestine_included": false,
+  "expression_read": false,
+  "execution_scope": "complete original metadata extraction",
+  "interpretation": "No improvement to multiple-donor paired normal liver-colon myeloid inference; original labels only, no reannotation; two methods or colon regions are not independent people"
+}

@@ -1,0 +1,13 @@
+Patient ID,Age (y),Gender,Primary site,Colorectal normal tissue (CN),Colorectal cancer (CC),Liver normal tissue (LN),Liver metastasis (LM),Peripheral blood (PB)
+P0107,75,Male,Left colon,√,√,√,√,√
+P0115,80,Male,Left colon,√,√,√,√,√
+P0813,58,Female,Right colon,√,√,√,√,√
+P0920,64,Male,Left colon,,√,√,√,√
+P1125,41,Female,Left colon,√,√,√,√,
+P1231,58,Male,Left colon,√,√,√,√,
+C1,69,Female,Left colon,,√,,,
+C2,73,Male,Right colon,,√,,,
+C3,62,Female,Right colon,,√,,,
+C4,53,Male,Left colon,,√,,,
+L1,60,Male,——,,,,√,
+L2,69,Male,——,,,,√,

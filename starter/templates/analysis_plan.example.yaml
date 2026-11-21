@@ -1,0 +1,147 @@
+# Design template. This file is NOT automatically executed by the starter CLIs.
+# Every demo object is synthetic. Blank/null fields require a real study decision.
+schema_version: 1
+synthetic_example: true
+plan_id: "CRLM_SYNTHETIC_DESIGN_EXAMPLE"
+plan_version: "draft_v1"
+freeze:
+  status: "DRAFT_NOT_FROZEN"
+  timestamp_utc: null
+  registry_sha256: null
+  approved_analysis_config_sha256: null
+  after_external_results_changed_policy: "new_exploratory_version_and_new_confirmation_needed"
+
+identity_and_roles:
+  manifest: "synthetic_demo/sample_manifest.csv"
+  split_group: "canonical donor_uid, after cross-accession identity/deduplication audit"
+  bag_id: "sample_uid"
+  lesion_id: "lesion_uid"
+  cell_id: "canonical sample_uid + capture_uid + original cell barcode"
+  clinical_episode_rule: "REQUIRED: predefine collection/treatment window; no automatic pooling across episodes"
+  roles:
+    development: ["DEV"]
+    external: ["EXT"]
+    exploratory: ["UNRESOLVED"]
+    excluded: []
+  real_project_role_suggestion:
+    GSE245552: "development; 13 verified PT/LM pairs, additional unpaired donors do not increase paired N"
+    GSE164522: "external replication; processed-only; prior label/pilot access must be disclosed"
+    GSE178318: "second external direction evidence; treatment context recorded"
+    GSE203608: "optional additional secondary direction cohort, chosen before freeze; four PT/LM pairs do not enlarge the primary family or supply robust four-tissue confirmation"
+    GSE225857: "exclude paired conclusions until patient mapping is resolved"
+  no_external_fitting: true
+  external_access_log: "templates/external_access_log.template.csv"
+
+gene_universe:
+  synthetic_universe_file: "templates/frozen_gene_universe.synthetic.tsv"
+  synthetic_universe_has_no_biological_genes: true
+  real_universe_file: null
+  real_universe_sha256: null
+  gene_id_namespace: "REQUIRED: specify Ensembl or approved symbols plus mapping version"
+  duplicate_mapping_rule: "REQUIRED: freeze before scoring, preserve mapping audit"
+  discovery_PT_LM_counts: "fixed jointly provided genes, then declared count-expression filter"
+  four_tissue_and_cross_platform_scores: "fixed measured-gene universe and ranking background; record platform coverage"
+  missing_from_feature_axis: "unmeasured, never convert to biological zero"
+  measured_zero_count: "observed zero within a measured gene, distinct from unmeasured"
+  platform_metadata_can_be_checked_before_effects: true
+  GSE245552_caveat: "PT/LM 29569 genes vs NC/NL 29922; 353 excluded tumor genes include all 13 MT-genes; cannot recompute tumor pct_mt as zero"
+
+candidate_registry:
+  empty_template: "templates/candidate_registry.template.csv"
+  synthetic_example: "templates/candidate_registry.synthetic.csv"
+  candidate_id_rule: "lineage::program; program version is separately frozen"
+  recommended_primary_candidates_to_freeze: "2-3, chosen using development information only"
+  all_gene_sets_and_directions_frozen: true
+  scoring_method_real_data: "REQUIRED: choose UCell or fixed continuous score and lock all parameters"
+  scoring_method_synthetic_demo: "precomputed_synthetic_numbers"
+  normalization_or_rank_background: "REQUIRED: name exact measured gene universe, rank cutoff, handling of ties and unavailable genes"
+
+coverage_and_missingness:
+  rule_id: "COV_EXAMPLE_V1_NOT_VALIDATED"
+  thresholds_below_are_illustrative: true
+  min_cells_per_sample_subtype: 50
+  min_measured_fraction_positive_genes: 0.8
+  min_measured_fraction_negative_genes: 0.8
+  min_measured_positive_genes: 2
+  min_measured_negative_genes: 1
+  no_negative_gene_arm: "not applicable; do not invent negative genes or apply a negative-arm threshold"
+  required_core_genes_must_be_measured: true
+  denominator: "frozen program genes, positive and negative arms assessed separately"
+  tiny_spatial_panel_rule: "a single marker supports that marker only, not the complete transcriptomic program"
+  insufficient_gene_or_cell_coverage: "score is missing; record reason; do not refit a substitute program on external results"
+  missing_tissue: "patient contrast missing; no borrowing another patient's normal sample"
+  absent_subtype: "conditional mean undefined, not zero"
+  unresolved_identity: "ineligible for paired primary conclusions"
+  zero_ties: "observed zero contrasts retained as ties; sign test excludes them and reports n_non_tie"
+
+estimands:
+  sample_aggregation: "technical samples within one lesion equally; lesions within patient/site equally"
+  independent_unit: "patient"
+  primary_DT: "LM - PT on all eligible tumor pairs, separately within each external cohort"
+  Q_definition: "the exact same patients with qualified PT, LM, NC and NL"
+  DT_Q: "LM - PT restricted to Q"
+  DN_Q: "NL - NC restricted to Q"
+  background_I: "DT_Q - DN_Q within each Q patient"
+  compare_background_on_same_subset: true
+  causal_claim: false
+  count_pseudobulk_target: "explicitly choose patient/site pooled counts; this differs from lesion-equal continuous program means"
+  no_sum_log_expression_for_NB: true
+
+inference:
+  primary_test: "two-sided exact sign test of patient contrasts"
+  effect_summaries: ["patient mean", "patient median", "individual paired effects", "direction fraction"]
+  mean_CI: "patient percentile bootstrap; approximate, small-N caveat; no CI for N=1"
+  bootstrap_replicates: 10000
+  bootstrap_seed: 20261121
+  sign_CI: "Clopper-Pearson on non-tied patients"
+  tie_tolerance: 0.0
+  multiplicity:
+    registry_empty_template: "templates/registered_tests.template.csv"
+    registry_real_design_draft: "templates/registered_tests.real_design_draft.csv"
+    registry_synthetic_CLI_example: "synthetic_demo/registered_tests.csv"
+    execution: "adjust_registered_tests.py; requires an explicitly frozen CSV registry"
+    direction_rule: "mean_and_sign_majority; mean and nonzero-patient majority must both match the frozen direction"
+    primary_family: "PRIMARY_DT_EXTERNAL_V1"
+    membership: "synthetic example: fixed candidates x EXT; real project default: fixed 2-3 candidates x GSE164522 only; no family shrinkage after missing results"
+    real_project_primary_cohort: "GSE164522"
+    real_project_secondary_cohort: "GSE178318: prespecified direction/precision replication, not an additional primary Holm family member"
+    real_project_secondary_family: "SECONDARY_DT_178_V1; secondary support, not a new primary passage gate"
+    real_project_optional_secondary_cohort: "GSE203608: decide before freeze; report separately without pooling absolute scores with GSE178318"
+    real_project_optional_secondary_family: "SECONDARY_DT_203608_V1; separate secondary support, statistical significance is not required as a primary passage gate"
+    optional_cohort_registry_rule: "Real draft marks 203608 rows as design_optional_before_freeze=true. Retain all selected candidate rows or remove this optional cohort before freezing; any rows retained in the frozen CSV count fully and cannot be dropped after results. The flag does not alter CLI inclusion."
+    adjustment: "Holm"
+    alpha: 0.05
+    background_family: "BACKGROUND_I_EXTERNAL_V1, defined separately before examination"
+    background_adjustment: "Holm"
+    background_alpha: 0.05
+    scope: "control applies separately to the named families; not a claim of study-wide 0.05 control"
+    missing_planned_test: "raw p remains missing; retain planned family member with adjustment-only p=1, clearly labeled"
+  no_seed_or_cell_count_as_patient_N: true
+  separate_cohort_output: true
+  discovery_plus_external_pooled_significance_is_not_replication: true
+
+frozen_embedding_provenance:
+  prototype_input_example: "synthetic_demo/embedding_provenance.json"
+  lineage: "SyntheticImmune for the numerical demo; use a real frozen lineage mapping in research"
+  real_encoder_id: null
+  encoder_code_commit: null
+  checkpoint_sha256: null
+  vocabulary_sha256: null
+  configuration_sha256: null
+  gene_mapping_sha256: null
+  gene_order_sha256: null
+  input_transform: "REQUIRED: original/normalized/log; do not blindly re-log processed expression"
+  preprocessing_fit_scope: "train_fold_only or independently audited frozen external encoder; all data-adaptive steps must be accounted for"
+  pretraining_overlap_status: "unknown until audited; freezing weights is not proof of independence"
+  scGPT_reference_commit: "cebd6fae655b9c585a4807daa3ac31bb764f06b4"
+  scGPT_max_length_example: 1200
+  scGPT_n_bins_example: 51
+  global_seed: 20261121
+  per_cell_seed_material: ["global_seed", "canonical sample_uid", "capture_uid", "original cell barcode", "tokenizer_version"]
+  per_cell_seed_algorithm: "SHA256 of canonical UTF-8 JSON; derive separate NumPy and torch seeds with documented bit widths"
+  never_use_python_builtin_hash_for_reproducible_seed: true
+  token_cache_identity: ["cell_uid", "source_matrix_sha256", "gene_universe_sha256", "gene_order_sha256", "gene_mapping_sha256", "vocabulary_sha256", "tokenizer_code_sha256", "input_transform", "max_length", "n_bins", "per_cell_seed"]
+  embedding_cache_identity: ["token_cache_sha256", "encoder_checkpoint_sha256", "encoder_configuration_sha256", "encoder_code_commit", "precision", "eval_mode"]
+  cache_policy: "immutable after freeze; a changed identity creates a new cache version"
+  encoder_independence_check: "same cell/sample encoded in different batch compositions/order/worker settings; distinguish numerical tolerance from stochastic token changes"
+  MIL_independence_check: "already supplied by mil_selfcheck; does not validate upstream scGPT encoding"

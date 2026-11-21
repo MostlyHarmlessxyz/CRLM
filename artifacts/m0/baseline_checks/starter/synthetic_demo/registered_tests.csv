@@ -1,0 +1,10 @@
+test_id,family,cohort,role,lineage,program,contrast,expected_direction,direction_rule,alpha,test_method,adjustment,analysis_tier,freeze_status,freeze_timestamp_utc,freeze_version,synthetic_example
+PRIMARY_DT_164_V1_C1,PRIMARY_DT_164_V1,SYN_GSE164522,external,Myeloid,fixed_demo,D_T,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,primary,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True
+PRIMARY_DT_164_V1_C2,PRIMARY_DT_164_V1,SYN_GSE164522,external,T_NK,toy_T_program,D_T,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,primary,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True
+PRIMARY_DT_164_V1_C3,PRIMARY_DT_164_V1,SYN_GSE164522,external,B_Plasma,toy_B_program,D_T,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,primary,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True
+BACKGROUND_I_164_V1_C1,BACKGROUND_I_164_V1,SYN_GSE164522,external,Myeloid,fixed_demo,I,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,background,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True
+BACKGROUND_I_164_V1_C2,BACKGROUND_I_164_V1,SYN_GSE164522,external,T_NK,toy_T_program,I,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,background,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True
+BACKGROUND_I_164_V1_C3,BACKGROUND_I_164_V1,SYN_GSE164522,external,B_Plasma,toy_B_program,I,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,background,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True
+SECONDARY_DT_178_V1_C1,SECONDARY_DT_178_V1,SYN_GSE178318,external,Myeloid,fixed_demo,D_T,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,secondary,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True
+SECONDARY_DT_178_V1_C2,SECONDARY_DT_178_V1,SYN_GSE178318,external,T_NK,toy_T_program,D_T,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,secondary,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True
+SECONDARY_DT_178_V1_C3,SECONDARY_DT_178_V1,SYN_GSE178318,external,B_Plasma,toy_B_program,D_T,positive,mean_and_sign_majority,0.05,exact_sign_two_sided,Holm,secondary,frozen,2026-11-21T00:00:00Z,SYNTHETIC_TOY_V1,True

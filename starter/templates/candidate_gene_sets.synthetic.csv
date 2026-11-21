@@ -1,0 +1,4 @@
+candidate_id,program_version,gene,direction,synthetic_only
+Myeloid::fixed_demo,toy_v1,TOY_A,positive,true
+Myeloid::fixed_demo,toy_v1,TOY_B,positive,true
+Myeloid::fixed_demo,toy_v1,TOY_C,negative,true

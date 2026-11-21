@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "n_documented_commands": 17,
+  "checks": [
+    {
+      "command": "python -m pip install -r requirements.txt",
+      "status": "standard_pip_install_syntax_not_executed"
+    },
+    {
+      "command": "python selfcheck.py",
+      "status": "selfcheck_executed_and_passed",
+      "n_checks": 33,
+      "script_sha256": "fd1d75357183a4870e9f423de8f2482f001c29a3cc3714b2f20c9cf58c5b3dd1"
+    },
+    {
+      "command": "python mil_selfcheck.py",
+      "status": "selfcheck_executed_and_passed",
+      "n_checks": 41,
+      "script_sha256": "752adc645caea60001b989e72565d2f3e6375c5eda7b2d102c9397e45eabb528"
+    },
+    {
+      "command": "python registered_tests_selfcheck.py",
+      "status": "selfcheck_executed_and_passed",
+      "n_checks": 32,
+      "script_sha256": "b446c4aecd8b1cf0ebdaeee4767029eba7725440c37c3f60d89391bf625100f7"
+    },
+    {
+      "command": "python validate_manifest.py --manifest synthetic_demo/sample_manifest.csv --outdir demo_output/manifest",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "75b964a488af4640bd91e5bbad5243b499ff348399a9cf2452d0da1cd5e93bd7"
+    },
+    {
+      "command": "python make_splits.py --donor-manifest demo_output/manifest/donor_manifest_validated.csv --n-folds 2 --output demo_output/folds.json",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "f946ab2a071f13aeea8e0f84bef212f1e89b9050838e95f112dba81a7c9cc23f"
+    },
+    {
+      "command": "python paired_effects.py --manifest demo_output/manifest/sample_manifest_validated.csv --scores synthetic_demo/program_scores.csv --outdir demo_output/effects",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "7df2012f585aacfa3f0cc270aa9763f14ba365c8fde9fd96b9d2903fadc24e0a"
+    },
+    {
+      "command": "python composition_decomposition.py --input synthetic_demo/composition.csv --output demo_output/composition.json",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "21fec94d7fef8aecb186281b5b7a14e41309b5c42ac950619cb4978da522bd2e"
+    },
+    {
+      "command": "python loss_counterexample.py --output demo_output/loss_counterexample.json",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "de830985a8cbf269ee5a85f7142483df4ba1a3465032f03a994114f19949bed5"
+    },
+    {
+      "command": "python adjust_registered_tests.py --plan synthetic_demo/registered_tests.csv --summaries synthetic_demo/registered_effects_summary.csv --outdir demo_output/registered_tests",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "dae4eb9a8d68d23554b247130dc52099dce78c99e55f839650edc43c925e7b24"
+    },
+    {
+      "command": "python make_synthetic_embeddings.py",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "9160763b7da20599140c182bffd353a1bbf3369bb2b575164d93041f64235124"
+    },
+    {
+      "command": "python linear_attention_mil.py train --manifest synthetic_demo/sample_manifest.csv --embeddings synthetic_demo/cell_embeddings.npz --provenance synthetic_demo/embedding_provenance.json --lineage SyntheticImmune --pooling mean --standardize --output demo_output/mil_mean.npz",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "0de621aa82b29b641366fdac5d32cc0eea0906add00ab77dc75c9de0448f768c"
+    },
+    {
+      "command": "python linear_attention_mil.py train --manifest synthetic_demo/sample_manifest.csv --embeddings synthetic_demo/cell_embeddings.npz --provenance synthetic_demo/embedding_provenance.json --lineage SyntheticImmune --pooling attention --standardize --output demo_output/mil_attention.npz",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "0de621aa82b29b641366fdac5d32cc0eea0906add00ab77dc75c9de0448f768c"
+    },
+    {
+      "command": "python linear_attention_mil.py predict --model demo_output/mil_attention.npz --embeddings synthetic_demo/cell_embeddings.npz --sample E1_PT --output demo_output/mil_one_external.csv",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "0de621aa82b29b641366fdac5d32cc0eea0906add00ab77dc75c9de0448f768c"
+    },
+    {
+      "command": "python linear_attention_mil.py predict --model demo_output/mil_attention.npz --embeddings synthetic_demo/cell_embeddings.npz --output demo_output/mil_all_predictions.csv --attention-output demo_output/mil_attention_weights.npz",
+      "status": "all_options_match_current_argparse_help",
+      "script_sha256": "0de621aa82b29b641366fdac5d32cc0eea0906add00ab77dc75c9de0448f768c"
+    },
+    {
+      "command": "python literature_seeds/audit_seed_coverage.py",
+      "status": "executed_and_passed; data/source audit only, not counted as numerical selfchecks",
+      "script_sha256": "52e3272419a6526dac96127f2870267e7ab7e896705276673f19e851ede6e764"
+    },
+    {
+      "command": "python literature_seeds/literature_program_sources/extract_seeds.py",
+      "status": "executed_and_passed; data/source audit only, not counted as numerical selfchecks",
+      "script_sha256": "76293fdeed60f2948d08f6afeed8c187b2b07f5eaa2f05f83ed4b78a07fce19b"
+    }
+  ],
+  "scope": "Current README command/entrypoint compatibility audit. Original statistical and MIL selfchecks were not modified. New registry selfcheck and successful registry CLI were executed; no dependency installation. Original-table extraction and feature-axis coverage entrypoints also executed, default offline; extraction additionally uses openpyxl 3.1.5.",
+  "latest_targeted_fix": "Complete all-unmeasurable paired-effect schema; statistical and registry suites rerun. MIL unchanged and retains prior verified result.",
+  "current_selfcheck_counts": {
+    "statistics": 33,
+    "MIL": 41,
+    "registry": 32,
+    "total": 106
+  },
+  "readme_sha256": "4a40a2dc5d91aeba72afaff9ec93ddb9452c40320de866ad0d2831f6f58f7740"
+}

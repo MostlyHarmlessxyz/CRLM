@@ -1,0 +1,38 @@
+{
+  "GSE164522_metadata_identity_columns.csv.gz": {
+    "original_file": "GSE164522_CRLM_metadata.csv.gz",
+    "original_file_sha256": "3c01aacf5a82c1a479371e90161bf28709156e07fbaebac5413890be3da13f95",
+    "columns_retained": [
+      "barcode",
+      "patient_code",
+      "tissue"
+    ],
+    "n_rows": 257843,
+    "derived_uncompressed_sha256": "21753bed9ec846d4fc5b4bf7a019fc9a237f4f9168a778479a4b22fd741550b6",
+    "scope": "exact column subset from complete original author metadata; no filtering, identity relabeling or biological analysis"
+  },
+  "GSE225857_immune_identity_columns.csv.gz": {
+    "original_file": "GSM7058754_immune_meta.txt.gz",
+    "original_file_sha256": "836747bdf8fa3872b77a9ea56b9416fcf398473dc640c79ec2e84dcaa5489374",
+    "columns_retained": [
+      "barcode",
+      "patient_code",
+      "tissue"
+    ],
+    "n_rows": 196473,
+    "derived_uncompressed_sha256": "2a7e1228326e9c1c5e130854451fd1f96d5b445e377073a0f2a233ab4621f80d",
+    "scope": "exact column subset from complete original author metadata; no filtering, identity relabeling or biological analysis"
+  },
+  "GSE225857_nonimmune_identity_columns.csv.gz": {
+    "original_file": "GSM7058755_non_immune_meta.txt.gz",
+    "original_file_sha256": "6dcce14bd40be3068019933539d04b362cec8d2dcabf8bdf14b62f485e2b6c98",
+    "columns_retained": [
+      "barcode",
+      "patient_code",
+      "tissue"
+    ],
+    "n_rows": 41892,
+    "derived_uncompressed_sha256": "25563c0c45061f90f17bf45adb402c50358118bbe022891126413781672abab5",
+    "scope": "exact column subset from complete original author metadata; no filtering, identity relabeling or biological analysis"
+  }
+}

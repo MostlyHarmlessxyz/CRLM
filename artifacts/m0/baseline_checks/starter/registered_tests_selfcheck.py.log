@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "n_checks": 32,
+  "checks": [
+    {
+      "name": "hand_computed_Holm_with_missing_p_one",
+      "passed": true
+    },
+    {
+      "name": "nine_planned_tests_three_families",
+      "passed": true
+    },
+    {
+      "name": "missing_planned_test_retains_NA_raw_p_and_adjustment_one",
+      "passed": true
+    },
+    {
+      "name": "missing_planned_test_keeps_Holm_family_size",
+      "passed": true
+    },
+    {
+      "name": "different_families_are_not_accidentally_pooled",
+      "passed": true
+    },
+    {
+      "name": "significant_opposite_direction_fails_direction_criterion",
+      "passed": true
+    },
+    {
+      "name": "matching_direction_and_Holm_rejection_are_recorded",
+      "passed": true
+    },
+    {
+      "name": "all_ties_have_p_one_and_no_evaluable_direction",
+      "passed": true
+    },
+    {
+      "name": "N_zero_is_distinct_from_missing_summary_row",
+      "passed": true
+    },
+    {
+      "name": "unplanned_results_are_exported_only_to_exploratory",
+      "passed": true
+    },
+    {
+      "name": "extreme_unplanned_p_cannot_change_planned_adjustment",
+      "passed": true
+    },
+    {
+      "name": "input_row_order_does_not_change_adjustment",
+      "passed": true
+    },
+    {
+      "name": "statistical_passage_never_declares_complete_biological_replication",
+      "passed": true
+    },
+    {
+      "name": "all_planned_tests_missing_keep_each_family_and_p_one",
+      "passed": true
+    },
+    {
+      "name": "duplicate_test_id_rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate_hypothesis_across_families_rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate_summary_key_rejected",
+      "passed": true
+    },
+    {
+      "name": "unplanned_result_strict_policy_rejected",
+      "passed": true
+    },
+    {
+      "name": "inconsistent_family_alpha_rejected",
+      "passed": true
+    },
+    {
+      "name": "unfrozen_plan_rejected",
+      "passed": true
+    },
+    {
+      "name": "ambiguous_timestamp_without_timezone_rejected",
+      "passed": true
+    },
+    {
+      "name": "one_sided_p_masquerading_as_two_sided_rejected",
+      "passed": true
+    },
+    {
+      "name": "inconsistent_patient_sign_counts_rejected",
+      "passed": true
+    },
+    {
+      "name": "development_result_cannot_be_primary_external_evidence",
+      "passed": true
+    },
+    {
+      "name": "synthetic_and_real_registry_mixture_rejected",
+      "passed": true
+    },
+    {
+      "name": "mean_and_sign_majority_disagreement_is_explicit",
+      "passed": true
+    },
+    {
+      "name": "prespecified_negative_direction_is_supported",
+      "passed": true
+    },
+    {
+      "name": "CLI_writes_all_four_auditable_outputs",
+      "passed": true
+    },
+    {
+      "name": "CLI_csv_preserves_missing_raw_p_as_blank",
+      "passed": true
+    },
+    {
+      "name": "CLI_records_input_hashes_and_synthetic_status",
+      "passed": true
+    },
+    {
+      "name": "CLI_strict_unplanned_policy_exits_two",
+      "passed": true
+    },
+    {
+      "name": "entirely_unmeasurable_existing_program_survives_paired_to_registry_CLIs",
+      "passed": true
+    }
+  ],
+  "scope": "Synthetic registry, Holm, direction and CLI checks only; no biological data accessed.",
+  "demo_expected_values": {
+    "primary_C1_raw_p": 0.001953125,
+    "primary_C1_holm_p": 0.005859375,
+    "background_C1_holm_p": 0.09375,
+    "n_missing_planned_tests": 2
+  }
+}

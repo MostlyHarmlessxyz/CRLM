@@ -1,0 +1,54 @@
+[
+  {
+    "id": "S01",
+    "first_author": "Daniel Dimitrov",
+    "year": 2022,
+    "journal": "Nature Communications",
+    "title": "Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data",
+    "doi": "10.1038/s41467-022-30755-0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9184522/",
+    "read_depth": "A：原始正文的资源比较、结果与评估边界；未逐字阅读所有补充材料",
+    "project_use": "通讯资源及算法选择显著影响排序；边数不能直接当通讯强度",
+    "major_limitation": "空间和蛋白一致性属于间接验证，不等于单条边功能已证实",
+    "publication_status": "published"
+  },
+  {
+    "id": "S02",
+    "first_author": "Daniel Dimitrov",
+    "year": 2024,
+    "journal": "Nature Cell Biology",
+    "title": "LIANA+ provides an all-in-one framework for cell–cell communication inference",
+    "doi": "10.1038/s41556-024-01469-w",
+    "url": "https://www.nature.com/articles/s41556-024-01469-w",
+    "read_depth": "B：原始摘要、官方正文可检索段及官方软件说明",
+    "project_use": "多条件与空间通讯候选排序",
+    "major_limitation": "共定位不是直接通讯真值；不替代患者设计",
+    "publication_status": "published"
+  },
+  {
+    "id": "S03",
+    "first_author": "Robin Browaeys",
+    "year": 2020,
+    "journal": "Nature Methods",
+    "title": "NicheNet: modeling intercellular communication by linking ligands to target genes",
+    "doi": "10.1038/s41592-019-0667-5",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31819264/",
+    "read_depth": "B：原始摘要及作者官方方法/代码入口",
+    "project_use": "结合配体、受体和接收细胞靶基因响应进行排序",
+    "major_limitation": "先验网络和观测表达支持假设，不等于干预或物理接触证据",
+    "publication_status": "published"
+  },
+  {
+    "id": "S04",
+    "first_author": "Yunshun Chen",
+    "year": 2025,
+    "journal": "Nucleic Acids Research",
+    "title": "edgeR v4: powerful differential analysis of sequencing data with expanded functionality and improved support for small counts and larger datasets",
+    "doi": "10.1093/nar/gkaf018",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11754124/",
+    "read_depth": "B：原始摘要与官方方法说明；正式实现需锁定包版本",
+    "project_use": "计数分支负二项/准似然设计及小计数改进",
+    "major_limitation": "软件改进不把处理后log表达变成原始counts，也不增加独立患者数",
+    "publication_status": "published"
+  }
+]

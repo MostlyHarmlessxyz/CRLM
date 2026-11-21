@@ -1,0 +1,52 @@
+1. 研究主线
+开发一个利用患者配对关系和正常组织背景的模型，预测CRLM相关免疫状态，并找出支撑这种状态的细胞与分子程序。
+
+流程是：
+
+数据整理 → 模型开发 → 新患者样本状态预测 → 算法比较与消融 → 关键细胞和程序分析 → 通讯及空间验证。
+
+预测的是“当前样本呈现什么免疫状态”，不是“患者将来会不会肝转移”。
+
+
+
+
+
+
+数据集  以下是我们后期可能需要用到的数据集  可以先把前两个下载下来 剩下来的需要的时候再下载
+下载地址：https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+
+1. GSE164522：核心开发数据，同时提供组织背景参照。
+
+2. GSE245552：核心开发数据，增加患者差异和病灶异质性。
+
+3. GSE225857：第三开发队列，同时提供另一套背景参照。
+
+4. GSE178318：独立外部测试队列。
+
+5. GSE298084：第二个独立外部测试与亚群复现队列。
+
+6. GSE335552：独立空间支持数据。
+
+
+
+
+
+学习scGPT  后期我们会使用这个大模型提取细胞表征
+
+
+
+对比方法（不用详细阅读  我们会使用其中一些方法作为对比方法 我们主要了解他们的输入输出 跑对比实验的时候好上手）：
+传统强基线： Elastic Net、线性SVM、Random Forest、XGBoost
+相关先进方法：MixMIL、Hierarchical MIL、scMILD、scPanel
+
+MixMIL
+论文：Mixed Models with Multiple Instance Learning
+
+Hierarchical MIL
+论文：Incorporating hierarchical information into multiple instance learning for patient phenotype prediction with single-cell RNA-sequencing data
+
+scMILD
+论文：scMILD: Single-cell multiple instance learning for sample classification and associated subpopulation discovery
+
+scPanel
+论文：scPanel: a tool for automatic identification of sparse gene panels for generalizable patient classification using scRNA-seq datasets

@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-11-21",
+  "main_rows": 310,
+  "main_unique_genes": 293,
+  "sets": {
+    "B19_S4_Mac_SPP1": 164,
+    "B19_S4_Mac_CXCL10": 94,
+    "B06_S5_A_MHCII_overlap": 9,
+    "B06_S5_R_matrix_overlap": 15,
+    "B06_S5_R_lipid_overlap": 4,
+    "B06_S5_A_crosspresentation_overlap": 7,
+    "B06_text_EcoTyper_examples": 8,
+    "B20_text_CXCL9_TAM": 2,
+    "B20_text_ISG15_TAM": 3,
+    "B36_THP1_mechanistic_endpoints": 4
+  },
+  "background_rows": 771,
+  "B19_macrophage_correlation_rows": 561,
+  "status": "literature_seeds_NOT_project_frozen_signatures",
+  "file_integrity": [
+    {
+      "path": "literature_program_sources/B06_supplement/ccr-22-2041_supplemental_tables_1-8_suppts1-8.xlsx",
+      "bytes": 171502,
+      "sha256": "cb95b0f5a1d627f2493a281688e86957f79083337b9f39144f03f55dcaacc2d0"
+    },
+    {
+      "path": "literature_program_sources/NIHMS1944744-supplement-TABLE_S4.pdf.txt",
+      "bytes": 19968,
+      "sha256": "323a9c2577934997b9a6b87cac1ef871ed7b991516a9a8711fb2defe3dfb3d57"
+    },
+    {
+      "path": "literature_program_sources/NIHMS1944744-supplement-TABLE_S5.pdf.txt",
+      "bytes": 192284,
+      "sha256": "ce9e1aa2525046fe3b2515a047059b1d6bdac7a95c5000b628a9ba02d2a1fd2b"
+    },
+    {
+      "path": "literature_program_sources/NIHMS1944744-supplement-TABLE_S4.pdf",
+      "bytes": 112839,
+      "sha256": "6960edeefd900945c9c4495b20349b273a4e3425885eb1d05632f33eae908957"
+    },
+    {
+      "path": "literature_program_sources/NIHMS1944744-supplement-TABLE_S5.pdf",
+      "bytes": 451277,
+      "sha256": "25539e4bef7f868d763c920afad72d1298b0594fb5bf431c6cccfbad5786a3b7"
+    },
+    {
+      "path": "literature_program_seeds.csv",
+      "bytes": 241609,
+      "sha256": "1990424328061838f04c36161f3c93b59de61ebc6c1106a0f114b8bcdd068a13"
+    },
+    {
+      "path": "literature_program_sources/B06_S6_background_sets.csv",
+      "bytes": 323981,
+      "sha256": "df905922b240acdc304839875be764f145093c8edc2bc5d26d8ce17791b60987"
+    },
+    {
+      "path": "literature_program_sources/B19_S5_macrophage_correlations.csv",
+      "bytes": 87860,
+      "sha256": "d6e48c3753a5c2c894688cd275740319e52e8395e9c4e98d9cea8f7fedf736d0"
+    }
+  ]
+}

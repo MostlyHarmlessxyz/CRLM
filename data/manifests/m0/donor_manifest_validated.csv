@@ -1,0 +1,17 @@
+donor_uid,datasets,role,patient_mapping_verified,sample_uids,tissues,n_samples
+GSE245552:Pt01,"[""GSE245552""]",development,True,"[""GSM7844812"", ""GSM7844813""]","[""LM"", ""PT""]",2
+GSE245552:Pt02,"[""GSE245552""]",development,True,"[""GSM7844814"", ""GSM7844815""]","[""LM"", ""PT""]",2
+GSE245552:Pt03,"[""GSE245552""]",development,True,"[""GSM7844816"", ""GSM7844817""]","[""LM"", ""PT""]",2
+GSE245552:Pt04,"[""GSE245552""]",development,True,"[""GSM7844818"", ""GSM7844819""]","[""LM"", ""PT""]",2
+GSE245552:Pt05,"[""GSE245552""]",development,True,"[""GSM7844820"", ""GSM7844821"", ""GSM7844822""]","[""LM"", ""PT""]",3
+GSE245552:Pt06,"[""GSE245552""]",development,True,"[""GSM7844823"", ""GSM7844824"", ""GSM7844825""]","[""LM"", ""PT""]",3
+GSE245552:Pt07,"[""GSE245552""]",development,True,"[""GSM7844826"", ""GSM7844827""]","[""LM"", ""PT""]",2
+GSE245552:Pt08,"[""GSE245552""]",development,True,"[""GSM7844828"", ""GSM7844829"", ""GSM7844830"", ""GSM7844831""]","[""LM"", ""PT""]",4
+GSE245552:Pt09,"[""GSE245552""]",development,True,"[""GSM7844832""]","[""PT""]",1
+GSE245552:Pt10,"[""GSE245552""]",development,True,"[""GSM7844833"", ""GSM7844834""]","[""LM"", ""PT""]",2
+GSE245552:Pt11,"[""GSE245552""]",development,True,"[""GSM7844835"", ""GSM7844836""]","[""LM"", ""PT""]",2
+GSE245552:Pt13,"[""GSE245552""]",development,True,"[""GSM7844837"", ""GSM7844838""]","[""NC"", ""PT""]",2
+GSE245552:Pt15,"[""GSE245552""]",development,True,"[""GSM7844839"", ""GSM7844840"", ""GSM7844841""]","[""LM"", ""NC"", ""PT""]",3
+GSE245552:Pt16,"[""GSE245552""]",development,True,"[""GSM7844842"", ""GSM7844843""]","[""LM"", ""NL""]",2
+GSE245552:Pt17,"[""GSE245552""]",development,True,"[""GSM7844844"", ""GSM7844845"", ""GSM7844846""]","[""LM"", ""NC"", ""PT""]",3
+GSE245552:Pt18,"[""GSE245552""]",development,True,"[""GSM7844847"", ""GSM7844848"", ""GSM7844849"", ""GSM7844850""]","[""LM"", ""NC"", ""NL"", ""PT""]",4

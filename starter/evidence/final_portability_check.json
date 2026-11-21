@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "scope": "New registry/paired interface and recent offline audit/seed additions executed from an unrelated cwd after package relocation. Existing 33 statistics and 41 MIL checks were verified earlier; not redundantly rerun here.",
+  "commands": [
+    {
+      "script": "registered_tests_selfcheck.py",
+      "exit_code": 0,
+      "script_sha256": "b446c4aecd8b1cf0ebdaeee4767029eba7725440c37c3f60d89391bf625100f7",
+      "stdout": "one\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"duplicate_test_id_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"duplicate_hypothesis_across_families_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"duplicate_summary_key_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"unplanned_result_strict_policy_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"inconsistent_family_alpha_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"unfrozen_plan_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"ambiguous_timestamp_without_timezone_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"one_sided_p_masquerading_as_two_sided_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"inconsistent_patient_sign_counts_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"development_result_cannot_be_primary_external_evidence\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"synthetic_and_real_registry_mixture_rejected\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"mean_and_sign_majority_disagreement_is_explicit\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"prespecified_negative_direction_is_supported\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"CLI_writes_all_four_auditable_outputs\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"CLI_csv_preserves_missing_raw_p_as_blank\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"CLI_records_input_hashes_and_synthetic_status\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"CLI_strict_unplanned_policy_exits_two\",\n      \"passed\": true\n    },\n    {\n      \"name\": \"entirely_unmeasurable_existing_program_survives_paired_to_registry_CLIs\",\n      \"passed\": true\n    }\n  ],\n  \"scope\": \"Synthetic registry, Holm, direction and CLI checks only; no biological data accessed.\",\n  \"demo_expected_values\": {\n    \"primary_C1_raw_p\": 0.001953125,\n    \"primary_C1_holm_p\": 0.005859375,\n    \"background_C1_holm_p\": 0.09375,\n    \"n_missing_planned_tests\": 2\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "audit_data/audit_GSE203608_metadata.py",
+      "exit_code": 0,
+      "script_sha256": "b9a86b004c663ce03abe1ff3a220db18df8096cbf8a8573c042257c6043145f1",
+      "stdout": "fline; no expression rows read, no reannotation, no biological effects or state-fraction comparisons.\",\n  \"original_metadata_rows\": 126014,\n  \"expanded_metadata_rows\": 146988,\n  \"shared_barcodes\": 126014,\n  \"original_is_subset_of_expanded\": true,\n  \"shared_identity_annotation_fields_identical\": true,\n  \"new_expanded_rows\": 20974,\n  \"new_expanded_SampleType_counts\": {\n    \"NA\": 4352,\n    \"T\": 1789,\n    \"M+CMT\": 493,\n    \"M+T\": 3031,\n    \"F+M+T\": 2545,\n    \"M+F\": 224,\n    \"M\": 156,\n    \"M+O\": 2717,\n    \"F+M+O\": 3371,\n    \"M+CMO\": 1010,\n    \"F\": 78,\n    \"O\": 1208\n  },\n  \"in_vivo_cells\": 59661,\n  \"in_vivo_patients\": 15,\n  \"in_vivo_specimens\": 24,\n  \"in_vivo_cells_by_tissue\": {\n    \"NC\": 11221,\n    \"PT\": 38063,\n    \"NL\": 4471,\n    \"LM\": 5906\n  },\n  \"in_vivo_specimens_by_tissue\": {\n    \"NC\": 3,\n    \"PT\": 15,\n    \"LM\": 4,\n    \"NL\": 2\n  },\n  \"PT_LM_paired_patient_codes\": [\n    \"09\",\n    \"27\",\n    \"44\",\n    \"49\"\n  ],\n  \"four_tissue_patient_codes\": [\n    \"09\"\n  ],\n  \"myeloid_definition\": [\n    \"LAMP3+ DC (LAMP3+)\",\n    \"Macrophage\",\n    \"cDC1 (BATF3+)\",\n    \"cDC2 (CD1C+)\",\n    \"pDC (LILRA4+)\"\n  ],\n  \"myeloid_excluded_labels\": [\n    \"Unannotated\",\n    \"Macrophage-T cell doublet\",\n    \"Mast cell\"\n  ],\n  \"myeloid_cells_in_clinical_tissue\": 9246,\n  \"paired_myeloid_support\": {\n    \"09\": {\n      \"PT\": 412,\n      \"LM\": 471\n    },\n    \"27\": {\n      \"PT\": 528,\n      \"LM\": 214\n    },\n    \"44\": {\n      \"PT\": 1114,\n      \"LM\": 1024\n    },\n    \"49\": {\n      \"PT\": 361,\n      \"LM\": 334\n    }\n  },\n  \"myeloid_pairs_at50_per_tissue\": [\n    \"09\",\n    \"27\",\n    \"44\",\n    \"49\"\n  ],\n  \"myeloid_pairs_at100_per_tissue\": [\n    \"09\",\n    \"27\",\n    \"44\",\n    \"49\"\n  ],\n  \"myeloid_quads_at50_per_tissue\": [],\n  \"full_expression_content_verified\": false,\n  \"clinical_note\": \"Paper reports16patients,14MSS2MSI overall; metadata clinical-tissue subset has15. Do not replace actual subset denominator by paper total. Cultures/co-cultures and HTO libraries are not extra clinical subjects.\",\n  \"status\": \"passed\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "literature_seeds/literature_program_sources/extract_seeds.py",
+      "exit_code": 0,
+      "script_sha256": "76293fdeed60f2948d08f6afeed8c187b2b07f5eaa2f05f83ed4b78a07fce19b",
+      "stdout": "{\n  \"created_utc\": \"2026-11-21\",\n  \"main_rows\": 310,\n  \"main_unique_genes\": 293,\n  \"sets\": {\n    \"B19_S4_Mac_SPP1\": 164,\n    \"B19_S4_Mac_CXCL10\": 94,\n    \"B06_S5_A_MHCII_overlap\": 9,\n    \"B06_S5_R_matrix_overlap\": 15,\n    \"B06_S5_R_lipid_overlap\": 4,\n    \"B06_S5_A_crosspresentation_overlap\": 7,\n    \"B06_text_EcoTyper_examples\": 8,\n    \"B20_text_CXCL9_TAM\": 2,\n    \"B20_text_ISG15_TAM\": 3,\n    \"B36_THP1_mechanistic_endpoints\": 4\n  },\n  \"background_rows\": 771,\n  \"B19_macrophage_correlation_rows\": 561,\n  \"status\": \"literature_seeds_NOT_project_frozen_signatures\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "literature_seeds/audit_seed_coverage.py",
+      "exit_code": 0,
+      "script_sha256": "52e3272419a6526dac96127f2870267e7ab7e896705276673f19e851ede6e764",
+      "stdout": "{\"sets\": 10, \"feature_axes\": 6, \"summary_rows\": 60, \"gene_presence_rows\": 1860, \"expression_or_effects_read\": false}\n",
+      "stderr": ""
+    }
+  ]
+}

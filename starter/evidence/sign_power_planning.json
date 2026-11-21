@@ -1,0 +1,98 @@
+{
+  "purpose": "Illustrative exact sign-test planning, not a guarantee or effect-size-based clinical calculation",
+  "assumptions": "Independent non-tied patients, prespecified fixed program/direction, every enrolled patient contributes an evaluable paired contrast. True direction probability is an assumed scenario, not estimated from these data.",
+  "multiple_testing": "alpha=.01 is a conservative single-test Bonferroni value for five tests controlling FWER; it is NOT a calculated BH-FDR threshold.",
+  "discreteness": "Power can decline at adjacent n when the rejection threshold jumps; first n attaining .8 is not a monotone threshold.",
+  "rows": [
+    {
+      "alpha_two_sided": 0.05,
+      "true_probability_positive_non_tie": 0.7,
+      "power_at_n": {
+        "5": 0.0,
+        "6": 0.11837799999999996,
+        "10": 0.1494520317999999,
+        "13": 0.20255095961199998,
+        "20": 0.41641376946943437,
+        "30": 0.5888159630760971,
+        "40": 0.703250169634514,
+        "50": 0.7821932227280474
+      },
+      "first_n_with_power_at_least_0_8": 49
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "true_probability_positive_non_tie": 0.8,
+      "power_at_n": {
+        "5": 0.0,
+        "6": 0.2622080000000001,
+        "10": 0.3758138368,
+        "13": 0.5016532459520001,
+        "20": 0.8042079657359468,
+        "30": 0.9389128561889026,
+        "40": 0.9805926311716192,
+        "50": 0.9937392254173109
+      },
+      "first_n_with_power_at_least_0_8": 20
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "true_probability_positive_non_tie": 0.9,
+      "power_at_n": {
+        "5": 0.0,
+        "6": 0.5314420000000001,
+        "10": 0.7360989381999998,
+        "13": 0.8661172458520002,
+        "20": 0.988746865844972,
+        "30": 0.9995456448851004,
+        "40": 0.9999815252623238,
+        "50": 0.999999240408022
+      },
+      "first_n_with_power_at_least_0_8": 12
+    },
+    {
+      "alpha_two_sided": 0.01,
+      "true_probability_positive_non_tie": 0.7,
+      "power_at_n": {
+        "5": 0.0,
+        "6": 0.0,
+        "10": 0.028253429799999983,
+        "13": 0.06367491667000001,
+        "20": 0.10708734719847751,
+        "30": 0.2813768879618053,
+        "40": 0.4406071409780801,
+        "50": 0.5691784425753974
+      },
+      "first_n_with_power_at_least_0_8": 73
+    },
+    {
+      "alpha_two_sided": 0.01,
+      "true_probability_positive_non_tie": 0.8,
+      "power_at_n": {
+        "5": 0.0,
+        "6": 0.0,
+        "10": 0.10737428480000005,
+        "13": 0.23364626432000002,
+        "20": 0.41144886275433573,
+        "30": 0.7607906187375472,
+        "40": 0.9124947640791664,
+        "50": 0.969196577217983
+      },
+      "first_n_with_power_at_least_0_8": 32
+    },
+    {
+      "alpha_two_sided": 0.01,
+      "true_probability_positive_non_tie": 0.9,
+      "power_at_n": {
+        "5": 0.0,
+        "6": 0.0,
+        "10": 0.3486784402000001,
+        "13": 0.6213449802700003,
+        "20": 0.8670466765656732,
+        "30": 0.9922163807620787,
+        "40": 0.9996191657332637,
+        "50": 0.9999825030783146
+      },
+      "first_n_with_power_at_least_0_8": 15
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://cellgeni.cog.sanger.ac.uk/pan-immune/global.h5ad",
+  "object_bytes": 5131003648,
+  "head_status": 200,
+  "range_status": 206,
+  "range_cache_bytes": 6291456,
+  "expression_X_read": false,
+  "obs_rows": 329762,
+  "obs_json_sha256": "d70f33cee9b278defc6264d229becf30220d4b92d9ec53f717b81006086931e6",
+  "metadata_gzip_bytes": 1465607,
+  "methods": "h5py with bounded HTTP Range reader;files cache exact metadata blocks;original obs categories decoded;no new annotation"
+}

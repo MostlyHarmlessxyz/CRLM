@@ -1,0 +1,26 @@
+{
+  "report_pages": 68,
+  "main_reference_records": 85,
+  "unique_dois": 77,
+  "synthetic_check_counts": {
+    "selfcheck_results.json": 33,
+    "mil_selfcheck_results.json": 41,
+    "registered_tests_selfcheck_results.json": 32
+  },
+  "synthetic_checks_total": 106,
+  "true_data_analysis_completed": [
+    "GSE24555239-matrixfullcountaudit",
+    "metadata/header/feature-panel/patient-identity audits listed in audit_data"
+  ],
+  "not_completed": [
+    "real_data_QC",
+    "new_cell_annotation",
+    "UCell_scoring",
+    "real_differential_expression",
+    "scGPT_encoding",
+    "real_model_training",
+    "biological_or_wetlab_validation"
+  ],
+  "new_reference_note": "B47checked against original PMC/PubMed; original84bibliographic records unchanged.",
+  "portability_status": "passed"
+}

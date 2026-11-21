@@ -1,0 +1,11 @@
+{
+  "lineage": "SyntheticImmune",
+  "encoder_id": "synthetic_generator_not_scGPT_or_PCA",
+  "representation_frozen": true,
+  "preprocessing_fit_scope": "synthetic",
+  "gene_universe_policy": "No genes: five manufactured numerical features. Never interpret as biological expression.",
+  "gene_coverage_audited": true,
+  "embedding_dimension": 5,
+  "seed": 20261121,
+  "note": "Uses tissue labels only to construct a toy example. Performance has no biological meaning."
+}

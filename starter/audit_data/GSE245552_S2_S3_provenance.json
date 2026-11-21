@@ -1,0 +1,40 @@
+{
+  "S2": {
+    "source": {
+      "file": "papers/GSE245552_supplement/can-23-2123_table_s2_suppst2.docx",
+      "bytes": 20397,
+      "sha256": "6e16b9127631ee53998af811b9cea1b23b71a302797961b63d9756ca31c6a789",
+      "doi": "10.1158/0008-5472.25607325.v1",
+      "api_url": "https://api.figshare.com/v2/articles/25607325",
+      "download_url": "https://ndownloader.figshare.com/files/45666639"
+    },
+    "specimen_rows": 39,
+    "patients": 16,
+    "sample_types": {
+      "Colon tumor": 16,
+      "Liver metastasis": 17,
+      "Colon normal": 4,
+      "Liver normal": 2
+    },
+    "original_unit": "x10^6 cells; both superscript6 units confirmed in original DOCX XML",
+    "limitation": "not scRNA barcode/QC counts; cell-counting stage and physical enrichment protocol not established from this table; exact ordinal correspondence of multiplePT/LM lesions to GEO_Tnumbers not inferred"
+  },
+  "S3": {
+    "source": {
+      "file": "papers/GSE245552_supplement/can-23-2123_table_s3_suppst3.docx",
+      "bytes": 121915,
+      "sha256": "d12be0c2b0fcf1fd696bcdbc92b63c7ac407e5b2125269d83ea77e0ca5ab4f52",
+      "doi": "10.1158/0008-5472.25607322.v1",
+      "api_url": "https://api.figshare.com/v2/articles/25607322",
+      "download_url": "https://ndownloader.figshare.com/files/45666636"
+    },
+    "tables": 5,
+    "marker_rows": 600,
+    "unique_genes": 390,
+    "groups": 30,
+    "unmeasured_genes": [],
+    "gene_field": "last gene column; first column is not a safe gene-symbol field",
+    "limitation": "author annotation markers, not new patient-level effects or verified interchangeable cross-cohort cell states"
+  },
+  "execution_scope": "offline original DOCX parsing and gene-availability check; no expression analysis"
+}

@@ -1,0 +1,70 @@
+{
+  "source_sha256": "b960ee2937eea0cdc8253375714c446e5ca8928ec0887d4803ad3bcd80f9e3a3",
+  "results": [
+    {
+      "dataset": "DEV",
+      "donor_uid": "DEV_D1",
+      "lineage": "Myeloid",
+      "program": "composition_demo",
+      "status": "complete_support",
+      "observed_mean_PT": 1.8,
+      "observed_mean_LM": 5.0,
+      "observed_total_difference": 3.2,
+      "unidentified_subtypes": [],
+      "full_decomposition": {
+        "total_difference": 3.2,
+        "composition": 1.7999999999999998,
+        "within_type_state": 1.4000000000000001,
+        "identity_residual": 2.220446049250313e-16
+      },
+      "common_support": {
+        "subtypes": [
+          "A",
+          "B"
+        ],
+        "retained_mass_PT": 1.0,
+        "retained_mass_LM": 1.0,
+        "outside_mass_PT": 0.0,
+        "outside_mass_LM": 0.0,
+        "renormalized_components": {
+          "total_difference": 3.2,
+          "composition": 1.7999999999999998,
+          "within_type_state": 1.4000000000000001,
+          "identity_residual": 2.220446049250313e-16
+        },
+        "estimand": "Conditional on common measured support; cannot replace the total population difference."
+      }
+    },
+    {
+      "dataset": "EXT",
+      "donor_uid": "EXT_E1",
+      "lineage": "Myeloid",
+      "program": "composition_demo",
+      "status": "full_components_not_identifiable",
+      "observed_mean_PT": 1.0,
+      "observed_mean_LM": 2.0,
+      "observed_total_difference": 1.0,
+      "unidentified_subtypes": [
+        "B"
+      ],
+      "full_decomposition": null,
+      "common_support": {
+        "subtypes": [
+          "A"
+        ],
+        "retained_mass_PT": 1.0,
+        "retained_mass_LM": 0.5,
+        "outside_mass_PT": 0.0,
+        "outside_mass_LM": 0.5,
+        "renormalized_components": {
+          "total_difference": 0.0,
+          "composition": 0.0,
+          "within_type_state": 0.0,
+          "identity_residual": 0.0
+        },
+        "estimand": "Conditional on common measured support; cannot replace the total population difference."
+      }
+    }
+  ],
+  "scope": "Algebraic decomposition of linear patient/site means, not causal effects or nonlinear prediction scores."
+}

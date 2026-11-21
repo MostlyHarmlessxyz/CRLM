@@ -1,0 +1,9 @@
+dataset,donor_uid,lineage,program,tissue,subtype,proportion,mean_score
+DEV,DEV_D1,Myeloid,composition_demo,PT,A,0.8,1
+DEV,DEV_D1,Myeloid,composition_demo,PT,B,0.2,5
+DEV,DEV_D1,Myeloid,composition_demo,LM,A,0.4,2
+DEV,DEV_D1,Myeloid,composition_demo,LM,B,0.6,7
+EXT,EXT_E1,Myeloid,composition_demo,PT,A,1,1
+EXT,EXT_E1,Myeloid,composition_demo,PT,B,0,
+EXT,EXT_E1,Myeloid,composition_demo,LM,A,0.5,1
+EXT,EXT_E1,Myeloid,composition_demo,LM,B,0.5,3

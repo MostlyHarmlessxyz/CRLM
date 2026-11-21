@@ -1,0 +1,110 @@
+{
+  "scope": "Narrow interface/role review using only pre-existing synthetic pipeline outputs; no new selfcheck coverage or source code changes.",
+  "complete_existing_summary": {
+    "input": "/workspace/scratch/70c7ad287157/output/CRLM_starter/demo_output/effects/effects_summary.csv",
+    "actual_columns": [
+      "dataset",
+      "role",
+      "lineage",
+      "program",
+      "contrast",
+      "n_patients",
+      "status",
+      "mean_difference",
+      "median_difference",
+      "bootstrap_mean_ci_low",
+      "bootstrap_mean_ci_high",
+      "n_positive",
+      "n_negative",
+      "n_ties",
+      "n_sign_test",
+      "positive_fraction_nonzero",
+      "positive_fraction_ties_half_descriptive",
+      "positive_fraction_exact_ci_low",
+      "positive_fraction_exact_ci_high",
+      "sign_p_two_sided"
+    ],
+    "required_columns": [
+      "dataset",
+      "role",
+      "lineage",
+      "program",
+      "contrast",
+      "n_patients",
+      "status",
+      "mean_difference",
+      "n_positive",
+      "n_negative",
+      "n_ties",
+      "n_sign_test",
+      "sign_p_two_sided"
+    ],
+    "missing_required_columns": [],
+    "cli_exit_code": 0,
+    "stdout": "Adjusted 20 planned tests in 4 frozen families; 0 unplanned results exported separately.",
+    "matched_rows": 20,
+    "audit": {
+      "n_planned_tests": 20,
+      "n_families": 4,
+      "n_unplanned_results": 0,
+      "n_missing_planned_tests": 9,
+      "unplanned_policy": "separate",
+      "synthetic_example": true,
+      "notes": [
+        "Missing planned tests keep raw_p missing and use p=1 only for Holm adjustment; family size never shrinks.",
+        "Direction requires both mean difference and nonzero-patient sign majority to match the frozen expected direction; all ties are not evaluable.",
+        "Primary/secondary/background labels come from the frozen plan; separate families do not imply study-wide error control.",
+        "A Holm rejection plus direction match is a statistical criterion, not proof of full biological replication, independence or mechanism.",
+        "A frozen timestamp declaration is checked for format, not historical truth; use the external-access log and archived registry hash."
+      ],
+      "plan_sha256": "15b989c2d66dad31b53d458bd1404a265cc582527a5d4d7e52c27de82f622c3d",
+      "summaries_sha256": "15cf67a180cc58b855864a4c5d4ced382dc383f62e099f13867b64c90c3220b6"
+    }
+  },
+  "all_missing_existing_program_subgroup": {
+    "source_patient_program": "missing_demo from existing patient_contrasts.csv",
+    "n_patient_program_rows": 1,
+    "n_summary_rows": 5,
+    "actual_summary_columns": [
+      "dataset",
+      "role",
+      "lineage",
+      "program",
+      "contrast",
+      "n_patients",
+      "status",
+      "n_positive",
+      "n_negative",
+      "n_ties",
+      "n_sign_test"
+    ],
+    "missing_required_columns": [
+      "mean_difference",
+      "sign_p_two_sided"
+    ],
+    "cli_exit_code": 2,
+    "stderr": "ERROR: paired effect summaries: missing columns ['mean_difference', 'sign_p_two_sided']",
+    "cause": "summarize_difference(values with no finite contrasts) returns no mean_difference or sign_p_two_sided keys; with no observed row anywhere the final CSV omits the columns.",
+    "minimal_repair": "Return mean_difference=None and sign_p_two_sided=None in the N=0 branch (prefer stable full schema); retain n_patients=0, counts=0 and no_complete_contrast status."
+  },
+  "role_review": {
+    "GSE164522": "Consistent: primary D_T plus separately defined background I; neither becomes development.",
+    "GSE178318": "Consistent: secondary D_T; its Holm output is not an extra primary passage gate per README.",
+    "GSE203608": "Resolved synchronization: current ch11, real design draft, analysis YAML and README declare optional prespecified secondary direction evidence. Draft has 3 optional rows in SECONDARY_DT_203608_V1; choice before freeze, no primary-family membership or mandatory secondary significance. Retained frozen rows count fully even when optional metadata is true.",
+    "direction_rule_note": "Code/template explicitly require mean direction AND nonzero sign majority; this is the declared conservative prototype direction rule."
+  },
+  "initial_review_only_files_modified": "Only this review JSON; no source code, selfchecks, real expression, main report or registered template modified.",
+  "final_status": "identified_all_missing_interface_issue_fixed_and_end_to_end_verified",
+  "resolution": {
+    "authorized_by_root": true,
+    "paired_effects_n_zero_schema": "Complete observed-result field set retained; all non-identifiable mean/p/CI fields None, no zeros invented.",
+    "new_regression": "entirely_unmeasurable_existing_program_survives_paired_to_registry_CLIs",
+    "regression_evidence": "output/CRLM_starter/registered_tests_selfcheck_results.json",
+    "statistics_checks_rerun": 33,
+    "registry_checks_rerun": 32,
+    "unchanged_previously_verified_MIL_checks": 41,
+    "total": 106,
+    "paired_effects_sha256": "7df2012f585aacfa3f0cc270aa9763f14ba365c8fde9fd96b9d2903fadc24e0a",
+    "registry_selfcheck_sha256": "b446c4aecd8b1cf0ebdaeee4767029eba7725440c37c3f60d89391bf625100f7"
+  }
+}

@@ -1,0 +1,4 @@
+gene_id	measured_DEV	measured_EXT	synthetic_only
+TOY_A	true	true	true
+TOY_B	true	true	true
+TOY_C	true	true	true

@@ -1,0 +1,92 @@
+{
+  "seed": 20261121,
+  "n_folds": 2,
+  "group_unit": "donor_uid",
+  "development_donors": [
+    "DEV_D1",
+    "DEV_D2",
+    "DEV_D3",
+    "DEV_D4"
+  ],
+  "holdout_donors": {
+    "excluded": [],
+    "exploratory": [
+      "UNRESOLVED_U1"
+    ],
+    "external": [
+      "EXT_E1",
+      "EXT_E2",
+      "EXT_E3"
+    ]
+  },
+  "donor_test_fold": {
+    "DEV_D3": 0,
+    "DEV_D4": 1,
+    "DEV_D2": 0,
+    "DEV_D1": 1
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "train_donors": [
+        "DEV_D1",
+        "DEV_D4"
+      ],
+      "test_donors": [
+        "DEV_D2",
+        "DEV_D3"
+      ],
+      "train_sample_uids": [
+        "D1_LM_2",
+        "D1_LM_a",
+        "D1_LM_b",
+        "D1_LM_c",
+        "D1_NC",
+        "D1_NL",
+        "D1_PT",
+        "D4_LM",
+        "D4_PT"
+      ],
+      "test_sample_uids": [
+        "D2_LM",
+        "D2_NC",
+        "D2_NL",
+        "D2_PT",
+        "D3_LM",
+        "D3_PT"
+      ]
+    },
+    {
+      "fold": 1,
+      "train_donors": [
+        "DEV_D2",
+        "DEV_D3"
+      ],
+      "test_donors": [
+        "DEV_D1",
+        "DEV_D4"
+      ],
+      "train_sample_uids": [
+        "D2_LM",
+        "D2_NC",
+        "D2_NL",
+        "D2_PT",
+        "D3_LM",
+        "D3_PT"
+      ],
+      "test_sample_uids": [
+        "D1_LM_2",
+        "D1_LM_a",
+        "D1_LM_b",
+        "D1_LM_c",
+        "D1_NC",
+        "D1_NL",
+        "D1_PT",
+        "D4_LM",
+        "D4_PT"
+      ]
+    }
+  ],
+  "note": "All samples and lesions of a donor move together. No external donor enters CV. Donor identities must already be source-verified.",
+  "source_sha256": "d09555aecc87f840a7fdea84dbe5e78d3964b8edc8038fa1e34d865c4ec0f437"
+}

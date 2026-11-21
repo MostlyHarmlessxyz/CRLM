@@ -1,0 +1,43 @@
+{
+  "source_report": "CRLM_Research_Plan_2026-11-21.pdf",
+  "source_report_pages": 68,
+  "components": [
+    {
+      "file": "report_01_strategy.md",
+      "sha256": "eee7c02df623b0102ff58e37e7c1549718cd02bee5278286ce090d2463e5dce3",
+      "bytes": 32693
+    },
+    {
+      "file": "report_02_methods.md",
+      "sha256": "b3680a683013e79fafc3df8ed09f4c07ad63d042bad0164593a4639977bcbf26",
+      "bytes": 32295
+    },
+    {
+      "file": "report_03_validation.md",
+      "sha256": "c2b2615279deacb16765b7520f4e0aecd55e3ab571389cdad4045d849a852e5a",
+      "bytes": 26227
+    },
+    {
+      "file": "report_04_appendix.md",
+      "sha256": "05a29fd9e49ae4727f5b5e0b30595a27bd8b742c93f492aa380a45aa3eef945b",
+      "bytes": 22471
+    },
+    {
+      "file": "report_05_comparators.md",
+      "sha256": "3c0e1c4cceba9acf34f2b4cc2d73f3ef710b94145e99290cff327bcefdf597e6",
+      "bytes": 7656
+    },
+    {
+      "file": "report_references.md",
+      "sha256": "c52ee5a12c7add17a5a16162ff140cfbb5d720721b26c7d806d035d24f2b9e52",
+      "bytes": 38614
+    }
+  ],
+  "transformations": [
+    "concatenate in original report order",
+    "replace two figure directives with Markdown image links",
+    "insert workflow figure at chapter 4 as in DOCX",
+    "add version note and heading navigation"
+  ],
+  "markdown_sha256": "800332a605c6b1189f8b604e1a27f294e5a7896ad13dadf355fdbd1296962092"
+}

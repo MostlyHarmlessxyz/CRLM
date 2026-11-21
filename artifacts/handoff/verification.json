@@ -1,0 +1,156 @@
+{
+  "timestamp_utc": "2026-11-21T08:48:54.993430+00:00",
+  "scope": "Packaging/portability only; no new scientific analysis, target-host benchmark or M0 completion. Historical 106 synthetic checks were preserved, not re-executed in this handoff.",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "markdown_matches_source_digest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "standalone_markdown_identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "report_component_report_01_strategy.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "report_component_report_02_methods.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "report_component_report_03_validation.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "report_component_report_04_appendix.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "report_component_report_05_comparators.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "report_component_report_references.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_six_source_components_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "audited_starter_preserved_byte_for_byte",
+      "passed": true,
+      "detail": {
+        "file_count": 242,
+        "changed": []
+      }
+    },
+    {
+      "name": "provided_pdf_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three_original_report_images",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_markdown_relative_links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "priority_manifest_85_records_12_first_batch",
+      "passed": true,
+      "detail": [
+        "B02",
+        "B03",
+        "B07",
+        "B46",
+        "M02",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M13",
+        "M20",
+        "M24"
+      ]
+    },
+    {
+      "name": "all_formal_milestones_still_pending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "checker_from_unrelated_directory",
+      "passed": true,
+      "detail": {
+        "ok": true,
+        "scope": "Handoff structure and consistency only, not a scientific validation or M0 acceptance.",
+        "errors": [],
+        "research_version": "V1_DRAFT",
+        "milestone_states": {
+          "M0": "pending",
+          "M1": "pending",
+          "M2": "pending",
+          "M3": "pending",
+          "M4": "pending",
+          "M5": "pending",
+          "M6": "pending",
+          "M7": "pending",
+          "M8": "pending"
+        },
+        "bibliography_records": 85,
+        "unique_nonempty_dois": 77,
+        "reading_manifest_records": 85,
+        "report_figures": 3
+      }
+    },
+    {
+      "name": "preflight_from_unrelated_directory",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "default_checks_do_not_write_project",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reject_duplicate_accession",
+      "passed": true,
+      "detail": [
+        "Duplicate dataset accession; conflicting roles cannot be silently collapsed"
+      ]
+    },
+    {
+      "name": "reject_178_as_development",
+      "passed": true,
+      "detail": [
+        "V1_DRAFT development sources must be exactly {GSE245552}",
+        "V1_DRAFT role differs from handoff contract: GSE178318"
+      ]
+    },
+    {
+      "name": "reject_203608_as_development",
+      "passed": true,
+      "detail": [
+        "V1_DRAFT development sources must be exactly {GSE245552}",
+        "V1_DRAFT GSE203608 must remain external, explicitly excluded, or not selected"
+      ]
+    }
+  ]
+}

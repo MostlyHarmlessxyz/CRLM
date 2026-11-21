@@ -1,0 +1,9 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE203nnn/GSE203608/soft/GSE203608_family.soft.gz",
+  "compressed_bytes": 6251,
+  "compressed_sha256": "2829c4835c62e21e010f0ad9ab710c0a6a55879a1c904df140478394a8b58d93",
+  "uncompressed_bytes": 204779,
+  "derived_sha256": "c2b61a10d4828c6f25ec4ff2c926b8f98a37b90a41edcc50662d13abc38bc413",
+  "retained_lines": 2380,
+  "scope": "AlloriginalSeries/Samplemetadatalinespreserved;GPLplatformtableomitted"
+}

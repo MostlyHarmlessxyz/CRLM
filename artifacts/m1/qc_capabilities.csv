@@ -1,0 +1,5 @@
+sample_uid,donor_uid,tissue,input_cells,retained_cells,excluded_empty,measured_mt_genes,pct_mt_scope,cells_with_positive_mt_counts,pct_mt_median,n_counts_visible_p01,n_counts_visible_median,n_counts_visible_p99,n_counts_visible_tail_cells,n_genes_visible_p01,n_genes_visible_median,n_genes_visible_p99,n_genes_visible_tail_cells
+GSM7844847,GSE245552:Pt18,PT,4639,4639,0,0,unavailable_no_MT_features,,,213.38,2675.0,34772.719999999994,94,175.0,1309.0,7030.579999999999,92
+GSM7844848,GSE245552:Pt18,LM,7009,7009,0,0,unavailable_no_MT_features,,,268.0,2297.0,27051.400000000012,141,231.07999999999998,1442.0,6435.960000000001,142
+GSM7844849,GSE245552:Pt18,NC,3089,3089,0,13,visible_axis,885.0,0.0,480.52,4322.0,23685.839999999975,62,251.0,1352.0,4477.7599999999975,61
+GSM7844850,GSE245552:Pt18,NL,7442,7442,0,13,visible_axis,1.0,0.0,364.40999999999997,3189.0,17311.36,150,242.41,1734.5,4346.59,150

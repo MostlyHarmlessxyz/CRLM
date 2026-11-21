@@ -1,0 +1,140 @@
+{
+  "execution_scope": "offline reaggregation of bundled audit evidence; no expression matrix downloaded or newly scanned",
+  "historical_scan_scope": "39 original GSE245552 MTX streams were fully read to EOF in the recorded audit; their SHA256 and per-file results are retained",
+  "GSE245552": {
+    "n_libraries": 39,
+    "n_donors": 16,
+    "n_paired_PT_LM": 13,
+    "n_complete_four": 1,
+    "libraries_by_tissue": {
+      "PT": 16,
+      "LM": 17,
+      "NC": 4,
+      "NL": 2
+    },
+    "total_input_barcodes": 190190,
+    "total_matrix_entries_checked": 347049770,
+    "total_compressed_matrix_bytes": 1056396888,
+    "total_visible_molecules": 1208477074,
+    "verification_scope": "reaggregated retained complete-scan records, not a new matrix-content scan",
+    "gene_universe": {
+      "tumour_genes": 29569,
+      "adjacent_genes": 29922,
+      "genes_absent_from_tumour": 353,
+      "tumour_mt_rows": 0,
+      "adjacent_mt_rows": 13,
+      "scope": "two original feature files read and SHA256 checked; per-file feature hashes for all39 retained"
+    },
+    "original_S1_patients": 18,
+    "all_S1_MSS": true,
+    "treatment": "unknown; no treatment column in original S1 or GEO sample metadata",
+    "original_S2_S3": {
+      "S2_specimens": 39,
+      "S2_donors": 16,
+      "S2_units": "millions (x10^6); not scRNA QC cells",
+      "S3_marker_rows": 600,
+      "S3_unique_genes": 390,
+      "S3_all_genes_measured_in_tumour": true,
+      "S3_gene_field": "last gene column, not first row-label column",
+      "scope": "original DOCX files SHA-checked and read offline; no expression or biological effects analysed"
+    }
+  },
+  "GSE164522": {
+    "n_patient_codes": 10,
+    "n_patient_tissue_groups": 59,
+    "n_cells": 257843,
+    "n_paired_codes": 10,
+    "n_four_tissue_codes": 10,
+    "cells_by_tissue": {
+      "PBMC": 46973,
+      "primary normal": 29795,
+      "primary tumor": 37529,
+      "metastasis normal": 58664,
+      "metastasis tumor": 37359,
+      "lymph node": 47523
+    },
+    "four_tissue_cells": 163347,
+    "scope": "complete original metadata identity columns recounted; all6originalexpressionheaders reread and matched; no expression gene rows read",
+    "all_expression_header_counts": {
+      "PT": 37529,
+      "MT": 37359,
+      "PN": 29795,
+      "MN": 58664,
+      "LN": 47523,
+      "PBMC": 46973
+    }
+  },
+  "GSE225857": {
+    "n_patient_codes": 7,
+    "n_patient_tissue_groups": 30,
+    "n_cells": 196473,
+    "n_paired_codes": 6,
+    "n_four_tissue_codes": 5,
+    "cells_by_tissue": {
+      "LCL": 55471,
+      "CCL": 39974,
+      "PBL": 24851,
+      "LNL": 45225,
+      "CNL": 30952
+    },
+    "scope": "complete original metadata identity columns recounted; patient codes are NOT verified independent individuals",
+    "mapping_status": "unresolved: clinical supplement has6codedpatients, expression includesextra0816",
+    "cells_after_unjustified_removal_of_s0816": 188057,
+    "nonimmune_cells": 41892
+  },
+  "GSE335552": {
+    "samples": 4,
+    "input_segmented_cells": 646711,
+    "genes_per_panel": [
+      462,
+      462,
+      319,
+      462
+    ],
+    "gene_intersection": 309,
+    "gene_union": 472,
+    "scope": "retained exact gene lists extracted from4originalH5 and saved per-H5 barcode counts; original H5 not bundled"
+  },
+  "E-MTAB-11536": {
+    "immune_cells": 329762,
+    "total_donors": 12,
+    "liver_donors": [
+      "637C",
+      "640C",
+      "A29",
+      "A31",
+      "A35",
+      "A36",
+      "A52"
+    ],
+    "transverse_sigmoid_donors": [
+      "A29"
+    ],
+    "myeloid_pairs_at50_even_if_all_large_bowel_sites_pooled": [],
+    "scope": "complete329762authorobs rows recounted from exact retained columns; expression not read, no new cell annotation"
+  },
+  "TabulaSapiens2_GSE306755": {
+    "actual_recounted_liver_large_intestine_metadata_rows": 52298,
+    "liver_donors": [
+      "TSP14",
+      "TSP17",
+      "TSP19",
+      "TSP6"
+    ],
+    "large_intestine_donors": [
+      "TSP14",
+      "TSP2",
+      "TSP25",
+      "TSP26",
+      "TSP27"
+    ],
+    "paired_donors": [
+      "TSP14"
+    ],
+    "TSP14_strict_myeloid_liver": 338,
+    "TSP14_strict_myeloid_large_intestine": 41,
+    "strict_paired_donors_at50_per_organ": [],
+    "scope": "exact selected metadata recounted offline; no full42MBmetadata or expression downloaded in this command"
+  },
+  "status": "passed"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "completed",
+  "scope": "Exact original-symbol matching to provided feature axes only",
+  "seed_rows": 310,
+  "seed_unique_symbols": 293,
+  "n_sets": 10,
+  "seed_sha256": "1990424328061838f04c36161f3c93b59de61ebc6c1106a0f114b8bcdd068a13",
+  "source_feature_files": [
+    {
+      "feature_axis": "GSE245552_PT_LM_representative_features",
+      "file": "audit_data/geo/GSM7844812_Pt01_T1_features.tsv.gz",
+      "rows": 29569,
+      "unique_original_symbols": 29569,
+      "sha256": "8a397ca95068e54771ded3cada5d114498215766aaf50b2e5df5fba3eaabe6af"
+    },
+    {
+      "feature_axis": "GSE245552_NC_NL_representative_features",
+      "file": "audit_data/geo/GSM7844838_Pt13_Z1_features.tsv.gz",
+      "rows": 29922,
+      "unique_original_symbols": 29922,
+      "sha256": "2b08512221b0d94b700174c4ab6ef5ea544d11ab0cb5af3a56876c0c7c2b013a"
+    },
+    {
+      "feature_axis": "GSE335552_AdjNormal_M131N_measured_genes",
+      "file": "audit_data/geo/GSE335552_AdjNormal_M131N_measured_genes.txt",
+      "rows": 462,
+      "unique_original_symbols": 462,
+      "sha256": "d80c14645613ef05e2cfacbf56b61b5e3441a3981bb48ec1cc9ba6b55897e172"
+    },
+    {
+      "feature_axis": "GSE335552_tumor1_M242T_measured_genes",
+      "file": "audit_data/geo/GSE335552_tumor1_M242T_measured_genes.txt",
+      "rows": 462,
+      "unique_original_symbols": 462,
+      "sha256": "d80c14645613ef05e2cfacbf56b61b5e3441a3981bb48ec1cc9ba6b55897e172"
+    },
+    {
+      "feature_axis": "GSE335552_tumor2_M131T_measured_genes",
+      "file": "audit_data/geo/GSE335552_tumor2_M131T_measured_genes.txt",
+      "rows": 462,
+      "unique_original_symbols": 462,
+      "sha256": "d80c14645613ef05e2cfacbf56b61b5e3441a3981bb48ec1cc9ba6b55897e172"
+    },
+    {
+      "feature_axis": "GSE335552_tumor3_M397T_measured_genes",
+      "file": "audit_data/geo/GSE335552_tumor3_M397T_measured_genes.txt",
+      "rows": 319,
+      "unique_original_symbols": 319,
+      "sha256": "d917132f0656fe9dd0e6329d3cfb2fc1ad34253f5aef871396976d62db522623"
+    }
+  ],
+  "limitations": [
+    "Absent exact symbols may reflect aliases as well as missing features; no alias resolution was performed.",
+    "Presence in a feature axis does not prove detected expression, adequate cells, reliable scoring or biological replication.",
+    "GSE245552 files are representatives of the separately audited identical tumor/adjacent feature sets.",
+    "Unmeasured genes must never be imputed as biological zero."
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "retrieved_date": "2026-11-21",
+  "scope": "Primary official source audit; file hashes identify reviewed snapshots. No third-party code is redistributed in this starter package.",
+  "scGPT": {
+    "repository": "https://github.com/bowang-lab/scGPT",
+    "commit": "cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+    "commit_date": "2026-04-27T19:52:01Z",
+    "files": [
+      {
+        "repository_path": "scgpt/tasks/cell_emb.py",
+        "reviewed_filename": "scgpt_scgpt_tasks_cell_emb.py",
+        "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/tasks/cell_emb.py",
+        "sha256": "f21af4073a2b35d40436d4b5a7ad28d7eadb3a3040a817a9c8a7173097993c54",
+        "fixed_commit_sha256": "f21af4073a2b35d40436d4b5a7ad28d7eadb3a3040a817a9c8a7173097993c54",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "scgpt/data_collator.py",
+        "reviewed_filename": "scgpt_scgpt_data_collator.py",
+        "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/data_collator.py",
+        "sha256": "4543e16e5fd162ba935c8e7687059953503db1878189dfd33c0ecda3375428e9",
+        "fixed_commit_sha256": "4543e16e5fd162ba935c8e7687059953503db1878189dfd33c0ecda3375428e9",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "scgpt/preprocess.py",
+        "reviewed_filename": "scgpt_scgpt_preprocess.py",
+        "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/preprocess.py",
+        "sha256": "e0928ef5cbbdbe5012869cf890740d972c4faa6852e22006ac8dc52846fd5c84",
+        "fixed_commit_sha256": "e0928ef5cbbdbe5012869cf890740d972c4faa6852e22006ac8dc52846fd5c84",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "data/cellxgene/data_config.py",
+        "reviewed_filename": "scgpt_data_config.py",
+        "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/data_config.py",
+        "sha256": "b8267b4e6d88633f23a56569f61e2270549b810c3830e354fe5b260eb30490a9",
+        "fixed_commit_sha256": "b8267b4e6d88633f23a56569f61e2270549b810c3830e354fe5b260eb30490a9",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "data/cellxgene/README.md",
+        "reviewed_filename": "scgpt_pretraining_README.md",
+        "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/README.md",
+        "sha256": "b9760b4b9ffa67c52b739f9210451c7d3f0186227091061c41815492b3919c6d",
+        "fixed_commit_sha256": "b9760b4b9ffa67c52b739f9210451c7d3f0186227091061c41815492b3919c6d",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "tutorials/zero-shot/README.md",
+        "reviewed_filename": "scgpt_zeroshot_README.md",
+        "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/README.md",
+        "sha256": "a15606b7449a64e87135e8717aab01a701ab94b195f63f6ed2026257f908d3d8",
+        "fixed_commit_sha256": "a15606b7449a64e87135e8717aab01a701ab94b195f63f6ed2026257f908d3d8",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "tutorials/zero-shot/Tutorial_ZeroShot_Integration_Continual_Pretraining.ipynb",
+        "reviewed_filename": "scgpt_continual_notebook.ipynb",
+        "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/Tutorial_ZeroShot_Integration_Continual_Pretraining.ipynb",
+        "sha256": "7e9318d4f29d066c60d77a2457413a60fb66843350dccf4dd49004cfd41d13e2",
+        "fixed_commit_sha256": "7e9318d4f29d066c60d77a2457413a60fb66843350dccf4dd49004cfd41d13e2",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "README.md",
+        "reviewed_filename": "scgpt_README.md",
+        "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/README.md",
+        "sha256": "b0503e8ca789f19f1fc2350c5aaf57b1b323bbae43b354655231b5f4a1586c83",
+        "fixed_commit_sha256": "b0503e8ca789f19f1fc2350c5aaf57b1b323bbae43b354655231b5f4a1586c83",
+        "matches_fixed_commit": true
+      }
+    ],
+    "project_use": "Frozen embedding API, stochastic tokenization, pretraining input provenance and CP variant audit; no model training reproduction claimed"
+  },
+  "scMILD": {
+    "retrieved_date": "2026-11-21",
+    "repository": "https://github.com/Khreat0205/scMILD",
+    "commit": "eb1a284fd99b01fe340b0d6d1a934740012a9dae",
+    "commit_evidence": "git ls-remote returned refs/heads/main; files independently fetched by immutable commit and compared",
+    "commit_date": null,
+    "files": [
+      {
+        "repository_path": "preprocess_adata.py",
+        "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/preprocess_adata.py",
+        "sha256": "3dfb53b3cfba3a58c4a945aa74882f97ccf2b6d7e3128dc1f8d526c57d384d06",
+        "fixed_commit_sha256": "3dfb53b3cfba3a58c4a945aa74882f97ccf2b6d7e3128dc1f8d526c57d384d06",
+        "matches_fixed_commit": true,
+        "reviewed_filename": "scMILD_preprocess_adata.py"
+      },
+      {
+        "repository_path": "pretraining_autoencoder.py",
+        "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/pretraining_autoencoder.py",
+        "sha256": "ea53c2451a55a66b86df2f7fc6ff0997249f56f0e395e49cec2cfd57cd60ab67",
+        "fixed_commit_sha256": "ea53c2451a55a66b86df2f7fc6ff0997249f56f0e395e49cec2cfd57cd60ab67",
+        "matches_fixed_commit": true,
+        "reviewed_filename": "scMILD_pretraining_autoencoder.py"
+      },
+      {
+        "repository_path": "train_scMILD.py",
+        "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/train_scMILD.py",
+        "sha256": "5aa692a9b4edc608f136362dacdd1ed0e5df7bc2d60a9269ed679b3f159dc3aa",
+        "fixed_commit_sha256": "5aa692a9b4edc608f136362dacdd1ed0e5df7bc2d60a9269ed679b3f159dc3aa",
+        "matches_fixed_commit": true,
+        "reviewed_filename": "scMILD_train_scMILD.py"
+      },
+      {
+        "repository_path": "src/utils.py",
+        "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/src/utils.py",
+        "sha256": "2474fd22188538edd906f12f0f7485a1058f50623cf3b834bb7b153a4fbcb1dd",
+        "fixed_commit_sha256": "2474fd22188538edd906f12f0f7485a1058f50623cf3b834bb7b153a4fbcb1dd",
+        "matches_fixed_commit": true,
+        "reviewed_filename": "scMILD_src_utils.py"
+      },
+      {
+        "repository_path": "src/trainer_ae.py",
+        "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/src/trainer_ae.py",
+        "sha256": "a022dd8f03920fe8f0edf24faa553346dae0d699bc7d53d876f37dea440778c4",
+        "fixed_commit_sha256": "a022dd8f03920fe8f0edf24faa553346dae0d699bc7d53d876f37dea440778c4",
+        "matches_fixed_commit": true,
+        "reviewed_filename": "scMILD_src_trainer_ae.py"
+      }
+    ],
+    "project_use": "Current preprocessing/splitting and NB autoencoder adapted to paired tissue design; no claim about every experiment in the original paper"
+  },
+  "scMetaIntegrator": {
+    "repository": "https://github.com/Khatri-Lab/scMetaIntegrator",
+    "commit": "97554c4c0eb7800864eb11a0b0af08f0c789895a",
+    "commit_date": null,
+    "commit_evidence": "git ls-remote; each listed file independently compared against immutable-commit download",
+    "files": [
+      {
+        "repository_path": "README.md",
+        "reviewed_filename": "scMetaIntegrator_README.md",
+        "immutable_url": "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/README.md",
+        "sha256": "a939db186fc2a909684bab914a9f88590f0c84ab870aaa83577448c3f398caae",
+        "fixed_commit_sha256": "a939db186fc2a909684bab914a9f88590f0c84ab870aaa83577448c3f398caae",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "R/runscMI.R",
+        "reviewed_filename": "scMetaIntegrator_runscMI.R",
+        "immutable_url": "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/runscMI.R",
+        "sha256": "391d6b1a3f6dae804ca5b4d875f28f8390273ffcc33a9c81eb177a5cacc8fe9d",
+        "fixed_commit_sha256": "391d6b1a3f6dae804ca5b4d875f28f8390273ffcc33a9c81eb177a5cacc8fe9d",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "R/confirmPairs.R",
+        "reviewed_filename": "scMetaIntegrator_confirmPairs.R",
+        "immutable_url": "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/confirmPairs.R",
+        "sha256": "4a2bca9e2752945ed42141c64e73de65b352d327ba2566f951e375576f06640d",
+        "fixed_commit_sha256": "4a2bca9e2752945ed42141c64e73de65b352d327ba2566f951e375576f06640d",
+        "matches_fixed_commit": true
+      },
+      {
+        "repository_path": "R/thresholdGenesAcrossPairs.R",
+        "reviewed_filename": "scMetaIntegrator_thresholdGenesAcrossPairs.R",
+        "immutable_url": "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/thresholdGenesAcrossPairs.R",
+        "sha256": "0632be42aa8b37075c1ba6202a1e60577a2f561b3d35b83091b8ed914001ed91",
+        "fixed_commit_sha256": "0632be42aa8b37075c1ba6202a1e60577a2f561b3d35b83091b8ed914001ed91",
+        "matches_fixed_commit": true
+      }
+    ],
+    "project_use": "Verify paired sample IDs, normalized expression extraction and count-based filtering helper; no experimental reproducibility claim"
+  }
+}

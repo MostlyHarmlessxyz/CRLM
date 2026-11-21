@@ -1,0 +1,18 @@
+{
+  "n_input_score_rows": 40,
+  "n_ineligible_score_rows": 0,
+  "ineligible_donors": [],
+  "n_missing_score_rows": 3,
+  "weighting": "Equal technical-sample means within lesion, then equal lesion means within donor/tissue, then equal patients. n_cells is never an inference weight.",
+  "n_unique_eligible_donors": 7,
+  "n_patient_program_rows": 12,
+  "manifest_sha256": "8544fb1b94719c85ba155208ca4cf23596159c2cf973e314e54bbc264a385424",
+  "scores_sha256": "8e504d4d9a2264d28e5a78e18e1288130edeb683dfcd66b3f15c4afd0b365cc1",
+  "seed": 20261121,
+  "n_bootstrap": 10000,
+  "tie_tolerance": 0.0,
+  "ci_caution": "Percentile bootstrap is approximate, particularly for tiny N. The exact binomial CI concerns nonzero direction probability, not mean effect.",
+  "multiplicity": "Raw two-sided sign p-values only. Freeze candidate families before choosing any multiple-testing correction.",
+  "common_four_tissue_subset": "D_T_Q, D_N_Q and I use exactly the same complete four-tissue patients; do not subtract overall D_T and D_N means with different coverage.",
+  "causal_caution": "I is the observed organ-by-tumor contrast, not an identified causal metastasis effect."
+}

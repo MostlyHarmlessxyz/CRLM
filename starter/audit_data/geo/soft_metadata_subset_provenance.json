@@ -1,0 +1,44 @@
+{
+  "GSE298084_metadata_only.soft": {
+    "original_file": "GSE298084_full.soft",
+    "original_bytes": 41181195,
+    "original_sha256": "c1eb325c79195e2215fc6ec0c3fb3b95112c8e239970184964cbf5eb5606373e",
+    "scope": "all original Series/Sample metadata lines preserved; repeated GPL table omitted",
+    "derived_sha256": "b9813ebf9e09d48dc0af0d896c049558ad8d0f3536e757d72ffbc25aa1110b55"
+  },
+  "GSE164522_metadata_only.soft": {
+    "original_file": "GSE164522_full.soft",
+    "original_bytes": 1583356,
+    "original_sha256": "af47f6c16e081beb26940aa49ae11515d1e5afd3d64e60dd567616fba2b90bf6",
+    "scope": "all original Series/Sample metadata lines preserved; repeated GPL table omitted",
+    "derived_sha256": "fb42ee723486b5925df7f32d1ceb19ad576f0003bb7d1964673bc70701437e1c"
+  },
+  "GSE245552_metadata_only.soft": {
+    "original_file": "GSE245552_full.soft",
+    "original_bytes": 41255426,
+    "original_sha256": "cd87362b3094e56bec839876cafd0ad6e65df8212d88f6a05434240084fc6468",
+    "scope": "all original Series/Sample metadata lines preserved; repeated GPL table omitted",
+    "derived_sha256": "b1a3b185f95cf42e79ad67d5c8e3b0722a3c029df651c20be2e6f900b623bbb0"
+  },
+  "GSE335552_metadata_only.soft": {
+    "original_file": "GSE335552_full.soft",
+    "original_bytes": 87750,
+    "original_sha256": "2b72dc61ba9d3f0cbf0f97a6f1f9a4bc006f70bc9f0c7e84847178c80beebf00",
+    "scope": "all original Series/Sample metadata lines preserved; repeated GPL table omitted",
+    "derived_sha256": "2ffcc1a3dd8913f209337ce8d2ba63714612810992d59a4896f85e76c3815304"
+  },
+  "GSE225857_metadata_only.soft": {
+    "original_file": "GSE225857_full.soft",
+    "original_bytes": 41181452,
+    "original_sha256": "a0fb9972a3bb93d45d642e14ac2656fb5d89408a4b1503398c89d4c61b109fb2",
+    "scope": "all original Series/Sample metadata lines preserved; repeated GPL table omitted",
+    "derived_sha256": "a0a5b8b32bce98f98c339a797d7d5504773972a2197e7ea84ea21218bf5672bb"
+  },
+  "GSE178318_metadata_only.soft": {
+    "original_file": "GSE178318_full.soft",
+    "original_bytes": 41184300,
+    "original_sha256": "f8628da4250249e85f7fae135ca30fcaa64dc1b5674b61914803eeb3a0295b50",
+    "scope": "all original Series/Sample metadata lines preserved; repeated GPL table omitted",
+    "derived_sha256": "e6fbc7114480b57a44e2551a81d70a86be8444c4e8c04f6790a1ca6c7406f73f"
+  }
+}

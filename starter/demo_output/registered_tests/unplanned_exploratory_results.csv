@@ -1,0 +1,2 @@
+dataset,role,lineage,program,contrast,mean_difference,sign_p_two_sided,n_patients,status,median_difference,bootstrap_mean_ci_low,bootstrap_mean_ci_high,n_positive,n_negative,n_ties,n_sign_test,positive_fraction_nonzero,positive_fraction_ties_half_descriptive,positive_fraction_exact_ci_low,positive_fraction_exact_ci_high,registry_exclusion_reason,registry_analysis_tier
+SYN_GSE164522,external,Other,unplanned_program,D_T,1.0,1.9073486328125e-06,20,estimated,1.0,1.0,1.0,20,0,0,20,1.0,1.0,0.8315665290169145,1.0,not_in_frozen_plan,unplanned_exploratory

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "GSE203608_cell_annotation.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE203nnn/GSE203608/suppl/GSE203608_cell_annotation.csv.gz",
+    "bytes": 4082782,
+    "sha256": "1a0973ae719990ce234e5328ca4897081c36b57e6840c03a57f78c5f058697b4"
+  },
+  {
+    "file": "GSE203608_GSM7294726-GSM7294729_cell_annotation.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE203nnn/GSE203608/suppl/GSE203608_GSM7294726-GSM7294729_cell_annotation.csv.gz",
+    "bytes": 3319064,
+    "sha256": "3bb74a82dd057cd657bab7a21f85a8643292ee8b592abe7c378e240320af232e"
+  },
+  {
+    "file": "PMC10689473.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10689473/fullTextXML",
+    "bytes": 174467,
+    "sha256": "9cff6a07f5c8b750bc306b8e169a1f6c9c0203e5c107eca5f7d9c0985e955b35"
+  }
+]

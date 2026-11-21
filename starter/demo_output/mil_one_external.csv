@@ -1,0 +1,2 @@
+sample_uid,lineage,logit,probability_lm_label,n_cells,was_training_sample
+E1_PT,SyntheticImmune,-1.4177116556248424,0.1950205744729456,33,False

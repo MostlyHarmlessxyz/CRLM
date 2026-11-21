@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-21",
+  "records": 85,
+  "unique_dois": 77,
+  "all_references_sha256": "76163894a881905886dbe62aa0491b84f307545cb313f8afbdb01e37a3a810ad",
+  "audited_snapshot_sha256": "365605a1b77677915d9d14e35618edc040f70275e2dac1b3efb9a2314d26ad58",
+  "compared_fields": [
+    "title",
+    "doi",
+    "year",
+    "first_author"
+  ],
+  "substantive_mismatches": [],
+  "note": "Original84records title/DOI/year/first_author agree with independently audited snapshot; B06/B19 reading-depth updates do not alter bibliographic identity. B47 adds one unique DOI, verified against PubMed and PMC. Reading depth is separately declared and is not implied by metadata verification.",
+  "late_addition": "B47: independently verified PubMed/PMC identity, read Methods and principal Results; separate bibliography_late_addition_B47.json. Crossref web endpoint unavailable for this addition."
+}

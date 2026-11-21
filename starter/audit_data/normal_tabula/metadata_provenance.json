@@ -1,0 +1,30 @@
+{
+  "full_metadata_cells": 1136218,
+  "full_metadata_donors": 24,
+  "full_metadata_tissues": 28,
+  "source_file": "GSE306755_TSP1_30_metadata_min200_2500_decontx_scvi_donorassay_version2d_20241112.csv.gz",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE306nnn/GSE306755/suppl/GSE306755_TSP1_30_metadata_min200_2500_decontx_scvi_donorassay_version2d_20241112.csv.gz",
+  "source_bytes": 42461568,
+  "source_sha256": "08d07122ae8baed938339b74a640bb4561f8c82a3df75da9e5d62412f721d711",
+  "selected_rows": 52298,
+  "selected_csv_sha256": "cc33cffcab2e7025e43bc411320f61bf981612cd4255b83bc40a9d57c2c630c1",
+  "selected_fields": [
+    "",
+    "donor",
+    "tissue",
+    "anatomical_position",
+    "method",
+    "assay",
+    "sample_id",
+    "replicate",
+    "cell_ontology_class",
+    "compartment",
+    "broad_cell_class",
+    "free_annotation",
+    "published_2022",
+    "notes",
+    "age",
+    "sex"
+  ],
+  "scope": "complete original metadata read through gzip EOF; all Liver and Large_Intestine rows retained; no expression read"
+}

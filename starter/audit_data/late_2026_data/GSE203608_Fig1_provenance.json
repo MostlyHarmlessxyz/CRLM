@@ -1,0 +1,14 @@
+{
+  "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-43746-6/MediaObjects/41467_2023_43746_Fig1_HTML.png",
+  "paper_url": "https://www.nature.com/articles/s41467-023-43746-6",
+  "doi": "10.1038/s41467-023-43746-6",
+  "file": "GSE203608_fig1.png",
+  "bytes": 1231226,
+  "sha256": "1e78f3f614b674f577cd29aeb889b32b15348a6a01037e0a9a4b818563f9e295",
+  "scope": "Original Figure1B visually read; only four paired patient rows transcribed. All4MSS. No inference of exact primary site or operation dates. Figure1A caption states treatment-naive cohort and concomitant resectability overview.",
+  "discrepancy": "Patient49 Figure1B is StageIII/pT3N1a despite LiverMet49 in originalGEO/cellmetadata. Preserve originalstage and flag per-patient stage/timing unresolved; do not relabel stageIV.",
+  "attribution": "Ning Li et al., Nature Communications14,7915(2023),Figure1; DOI10.1038/s41467-023-43746-6",
+  "license": "CC BY4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "image_changes": "none; original publisher PNG reproduced for source verification"
+}

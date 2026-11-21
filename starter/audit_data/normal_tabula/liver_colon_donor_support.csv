@@ -1,0 +1,10 @@
+donor,tissue,n_all,n_immune,n_strict_monomacdc,n_broad_myeloid_dc,anatomy,methods
+TSP14,Large_Intestine,9931,6580,41,54,Distal;Proximal,10X;smartseq
+TSP14,Liver,7025,1221,338,338,NA,10X;smartseq
+TSP17,Liver,2114,1846,555,555,NA,10X
+TSP19,Liver,7888,5410,2788,2788,NA,10X
+TSP2,Large_Intestine,4922,85,2,4,AscendingProximal;Distal;Proximal;SigmoidDistal,10X;smartseq
+TSP25,Large_Intestine,1494,61,16,19,ColonAscending;ColonSigmoid,10X
+TSP26,Large_Intestine,3822,2873,91,202,ColonAscending;ColonSigmoid,10X
+TSP27,Large_Intestine,9915,6961,284,509,ColonAscending;ColonSigmoid,10X
+TSP6,Liver,5187,3500,2332,2332,NA,10X;smartseq

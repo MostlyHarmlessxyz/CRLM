@@ -1,0 +1,852 @@
+[
+  {
+    "id": "M01",
+    "title": "Mixed Models with Multiple Instance Learning",
+    "year": 2024,
+    "journal": "AISTATS / PMLR",
+    "doi": null,
+    "url": "https://proceedings.mlr.press/v238/engelmann24a.html",
+    "other_urls": [
+      "https://proceedings.mlr.press/v238/engelmann24a.html",
+      "https://proceedings.mlr.press/v238/engelmann24a/engelmann24a.pdf",
+      "https://github.com/AIH-SGML/mixmil"
+    ],
+    "read_depth": "A：精读主文、附录结构/协变量与官方实现入口",
+    "project_use": "MixMIL为线性attention和混合模型先例；可选小样本方法对照",
+    "major_limitation": "其混合模型先验不自动等于本项目donor配对随机截距",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Engelmann JP, Palma A, Tomczak JM, Theis FJ, Casale FP. **Mixed Models with Multiple Instance Learning.** AISTATS 2024, PMLR 238:3664-3672. https://proceedings.mlr.press/v238/engelmann24a.html ; 论文全文 https://proceedings.mlr.press/v238/engelmann24a/engelmann24a.pdf ; 官方代码 https://github.com/AIH-SGML/mixmil .",
+    "first_author": "Engelmann JP"
+  },
+  {
+    "id": "M02",
+    "title": "Incorporating hierarchical information into multiple instance learning for patient phenotype prediction with single-cell RNA-sequencing data",
+    "year": 2025,
+    "journal": "Bioinformatics",
+    "doi": "10.1093/bioinformatics/btaf241",
+    "url": "https://doi.org/10.1093/bioinformatics/btaf241",
+    "other_urls": [
+      "https://doi.org/10.1093/bioinformatics/btaf241",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12261414/",
+      "https://acris.aalto.fi/ws/portalfiles/portal/187553408/Incorporating_hierarchical_information_into_multiple_instance_learning_for_patient_phenotype_prediction_with_single-cell_RNA-sequencing_data.pdf",
+      "https://github.com/minhchaudo/hier-mil"
+    ],
+    "read_depth": "A：作者机构正式PDF主文方法/实验与官方代码",
+    "project_use": "scGPT、细胞类型层级和MIL组合直接先例",
+    "major_limitation": "疾病分类结果不能证明本CRLM背景识别和细胞机制有效",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Do C, Lähdesmäki H. **Incorporating hierarchical information into multiple instance learning for patient phenotype prediction with single-cell RNA-sequencing data.** Bioinformatics. 2025;41(Suppl 1):i96-i104. DOI: https://doi.org/10.1093/bioinformatics/btaf241 . PMC https://pmc.ncbi.nlm.nih.gov/articles/PMC12261414/ ; 作者机构全文 https://acris.aalto.fi/ws/portalfiles/portal/187553408/Incorporating_hierarchical_information_into_multiple_instance_learning_for_patient_phenotype_prediction_with_single-cell_RNA-sequencing_data.pdf ; 官方代码 https://github.com/minhchaudo/hier-mil .",
+    "first_author": "Do C"
+  },
+  {
+    "id": "M03",
+    "title": "scMILD: Single-cell multiple instance learning for sample classification and associated subpopulation discovery",
+    "year": 2026,
+    "journal": "iScience",
+    "doi": "10.1016/j.isci.2026.115284",
+    "url": "https://doi.org/10.1016/j.isci.2026.115284",
+    "other_urls": [
+      "https://doi.org/10.1016/j.isci.2026.115284",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13019583/",
+      "https://github.com/Khreat0205/scMILD",
+      "https://github.com/Khreat0205/scMILD/blob/main/preprocess_adata.py",
+      "https://github.com/Khreat0205/scMILD/blob/main/src/utils.py",
+      "https://github.com/Khreat0205/scMILD/blob/main/src/trainer_ae.py",
+      "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/preprocess_adata.py",
+      "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/pretraining_autoencoder.py",
+      "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/train_scMILD.py",
+      "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/src/utils.py",
+      "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/src/trainer_ae.py"
+    ],
+    "read_depth": "B-paper/A-code：正式记录与原始方法正文可检索段落；实际读取preprocess_adata.py、src/utils.py、src/trainer_ae.py及训练入口。未声称逐页精读正式全文。",
+    "project_use": "样本分类与相关亚群发现先例；当前官方源码直接说明bag ID与donor split必须分离，并需折内HVG/合法counts AE。",
+    "major_limitation": "当前源码HVG先于split；默认ID同标签假设不适配同患者PT/LM；NB自动编码器不能直接处理未知归一化表达。此为适配审查，不推定原作者所有实验有错误。",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Jeong K, Choi J, Kim K. **scMILD: Single-cell multiple instance learning for sample classification and associated subpopulation discovery.** iScience. 2026;29(4):115284. DOI: https://doi.org/10.1016/j.isci.2026.115284 . https://pmc.ncbi.nlm.nih.gov/articles/PMC13019583/ ; https://github.com/Khreat0205/scMILD .",
+    "source_audit": {
+      "repository": "https://github.com/Khreat0205/scMILD",
+      "commit": "eb1a284fd99b01fe340b0d6d1a934740012a9dae",
+      "commit_date": null,
+      "commit_evidence": "git ls-remote returned refs/heads/main; files independently fetched by immutable commit and compared",
+      "files": [
+        {
+          "repository_path": "preprocess_adata.py",
+          "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/preprocess_adata.py",
+          "sha256": "3dfb53b3cfba3a58c4a945aa74882f97ccf2b6d7e3128dc1f8d526c57d384d06",
+          "fixed_commit_sha256": "3dfb53b3cfba3a58c4a945aa74882f97ccf2b6d7e3128dc1f8d526c57d384d06",
+          "matches_fixed_commit": true,
+          "reviewed_filename": "scMILD_preprocess_adata.py"
+        },
+        {
+          "repository_path": "pretraining_autoencoder.py",
+          "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/pretraining_autoencoder.py",
+          "sha256": "ea53c2451a55a66b86df2f7fc6ff0997249f56f0e395e49cec2cfd57cd60ab67",
+          "fixed_commit_sha256": "ea53c2451a55a66b86df2f7fc6ff0997249f56f0e395e49cec2cfd57cd60ab67",
+          "matches_fixed_commit": true,
+          "reviewed_filename": "scMILD_pretraining_autoencoder.py"
+        },
+        {
+          "repository_path": "train_scMILD.py",
+          "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/train_scMILD.py",
+          "sha256": "5aa692a9b4edc608f136362dacdd1ed0e5df7bc2d60a9269ed679b3f159dc3aa",
+          "fixed_commit_sha256": "5aa692a9b4edc608f136362dacdd1ed0e5df7bc2d60a9269ed679b3f159dc3aa",
+          "matches_fixed_commit": true,
+          "reviewed_filename": "scMILD_train_scMILD.py"
+        },
+        {
+          "repository_path": "src/utils.py",
+          "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/src/utils.py",
+          "sha256": "2474fd22188538edd906f12f0f7485a1058f50623cf3b834bb7b153a4fbcb1dd",
+          "fixed_commit_sha256": "2474fd22188538edd906f12f0f7485a1058f50623cf3b834bb7b153a4fbcb1dd",
+          "matches_fixed_commit": true,
+          "reviewed_filename": "scMILD_src_utils.py"
+        },
+        {
+          "repository_path": "src/trainer_ae.py",
+          "immutable_url": "https://github.com/Khreat0205/scMILD/blob/eb1a284fd99b01fe340b0d6d1a934740012a9dae/src/trainer_ae.py",
+          "sha256": "a022dd8f03920fe8f0edf24faa553346dae0d699bc7d53d876f37dea440778c4",
+          "fixed_commit_sha256": "a022dd8f03920fe8f0edf24faa553346dae0d699bc7d53d876f37dea440778c4",
+          "matches_fixed_commit": true,
+          "reviewed_filename": "scMILD_src_trainer_ae.py"
+        }
+      ],
+      "audit_file": "output/CRLM_starter/source_audit/source_provenance.json"
+    },
+    "first_author": "Jeong K"
+  },
+  {
+    "id": "M04",
+    "title": "scPanel: a tool for automatic identification of sparse gene panels for generalizable patient classification using scRNA-seq datasets",
+    "year": 2024,
+    "journal": "Briefings in Bioinformatics",
+    "doi": "10.1093/bib/bbae482",
+    "url": "https://doi.org/10.1093/bib/bbae482",
+    "other_urls": [
+      "https://doi.org/10.1093/bib/bbae482",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11442147/",
+      "https://github.com/carissaxie/scPanel"
+    ],
+    "read_depth": "A：Europe PMC原始完整正文，核查跨队列流程/样本评分定义；官方仓库",
+    "project_use": "稀疏基因panel和患者泛化对照",
+    "major_limitation": "原流程某些训练/测试联合CCA步骤具有传导性质；不能照抄为严格单样本外部流程",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Xie Y, Yang J, Ouyang JF, Petretto E. **scPanel: a tool for automatic identification of sparse gene panels for generalizable patient classification using scRNA-seq datasets.** Brief Bioinform. 2024;25(6):bbae482. DOI: https://doi.org/10.1093/bib/bbae482 . https://pmc.ncbi.nlm.nih.gov/articles/PMC11442147/ ; https://github.com/carissaxie/scPanel .",
+    "first_author": "Xie Y"
+  },
+  {
+    "id": "M05",
+    "title": "Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states",
+    "year": 2026,
+    "journal": "Cell Systems",
+    "doi": "10.1016/j.cels.2026.101570",
+    "url": "https://doi.org/10.1016/j.cels.2026.101570",
+    "other_urls": [
+      "https://doi.org/10.1016/j.cels.2026.101570",
+      "https://pubmed.ncbi.nlm.nih.gov/41923638/",
+      "https://github.com/Genentech/pascient"
+    ],
+    "read_depth": "B：正式记录/摘要与官方仓库权重说明",
+    "project_use": "PaSCient正式发表和患者表征先例；区分预印本规模",
+    "major_limitation": "预训练权重需按官方说明申请，当前不能假定直接可下载；非本CRLM验证",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Liu T, De Brouwer E, Verma A, et al. **Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states.** Cell Systems. 2026;17(5):101570. DOI: https://doi.org/10.1016/j.cels.2026.101570 . https://pubmed.ncbi.nlm.nih.gov/41923638/ ; https://github.com/Genentech/pascient .",
+    "first_author": "Liu T"
+  },
+  {
+    "id": "M06",
+    "title": "Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states",
+    "year": 2024,
+    "journal": "bioRxiv",
+    "doi": "10.1101/2024.11.18.624166",
+    "url": "https://doi.org/10.1101/2024.11.18.624166",
+    "other_urls": [
+      "https://doi.org/10.1101/2024.11.18.624166"
+    ],
+    "read_depth": "B：原始v1摘要/记录；仅比较版本",
+    "project_use": "区分PaSCient早期24.3M/5000与正式稿统计",
+    "major_limitation": "已由M05正式发表；主引文优先M05",
+    "accessed_at": "2026-11-21",
+    "publication_status": "preprint",
+    "full_citation": "Liu T, et al. PaSCient early preprint (2024), DOI: https://doi.org/10.1101/2024.11.18.624166 . Used only to distinguish preprint vs published cohort statistics; prefer M05 for citation.",
+    "first_author": "Liu T"
+  },
+  {
+    "id": "M07",
+    "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+    "year": 2024,
+    "journal": "Nature Methods",
+    "doi": "10.1038/s41592-024-02201-0",
+    "url": "https://doi.org/10.1038/s41592-024-02201-0",
+    "other_urls": [
+      "https://doi.org/10.1038/s41592-024-02201-0",
+      "https://github.com/bowang-lab/scGPT"
+    ],
+    "read_depth": "A：原始主文/预训练方法与官方代码；实际实现细节见M19/M25–M27",
+    "project_use": "冻结细胞表征候选及预训练来源审计",
+    "major_limitation": "冻结不等于独立；实际checkpoint覆盖和数据重叠必须单独核验",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Cui H, Wang C, Maan H, et al. **scGPT: toward building a foundation model for single-cell multi-omics using generative AI.** Nature Methods. 2024;21:1470-1480. DOI: https://doi.org/10.1038/s41592-024-02201-0 . https://github.com/bowang-lab/scGPT .",
+    "first_author": "Cui H"
+  },
+  {
+    "id": "M08",
+    "title": "Zero-shot evaluation reveals limitations of single-cell foundation models",
+    "year": 2025,
+    "journal": "Genome Biology",
+    "doi": "10.1186/s13059-025-03574-x",
+    "url": "https://doi.org/10.1186/s13059-025-03574-x",
+    "other_urls": [
+      "https://doi.org/10.1186/s13059-025-03574-x",
+      "https://link.springer.com/article/10.1186/s13059-025-03574-x",
+      "https://github.com/microsoft/zero-shot-scfoundation"
+    ],
+    "read_depth": "A：原文方法/评估与官方复现入口",
+    "project_use": "支持必须与PCA等简单表征作同输入/同划分比较",
+    "major_limitation": "研究为特定版本与五数据集；不能泛化成所有scGPT版本/本任务必然失败",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Kedzierska KZ, Crawford L, Amini AP, Lu AX. **Zero-shot evaluation reveals limitations of single-cell foundation models.** Genome Biology. 2025;26:101. DOI: https://doi.org/10.1186/s13059-025-03574-x . https://link.springer.com/article/10.1186/s13059-025-03574-x ; https://github.com/microsoft/zero-shot-scfoundation .",
+    "first_author": "Kedzierska KZ"
+  },
+  {
+    "id": "M09",
+    "title": "Confronting false discoveries in single-cell differential expression",
+    "year": 2021,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-021-25960-2",
+    "url": "https://doi.org/10.1038/s41467-021-25960-2",
+    "other_urls": [
+      "https://doi.org/10.1038/s41467-021-25960-2",
+      "https://pubmed.ncbi.nlm.nih.gov/34584091/"
+    ],
+    "read_depth": "B：原始摘要与关键方法/结果段落",
+    "project_use": "反伪重复和生物重复优先的差异分析原则",
+    "major_limitation": "不保证每个pseudobulk模型在所有小样本设计中都校准",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Squair JW, Gautier M, Kathe C, et al. **Confronting false discoveries in single-cell differential expression.** Nature Communications. 2021;12:5692. DOI: https://doi.org/10.1038/s41467-021-25960-2 . https://pubmed.ncbi.nlm.nih.gov/34584091/ .",
+    "first_author": "Squair JW"
+  },
+  {
+    "id": "M10",
+    "title": "muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data",
+    "year": 2020,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-020-19894-4",
+    "url": "https://doi.org/10.1038/s41467-020-19894-4",
+    "other_urls": [
+      "https://doi.org/10.1038/s41467-020-19894-4",
+      "https://bioconductor.org/packages/release/bioc/vignettes/muscat/inst/doc/analysis.html"
+    ],
+    "read_depth": "A/B：原文方法与官方vignette深入读取",
+    "project_use": "细胞亚群×样本pseudobulk状态分析及设计矩阵接口",
+    "major_limitation": "NB路径需要原始counts；设计矩阵不代替真实患者映射",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Crowell HL, Soneson C, Germain PL, et al. **muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data.** Nature Communications. 2020;11:6077. DOI: https://doi.org/10.1038/s41467-020-19894-4 . https://bioconductor.org/packages/release/bioc/vignettes/muscat/inst/doc/analysis.html .",
+    "first_author": "Crowell HL"
+  },
+  {
+    "id": "M11",
+    "title": "A balanced measure shows superior performance of pseudobulk methods in single-cell RNA-sequencing analysis",
+    "year": 2022,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-022-35519-4",
+    "url": "https://doi.org/10.1038/s41467-022-35519-4",
+    "other_urls": [
+      "https://doi.org/10.1038/s41467-022-35519-4",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9780232/"
+    ],
+    "read_depth": "B：正式记录、摘要与关键结果",
+    "project_use": "pseudobulk方法评估补充",
+    "major_limitation": "指标取舍和比较场景不能代替本数据诊断",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Murphy AE, Skene NG. **A balanced measure shows superior performance of pseudobulk methods in single-cell RNA-sequencing analysis.** Nature Communications. 2022;13:7851. DOI: https://doi.org/10.1038/s41467-022-35519-4 . https://pmc.ncbi.nlm.nih.gov/articles/PMC9780232/ .",
+    "first_author": "Murphy AE"
+  },
+  {
+    "id": "M12",
+    "title": "Efficient differential expression analysis of large-scale single-cell transcriptomics data using Dreamlet",
+    "year": 2026,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-026-75680-8",
+    "url": "https://doi.org/10.1038/s41467-026-75680-8",
+    "other_urls": [
+      "https://bioconductor.org/packages/release/bioc/html/dreamlet.html",
+      "https://gabrielhoffman.github.io/dreamlet/",
+      "https://doi.org/10.1038/s41467-026-75680-8"
+    ],
+    "read_depth": "B：正式记录/摘要，官方Bioconductor与重复测量文档；未逐页读全文",
+    "project_use": "多病灶/重复测量的可选混合模型路径",
+    "major_limitation": "不应因支持随机效应就默认小n估计稳定",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "**dreamlet**, 官方 Bioconductor 包与重复测量说明：https://bioconductor.org/packages/release/bioc/html/dreamlet.html ; https://gabrielhoffman.github.io/dreamlet/ . 正式论文 *Efficient differential expression analysis of large-scale single-cell transcriptomics data using Dreamlet*, Nature Communications 2026, DOI https://doi.org/10.1038/s41467-026-75680-8 （本轮核验了官方记录和方法摘要，未据此声称在CRLM任务有效）。",
+    "first_author": "Gabriel E. Hoffman"
+  },
+  {
+    "id": "M13",
+    "title": "UCell: Robust and scalable single-cell gene signature scoring",
+    "year": 2021,
+    "journal": "Computational and Structural Biotechnology Journal",
+    "doi": "10.1016/j.csbj.2021.06.043",
+    "url": "https://doi.org/10.1016/j.csbj.2021.06.043",
+    "other_urls": [
+      "https://doi.org/10.1016/j.csbj.2021.06.043",
+      "https://pubmed.ncbi.nlm.nih.gov/34285779/"
+    ],
+    "read_depth": "B：原始方法记录与官方实现",
+    "project_use": "固定基因程序集的细胞内rank评分，适合processed-only分支",
+    "major_limitation": "秩分数依赖可测基因和技术差异；仍需患者聚合/覆盖率审计",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Andreatta M, Carmona SJ. **UCell: Robust and scalable single-cell gene signature scoring.** Computational and Structural Biotechnology Journal. 2021;19:3796-3798. DOI: https://doi.org/10.1016/j.csbj.2021.06.043 . https://pubmed.ncbi.nlm.nih.gov/34285779/ .",
+    "first_author": "Andreatta M"
+  },
+  {
+    "id": "M14",
+    "title": "Identifying gene expression programs of cell-type identity and cellular activity with single-cell RNA-Seq",
+    "year": 2019,
+    "journal": "eLife",
+    "doi": "10.7554/eLife.43803",
+    "url": "https://doi.org/10.7554/eLife.43803",
+    "other_urls": [
+      "https://doi.org/10.7554/eLife.43803",
+      "https://elifesciences.org/articles/43803",
+      "https://github.com/dylkot/cNMF"
+    ],
+    "read_depth": "B：原始摘要/方法及官方cNMF仓库",
+    "project_use": "开发队列新程序发现，要求开发/折内拟合",
+    "major_limitation": "发现程序不自动可跨平台复现；外部不得重新选程序",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Kotliar D, Veres A, Nagy MA, et al. **Identifying gene expression programs of cell-type identity and cellular activity with single-cell RNA-Seq.** eLife. 2019;8:e43803. DOI: https://doi.org/10.7554/eLife.43803 . https://elifesciences.org/articles/43803 ; https://github.com/dylkot/cNMF .",
+    "first_author": "Kotliar D"
+  },
+  {
+    "id": "M15",
+    "title": "scCODA is a Bayesian model for compositional single-cell data analysis",
+    "year": 2021,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-021-27150-6",
+    "url": "https://doi.org/10.1038/s41467-021-27150-6",
+    "other_urls": [
+      "https://doi.org/10.1038/s41467-021-27150-6",
+      "https://www.nature.com/articles/s41467-021-27150-6.pdf"
+    ],
+    "read_depth": "A：原始正式PDF方法与模型",
+    "project_use": "组成分析需组合数据模型的先例",
+    "major_limitation": "参考类别/先验和小样本敏感；不能将细胞数当生物重复",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Büttner M, Ostner J, Müller CL, Theis FJ, Schubert B. **scCODA is a Bayesian model for compositional single-cell data analysis.** Nature Communications. 2021;12:6876. DOI: https://doi.org/10.1038/s41467-021-27150-6 . https://www.nature.com/articles/s41467-021-27150-6.pdf . 当前维护实现需核对 pertpy，不只依赖旧仓库。",
+    "first_author": "Büttner M"
+  },
+  {
+    "id": "M16",
+    "title": "Differential abundance testing on single-cell data using k-nearest neighbor graphs",
+    "year": 2022,
+    "journal": "Nature Biotechnology",
+    "doi": "10.1038/s41587-021-01033-z",
+    "url": "https://doi.org/10.1038/s41587-021-01033-z",
+    "other_urls": [
+      "https://doi.org/10.1038/s41587-021-01033-z",
+      "https://github.com/MarioniLab/miloR"
+    ],
+    "read_depth": "B：原始记录/方法与miloR官方说明；在线2021、卷期2022",
+    "project_use": "连续邻域差异丰度可选分析",
+    "major_limitation": "图结构和批次处理会影响结果；样本设计仍需donor意识",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Dann E, Henderson NC, Teichmann SA, Morgan MD, Marioni JC. **Differential abundance testing on single-cell data using k-nearest neighbor graphs.** Nature Biotechnology. DOI: https://doi.org/10.1038/s41587-021-01033-z . 在线2021，卷期2022；官方 https://github.com/MarioniLab/miloR .",
+    "first_author": "Dann E"
+  },
+  {
+    "id": "M17",
+    "title": "sccomp: Robust differential composition and variability analysis for single-cell data",
+    "year": 2023,
+    "journal": "PNAS",
+    "doi": "10.1073/pnas.2203828120",
+    "url": "https://doi.org/10.1073/pnas.2203828120",
+    "other_urls": [
+      "https://doi.org/10.1073/pnas.2203828120",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10438834/",
+      "https://bioconductor.org/packages/release/bioc/html/sccomp.html",
+      "https://bioconductor.org/packages/release/bioc/vignettes/sccomp/inst/doc/introduction.html",
+      "https://github.com/stemangiola/sccomp"
+    ],
+    "read_depth": "B：原始摘要、官方Bioconductor mixed-effects文档",
+    "project_use": "鲁棒组成/变异分析和重复测量可选对照",
+    "major_limitation": "正式论文为2023，不能误写2026；较复杂模型不是新增患者",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Mangiola S, Roth-Schulze AJ, Trussart M, et al. **sccomp: Robust differential composition and variability analysis for single-cell data.** Proceedings of the National Academy of Sciences. 2023;120(33):e2203828120. DOI https://doi.org/10.1073/pnas.2203828120 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10438834/ . 官方说明与混合效应接口：https://bioconductor.org/packages/release/bioc/html/sccomp.html ; https://bioconductor.org/packages/release/bioc/vignettes/sccomp/inst/doc/introduction.html ; https://github.com/stemangiola/sccomp .",
+    "first_author": "Mangiola S"
+  },
+  {
+    "id": "M18",
+    "title": "propeller: testing for differences in cell type proportions in single cell data",
+    "year": 2022,
+    "journal": "Bioinformatics",
+    "doi": "10.1093/bioinformatics/btac582",
+    "url": "https://doi.org/10.1093/bioinformatics/btac582",
+    "other_urls": [
+      "https://doi.org/10.1093/bioinformatics/btac582",
+      "https://pubmed.ncbi.nlm.nih.gov/36005887/"
+    ],
+    "read_depth": "B：正式记录/摘要",
+    "project_use": "样本级比例分析的透明对照",
+    "major_limitation": "变换比例的模型需核查极端比例/患者配对设计",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Phipson B, Sim CB, Porrello ER, et al. **propeller: testing for differences in cell type proportions in single cell data.** Bioinformatics. 2022;38(20):4720-4726. DOI: https://doi.org/10.1093/bioinformatics/btac582 . https://pubmed.ncbi.nlm.nih.gov/36005887/ .",
+    "first_author": "Phipson B"
+  },
+  {
+    "id": "M19",
+    "title": "scGPT official cell embedding implementation (fixed commit cebd6fae655b9c585a4807daa3ac31bb764f06b4)",
+    "year": 2026,
+    "journal": "Official source code",
+    "doi": null,
+    "url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/tasks/cell_emb.py",
+    "other_urls": [
+      "https://github.com/bowang-lab/scGPT/blob/main/scgpt/tasks/cell_emb.py",
+      "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/tasks/cell_emb.py"
+    ],
+    "read_depth": "A-code：实际读取cell_emb.py，记录commit",
+    "project_use": "锁定embed_data输入、分块和内存行为",
+    "major_limitation": "代码年份为本轮核验版本而非新论文发表年；未来API可变",
+    "accessed_at": "2026-11-21",
+    "publication_status": "official_source",
+    "full_citation": "scGPT 官方嵌入实现，核验日期2026-11-21：https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/tasks/cell_emb.py . 本轮固定commit cebd6fae655b9c585a4807daa3ac31bb764f06b4；对应文件SHA见methods_references.json和起步包source_audit/source_provenance.json。",
+    "source_audit": {
+      "repository": "https://github.com/bowang-lab/scGPT",
+      "commit": "cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+      "commit_date": "2026-04-27T19:52:01Z",
+      "files": [
+        {
+          "repository_path": "scgpt/tasks/cell_emb.py",
+          "reviewed_filename": "scgpt_scgpt_tasks_cell_emb.py",
+          "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/tasks/cell_emb.py",
+          "sha256": "f21af4073a2b35d40436d4b5a7ad28d7eadb3a3040a817a9c8a7173097993c54",
+          "fixed_commit_sha256": "f21af4073a2b35d40436d4b5a7ad28d7eadb3a3040a817a9c8a7173097993c54",
+          "matches_fixed_commit": true
+        }
+      ],
+      "audit_file": "output/CRLM_starter/source_audit/source_provenance.json"
+    }
+  },
+  {
+    "id": "M20",
+    "title": "Attention-based Deep Multiple Instance Learning",
+    "year": 2018,
+    "journal": "ICML / PMLR",
+    "doi": null,
+    "url": "https://proceedings.mlr.press/v80/ilse18a.html",
+    "other_urls": [
+      "https://proceedings.mlr.press/v80/ilse18a.html"
+    ],
+    "read_depth": "A：原始架构与数学公式",
+    "project_use": "ABMIL基本结构先例和透明基线",
+    "major_limitation": "attention权重不是因果归因",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Ilse M, Tomczak J, Welling M. **Attention-based Deep Multiple Instance Learning.** ICML 2018, PMLR 80:2127-2136. https://proceedings.mlr.press/v80/ilse18a.html .",
+    "first_author": "Ilse M"
+  },
+  {
+    "id": "M21",
+    "title": "Attention is not Explanation",
+    "year": 2019,
+    "journal": "NAACL",
+    "doi": "10.18653/v1/N19-1357",
+    "url": "https://doi.org/10.18653/v1/N19-1357",
+    "other_urls": [
+      "https://doi.org/10.18653/v1/N19-1357",
+      "https://aclanthology.org/N19-1357/"
+    ],
+    "read_depth": "B：原始摘要与论证",
+    "project_use": "说明attention解释需要额外检验",
+    "major_limitation": "原实验为NLP，不能直接判定所有生物MIL解释无效",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Jain S, Wallace BC. **Attention is not Explanation.** NAACL 2019. DOI: https://doi.org/10.18653/v1/N19-1357 . https://aclanthology.org/N19-1357/ . 对本项目仅作为需验证注意力解释性的背景；原实验属于NLP，不能直接宣称已证明本MIL解释无效。",
+    "first_author": "Jain S"
+  },
+  {
+    "id": "M22",
+    "title": "Attention is not not Explanation",
+    "year": 2019,
+    "journal": "EMNLP-IJCNLP",
+    "doi": "10.18653/v1/D19-1002",
+    "url": "https://doi.org/10.18653/v1/D19-1002",
+    "other_urls": [
+      "https://aclanthology.org/D19-1002/"
+    ],
+    "read_depth": "B：ACL原始摘要、测试建议与元数据",
+    "project_use": "解释性结论依赖定义与验证；均匀权重/seed稳定性参考",
+    "major_limitation": "反驳并不赋予注意力机制含义",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Wiegreffe S, Pinter Y. **Attention is not not Explanation.** EMNLP-IJCNLP 2019. https://aclanthology.org/D19-1002/ . 与M21一起说明“attention能否解释”取决于解释定义和实际验证。",
+    "first_author": "Wiegreffe S"
+  },
+  {
+    "id": "M23",
+    "title": "MultiNicheNet: a flexible framework for differential cell-cell communication analysis from multi-sample multi-condition single-cell transcriptomics data",
+    "year": 2023,
+    "journal": "bioRxiv / official software",
+    "doi": "10.1101/2023.06.13.544751",
+    "url": "https://doi.org/10.1101/2023.06.13.544751",
+    "other_urls": [
+      "https://github.com/saeyslab/multinichenetr",
+      "https://doi.org/10.1101/2023.06.13.544751"
+    ],
+    "read_depth": "B：原始预印本记录、官方README与多样本分析文档",
+    "project_use": "样本感知细胞通讯假说生成",
+    "major_limitation": "截至2026-11-21官方仓库仍引用预印本；通讯推断不证明实际作用",
+    "accessed_at": "2026-11-21",
+    "publication_status": "preprint",
+    "full_citation": "MultiNicheNet 官方软件与原始预印本：https://github.com/saeyslab/multinichenetr ; https://doi.org/10.1101/2023.06.13.544751 . 可作为患者/样本感知的通讯候选优先级分析；表达共现和配体受体数据库并不证明实际通讯或因果作用。",
+    "first_author": "Robin Browaeys"
+  },
+  {
+    "id": "M24",
+    "title": "Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA",
+    "year": 2024,
+    "journal": "Communications Biology",
+    "doi": "10.1038/s42003-024-07238-7",
+    "url": "https://doi.org/10.1038/s42003-024-07238-7",
+    "other_urls": [
+      "https://doi.org/10.1038/s42003-024-07238-7",
+      "https://www.nature.com/articles/s42003-024-07238-7.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11569158/",
+      "https://github.com/ZhuoliHuang/scPAFA",
+      "https://github.com/ZhuoliHuang/scPAFA_paper"
+    ],
+    "read_depth": "A：正式PDF全文，重点CRC-CRLM结果/方法与官方复现仓库",
+    "project_use": "同GSE164522四组织的直接多细胞程序先例，限制发现新颖性",
+    "major_limitation": "原文组间检验并非本项目患者配对交互检验；旧程序复现应如实命名",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Huang Z, Zheng Y, Wang W, et al. **Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA.** Communications Biology. 2024;7:1523. DOI https://doi.org/10.1038/s42003-024-07238-7 ; 全文PDF https://www.nature.com/articles/s42003-024-07238-7.pdf ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11569158/ ; 软件 https://github.com/ZhuoliHuang/scPAFA ; 论文复现代码 https://github.com/ZhuoliHuang/scPAFA_paper .",
+    "first_author": "Huang Z"
+  },
+  {
+    "id": "M25",
+    "title": "scGPT tokenization, DataCollator and preprocessing source at fixed commit",
+    "year": 2026,
+    "journal": "Official source code",
+    "doi": null,
+    "url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/data_collator.py",
+    "other_urls": [
+      "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/data_collator.py",
+      "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/preprocess.py"
+    ],
+    "read_depth": "A-code：实际读取data_collator.py与preprocess.py",
+    "project_use": "分箱、随机ties、基因截断、双RNG固定与输入语义",
+    "major_limitation": "不能从教程片段假定所有checkpoint相同；实际配置需冻结",
+    "accessed_at": "2026-11-21",
+    "publication_status": "official_source",
+    "full_citation": "scGPT当前token化实现（固定commit）：https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/data_collator.py ; https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/preprocess.py .",
+    "source_audit": {
+      "repository": "https://github.com/bowang-lab/scGPT",
+      "commit": "cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+      "commit_date": "2026-04-27T19:52:01Z",
+      "files": [
+        {
+          "repository_path": "scgpt/data_collator.py",
+          "reviewed_filename": "scgpt_scgpt_data_collator.py",
+          "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/data_collator.py",
+          "sha256": "4543e16e5fd162ba935c8e7687059953503db1878189dfd33c0ecda3375428e9",
+          "fixed_commit_sha256": "4543e16e5fd162ba935c8e7687059953503db1878189dfd33c0ecda3375428e9",
+          "matches_fixed_commit": true
+        },
+        {
+          "repository_path": "scgpt/preprocess.py",
+          "reviewed_filename": "scgpt_scgpt_preprocess.py",
+          "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/scgpt/preprocess.py",
+          "sha256": "e0928ef5cbbdbe5012869cf890740d972c4faa6852e22006ac8dc52846fd5c84",
+          "fixed_commit_sha256": "e0928ef5cbbdbe5012869cf890740d972c4faa6852e22006ac8dc52846fd5c84",
+          "matches_fixed_commit": true
+        }
+      ],
+      "audit_file": "output/CRLM_starter/source_audit/source_provenance.json"
+    }
+  },
+  {
+    "id": "M26",
+    "title": "scGPT official pretraining CELLxGENE data configuration",
+    "year": 2026,
+    "journal": "Official source code",
+    "doi": null,
+    "url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/data_config.py",
+    "other_urls": [
+      "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/data_config.py",
+      "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/README.md"
+    ],
+    "read_depth": "A-code：实际读取data_config.py、README和取数脚本",
+    "project_use": "审计Census版本、normal筛选与组织覆盖",
+    "major_limitation": "公共当前源码不足以证明每个已发布checkpoint的实际全部训练样本",
+    "accessed_at": "2026-11-21",
+    "publication_status": "official_source",
+    "full_citation": "scGPT官方预训练取数配置与说明：https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/data_config.py ; https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/README.md .",
+    "source_audit": {
+      "repository": "https://github.com/bowang-lab/scGPT",
+      "commit": "cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+      "commit_date": "2026-04-27T19:52:01Z",
+      "files": [
+        {
+          "repository_path": "data/cellxgene/data_config.py",
+          "reviewed_filename": "scgpt_data_config.py",
+          "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/data_config.py",
+          "sha256": "b8267b4e6d88633f23a56569f61e2270549b810c3830e354fe5b260eb30490a9",
+          "fixed_commit_sha256": "b8267b4e6d88633f23a56569f61e2270549b810c3830e354fe5b260eb30490a9",
+          "matches_fixed_commit": true
+        },
+        {
+          "repository_path": "data/cellxgene/README.md",
+          "reviewed_filename": "scgpt_pretraining_README.md",
+          "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/data/cellxgene/README.md",
+          "sha256": "b9760b4b9ffa67c52b739f9210451c7d3f0186227091061c41815492b3919c6d",
+          "fixed_commit_sha256": "b9760b4b9ffa67c52b739f9210451c7d3f0186227091061c41815492b3919c6d",
+          "matches_fixed_commit": true
+        }
+      ],
+      "audit_file": "output/CRLM_starter/source_audit/source_provenance.json"
+    }
+  },
+  {
+    "id": "M27",
+    "title": "scGPT official zero-shot / continual-pretraining README and notebook",
+    "year": 2026,
+    "journal": "Official source code",
+    "doi": null,
+    "url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/README.md",
+    "other_urls": [
+      "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/README.md",
+      "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/Tutorial_ZeroShot_Integration_Continual_Pretraining.ipynb"
+    ],
+    "read_depth": "A-code：实际读取官方README与notebook代码单元",
+    "project_use": "区分原始whole-human与CP checkpoint及额外数据",
+    "major_limitation": "教程中的HVG调用需按实际矩阵尺度核验，不可照抄",
+    "accessed_at": "2026-11-21",
+    "publication_status": "official_source",
+    "full_citation": "scGPT官方zero-shot/CP说明及教程：https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/README.md ; https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/Tutorial_ZeroShot_Integration_Continual_Pretraining.ipynb .",
+    "source_audit": {
+      "repository": "https://github.com/bowang-lab/scGPT",
+      "commit": "cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+      "commit_date": "2026-04-27T19:52:01Z",
+      "files": [
+        {
+          "repository_path": "tutorials/zero-shot/README.md",
+          "reviewed_filename": "scgpt_zeroshot_README.md",
+          "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/README.md",
+          "sha256": "a15606b7449a64e87135e8717aab01a701ab94b195f63f6ed2026257f908d3d8",
+          "fixed_commit_sha256": "a15606b7449a64e87135e8717aab01a701ab94b195f63f6ed2026257f908d3d8",
+          "matches_fixed_commit": true
+        },
+        {
+          "repository_path": "tutorials/zero-shot/Tutorial_ZeroShot_Integration_Continual_Pretraining.ipynb",
+          "reviewed_filename": "scgpt_continual_notebook.ipynb",
+          "immutable_url": "https://github.com/bowang-lab/scGPT/blob/cebd6fae655b9c585a4807daa3ac31bb764f06b4/tutorials/zero-shot/Tutorial_ZeroShot_Integration_Continual_Pretraining.ipynb",
+          "sha256": "7e9318d4f29d066c60d77a2457413a60fb66843350dccf4dd49004cfd41d13e2",
+          "fixed_commit_sha256": "7e9318d4f29d066c60d77a2457413a60fb66843350dccf4dd49004cfd41d13e2",
+          "matches_fixed_commit": true
+        }
+      ],
+      "audit_file": "output/CRLM_starter/source_audit/source_provenance.json"
+    }
+  },
+  {
+    "id": "M28",
+    "title": "Scanpy highly_variable_genes API documentation",
+    "year": 2026,
+    "journal": "Official documentation",
+    "doi": null,
+    "url": "https://scanpy.readthedocs.io/en/stable/generated/scanpy.pp.highly_variable_genes.html",
+    "other_urls": [
+      "https://scanpy.readthedocs.io/en/stable/generated/scanpy.pp.highly_variable_genes.html"
+    ],
+    "read_depth": "A-doc：官方API说明",
+    "project_use": "明确seurat_v3需counts、其他flavor输入语义",
+    "major_limitation": "固定安装版本；文档年份为访问年",
+    "accessed_at": "2026-11-21",
+    "publication_status": "official_source",
+    "full_citation": "Scanpy官方HVG文档：https://scanpy.readthedocs.io/en/stable/generated/scanpy.pp.highly_variable_genes.html . 接口随版本变化，应按实际锁定版本调用；seurat_v3要求counts的统计语义不变。"
+  },
+  {
+    "id": "M29",
+    "title": "scMetaIntegrator: a meta-analysis approach to paired single-cell differential expression analysis",
+    "year": 2025,
+    "journal": "bioRxiv",
+    "doi": "10.1101/2025.06.04.657898",
+    "url": "https://doi.org/10.1101/2025.06.04.657898",
+    "other_urls": [
+      "https://doi.org/10.1101/2025.06.04.657898",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12157664/",
+      "https://pubmed.ncbi.nlm.nih.gov/40501846/",
+      "https://github.com/Khatri-Lab/scMetaIntegrator",
+      "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/README.md",
+      "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/runscMI.R",
+      "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/confirmPairs.R",
+      "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/thresholdGenesAcrossPairs.R"
+    ],
+    "read_depth": "A：原始全文方法/局限和runscMI、confirmPairs、thresholdGenesAcrossPairs源码",
+    "project_use": "必须承认的配对单细胞DE先例；可选敏感性对照",
+    "major_limitation": "效应以细胞内SD标准化；原文全PBMC可能混入组成；confirmPairs不是临床身份验证",
+    "accessed_at": "2026-11-21",
+    "publication_status": "preprint",
+    "full_citation": "Ratnasiri K, Mach SN, Blish CA, Khatri P. **scMetaIntegrator: a meta-analysis approach to paired single-cell differential expression analysis.** bioRxiv. 2025-06-08. DOI https://doi.org/10.1101/2025.06.04.657898 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12157664/ ; https://pubmed.ncbi.nlm.nih.gov/40501846/ ; https://github.com/Khatri-Lab/scMetaIntegrator . 截至本轮官方来源仍标预印本；已读取全文方法、对照与局限。",
+    "source_audit": {
+      "repository": "https://github.com/Khatri-Lab/scMetaIntegrator",
+      "commit": "97554c4c0eb7800864eb11a0b0af08f0c789895a",
+      "commit_date": null,
+      "commit_evidence": "git ls-remote; each listed file independently compared against immutable-commit download",
+      "files": [
+        {
+          "repository_path": "README.md",
+          "reviewed_filename": "scMetaIntegrator_README.md",
+          "immutable_url": "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/README.md",
+          "sha256": "a939db186fc2a909684bab914a9f88590f0c84ab870aaa83577448c3f398caae",
+          "fixed_commit_sha256": "a939db186fc2a909684bab914a9f88590f0c84ab870aaa83577448c3f398caae",
+          "matches_fixed_commit": true
+        },
+        {
+          "repository_path": "R/runscMI.R",
+          "reviewed_filename": "scMetaIntegrator_runscMI.R",
+          "immutable_url": "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/runscMI.R",
+          "sha256": "391d6b1a3f6dae804ca5b4d875f28f8390273ffcc33a9c81eb177a5cacc8fe9d",
+          "fixed_commit_sha256": "391d6b1a3f6dae804ca5b4d875f28f8390273ffcc33a9c81eb177a5cacc8fe9d",
+          "matches_fixed_commit": true
+        },
+        {
+          "repository_path": "R/confirmPairs.R",
+          "reviewed_filename": "scMetaIntegrator_confirmPairs.R",
+          "immutable_url": "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/confirmPairs.R",
+          "sha256": "4a2bca9e2752945ed42141c64e73de65b352d327ba2566f951e375576f06640d",
+          "fixed_commit_sha256": "4a2bca9e2752945ed42141c64e73de65b352d327ba2566f951e375576f06640d",
+          "matches_fixed_commit": true
+        },
+        {
+          "repository_path": "R/thresholdGenesAcrossPairs.R",
+          "reviewed_filename": "scMetaIntegrator_thresholdGenesAcrossPairs.R",
+          "immutable_url": "https://github.com/Khatri-Lab/scMetaIntegrator/blob/97554c4c0eb7800864eb11a0b0af08f0c789895a/R/thresholdGenesAcrossPairs.R",
+          "sha256": "0632be42aa8b37075c1ba6202a1e60577a2f561b3d35b83091b8ed914001ed91",
+          "fixed_commit_sha256": "0632be42aa8b37075c1ba6202a1e60577a2f561b3d35b83091b8ed914001ed91",
+          "matches_fixed_commit": true
+        }
+      ],
+      "audit_file": "output/CRLM_starter/source_audit/source_provenance.json"
+    },
+    "first_author": "Ratnasiri K"
+  },
+  {
+    "id": "M30",
+    "title": "Fast, flexible analysis of differences in cellular composition with crumblr",
+    "year": 2026,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-026-75681-7",
+    "url": "https://doi.org/10.1038/s41467-026-75681-7",
+    "other_urls": [
+      "https://doi.org/10.1038/s41467-026-75681-7",
+      "https://www.nature.com/articles/s41467-026-75681-7.pdf",
+      "https://diseaseneurogenomics.github.io/crumblr/articles/crumblr.html"
+    ],
+    "read_depth": "B/A-doc：正式记录/摘要、下载正式PDF并读取方法相关段落，深入官方vignette",
+    "project_use": "精度加权CLR、dream重复测量的组成分析候选",
+    "major_limitation": "CLR/伪计数/精度模型均有假设；样本量仍为患者数",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Hoffman GE, Roussos P. **Fast, flexible analysis of differences in cellular composition with crumblr.** Nature Communications. 2026;17:9598. Published 2026-09-23. DOI https://doi.org/10.1038/s41467-026-75681-7 ; https://www.nature.com/articles/s41467-026-75681-7.pdf ; 官方指南 https://diseaseneurogenomics.github.io/crumblr/articles/crumblr.html .",
+    "first_author": "Hoffman GE"
+  },
+  {
+    "id": "M31",
+    "title": "Robust identification of perturbed cell types in single-cell RNA-seq data",
+    "year": 2024,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-024-51649-3",
+    "url": "https://doi.org/10.1038/s41467-024-51649-3",
+    "other_urls": [
+      "https://doi.org/10.1038/s41467-024-51649-3",
+      "https://www.nature.com/articles/s41467-024-51649-3.pdf",
+      "https://github.com/phillipnicol/scDist"
+    ],
+    "read_depth": "A：正式PDF混合模型/距离推断/聚类局限，官方scDist README",
+    "project_use": "donor-aware细胞类型整体响应的选配基线",
+    "major_limitation": "依赖表示/模型与聚类；过度聚类可能低估状态差异",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Nicol PB, Paulson D, Qian G, Liu XS, Irizarry RA, Sahu AD. **Robust identification of perturbed cell types in single-cell RNA-seq data.** Nature Communications. 2024;15:7610. DOI https://doi.org/10.1038/s41467-024-51649-3 ; 原始PDF https://www.nature.com/articles/s41467-024-51649-3.pdf ; 官方软件 https://github.com/phillipnicol/scDist .",
+    "first_author": "Nicol PB"
+  },
+  {
+    "id": "M32",
+    "title": "Annotation-free discovery of disease-relevant cells in single-cell datasets",
+    "year": 2025,
+    "journal": "Science Advances",
+    "doi": "10.1126/sciadv.adv5019",
+    "url": "https://doi.org/10.1126/sciadv.adv5019",
+    "other_urls": [
+      "https://doi.org/10.1126/sciadv.adv5019",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12383263/",
+      "https://pubmed.ncbi.nlm.nih.gov/40864714/"
+    ],
+    "read_depth": "B：正式记录及原始正文可检索EM/阴性样本假设和可识别性段落",
+    "project_use": "MMIL弱监督细胞发现先例；用于审查潜变量假设",
+    "major_limitation": "健康阴性袋假设不直接适用于PT免疫细胞；部分混合参数不可识别",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Craig E, Keyes TJ, Sarno J, et al. **Annotation-free discovery of disease-relevant cells in single-cell datasets.** Science Advances. 2025;11(35):eadv5019. DOI https://doi.org/10.1126/sciadv.adv5019 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12383263/ ; https://pubmed.ncbi.nlm.nih.gov/40864714/ . 方法称MMIL。",
+    "first_author": "Craig E"
+  },
+  {
+    "id": "M33",
+    "title": "scTransMIL bridges patient-level disease states and single-cell transcriptomics for cancer screening and heterogeneity inference",
+    "year": 2026,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-026-77538-5",
+    "url": "https://doi.org/10.1038/s41467-026-77538-5",
+    "other_urls": [
+      "https://doi.org/10.1038/s41467-026-77538-5",
+      "https://www.nature.com/articles/s41467-026-77538-5.pdf",
+      "https://github.com/TencentAILabHealthcare/scTransMIL",
+      "https://doi.org/10.5281/zenodo.21151067"
+    ],
+    "read_depth": "A：正式PDF的PCA/scGPT变体、donor划分、推理和统计方法；官方代码入口",
+    "project_use": "scGPT+MIL与PCA变体的直接既有先例",
+    "major_limitation": "泛癌诊断任务、样本量/细胞目标不同；其attention/DE不自动满足本项目患者级生物证据要求",
+    "accessed_at": "2026-11-21",
+    "publication_status": "published",
+    "full_citation": "Tang Z, Wang F, Yang F, et al. **scTransMIL bridges patient-level disease states and single-cell transcriptomics for cancer screening and heterogeneity inference.** Nature Communications. 2026;17:10800. Published 2026-09-14. DOI https://doi.org/10.1038/s41467-026-77538-5 ; 原始PDF https://www.nature.com/articles/s41467-026-77538-5.pdf ; 官方代码 https://github.com/TencentAILabHealthcare/scTransMIL ; 归档 https://doi.org/10.5281/zenodo.21151067 .",
+    "first_author": "Tang Z"
+  },
+  {
+    "id": "M34",
+    "title": "Weakly supervised learning uncovers phenotypic signatures in single-cell data",
+    "year": 2024,
+    "journal": "bioRxiv",
+    "doi": "10.1101/2024.07.29.605625",
+    "url": "https://doi.org/10.1101/2024.07.29.605625",
+    "other_urls": [
+      "https://doi.org/10.1101/2024.07.29.605625",
+      "https://multimil.readthedocs.io/en/latest/",
+      "https://github.com/theislab/multimil"
+    ],
+    "read_depth": "B：原始摘要、官方仓库/文档与当前引用状态；未精读全文",
+    "project_use": "MultiMIL弱监督表型表示先例；选配复杂基线",
+    "major_limitation": "v1与当前标题不同；截至本轮官方仍以预印本引用，不能误标正式发表",
+    "accessed_at": "2026-11-21",
+    "publication_status": "preprint",
+    "full_citation": "Litinetskaya A, Hediyeh-zadeh S, Moinfar AA, Lotfollahi M, Theis FJ. **Weakly supervised learning uncovers phenotypic signatures in single-cell data.** bioRxiv. 2024, updated version 2025. DOI https://doi.org/10.1101/2024.07.29.605625 ; 官方文档 https://multimil.readthedocs.io/en/latest/ ; 官方软件 https://github.com/theislab/multimil . 原始v1标题为“Multimodal weakly supervised learning to identify disease-specific changes in single-cell atlases”；目前官方仍引用预印本，不误标为正式期刊论文。",
+    "first_author": "Litinetskaya A"
+  }
+]

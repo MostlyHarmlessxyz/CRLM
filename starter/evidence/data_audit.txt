@@ -1,0 +1,381 @@
+# CRLM 项目数据可行性审计
+
+审计日：2026-11-21。用途：给主要实现者确定数据分工、病例分母、文件读取方式和分析边界。最高优先级依据为用户附件《说明.md》：寻找可复现的生物学状态，器官背景需要被解释，分类仅作工具。这里的“实测”指本次读取官方存储的 metadata、barcodes、矩阵头或 H5，不表示已经重新完成生物学分析。
+
+## 一、先给执行决策
+
+六个原拟 accession 均真实存在且已公开，没有发现拼错 accession。主要问题是**论文全研究规模、GEO 的 GSM 数量和可用于配对分析的患者数不是同一数量**，以及一个核心表达矩阵不是原始 UMI。
+
+| 数据 | 论文/GEO 声明 | 实际可用与本次实测 | 最终建议角色 | 仍需核验 |
+|---|---|---|---|---|
+| GSE245552 | 18 名同步 CRLM；130 个多组学样本；39 个 scRNA GSM | 16 个患者代码，13 名有 PT–LM；仅 Pt18 四组织齐全；39 barcode 文件共 190,190 个输入细胞 | **唯一发现队列**；13 对支撑主要配对效应；3 个不完整患者仅作辅助分类 | 新辅助治疗状态、每患者多病灶含义；正式 QC 后各谱系支持人数 |
+| GSE164522 | 17 名 CRLM，101 个多组织样本，CD45+ 富集 | 公开 metadata 257,843 细胞，只见 patient08–17 共 10 名；六个表达文件完整列头均与 metadata 精确匹配，四组织 163,347；PT 实测为连续处理后尺度 | **外部四组织生物学确认**；使用固定的、兼容尺度的程序评分；不能当原始 UMI 伪汇总 | 前 7 名数据缺口、完整临床表、作者确认表达变换；须披露本次已查看既有注释/支持计数 |
+| GSE178318 | 6 名，15 样本，论文 111,292 个 QC 后细胞 | 6 PT–LM 同时切除配对，3 未治疗+3 化疗；公开 barcode 共 140,281 输入细胞 | **独立方向复现**，同时检查治疗分层；不能给精确泛化保证 | 自行 QC/注释；正式采用前核对 GEO 数据使用说明 |
+| GSE225857 | 6 名、27 scRNA 样本、196,473 CD45+、41,892 CD45−；另 6 ST | 两个合并 scRNA GSM+6 ST GSM；immune metadata 实际 7 个代码/30 代码×组织组；真实补充 S2/S3/S4 已取得，仅列 6 临床代码，不含 P0816 | **身份映射解决前不进入主要配对推断**；可做描述/技术敏感性；ST 单独作不配对定位 | s0816 身份、原始 SampleTag 对应和作者 sampleinfo.csv；不得擅自改成 7 患者、并入 s0813 或删除 s0816 |
+| GSE298084 | 全文研究 18 人 | scRNA 仅 3 人、8 文库：3 colon+3 liver+2 PBMC；取材是肿瘤核心邻近围瘤区，CD45+ 富集 | **围瘤取材的探索性方向复现** | 3 人具体治疗、与 18 人 IHC 子集映射、总 QC 细胞；不能当 18 人独立单细胞验证 |
+| GSE335552 | Xenium+IMC，3 CRLM+1 相邻肝 | 3 人、4 切片；462/319 两种面板；646,711 个分割细胞；共同测量基因仅 309 | **少数预定义程序的空间定位**，优先直接可测基因，不训练原发/转移分类器 | FFPE 病灶治疗、完整图像配准和 IMC 标记映射；没有原发结肠组织 |
+
+**角色调整的原因。** 原方案把 GSE164522 当主要训练并把其他数据混入训练，会失去最有价值的独立四组织确认。GSE245552 提供公开的 counts 格式与 13 对患者，更适合发现；将 GSE164522 留作独立器官背景评估，可以直接服务《说明.md》的重点。四组织齐全并不代表每个谱系都有足够细胞：根代理的只限支持计数审查表明，GSE164522 的 Myeloid=Mono/Mac/DC 在每组织≥50细胞时只有 8 个 PT–LM 对、5 个四组织患者；T/NK 为 10/10。应逐谱系报告真实患者分母。[D01,D02,D04；本地 `pilot_164522_support.csv`]
+
+## 二、GSE245552：发现队列的真实分母和样本映射
+
+### 2.1 原始来源
+
+- GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245552>
+- Liu X, Wang X, Yang Q, et al. *Th17 Cells Secrete TWEAK to Trigger Epithelial–Mesenchymal Transition and Promote Colorectal Cancer Liver Metastasis*. Cancer Research. 2024;84:1352–1371. DOI：<https://doi.org/10.1158/0008-5472.CAN-23-2123>；PMID 38335276。
+- 作者原始临床 Supplementary Table S1：<https://doi.org/10.1158/0008-5472.25607328.v1>；官方 AACR Figshare API <https://api.figshare.com/v2/articles/25607328>；文件 <https://ndownloader.figshare.com/files/45666645>。
+- 同研究 GSA：<https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA019163>；raw reads HRA005549；bulk RNA GSE255163、WES GSE255165 **不是独立病人验证队列**。
+
+GEO 2024-01-05 公开，页面已关联后续复用研究 PMID 41246334。增加引用文章不会增加原数据的独立病例数。
+
+### 2.2 实际可用的 16 人
+
+原始 S1 的全研究患者包括 Pt01–11、Pt13、Pt15–20，共 18 名；GEO scRNA 列表不包含 Pt19/Pt20，共 16 名。S1 的第二个表也以 mCRC=16 作临床比较，与实际 scRNA 分母一致。所有 18 名 S1 患者 MSI status 为 MSS；因此已公开 scRNA 的 16 名均有原始临床表支持 MSS。
+
+| 患者代码 | PT 样本 | LM 样本 | 相邻结肠 | 相邻肝 | 主要使用 |
+|---|---|---|---|---|---|
+| Pt01–04 | 每人 T1 | 每人 T2 | 无 | 无 | 4 个配对 |
+| Pt05 | T1 | T2、T3 | 无 | 无 | 多 LM 病灶，患者仍为 1 |
+| Pt06 | T1 | T2、T3 | 无 | 无 | 多 LM 病灶，患者仍为 1 |
+| Pt07 | T1 | T2 | 无 | 无 | 配对 |
+| Pt08 | **T1、T2** | **T3、T4** | 无 | 无 | 两个原发样本+两个 LM；不可按 T1/PT、其余/LM 推断 |
+| Pt09 | T1 | 无 | 无 | 无 | 辅助分类 |
+| Pt10–11 | 每人 T1 | 每人 T2 | 无 | 无 | 2 个配对 |
+| Pt13 | T1 | 无 | Z1 | 无 | 辅助分类/相邻结肠 |
+| Pt15 | T1 | T2 | Z1 | 无 | 配对 |
+| Pt16 | 无 | **T1** | 无 | Z1 | T1 是 LM；辅助分类/相邻肝 |
+| Pt17 | T1 | T2 | Z1 | 无 | 配对 |
+| Pt18 | T1 | T2 | Z1 | Z2 | 唯一四组织完整者 |
+
+合计：16 PT 标本、17 LM 标本、4 相邻结肠、2 相邻肝，39 GSM；13 个 PT–LM 配对患者；四组织只有 1 人。每个 lesion/library 都必须先归属 patient，再 split。多 LM 不可变成额外的独立患者；同患者同条件的多病灶可以保持层次结构，或者先定义等权患者汇总。
+
+**原发部位。** 13 个配对患者中 7 人为直肠（Pt02/03/04/05/07/08/11），2 升结肠（Pt06/10），2 横结肠（Pt01/17），1 降结肠（Pt15），1 乙状结肠（Pt18）。这应作为部位敏感性解释，尤其直肠癌与结肠癌治疗路径不同。临床 S1 没有治疗列；本次没有从原始 Methods 获得可审计的“全部未治疗”证据，所以不能把二次论文的 untreated 声明自动写入主 manifest。
+
+### 2.3 文件和尺度
+
+GEO 提供按 GSM 分开的 MTX/genes(or features)/barcodes，可以只下载需要的文件。全 `GSE245552_RAW.tar` 1,065,748,480 bytes，约 1.07 GB。这里的 RAW.tar 指原始提交文件集合，**不等于 FASTQ**。raw sequencing reads 在 HRA005549；主项目不必先下载 FASTQ。
+
+本次下载 39 份小 barcode 文件，得到 **190,190 个存储细胞/条码**；这与论文描述的“more than 160,000”分析细胞不同，应在完整 QC 后重新记录。不能从 barcode 数直接推出免疫细胞量或某谱系可用患者数。计数输入适合患者×组织×谱系的 pseudobulk；数值与维度已通过下述完整输入核验，作者过滤范围和本项目谱系QC仍需落实。GEO描述组织解离与10x建库，未明确免疫富集或阳/阴性分群的混合比例；存在非免疫细胞不自动证明随机全组织捕获。富集细节继续保持unknown，先选定免疫谱系，再解释捕获分母内状态与组成，不据此估计单位组织绝对浸润。
+
+本轮已实际完整核验**全部39份MTX**，总压缩字节1,056,396,888，完整读取347,049,770条坐标记录到EOF；全部为非负整数、维度与39份feature/barcode相符，坐标无重复、无零计数细胞。可见计数合计1,208,477,074。逐库输入细胞总计数中位数范围1,086.5–7,651，检出基因中位数范围527–2,692；这是交付矩阵的输入QC描述，不是新的生物学结果或过滤合格结论。大MTX核验后删除，逐库SHA256、分位数、JSON/CSV和重跑代码保存于`audit_GSE245552_all_matrices.py`、`GSE245552_all_matrix_audit.csv/json`及`GSE245552_matrix_audit_summary.json`。真实starter manifest全部39个counts_values_verified=true，通过接口校验，无warnings。
+
+**完整审计发现基因范围已不同程度缩减。** 33个肿瘤PT/LM矩阵共用29,569基因，6个相邻组织NC/NL共用29,922基因；前者是后者严格子集，肿瘤缺353条。缺失包括全部13条`MT-`基因，以及许多RPL/RPS、MRPL/MRPS、TIMM/TOMM及ALDH2/IDH2等基因。我们知道这些行不在交付矩阵，尚不知道作者具体何时/按何规则删除；不将观察到的缺失解释成生物下调。
+
+因此，它们是**未取log的整数计数，但不是完整、未经特征筛选的Cell Ranger矩阵**。33肿瘤库不能重算原始percent.mt；按空MT集合算成0不能判定细胞质量良好。正常库最多只能计算已交付13条MT-/当前总counts的受限比例，不与肿瘤缺失值比较。核糖体/线粒体与相关代谢程序需要覆盖审查或取消，不能用补0制造差异。PT与LM仍共用同一特征集合，主配对计数分析可以在透明记录这一限制后继续；四组织和外部评分须固定实际共同覆盖与评分基因背景。`gene_universe_id/genes_prefiltered/pct_mt_recomputable`已写入真实manifest。完整353名单在`GSE245552_normal_only_features_353.txt`，共同29,569基因在`GSE245552_feature_intersection.txt`。
+
+证据位置：39 条 GSM 的 `source_name_ch1` / `characteristics_ch1`；原始 S1 临床表；`research/small_file_cell_counts.csv`；`GSE245552_filelist.txt`。
+
+### 2.4 原始 S2/S3 补充表：能帮什么、不能帮什么
+
+后续取得原始 S2 <https://doi.org/10.1158/0008-5472.25607325.v1> 与 S3 <https://doi.org/10.1158/0008-5472.25607322.v1>（D07k）。S2的39个标本/16患者，16 PT、17 LM、4相邻结直肠、2相邻肝，与GEO结构完全一致，并支持Pt08两个PT/两个LM、Pt16只有LM加正常肝的模式。但其 CD45+/CD45− 数值单位为 **×10^6 cells**，两处上标6已由原DOCX XML核实；它不是scRNA条码或QC细胞数，也没有单独解释细胞计数发生于哪一实验步骤。因此不把它用作谱系可用N、分选富集证明或实际文库免疫比例。多病灶的S2名称PT1/LM1等与GEO T数字的具体逐序对应也不强行推断。S2统一写“Colon tumor”不推翻S1中七名配对患者的原发直肠位置。
+
+S3为五张原作者marker表，600行、390个唯一基因、30个cluster/subcluster；**390基因全部存在于公共肿瘤29,569 feature集合**。已转录为 `GSE245552_author_marker_tables.csv`。实现时必须取最后的 **gene** 列；首列是行名，含PLVAP1、HSPG22、PECAM17等自动去重后缀，不能当作真实gene symbol。原表p值/平均log2FC是作者cell-level标注结果，不是本项目患者级差异或独立验证。它可作为重建注释的公开先验，不意味着跨队列同名群可直接等同。
+
+原文件及SHA、百万单位核验、基因列规则见 `GSE245552_S2_S3_provenance.json`；离线重跑脚本为 `audit_GSE245552_supplement_tables.py`。这一补充没有取得353基因删除步骤的直接方法记录，作者处理链的具体缺口继续保留。
+
+### 2.5 分选与组成解释的限定核查
+
+39 个 GSM（含全部 6 个 NC/NL）的两段 `extract_protocol` 完全相同，均写机械剪碎、Miltenyi Tumor Dissociation Kit 与 DNaseI、37°C 30 min、70 µm 过滤、RBC 裂解及 10X 5′ v2 建库。实际比对结果保存为 `GSE245552_enrichment_protocol_audit.json`；可在本包 `geo/GSE245552_metadata_only.soft` 复核原记录。GEO 文本没有 CD45 分选、FACS、富集或混合比例的说明，并且建库标有修改流程。**因此，CD45+/−是否物理分选、是否富集或按比例重混、肿瘤和正常是否执行相同富集比例，均仍为 unknown。** 相同的简要记录不能证明未报告步骤相同。
+
+本轮限定检查中，出版社官方全文入口返回 403，公开索引只提供摘要/购买页面，未成功取得完整 Methods；已读原 S1/S2/S3 与公开补充清单也没有解决这些细节。不能把“未找到”写成“未进行”。S2 的百万级 CD45+/− 数不用于反推 FACS 或建库混合比例。组成分析应报告捕获细胞中的相对组成；任何原组织浸润的绝对解释需经独立组织学或明确实验流程支持。[D01,D07k]
+
+## 三、GSE164522：10 名公开患者、处理后表达，以及器官背景的价值
+
+### 3.1 原始来源与设计
+
+- GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164522>
+- Liu Y, Zhang Q, Xing B, et al. *Immune phenotypic linkage between colorectal cancer and liver metastasis*. Cancer Cell. 2022;40:424–437.e5. DOI：<https://doi.org/10.1016/j.ccell.2022.02.013>；PMID 35303421。
+- 作者机构研究介绍：<https://biopic.pku.edu.cn/en/newscenter/scientificupdates/108bdswyxqycxzxywgb522182.htm>。明确原始队列为 17 名 treatment-naïve CRLM，101 个匹配多组织样本。临床个体表未获取，须在 manifest 保留“机构声明未治疗，个体治疗/部位表待核验”。
+
+GEO 的 17 个 GSM 是 CRLM01–17 这类患者级合并条目，不是 17 个组织。GSM01–07 指明 10X 3′，GSM08–17 指明 10X 5′，所有 17 GSM 的 subject status 都写 CRLM；**没有证据把前 7 个解释成非转移 CRC/HCC 对照**。论文还分析其他原发癌对照不意味着这些对照等于前 7 GSM。
+
+### 3.2 公开 metadata 和矩阵的实际范围
+
+`GSE164522_CRLM_metadata.csv.gz` 实测 257,843 行、257,843 唯一条码，仅 patient08–patient17，共 10 个患者代码。10 名均包含 PT、LM、相邻结肠、相邻肝。总计 PT 37,529、LM 37,359、相邻结肠 29,795、相邻肝 58,664，四组织合计 **163,347**；其余为淋巴结/PBMC。
+
+| 患者 | PT | LM | 相邻结肠 | 相邻肝 |
+|---|---:|---:|---:|---:|
+| patient08 | 733 | 1,805 | 1,427 | 3,712 |
+| patient09 | 1,586 | 927 | 1,780 | 7,179 |
+| patient10 | 3,368 | 2,165 | 1,478 | 4,068 |
+| patient11 | 3,335 | 5,209 | 3,358 | 6,775 |
+| patient12 | 4,205 | 5,919 | 6,812 | 10,573 |
+| patient13 | 5,266 | 6,517 | 895 | 4,511 |
+| patient14 | 6,188 | 5,386 | 4,803 | 3,216 |
+| patient15 | 4,163 | 1,807 | 1,712 | 3,216 |
+| patient16 | 5,080 | 3,903 | 3,531 | 9,573 |
+| patient17 | 3,605 | 3,721 | 3,999 | 5,841 |
+
+**最终补核已覆盖全部六个表达文件的完整列头**：PT 37,529、MT 37,359、PN 29,795、MN 58,664、PBMC 46,973、LN 47,523，合计 257,843。将 metadata 条码 `-` 变成 R 写出的 `.` 后，每个文件的列集合与对应组织 metadata 交集均为 **100%**，无多余、缺失或重复列。六文件都只匹配 patient08–17；LN 不含 patient08，其余五类覆盖 10 人。读取的压缩数据合计仅 1,573,064 字节，并在第一行结束后关闭流；**未读其余组织的基因表达行**。脚本 `audit_GSE164522_expression_headers.py`、结果 `geo/GSE164522_all_expression_headers_audit.json` 保存原 URL、读取范围、metadata SHA256 及每个完整表头的 SHA256（不是整矩阵文件哈希）。这使“实际公开表达列与 10 患者 metadata 对齐”得到六文件层面的直接支持，仍不表示各文件全部数值和处理链已经核验。
+
+### 3.3 最关键：表达不是原始 UMI
+
+GEO 的字段把 supplementary matrix 简称 UMI counts，但实测 PT 矩阵存在 `2.00614094734192`、`1.42215156555176` 等非整数表达。根代理进一步流式扫描 PT 的 **24,662 个基因**，只保留固定前 8 个细胞的汇总数：每细胞 `sum(expm1(x))` 均约 10,000（范围 9,999.9985–10,000.0022），所有非零都是连续非整数且非负；`sum(2**x-1)` 不恒定。**这强烈支持 ln(1+总量归一化到10,000) 的数值兼容性，但不等于作者处理链已被证实。**
+
+因此：
+
+1. 公开值可用于兼容其尺度的固定程序评分、细胞内秩评分、每患者组织的连续表达均值和相应稳健分析。
+2. 不得直接对这些 log 表达求和后传 edgeR/DESeq2；不得四舍五入伪造 counts。
+3. `expm1` 即使数值上可还原归一化表达，也不能恢复原始 UMI 或原始 library size。
+4. scGPT 等模型的 normalize/log 开关必须按实际输入尺度设置；不要对已有 log 数据再重复归一化/log。最终输入流程应在开发数据固定，并记录尺度敏感性。
+5. 如果需要标准负二项 pseudobulk，必须获得作者明确的原始 UMI 矩阵；这不是本研究已满足的条件。
+
+保存证据：`GSE164522_CRLM_PT_expression.csv.gz.head`、`GSE164522_processed_scale_probe.json`、`probe_processed_scale.py`、`reproduce_data_audit.py`。
+
+### 3.4 命名、富集和下载注意
+
+此数据 CD45+ 富集，免疫比例是“捕获到的免疫细胞内部比例”，不能与同时包含肿瘤、基质及免疫细胞但富集流程尚未核实的 GSE245552 直接比较，更不能把捕获细胞比例当作绝对免疫浸润率。metadata 仍含 3,940 个作者标注 CD45− 细胞，应按预定义免疫筛选规则处理。
+
+**文件名：PT=原发肿瘤；MT=转移肿瘤；PN=相邻结肠；MN=相邻肝；LN=淋巴结。** GSE225857 的 LN 在论文中代表相邻正常肝，不是淋巴结。跨队列必须显式映射 organ 与 disease status，不能机械拼接 LN 字符串。
+
+六张 CSV gzip 合计约 3.8 GB，属于稠密文本矩阵，解压尺寸和内存显著更大；建议流式读入并转稀疏格式。只需主四组织时无需下载 PBMC/LN。FASTQ 受人类数据限制、按原文 request 路径，不应把 FASTQ 可公开即时取得当默认前提。
+
+## 四、GSE225857：WTA 已确认，患者身份和空间配对仍有缺口
+
+### 4.1 来源与 assay
+
+- GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225857>
+- Wang F, Long J, et al. *Single-cell and spatial transcriptome analysis reveals the cellular heterogeneity of liver metastatic colorectal cancer*. Science Advances. 2023;9:eadf5464. DOI：<https://doi.org/10.1126/sciadv.adf5464>；全文 <https://pmc.ncbi.nlm.nih.gov/articles/PMC10275599/>。
+- 作者代码：<https://github.com/jalon9358/LianLab_CRCLM>，尤其 `data_import_and_filter.R`。
+
+GEO 8 GSM 并非8患者。GSM7058754 是合并免疫矩阵、GSM7058755 是合并非免疫矩阵，另6是ST。论文 Methods 明确 BD Rhapsody **Whole Transcriptome Analysis**（WTA），并做7个 AbSeq 蛋白和 SampleTag；因此这是全转录组，不应因 GEO processing 中出现 Targeted Analysis pipeline 字样而当成有限 RNA panel。首几行 immune_counts 实测为整数计数，196,473 列与 immune metadata 条码100%一致；正式导入仍须验证全矩阵尺度。
+
+### 4.2 不能悄悄解决的 6 与 7
+
+论文和GEO称6人27样本。公开 immune metadata 196,473 细胞、`patients` 7个字符串、30个代码×组织组合。作者代码用 barcode 的日期前缀构建 patient 字段，且明确 merge s0816；组织标签依赖仓库未提供的 `sampleinfo.csv`。故**7个代码不是本次已确证的7个独立人**。
+
+| metadata代码 | CCL/PT | LCL/LM | CNL/相邻结肠 | LNL/相邻肝 | PBL |
+|---|---:|---:|---:|---:|---:|
+| s0107 | 6,307 | 7,791 | 6,320 | 7,970 | 6,592 |
+| s0115 | 7,126 | 10,068 | 4,827 | 5,790 | 7,437 |
+| s0813 | 6,317 | 8,540 | 5,248 | 4,423 | 3,069 |
+| s0816 | 0 | 5,334 | 0 | 615 | 2,467 |
+| s0920 | 5,825 | 8,213 | 0 | 6,905 | 5,286 |
+| s1125 | 7,545 | 7,295 | 8,172 | 12,122 | 0 |
+| s1231 | 6,854 | 8,230 | 6,385 | 7,400 | 0 |
+
+有6个代码出现PT–LM、有5个代码四组织齐全；这只描述代码，不能代替身份审核。**最终通过 EBI BioStudies 官方镜像取得真实 supplement**：<https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/599/S-EPMC10275599/Files/sciadv.adf5464_sm.pdf>。PDF 为 9,069,863 字节，SHA256 `1250d41b389407f38e24f3ef1be7528d1375c1f61419a84b1abaf16607b9fd58`；Europe PMC 独立官方入口的文件字节相同。第13/14/15页分别为 S2 临床/组织覆盖、S3 治疗、S4 分选样本覆盖，均已视觉核对并转录 CSV。
+
+S2/S3/S4 只列 P0107、P0115、P0813、P0920、P1125、P1231 六个 scRNA 临床代码，**均未列 P0816**。去掉 s0816 的确从30组变为27组，但总细胞同时从196,473降至188,057；原文的196,473恰为所有7代码总数。原 supplement 的代码也明确合并 s0816，而 `patients` 是条码前缀，未提供 `sampleinfo.csv`。因此新增补充资料**没有解决**额外代码的身份；仍需原始 SampleTag↔临床患者/取样事件映射，不能因组数吻合就删除或并入 s0813。详细取证见 `GSE225857_mapping_resolution.md`。此前 `adf5464_SM.failed.html` 仍只是失败页面，不被当作 PDF 使用。
+
+nonimmune矩阵实测41,892细胞、5个代码，每个有CCT/LCT两组织；它不是与全部immune代码等量完整配对的第三独立队列。
+
+### 4.3 治疗与 spatial
+
+GEO overall_design 和论文 Methods 概括所有 scRNA 患者术前接受化疗和/或放疗；**原始 S3 进一步列出六人的具体新辅助化疗方案**，不额外推断每人均放疗。原发部位 S2 中五人为左侧结肠，一人 P0813 为右侧结肠；S2/S3/S4 都没有 MSS/MSI/MMR 列，不能补填为 MSS。相邻组织定义距肿瘤至少2cm，仍是癌症患者的相邻组织，不是健康供者器官基线。
+
+| 原临床代码 | S2 原发部位 | S3 新辅助方案 | 周期 |
+|---|---|---|---:|
+| P0107 | Left colon | FOLFOX | 3 |
+| P0115 | Left colon | FOLFOX | 4 |
+| P0813 | Right colon | FOLFOXIRI | 5 |
+| P0920 | Left colon | FOLFOX | 5 |
+| P1125 | Left colon | FOLFOXIRI+Bevacizumab | 8 |
+| P1231 | Left colon | FOLFOX | 3 |
+
+该表描述补充资料中六个临床代码，不对 s0816 建立无证据的治疗或部位对应。
+
+空间数据为 **Visium FFPE、4个原发CRC+2个肝转移、来自6个不同患者**。作者在2025-02-12 GitHub issue #1 明确解释：ST与scRNA患者没有直接对应；原发与肝转移ST来自不同人；原发ST患者有无肝转移尚不清楚。原始回复：<https://github.com/jalon9358/LianLab_CRCLM/issues/1#issuecomment-2652922964>。因此这6张不能伪称paired spatial验证。作者 issue #2 还说明区域依靠 H&E、EPCAM/ALB 和分群判断，无法只根据“cluster0/7”等编号跨队列复用肿瘤/边缘标签。
+
+文件：GEO tar约636.5MB；immune_counts约224.3MB、nonimmune_counts约90.4MB，均可直接按GSM下载；raw scRNA 为 CNSA CNP0002540，raw ST为CNP0003321，受控信息不在GEO。全转录组免疫富集与全组织Visium的分母不同；ST可做空间定位与共现，不能单独证明相互作用因果。
+
+## 五、GSE178318：同步切除的6对，治疗是分层而非纵向
+
+- GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178318>
+- Che LH, et al. *A single-cell atlas of liver metastases of colorectal cancer reveals reprogramming of the tumor microenvironment in response to preoperative chemotherapy*. Cell Discovery. 2021;7:80. DOI：<https://doi.org/10.1038/s41421-021-00312-y>；全文 <https://pmc.ncbi.nlm.nih.gov/articles/PMC8421363/>。
+
+Methods 的患者采集段明确6名stageIV/MSS接受**同时结肠/直肠原发与肝转移手术**，取肿瘤核心；未以表面标记预选整套组织细胞。3未治疗为COL07/COL12/COL16；3术前化疗为COL15/COL17/COL18。COL15 CAPEOX3周期，COL17 CAPEOX4周期，COL18 FOLFOX+bevacizumab8周期，末次治疗约1个月后手术，均良好反应。不是同一患者治疗前后的两套单细胞数据。
+
+| 患者 | 治疗 | PT输入细胞 | LM输入细胞 | PBMC输入细胞 |
+|---|---|---:|---:|---:|
+| COL07 | 未治疗 | 17,000 | 16,100 | 无 |
+| COL12 | 未治疗 | 10,750 | 3,160 | 12,400 |
+| COL15 | CAPEOX | 4,250 | 9,700 | 无 |
+| COL16 | 未治疗 | 6,000 | 8,200 | 无 |
+| COL17 | CAPEOX | 9,035 | 10,000 | 6,700 |
+| COL18 | FOLFOX+BVZ | 8,700 | 10,436 | 7,850 |
+
+本表来自官方 barcode，合计140,281；论文111,292是QC后数量。公开矩阵为MTX gzip约520.7MB，加gene/barcode；没有现成完整作者细胞注释的明显GEO文件，需要自行注释/QC并记录。此数据没有相邻结肠/相邻肝，不能做四组织差分。6个独立患者适合方向一致性与效应区间；3+3治疗亚组只作描述，不能把小样本不显著当作不存在治疗影响。
+
+2023的 Author Correction 仅修正作者 Rui-Min Xu 名字，未报告数据、图或结论变化：<https://pmc.ncbi.nlm.nih.gov/articles/PMC10033667/>。GEO明确提示使用条款请联系PI，此为真实记录条款，最终发布衍生文件/再分发前应核对；本次只读取公开文件，没有对外联系。
+
+## 六、GSE298084：18名全研究不等于18名单细胞
+
+- GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298084>
+- Marzano P, et al. *Tissue-Specific Immunosuppressive and Proliferating Macrophages Fuel Early Metastatic Progression …*. Cancer Immunology Research. 2025. DOI：<https://doi.org/10.1158/2326-6066.CIR-25-0031>；全文 <https://pmc.ncbi.nlm.nih.gov/articles/PMC12580778/>。
+- 原始代码：<https://github.com/pmarzano97/Synchro_CRLM>。
+
+GEO设计直接写明3名同步切除CRLM，3 colon、3 liver、2 PBMC，共8文库。Colon/Liver是肿瘤核心邻近的围瘤区域，避免明显坏死/出血，FACS选择活CD45+细胞，冻存后再复苏，10X5′。不是“相邻健康肝+相邻健康肠”的四组织设计，也不能与其他队列core-tumor比较时假设取材相同。
+
+全文18人的IHC队列包含这3人加15个其他人；全临床表12/18曾新辅助治疗，不能推断scRNA3人具体治疗。作者讨论11,283个myeloid细胞也是细胞级分母，不是病例数。GEO提供8个filtered_feature_bc_matrix.h5，tar约159.2MB，可逐个下载，raw SRA有链接。当前可用于围瘤免疫状态的方向复现；主要外部AUROC由3对患者支撑会极不稳定。
+
+## 七、GSE335552：实际面板审计和最小可下载包
+
+- GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335552>
+- Eapen MM, et al. *An Integrated Spatial Multi-Omics Workflow for Sequential RNA and Protein Profiling in FFPE Tumor Tissue*. Cancer Research Communications. 2026;6:1963–1975. DOI：<https://doi.org/10.1158/2767-9764.CRC-26-0182>；PMID42568117。
+- IMC数据：<https://doi.org/10.6084/m9.figshare.32671185>；作者配准代码 <https://github.com/OncofetalEcosystemLab/xenium-imc-coregistration>。
+
+2026-08-03公开。GEO也明确写出462/319两种面板；本次用4份H5再次验证：
+
+| 标本 | 独立患者 | Gene Expression features | H5细胞条码 | 与M242T面板相同 |
+|---|---|---:|---:|---|
+| M242T | M242 | 462 | 80,036 | 是 |
+| M131T | M131 | 462 | 166,860 | 是 |
+| M397T | M397 | 319 | 213,319 | 否 |
+| M131N | M131 | 462 | 186,496 | 是 |
+
+总计646,711分割细胞，但只有3独立患者，且只有M131具有肿瘤–相邻肝。共同测量基因309、并集472。首个H5总feature为541，其中462是真正Gene Expression，另79是negative control/unassigned；不应按541写基因数。
+
+关键候选覆盖（四标本共同情况）：SPP1、CD68、CD163、TREM2、CD44、ITGAV、ITGB1、CXCL13、CXCR5、JAG1、NOTCH1、HES1、CD8A、ITGAE、CD5L、MARCO、TIMD4、FOLR2、PDCD1、HAVCR2、LAG3、TOX、TCF7、GZMB、PRF1、FOXP3、CTLA4、TNFRSF9均可测；**APOE、APOC1、ITGB5、TNFSF12/TWEAK、TNFRSF12A/Fn14、IL17A、CD163L1、MCAM、VSIG4、IL2RA均不在这些面板**。CCR5只在462面板，M397T缺失。完整逐样本表见 `GSE335552_panel_candidate_coverage_by_sample.csv`。
+
+程序的空间评分必须报告可测基因比例与方向性，固定共同可测子集；面板缺失是未测量，不得当生物学0。该数据不能直接验证TWEAK–Fn14轴或MCAM CAF，也没有PT–LM对照。IMC可补充蛋白，但需要明确真实抗体面板和RNA–蛋白一致/不一致，不应从摘要的“>40 markers”直接推定关键目标存在。
+
+整个raw tar为26.27GB，含大幅形态图、transcripts和边界文件。本次4个H5总计约35.5MB就完成了面板/细胞可用性检查。实际项目先下载H5、cells.parquet、必要坐标与低分辨病理图，再决定是否需要大文件；不要先为探索下载全tar。
+
+## 八、可增加的真正独立数据与优先级
+
+| 优先级/用途 | 来源 | 可确认范围 | 获取性/尚缺 |
+|---|---|---|---|
+| A：额外未经治疗配对复现 | GSE315534；Tang et al., STTT2026；DOI10.1038/s41392-026-02732-2 | 6人15组织，其中3CRLM有PT/相邻肠/LM；另3非转移CRC有PT/相邻肠；Methods明确无新辅助放化疗 | GEO counts文件公开，tar879MB；只有3CRLM对，没有相邻肝；不能当6对 |
+| A：额外边缘/器官空间验证 | GSE312757；Wan et al., MolCancer2026；DOI10.1186/s12943-026-02732-4 | 4 MSS、replacement-type CRLM患者，CosMx Human6K，肿瘤/≤500μm围瘤肝/>500μm背景肝；1,930,656 QC细胞/1,845 FOV | 2026-10-21公开；4份tx_file合计57.5GB，norm.RDS为7.68GB且HEAD200；本次不下载大对象；无原发结肠，治疗与生长模式限制外推 |
+| B：非配对状态/正常器官比较 | GSE231559；Hsu et al., CancerDiscovery2023；DOI10.1158/2159-8290.CD-22-1467 | 26个GSM：6结肠肿瘤、3结肠正常、9肝肿瘤、8肝正常；L8T1/T2来自同一代码 | 计数MTX/TSV公开，约692MB；原S5只给12个患者：C1–6及L1/4/6/8/9/11；C4为II期MSI，其余11MSS；另6代码临床缺失，C/L无配对证据，治疗仍unknown |
+| B：肝转移–相邻肝生态/蛋白空间 | Sathe et al., ClinCancerRes2023；DOI10.1158/1078-0432.CCR-22-2041；PMC9811165 | MSS肝转移、相邻肝和PBMC；无原发结肠 | 原文称 CellRanger矩阵在 Stanford Ji lab数据页；本次网页502/503，不能称已验证可下载；dbGaP phs001818.v3.p1 reads受控 |
+| C：理想四组织但当前受阻 | PRJCA022675 → **OMIX005611**；Zhao et al., ChronicDisTranslMed2026；DOI10.1002/cdt3.70051 | 论文9未治疗MSS，36四组织样本，设计非常相关 | OMIX官方显示controlled access且因尚未完成MOST平台登记而Unavailable；585.54MB zip不能即时下载；不得列入已落实验证样本量 |
+| C：申请更大同病人多组织图谱 | Wu et al., CancerDiscovery2022；DOI10.1158/2159-8290.CD-21-0316；NODE OEP00001756/旧scCRLM站点 | 原文97为scRNA+ST多组学样本；ST8样本来自4人（2未治疗、2NAC-PR） | NODE页面无可读文件清单，旧站403；本次未证实即取可用的counts+patient表，不将24名总体数自动加入主分析 |
+
+### 8.1 新的 GSE315534
+
+GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315534>；原论文 <https://pmc.ncbi.nlm.nih.gov/articles/PMC13139463/>。原发癌、肝转移均为组织整体单细胞，原始表达文件公开，raw human reads未公开。GEO GSM描述声称还提供RDS/h5ad注释，但实际 supplementary清单只有MTX/genes/barcodes，**不要依赖尚未列出的现成注释对象**。本次15 barcode文件已下载计数，合计316,993输入条码；首个N1矩阵头为integer、33,508基因×21,236细胞（仅矩阵头检查）。各库详见 `GSE315534_cell_counts.csv`；这是输入数，不是论文QC后数。按CRC_T1/LM1、T2/LM2、T3/LM3配对时还须核对原论文Figure1临床信息。
+
+### 8.2 新的 GSE312757
+
+GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE312757>；原文 <https://pmc.ncbi.nlm.nih.gov/articles/PMC13673828/>。论文 Methods/Results说明6K面板和4病例；细胞数量不是4以外的独立重复。该研究还包括半肝灌流和额外mIF cohort，不能与4名CosMx简单相加为单细胞独立患者。原作者也复用其他scRNA作为参照；重新使用其scRNA引用对象时必须回到原研究追溯，避免再次把同一人的数据算作新外部。官方 `GSE312757_norm.RDS` 已实际 HEAD 返回200与Content-Length=7,682,541,084字节；这只证实下载入口和体积，不证明RDS内slots/基因覆盖已经读取。原始4个transcript表合计tar 57,465,006,080字节；本轮未下载这些大对象。
+
+### 8.3 非肿瘤器官参考：实际可用性比总体规模更重要
+
+本轮额外核验 Domínguez Conde et al., Science2022，DOI <https://doi.org/10.1126/science.abl5197>，E-MTAB-11536。作者官网 <https://www.tissueimmunecellatlas.org/> 提供global/Myeloid/T/B的h5ad与“Download Raw”；代码 <https://github.com/Teichlab/TissueImmuneCellAtlas/tree/v1.1>。论文12位已故器官供者、16组织，并不表示12位都有肝与结肠。
+
+我们通过合法公开HTTP范围请求，仅读取官方global.h5ad的约6MB HDF5 metadata/obs，没有下载5,131,003,648字节的完整表达对象，也没有读取X。实际obs为329,762免疫细胞/12供者，肝只有7供者；横结肠TCL与乙状结肠SCL仅A29，分别262/133细胞。盲肠CAE有A29/A31/A35/A36四供者，但仅268/71/84/10细胞；空肠/回肠不应当成结肠替代。
+
+| 供者 | 肝全部免疫 | 肝Myeloid | 盲肠全部免疫 | 盲肠Myeloid | 横结肠Myeloid | 乙状结肠Myeloid |
+|---|---:|---:|---:|---:|---:|---:|
+| A29 | 660 | 298 | 268 | 7 | 10 | 11 |
+| A31 | 2056 | 629 | 71 | 4 | 未测 | 未测 |
+| A35 | 244 | 43 | 84 | 5 | 未测 | 未测 |
+| A36 | 1892 | 422 | 10 | 0 | 未测 | 未测 |
+
+这是原始`Majority_voting_CellTypist_high`注释下支持计数，Myeloid含Mono/Mac/DC/pDC，**不是我们重新鉴定的细胞或生物学效应**。没有一对达到每器官50个髓系细胞；T/NK盲肠–肝达到50/侧者也只有3供者。故该atlas可用于固定器官标志/注释与有限敏感性，不能包装成一个有力的健康肝–结肠髓系配对确认队列。旧版本CellTypist使用同一atlas训练，注释一致性也不能当独立模型验证。原始实验metadata还存在刺激样本，实际取数须区分是否已被作者curated对象排除，不把所有原始library无差别并入基线。
+
+可复核：`probe_normal_atlas_metadata.py`、`audit_normal_reference_support.py`、`E-MTAB-11536_donor_organ_cell_counts.csv`、`E-MTAB-11536_liver_colon_lineage_support.csv`、`geo/E-MTAB-11536_obs_selected.json.gz`。
+
+另可考察GSE136103中的健康肝供者子集（与肝硬化子集和小鼠严格分开）、GSE178341/Pelka CRC图谱的正常结肠子集、以及有供者映射的Tabula Sapiens。前两者分别偏肝和肠，跨study/跨供者差异与器官完全混杂时，只能做程序器官相关性的敏感性诊断，不能取代同人四组织对比。GSE178341不是CRLM配对外部，MMRd/MMRp需区分；这些替代未完成实际矩阵审计。
+
+### 8.4 请求制小队列与其他可用性边界
+
+Ding et al., JITC2025，DOI <https://doi.org/10.1136/jitc-2025-012330>，<https://pmc.ncbi.nlm.nih.gov/articles/PMC12551530/>：原文4名新诊断同步结肠癌肝转移，MSS/pMMR、无术前放化疗，PT/LM/两侧邻近组织，63,782 QC细胞。Data availability只写reasonable request，没有公开accession；本次没有对外请求，不计入已落实验证样本量。其组织4°C最长24小时处理、37°C解离对热休克/应激程序尤其需要审慎解释。
+
+Sathe2023原文明确7位scRNA患者、14样本=7LM+5NL+2PBMC，全部MSS，其中P6198为MANEC，须在采用时做组织学敏感性。另15位CODEX中5位与scRNA重合。CODEX Methods明确因非特异染色剔除SPP1/CD163/EPCAM，最终25plex；不能称该空间数据直接证明SPP1蛋白定位。Stanford矩阵入口本轮502/503，下载状态未确认；paper提供LM–NL比较不等于PT–LM。
+
+GSE231559的S5原XLSX已获得：<https://doi.org/10.1158/2159-8290.24792830.v1>。临床表只12患者C1–6与L1/4/6/8/9/11；C4为II期MSI，其余11为IV期MSS。GEO另有L2/L3/L5/L7仅肝正常、L10/L12肝肿瘤，临床S5未列，且没有C↔L配对字段。不能将26GSM或18代码自动变成13对或完整四组织。临床表没有治疗列；保留unknown。
+
+### 8.5 Tabula Sapiens v2：完整元数据核验后的否定结果
+
+按根代理要求进一步核验最新官方可下载参照 GSE306755（Cell 2026，DOI <https://doi.org/10.1016/j.cell.2026.08.010>；Figshare v2 <https://doi.org/10.6084/m9.figshare.27921984.v1>）。完整官方 metadata gzip 42,461,568 字节已读到 EOF，共 1,136,218 行、24 供者、28 组织；**没有读取表达矩阵**。实际肝只有 TSP6/14/17/19，大肠只有 TSP2/14/25/26/27，交集 **TSP14 一人**。
+
+按作者具体细胞注释定义 Mono/Mac/DC，TSP14 大肠仅 41、肝 338；大肠再加 13 个未细分 myeloid leukocyte 才成为宽层级 54。≥50/器官的严格髓系配对为 0；宽层级也仅 1 人。不能为过阈值临时扩类，10X/Smart-seq 或近端/远端也不能增加供者 N。若只用 10X，该人的大肠/肝严格髓系分别 17/291。元数据没有直肠标记，排除了所有 Small_Intestine；仍不能直接替代正常直肠参照。
+
+因此 **Tabula Sapiens v2 并未补足多供者配对正常髓系背景**，继续用作器官标记、注释及探索性参照。图谱按区室富集，死亡后捐献者并非没有基础病，捕获比例也不是原器官绝对比例。官网区分 raw_counts、decontXcounts、log 表达与 scaled X；本次没有数值核验这些表达层，不可默认 X 是原始 counts。详细支持量、原始 URL、许可、SHA 和离线脚本见 `TabulaSapiens_normal_reference_audit.md`、`normal_tabula/`，对应 D07j。
+
+### 8.6 GSE203608：可落实元数据的 UPenn 次要外部四对
+
+D11：Li 等，Nature Communications 2023，DOI <https://doi.org/10.1038/s41467-023-43746-6>；GEO <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203608>；作者处理对象 <https://zenodo.org/records/7872684>。Methods “Human tissues”明确取材于 Hospital of the University of Pennsylvania（IRB 827759），属与 GSE245552 不同的原始来源；本轮未做跨队列基因型去重，不能保证绝对没有重复患者。
+
+这不是53名临床患者：53个GSM包括RNA、HTO/CMO技术标签库、类器官和共培养。实际完整读取两份官方细胞metadata。第一份126,014行中，仅保留 `SampleType in {Colon,Tumor,Liver,LiverMet}` 可得15位患者、24份in-vivo组织、59,661细胞：15 PT/38,063；3 NC/11,221；4 LM/5,906；2 NL/4,471。原文总体16例不替代这个实际临床组织子集分母。另一个文件虽然以GSM7294726–GSM7294729命名，其146,988行**包含前126,014条码的全部重复**，共同Dataset/Patient/SampleType/Cell_type字段完全一致；增加20,974条均为培养/共培养或NA标签，不能直接拼接，更不能把新文件全当新患者。
+
+| 原患者代码 | PT全部细胞 | LM全部细胞 | PT作者髓系 | LM作者髓系 | 图1B MSI | 四组织可用性 |
+|---|---:|---:|---:|---:|---|---|
+| 09 | 2,259 | 1,941 | 412 | 471 | MSS | 有四组织，但NC髓系仅11 |
+| 27 | 1,399 | 745 | 528 | 214 | MSS | 缺NC/NL |
+| 44 | 4,480 | 1,916 | 1,114 | 1,024 | MSS | 有NL，缺NC |
+| 49 | 1,283 | 1,304 | 361 | 334 | MSS | 缺NC/NL |
+
+髓系定义为作者Macrophage与cDC1/cDC2/LAMP3+DC/pDC，排除Unannotated、Macrophage–T cell doublet和Mast；这是既有标签的输入支持量，不是本项目重新注释或效应检验。四对均超过每组织50与100细胞；四组织每组织≥50仍为0。图1B四位MSS已视觉核实。图1A说明取材为治疗前，并描述在可同期切除时采集肝转移；不过49在图1B标Stage III/pT3N1a而有LiverMet_49材料，故保留原图分期，并把逐例时间和分期映射记为待澄清，不自行改为Stage IV。原发精确结直肠亚部位、确切招募窗口未核实。
+
+原Methods写DAPI活细胞和单细胞FACS筛选，10X3′v3，以及原QC阈值；它没有声明CD45谱系富集。GEO列出约949.4MB及1.2GB的合并计数文本，原文还提供含counts/normalized的Zenodo对象；本轮**没有读取任何表达矩阵内容**，不标为counts_values_verified。推荐在主要方案固定后，作为追加次要外部PT–LM方向验证；不代替164的主要四组织家族，亦不将作者SPP1/C1QC状态本身当新的发现。
+
+离线脚本 `audit_GSE203608_metadata.py`、两份全行必要metadata列快照、SHA、24行支持表及四对临床转录均已入起步包。默认不联网、不下载矩阵；实际原metadata下载约7.4MB，完整文件保留于研究目录，包只带必要列快照及原图1以供复核。
+
+## 九、数据契约与明确停止条件
+
+每个cell必须能追溯 `study_id, patient_id, sample_id, lesion_id, organ, tumor_status, treatment, primary_site, MSI, assay, enrichment, specimen_region, expression_scale, source_url, original_label`。不能把patient ID的字符串格式当作身份事实；不能用T1/T2或LN等名字猜组织。无法核实的字段保留NA和来源等级。
+
+本次足以先开始245的下载、QC与开发，但正式锁定主分析前须完成：
+
+1. 已将245的原临床S1合并到16人manifest，明确13pair与3single；治疗状态来源仍需补充，当前保留unknown。
+2. 已完整核验245的39份计数矩阵；后续仍需作者QC链审查、可重算项目的质量筛查及各谱系患者支持量确认。不可在缺MT的肿瘤矩阵重算percent.mt；不要把190,190输入条码写成免疫有效细胞数。
+3. 164固定输入尺度，保存转换参数和外部四组织可用性，不运行需要原始UMI的DE方法；得到原始counts前不做伪counts替代。
+4. 225若不能解决6/7代码身份，只能停留在非配对描述/敏感性；不能因“看起来像7人”直接补齐统计分母。
+5. 所有空间程序先做panel coverage与negative-control排除，采用患者为汇总/推断单位；GSE225857 ST和GSE335552均不能被包装成大样本配对验证。
+6. 研究间独立性先查同论文、同注册号、same patient codes/临床组合及原始生物样本链接；二次分析、共享atlas或同研究bulk不能增加独立验证数。现有六研究看似来源不同，但本次未做基因型去重，不能声称遗传学确认完全无重叠。
+
+## 十、本次可复核文件与来源索引
+
+### 10.1 文件
+
+- `geo/*_full.soft`：六个主要GEO原始记录；另有GSE315534/GSE312757/GSE231559的samples/series记录。
+- `geo_sample_manifest.csv`、`geo_parsed.json`：GEO记录解析。
+- `metadata_actual_counts.json`、`data_audit_reproduced.json`：metadata与barcode计数、矩阵交集。
+- `reproduce_data_audit.py`：从已保存小文件重现本备忘录的核心量化核对。
+- `audit_geo_metadata.py`、`download_small_audit_files.py`：SOFT解析、小文件下载与H5 feature/cell核对。
+- `GSE335552_panel_candidate_coverage_by_sample.csv`：逐空间样本基因覆盖；`geo/GSE335552_*_measured_genes.txt`：真实测量基因表。
+- `papers/can-23-2123_table_s1_suppst1.docx` 及 `.tsv`：GSE245552作者原始临床S1。
+- `papers/LianLab_issue1_comments.json`：作者明确空间与单细胞/原发与转移不配对的原始回复。
+- `papers/PMC*.xml/.txt`：通过NCBI BioC官方接口获取的原文；`*.failed.html` 和很小的challenge HTML不作论文证据。
+- `dataset_audit.csv`：结构化决策表。该表的`cells`不同数据采用不同层次，应同时读`cell_count_scope`，不得直接求和。
+
+### 10.2 正式来源索引（URL比会话工具引用更便于复核）
+
+| 编号 | 来源 | 关键证据位置/短摘 |
+|---|---|---|
+| D01 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245552> | GSM列表及每GSM tissue字段；实际39样本；“more than 160,000 cells” |
+| D02 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164522> | overall_design、17个患者GSM、CD45+ sorting、series文件清单 |
+| D04 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178318> | 15 GSM/merged MTX；overall_design 的使用条款提示 |
+| D03 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225857> | overall_design：“All the patients received preoperative chemotherapy and/or radiotherapy.” |
+| D05 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298084> | overall_design：“three synchronous colorectal-liver metastasis patients”；核心邻近围瘤/CD45+ |
+| D06 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335552> | overall_design：462 genes for tumor1/2/normal、319 genes for tumor3 |
+| P1 | <https://doi.org/10.1158/0008-5472.25607328.v1> | Supplementary S1：18人全表、16人mCRC scRNA比较、全部MSS、原发部位 |
+| P2 | <https://biopic.pku.edu.cn/en/newscenter/scientificupdates/108bdswyxqycxzxywgb522182.htm> | 作者机构：17 treatment-naïve CRLM、101 matched samples |
+| P3 | <https://pmc.ncbi.nlm.nih.gov/articles/PMC10275599/> | Methods：BD Rhapsody WTA、治疗；Abstract：6人27样本/两类细胞数 |
+| P4 | <https://github.com/jalon9358/LianLab_CRCLM/issues/1#issuecomment-2652922964> | 作者：ST与scRNA无对应、ST primary与metastatic来自不同患者 |
+| P5 | <https://pmc.ncbi.nlm.nih.gov/articles/PMC8421363/> | Methods患者部分：同时手术、3v3治疗分组、具体方案与取肿瘤核心 |
+| P6 | <https://pmc.ncbi.nlm.nih.gov/articles/PMC12580778/> | Methods：18总队列与3scRNA子队列、围瘤区域 |
+| P7 | <https://pmc.ncbi.nlm.nih.gov/articles/PMC13139463/> | Methods Sample collection：6人/3CRLM，未新辅助放化疗；Data availability GSE315534 |
+| P8 | <https://pmc.ncbi.nlm.nih.gov/articles/PMC13673828/> | Methods CosMx；Results4人/1,930,656；Data availability GSE312757 |
+| P9 | <https://ngdc.cncb.ac.cn/omix/release/OMIX005611> | Controlled access、Unavailable；因未完成MOST登记暂不能下载 |
+| P10 | <https://pmc.ncbi.nlm.nih.gov/articles/PMC10807546/> | Human sample Methods：GSE231559；Clinical info在S5 |
+| P11 | <https://pmc.ncbi.nlm.nih.gov/articles/PMC9811165/> | Data availability：dbGaP phs001818.v3.p1与Stanford CellRanger矩阵页 |
+
+会话检索证据可供根代理重开核查：GSE245临床collection `turn434396872search1`；GSE164作者机构 `turn966703870search16`；GSE315原论文Methods `turn986670737view1`；GSE312论文 `turn140153899search1/3`；GSE225作者回复 `turn123908418view0`。这些ref是会话定位辅助，正式报告保留上表原始URL和DOI。
+
+**尚未完成且不应伪装完成的事项：** GSE245新辅助治疗原始来源；GSE164前7患者公开数据缺口与作者预处理链书面确认；GSE2256/7身份、具体治疗与sampletag映射；大空间数据完整图像/坐标与所有基因实测覆盖（GSE312757）；研究间患者遗传学去重。上述不确定性有明确的备用分析路径，并不妨碍先按245发现→164四组织外部→178方向复现实施。
+
+## 十一、访问与许可记录
+
+GEO官方说明 <https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html> 表示NCBI自身不限制GEO数据使用/分发，但无法替原提交者判断知识产权声明。这不等于本轮已找到每个数据集的独立CC许可。六个主GEO公开表达/metadata均可直接读取；GSE178318的记录额外注明使用条款联系PI，须准确保留这一原始声明，本轮没有发信，也未将它解释为禁止读取公开数据。
+
+GSE245原始临床S1的AACR Figshare API明确CC BY 4.0；这是该补充文件的许可，不能自动外推到所有原始人类测序。OMIX005611当前controlled/unavailable，Sathe原始reads为dbGaP controlled，Ding为request-only；这些均没有被本轮访问或假定已获得授权。`dataset_audit.csv`的`access_terms`与`terms_source_url`逐项记录这一差别。
+
+## 十二、来源独立性与原始收集机构
+
+“外部”在此指**来自不同原始研究来源、当前未发现患者重复的队列**，不是已经完成遗传学去重或绝对排除共同病例。发表时间、GEO公开时间和提交时间都不能冒充患者招募窗口。
+
+| 数据 | 原始机构证据 | 收集时间能确认到何种程度 | 与245关系的审计结论 |
+|---|---|---|---|
+| 245 | GEO/GSA提交及原论文外科、肿瘤科作者均为中山大学附属第一医院 | S1没有手术日期；精确窗口未知 | 发现来源；bulk GSE255163、WES GSE255165、HRA005549都是同研究数据，非独立外部 |
+| 164 | 北京大学；临床作者有北京大学肿瘤医院、北京世纪坛医院，作者机构明确世纪坛合作 | 个体收集日期/逐患者医院表未取得 | 不同北京研究团队/临床合作来源，未发现与245共享病例；仍未基因型去重 |
+| 178 | 原论文作者及采样贡献者归属中山大学孙逸仙纪念医院；GEO只写中山大学 | 原Methods未另列医院/招募窗口；2020-12-17是收稿日期，不是招募期 | 与245同大学系统/城市，但第一医院与纪念医院是不同报告来源；无共享病例证据，不能绝对排除转诊/共享样本 |
+| 225 | GEO联系人为广东省人民医院；**原Methods伦理机构为广州市第一人民医院与中山大学附属第六医院**（KY2020-361-01-01） | S2/S3已取得但未列明确手术年月日；日期样条码不当成已验证手术日 | 同地区且自身6/7身份未解，暂不能建立患者级外部独立结论；不要把GEO联系人医院当作实际所有取材医院 |
+| 298 | 原Methods明确IRCCS Humanitas Research Hospital，意大利；伦理282/19 | 18人回顾性IHC取材2020年1月–2024年12月，包括3scRNA，3人具体日期未列 | 不同国家原始临床来源；18IHC中的3scRNA不可重复算作新验证病例 |
+| 335 | Garvan研究所提交，原作者包括Westmead Hospital/Storr Liver Centre，澳大利亚 | 具体FFPE取材医院和时间未从Methods确认 | 不同澳大利亚原始空间研究；同切片Xenium与IMC不是两个独立队列，M131T/N同一人 |
+
+机构与窗口来源的逐项URL、证据等级、BioProject和复用关系保存在`cohort_provenance_audit.csv`。GSE225的独立性问题优先通过原患者映射解决；对于245/178同地区病例，若未来获得作者对应表或合法可用基因型数据，才能更强地排除重叠。当前不根据同校、同城市或不同GSE直接判定“必然重复”或“绝对独立”。

@@ -1,0 +1,46 @@
+{
+  "B26": {
+    "reference_id": "B26",
+    "doi": "10.1186/s13059-019-1830-0",
+    "source": "Publisher article author list",
+    "url": "https://link.springer.com/article/10.1186/s13059-019-1830-0",
+    "status": "retrieved",
+    "accessed_date_utc": "2026-11-21",
+    "title": "Dissociation of solid tumor tissues with cold active protease for single-cell RNA-seq minimizes conserved collagenase-associated stress responses",
+    "first_author": "Ciara H. O’Flanagan",
+    "publication_date": "2019-10-17",
+    "observation": "Publisher author list starts with O’Flanagan; The CRUK IMAXT Grand Challenge Team appears later. Europe PMC also lists O’Flanagan first."
+  },
+  "D07j": {
+    "reference_id": "D07j",
+    "doi": "10.1016/j.cell.2026.08.010",
+    "source": "PubMed official bibliographic record",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42685689/",
+    "status": "retrieved",
+    "accessed_date_utc": "2026-11-21",
+    "title": "Tabula Sapiens 2.0: A comprehensive transcriptomic atlas of human cell types",
+    "group_author": "Tabula Sapiens Consortium",
+    "first_named_collaborator": "Robert C Jones",
+    "journal": "Cell",
+    "publication_online": "2026-09-02",
+    "publication_print": "2026-10-29",
+    "volume": "189",
+    "issue": "22",
+    "pages": "7212-7227.e8",
+    "publication_status": "published",
+    "observation": "PubMed distinguishes the Consortium under Authors from Robert C Jones and other named people under Collaborators."
+  },
+  "B17_publisher_access": {
+    "reference_id": "B17",
+    "doi": "10.1038/s41586-019-1631-3",
+    "source": "Publisher webpage",
+    "url": "https://www.nature.com/articles/s41586-019-1631-3",
+    "status": "page_unavailable_to_tool",
+    "error": "HTTP 500 / redirected to inaccessible idp.nature.com authorization URL",
+    "alternative_metadata_sources": [
+      "Crossref",
+      "Europe PMC"
+    ],
+    "interpretation": "This is a page-access failure, not evidence of an invalid DOI. Both metadata sources identify P. Ramachandran and the expected title/year."
+  }
+}

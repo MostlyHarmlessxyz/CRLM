@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "lineage": "SyntheticImmune",
+  "fit": {
+    "converged": true,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "iterations": 27,
+    "final_training_objective": 0.10233597455734625,
+    "gradient_infinity_norm": 3.256664290237493e-08,
+    "n_parameters": 11,
+    "n_features": 5,
+    "n_bags": 11,
+    "n_paired_donors": 4,
+    "seed": 20261121,
+    "lambda_pair": 1.0,
+    "lambda_l2": 0.01,
+    "pair_margin": 0.0,
+    "standardize": true,
+    "pooling": "attention",
+    "training_objective_is_not_validation": true
+  },
+  "training_donors": [
+    "DEV_D1",
+    "DEV_D2",
+    "DEV_D3",
+    "DEV_D4"
+  ],
+  "planned_training_donors": [
+    "DEV_D1",
+    "DEV_D2",
+    "DEV_D3",
+    "DEV_D4"
+  ],
+  "training_samples": [
+    "D1_LM_2",
+    "D1_LM_a",
+    "D1_LM_b",
+    "D1_LM_c",
+    "D1_PT",
+    "D2_LM",
+    "D2_PT",
+    "D3_LM",
+    "D3_PT",
+    "D4_LM",
+    "D4_PT"
+  ],
+  "paired_donors": [
+    "DEV_D1",
+    "DEV_D2",
+    "DEV_D3",
+    "DEV_D4"
+  ],
+  "manifest_sha256": "770e6f084c1b520f90c54fc804201632134f9b161d10691ac1f8bc5664bb1c34",
+  "embeddings_sha256": "8e42771f8e951c0a4bf28e0fb8adf5d8912af6f947641e9a575ed1c35796a94d",
+  "provenance_sha256": "bcf527c3123cdcb69b1e76058add578f5f559fccefc503dc3f595e2382a12e22",
+  "embedding_provenance": {
+    "lineage": "SyntheticImmune",
+    "encoder_id": "synthetic_generator_not_scGPT_or_PCA",
+    "representation_frozen": true,
+    "preprocessing_fit_scope": "synthetic",
+    "gene_universe_policy": "No genes: five manufactured numerical features. Never interpret as biological expression.",
+    "gene_coverage_audited": true,
+    "embedding_dimension": 5,
+    "seed": 20261121,
+    "note": "Uses tissue labels only to construct a toy example. Performance has no biological meaning."
+  },
+  "split_sha256": null,
+  "fold": null,
+  "warnings": [
+    "Unverified donor codes are ineligible for paired conclusions: ['UNRESOLVED_U1']"
+  ],
+  "limitations": "Already frozen representations only; no automatic encoding/QC/selection. Simple linear attention, not full tanh ABMIL. No clinical risk or causal interpretation. Confirm canonical donor identity and clinical sampling window upstream."
+}

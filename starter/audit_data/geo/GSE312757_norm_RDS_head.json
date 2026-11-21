@@ -1,0 +1,22 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE312nnn/GSE312757/suppl/GSE312757_norm.RDS",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 21 Nov 2026 06:34:05 GMT",
+    "server": "envoy",
+    "last-modified": "Fri, 05 Dec 2025 16:22:44 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "7682541084",
+    "cache-control": "public, max-age=86400",
+    "expires": "Sat, 28 Nov 2026 06:34:05 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,POST,PUT,OPTIONS",
+    "access-control-allow-headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+    "access-control-expose-headers": "Content-Length, Content-Range, Content-Type",
+    "content-type": "application/octet-stream",
+    "content-encoding": "x-gzip",
+    "x-envoy-upstream-service-time": "197",
+    "connection": "close"
+  }
+}

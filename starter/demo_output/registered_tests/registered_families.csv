@@ -1,0 +1,4 @@
+family,analysis_tier,alpha,n_planned_tests,n_raw_p_available,n_missing_planned_tests,n_matched_summary_rows,n_all_ties
+BACKGROUND_I_164_V1,background,0.05,3,2,1,3,1
+PRIMARY_DT_164_V1,primary,0.05,3,2,1,2,0
+SECONDARY_DT_178_V1,secondary,0.05,3,3,0,3,0

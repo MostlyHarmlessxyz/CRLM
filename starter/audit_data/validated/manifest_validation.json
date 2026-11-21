@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_sha256": "6673b632d623319fe107c99e497350d301cc6dadfe737c7925e34fbb9006b6fc",
+  "n_samples": 39,
+  "n_donor_codes": 16,
+  "n_verified_donors": 16,
+  "warnings": [],
+  "limitation": "Checks declared provenance and internal consistency; cannot establish true patient identity or raw-count provenance without source audit."
+}

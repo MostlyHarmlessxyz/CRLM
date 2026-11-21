@@ -1,0 +1,24 @@
+{
+  "n_immune_cells": 329762,
+  "n_donors": 12,
+  "liver_donors": [
+    "637C",
+    "640C",
+    "A29",
+    "A31",
+    "A35",
+    "A36",
+    "A52"
+  ],
+  "transverse_sigmoid_donors": [
+    "A29"
+  ],
+  "caecum_donors": [
+    "A29",
+    "A31",
+    "A35",
+    "A36"
+  ],
+  "annotation_source": "original global.h5ad Majority_voting_CellTypist_high; not reannotation",
+  "limitation": "Not all12donors havecolon/liver. Caecum, transversecolon, sigmoidcolon and smallintestine are distinct sites; sparsemyeloidcolon prevents pairedmyeloidnormal inference at50cells/site."
+}

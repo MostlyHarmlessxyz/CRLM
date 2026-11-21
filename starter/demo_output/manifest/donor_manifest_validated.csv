@@ -1,0 +1,9 @@
+donor_uid,datasets,role,patient_mapping_verified,sample_uids,tissues,n_samples
+DEV_D1,"[""DEV""]",development,True,"[""D1_LM_2"", ""D1_LM_a"", ""D1_LM_b"", ""D1_LM_c"", ""D1_NC"", ""D1_NL"", ""D1_PT""]","[""LM"", ""NC"", ""NL"", ""PT""]",7
+DEV_D2,"[""DEV""]",development,True,"[""D2_LM"", ""D2_NC"", ""D2_NL"", ""D2_PT""]","[""LM"", ""NC"", ""NL"", ""PT""]",4
+DEV_D3,"[""DEV""]",development,True,"[""D3_LM"", ""D3_PT""]","[""LM"", ""PT""]",2
+DEV_D4,"[""DEV""]",development,True,"[""D4_LM"", ""D4_PT""]","[""LM"", ""PT""]",2
+EXT_E1,"[""EXT""]",external,True,"[""E1_LM"", ""E1_NC"", ""E1_NL"", ""E1_PT""]","[""LM"", ""NC"", ""NL"", ""PT""]",4
+EXT_E2,"[""EXT""]",external,True,"[""E2_LM"", ""E2_NC"", ""E2_NL"", ""E2_PT""]","[""LM"", ""NC"", ""NL"", ""PT""]",4
+EXT_E3,"[""EXT""]",external,True,"[""E3_LM"", ""E3_NC"", ""E3_NL"", ""E3_PT""]","[""LM"", ""NC"", ""NL"", ""PT""]",4
+UNRESOLVED_U1,"[""UNRESOLVED""]",exploratory,False,"[""U1_PT""]","[""PT""]",1

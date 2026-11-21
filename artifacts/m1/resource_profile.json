@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-11-21T11:50:02+00:00",
+  "ended_utc": "2026-11-21T11:50:09+00:00",
+  "cwd": "/home/mostly_harmless/Projects/CRLM",
+  "command": "/home/mostly_harmless/Projects/CRLM/.venv-m1/bin/python scripts/import_gse245552.py --manifest data/manifests/m0/sample_manifest_validated.csv --donor GSE245552:Pt18",
+  "python": "3.12.13 (main, Jun 11 2026, 04:03:26) [Clang 22.1.3 ]",
+  "packages": {
+    "anndata": "0.13.4",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "pandas": "3.1.1",
+    "threadpoolctl": "3.8.0"
+  },
+  "selection": "GSE245552:Pt18",
+  "seed": 20261121,
+  "backend": "CPU",
+  "source": {
+    "manifest_sha256": "e00890459bffd45c93785f248bca9d9a8fc3ba01f7d52107f21b2b46b9942d35",
+    "marker_table_sha256": "b619be6abd6dbe8e9d8ff819466142c80d3b541e442c0cf822d0a20dbfad2cde",
+    "import_code_sha256": "67d9f2afd5e4dbd2164d6378ceaabde10ca4f17b81075d19ed90bbb56265ce75",
+    "annotation_code_sha256": "08109ad793eec0f7a2f01ded38d2c2c9965fb2fe6550b502b4f56d1383a8649d",
+    "recorded_protocol_source": "B07, Cancer Res 84, 1353-1354, doi:10.1158/0008-5472.CAN-23-2123"
+  },
+  "seed_table_sha256": "1990424328061838f04c36161f3c93b59de61ebc6c1106a0f114b8bcdd068a13",
+  "elapsed_seconds": 6.637,
+  "peak_rss_bytes_linux": 694071296,
+  "raw_bytes": 124808464,
+  "h5ad_bytes": 218856954,
+  "largest_staged_h5ad_bytes": 74999070,
+  "decompressed_mtx_temp_bytes": 0
+}

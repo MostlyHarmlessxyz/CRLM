@@ -1,0 +1,13 @@
+dataset,donor_uid,role,lineage,program,A_PT,A_LM,A_NC,A_NL,n_lesions_PT,n_lesions_LM,n_lesions_NC,n_lesions_NL,D_T,D_N,I,D_T_Q,D_N_Q,complete_four_tissue
+DEV,DEV_D1,development,Myeloid,fixed_demo,1.0,5.0,0.0,2.0,1,2,1,1,4.0,2.0,2.0,4.0,2.0,True
+DEV,DEV_D2,development,Myeloid,fixed_demo,2.0,0.0,0.0,0.0,1,1,1,1,-2.0,0.0,-2.0,-2.0,0.0,True
+DEV,DEV_D3,development,Myeloid,fixed_demo,1.0,2.0,,,1,1,0,0,1.0,,,,,False
+DEV,DEV_D4,development,Myeloid,fixed_demo,3.0,5.0,,,1,1,0,0,2.0,,,,,False
+EXT,EXT_E1,external,Myeloid,fixed_demo,2.0,4.0,1.0,2.0,1,1,1,1,2.0,1.0,1.0,2.0,1.0,True
+EXT,EXT_E2,external,Myeloid,fixed_demo,1.0,1.0,0.0,0.0,1,1,1,1,0.0,0.0,0.0,0.0,0.0,True
+EXT,EXT_E3,external,Myeloid,fixed_demo,0.0,,0.0,0.0,1,0,1,1,,0.0,,,,False
+DEV,DEV_D1,development,Myeloid,all_ties,5.0,5.0,,,1,2,0,0,0.0,,,,,False
+DEV,DEV_D2,development,Myeloid,all_ties,5.0,5.0,,,1,1,0,0,0.0,,,,,False
+DEV,DEV_D3,development,Myeloid,all_ties,5.0,5.0,,,1,1,0,0,0.0,,,,,False
+DEV,DEV_D4,development,Myeloid,all_ties,5.0,5.0,,,1,1,0,0,0.0,,,,,False
+DEV,DEV_D1,development,Myeloid,missing_demo,,,,,0,0,0,0,,,,,,False

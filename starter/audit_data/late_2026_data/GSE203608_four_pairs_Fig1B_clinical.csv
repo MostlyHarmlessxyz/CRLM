@@ -1,0 +1,5 @@
+patient_code,figure_crc_id,tnm_as_printed,stage_as_printed,sex,age,msi,cms
+09,CRC0009,pT3N0M1,Stage IV,M,78,MSS,CMS4
+27,CRC0027,pT4aN1aM1a,Stage IV,F,57,MSS,CMS4
+44,CRC0044,pT3N1bM1a,Stage IV,F,59,MSS,CMS4
+49,CRC0049,pT3N1a,Stage III,M,55,MSS,CMS3

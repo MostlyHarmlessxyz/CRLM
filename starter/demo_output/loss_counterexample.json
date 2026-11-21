@@ -1,0 +1,47 @@
+{
+  "type": "mathematical_counterexample_no_patient_data",
+  "margin": 1.0,
+  "lambda_normal": 0.05,
+  "rows": [
+    {
+      "s_PT": -1.0,
+      "s_LM": 1.0,
+      "s_NC": 0.0,
+      "s_NL": 2.0,
+      "tumor_BCE_unchanged": 0.31326168751822286,
+      "D_T": 2.0,
+      "D_N": 2.0,
+      "I": 0.0,
+      "original_background_loss": 1.3132616875182228,
+      "original_plus_symmetric_penalty": 1.5132616875182228,
+      "symmetric_penalty_without_difference_reward": 0.2
+    },
+    {
+      "s_PT": -1.0,
+      "s_LM": 1.0,
+      "s_NC": 0.0,
+      "s_NL": 0.0,
+      "tumor_BCE_unchanged": 0.31326168751822286,
+      "D_T": 2.0,
+      "D_N": 0.0,
+      "I": 2.0,
+      "original_background_loss": 0.31326168751822286,
+      "original_plus_symmetric_penalty": 0.31326168751822286,
+      "symmetric_penalty_without_difference_reward": 0.0
+    },
+    {
+      "s_PT": -1.0,
+      "s_LM": 1.0,
+      "s_NC": 0.0,
+      "s_NL": -2.0,
+      "tumor_BCE_unchanged": 0.31326168751822286,
+      "D_T": 2.0,
+      "D_N": -2.0,
+      "I": 4.0,
+      "original_background_loss": 0.04858735157374206,
+      "original_plus_symmetric_penalty": 0.24858735157374207,
+      "symmetric_penalty_without_difference_reward": 0.2
+    }
+  ],
+  "conclusion": "Adding a small symmetric square penalty to the original difference reward still favors a negative normal gap. Removing the difference reward and using the square alone removes this directional incentive; it does not establish causal deconfounding."
+}

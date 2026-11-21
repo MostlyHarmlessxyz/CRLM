@@ -1,0 +1,16 @@
+gsm,library,n_barcodes,file
+GSM9430352,CRC_N1,21236,research/geo/GSM9430352_CRC_N1_barcodes.tsv.gz
+GSM9430353,CRC_T1,27840,research/geo/GSM9430353_CRC_T1_barcodes.tsv.gz
+GSM9430354,CRC_LM1,30102,research/geo/GSM9430354_CRC_LM1_barcodes.tsv.gz
+GSM9430355,CRC_N2,24147,research/geo/GSM9430355_CRC_N2_barcodes.tsv.gz
+GSM9430356,CRC_T2,20623,research/geo/GSM9430356_CRC_T2_barcodes.tsv.gz
+GSM9430357,CRC_LM2,21621,research/geo/GSM9430357_CRC_LM2_barcodes.tsv.gz
+GSM9430358,CRC_N3,19990,research/geo/GSM9430358_CRC_N3_barcodes.tsv.gz
+GSM9430359,CRC_T3,16127,research/geo/GSM9430359_CRC_T3_barcodes.tsv.gz
+GSM9430360,CRC_LM3,13377,research/geo/GSM9430360_CRC_LM3_barcodes.tsv.gz
+GSM9430361,CRC_N4,20088,research/geo/GSM9430361_CRC_N4_barcodes.tsv.gz
+GSM9430362,CRC_T4,21380,research/geo/GSM9430362_CRC_T4_barcodes.tsv.gz
+GSM9430363,CRC_N5,19201,research/geo/GSM9430363_CRC_N5_barcodes.tsv.gz
+GSM9430364,CRC_T5,23407,research/geo/GSM9430364_CRC_T5_barcodes.tsv.gz
+GSM9430365,CRC_N6,18608,research/geo/GSM9430365_CRC_N6_barcodes.tsv.gz
+GSM9430366,CRC_T6,19246,research/geo/GSM9430366_CRC_T6_barcodes.tsv.gz

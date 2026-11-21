@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "n_checks": 41,
+  "checks": [
+    "only_verified_development_tumor_bags_selected",
+    "unequal_technical_replicates_and_lesions_get_correct_BCE_weights",
+    "each_patient_has_equal_total_BCE_weight",
+    "each_patient_tumor_site_has_equal_BCE_weight",
+    "paired_logits_aggregate_lesions_before_patient_difference",
+    "finite_difference_gradient_mean_pair0.0",
+    "finite_difference_gradient_mean_pair0.7",
+    "zero_logit_loss_matches_BCE_plus_pair_mean",
+    "finite_difference_gradient_attention_pair0.0",
+    "finite_difference_gradient_attention_pair0.7",
+    "zero_logit_loss_matches_BCE_plus_pair_attention",
+    "patient_role_leakage_rejected_before_filtering",
+    "unverified_development_identity_rejected",
+    "fold_uses_all_eligible_tumor_bags_of_only_train_donors",
+    "external_donor_in_supplied_split_rejected",
+    "lesion_or_normal_sample_split_inconsistency_rejected",
+    "full_development_PCA_not_accepted_as_fold_fitted",
+    "missing_gene_coverage_audit_rejected",
+    "positive_pair_loss_without_pairs_rejected",
+    "missing_embedding_bag_rejected",
+    "normal_tissues_cannot_receive_binary_tumor_site_BCE",
+    "training_loader_does_not_read_external_arrays",
+    "scaler_is_training_patient_weighted",
+    "duplicating_cells_does_not_change_scaler_or_patient_weights",
+    "synthetic_fit_converges_mean",
+    "single_bag_inference_equals_batch_mean",
+    "cell_order_invariant_mean",
+    "unrelated_inference_bag_cannot_change_first_prediction_mean",
+    "attention_is_normalized_nonnegative_mean",
+    "saved_model_reproduces_logits_mean",
+    "same_seed_and_changed_external_data_leave_fit_identical_mean",
+    "synthetic_fit_converges_attention",
+    "single_bag_inference_equals_batch_attention",
+    "cell_order_invariant_attention",
+    "unrelated_inference_bag_cannot_change_first_prediction_attention",
+    "attention_is_normalized_nonnegative_attention",
+    "saved_model_reproduces_logits_attention",
+    "same_seed_and_changed_external_data_leave_fit_identical_attention",
+    "train_CLI_works_without_external_loading_mean",
+    "train_CLI_works_without_external_loading_attention",
+    "independent_external_predict_CLI"
+  ],
+  "gradient_checks": [
+    {
+      "pooling": "mean",
+      "lambda_pair": 0.0,
+      "maximum_absolute_error": 8.738443302291898e-11,
+      "step": 1e-06
+    },
+    {
+      "pooling": "mean",
+      "lambda_pair": 0.7,
+      "maximum_absolute_error": 1.4357232069883707e-10,
+      "step": 1e-06
+    },
+    {
+      "pooling": "attention",
+      "lambda_pair": 0.0,
+      "maximum_absolute_error": 1.265640925396383e-10,
+      "step": 1e-06
+    },
+    {
+      "pooling": "attention",
+      "lambda_pair": 0.7,
+      "maximum_absolute_error": 1.223301460129278e-10,
+      "step": 1e-06
+    }
+  ],
+  "scope": "Synthetic numerical, weighting, identity, role and inference isolation checks; no real biological performance claim."
+}

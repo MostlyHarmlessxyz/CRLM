@@ -1,0 +1,284 @@
+{
+  "source_pdf": "sciadv.adf5464_sm.pdf",
+  "source_doi": "10.1126/sciadv.adf5464",
+  "source_url": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/599/S-EPMC10275599/Files/sciadv.adf5464_sm.pdf",
+  "pdf_sha256": "1250d41b389407f38e24f3ef1be7528d1375c1f61419a84b1abaf16607b9fd58",
+  "pdf_bytes": 9069863,
+  "visual_check": "Rendered and visually inspected full PDF pages 13, 14, 15; exact rows transcribed. Headers normalized only by joining line wraps and expressing CD45 superscripts as +/-; blank cells remain blank, not clinical negatives.",
+  "clinical_mapping_status": "UNRESOLVED: no P0816 or s0816 is mentioned in Tables S2/S3/S4; no s0816 alias is stated.",
+  "not_reported_in_these_tables": [
+    "MSI/MMR status",
+    "Collection date",
+    "Explicit s-code to P-code crosswalk",
+    "s0816 identity",
+    "Direct correspondence between scRNA-seq and ST patients"
+  ],
+  "blank_cell_footnote": "√: present and were sampled; blank cells do not establish disease absence.",
+  "Table S2": {
+    "pdf_page_1_based": 13,
+    "title": "Clinical and demographic details of patients",
+    "columns": [
+      "Patient ID",
+      "Age (y)",
+      "Gender",
+      "Primary site",
+      "Colorectal normal tissue (CN)",
+      "Colorectal cancer (CC)",
+      "Liver normal tissue (LN)",
+      "Liver metastasis (LM)",
+      "Peripheral blood (PB)"
+    ],
+    "rows": [
+      {
+        "Patient ID": "P0107",
+        "Age (y)": 75,
+        "Gender": "Male",
+        "Primary site": "Left colon",
+        "Colorectal normal tissue (CN)": "√",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "√",
+        "Liver metastasis (LM)": "√",
+        "Peripheral blood (PB)": "√"
+      },
+      {
+        "Patient ID": "P0115",
+        "Age (y)": 80,
+        "Gender": "Male",
+        "Primary site": "Left colon",
+        "Colorectal normal tissue (CN)": "√",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "√",
+        "Liver metastasis (LM)": "√",
+        "Peripheral blood (PB)": "√"
+      },
+      {
+        "Patient ID": "P0813",
+        "Age (y)": 58,
+        "Gender": "Female",
+        "Primary site": "Right colon",
+        "Colorectal normal tissue (CN)": "√",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "√",
+        "Liver metastasis (LM)": "√",
+        "Peripheral blood (PB)": "√"
+      },
+      {
+        "Patient ID": "P0920",
+        "Age (y)": 64,
+        "Gender": "Male",
+        "Primary site": "Left colon",
+        "Colorectal normal tissue (CN)": "",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "√",
+        "Liver metastasis (LM)": "√",
+        "Peripheral blood (PB)": "√"
+      },
+      {
+        "Patient ID": "P1125",
+        "Age (y)": 41,
+        "Gender": "Female",
+        "Primary site": "Left colon",
+        "Colorectal normal tissue (CN)": "√",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "√",
+        "Liver metastasis (LM)": "√",
+        "Peripheral blood (PB)": ""
+      },
+      {
+        "Patient ID": "P1231",
+        "Age (y)": 58,
+        "Gender": "Male",
+        "Primary site": "Left colon",
+        "Colorectal normal tissue (CN)": "√",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "√",
+        "Liver metastasis (LM)": "√",
+        "Peripheral blood (PB)": ""
+      },
+      {
+        "Patient ID": "C1",
+        "Age (y)": 69,
+        "Gender": "Female",
+        "Primary site": "Left colon",
+        "Colorectal normal tissue (CN)": "",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "",
+        "Liver metastasis (LM)": "",
+        "Peripheral blood (PB)": ""
+      },
+      {
+        "Patient ID": "C2",
+        "Age (y)": 73,
+        "Gender": "Male",
+        "Primary site": "Right colon",
+        "Colorectal normal tissue (CN)": "",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "",
+        "Liver metastasis (LM)": "",
+        "Peripheral blood (PB)": ""
+      },
+      {
+        "Patient ID": "C3",
+        "Age (y)": 62,
+        "Gender": "Female",
+        "Primary site": "Right colon",
+        "Colorectal normal tissue (CN)": "",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "",
+        "Liver metastasis (LM)": "",
+        "Peripheral blood (PB)": ""
+      },
+      {
+        "Patient ID": "C4",
+        "Age (y)": 53,
+        "Gender": "Male",
+        "Primary site": "Left colon",
+        "Colorectal normal tissue (CN)": "",
+        "Colorectal cancer (CC)": "√",
+        "Liver normal tissue (LN)": "",
+        "Liver metastasis (LM)": "",
+        "Peripheral blood (PB)": ""
+      },
+      {
+        "Patient ID": "L1",
+        "Age (y)": 60,
+        "Gender": "Male",
+        "Primary site": "——",
+        "Colorectal normal tissue (CN)": "",
+        "Colorectal cancer (CC)": "",
+        "Liver normal tissue (LN)": "",
+        "Liver metastasis (LM)": "√",
+        "Peripheral blood (PB)": ""
+      },
+      {
+        "Patient ID": "L2",
+        "Age (y)": 69,
+        "Gender": "Male",
+        "Primary site": "——",
+        "Colorectal normal tissue (CN)": "",
+        "Colorectal cancer (CC)": "",
+        "Liver normal tissue (LN)": "",
+        "Liver metastasis (LM)": "√",
+        "Peripheral blood (PB)": ""
+      }
+    ]
+  },
+  "Table S3": {
+    "pdf_page_1_based": 14,
+    "title": "Neoadjuvant regimens of the included patients",
+    "columns": [
+      "Patient ID",
+      "Neoadjuvant regimens",
+      "Cycles for treatment"
+    ],
+    "rows": [
+      {
+        "Patient ID": "P0107",
+        "Neoadjuvant regimens": "FOLFOX",
+        "Cycles for treatment": 3
+      },
+      {
+        "Patient ID": "P0115",
+        "Neoadjuvant regimens": "FOLFOX",
+        "Cycles for treatment": 4
+      },
+      {
+        "Patient ID": "P0813",
+        "Neoadjuvant regimens": "FOLFOXIRI",
+        "Cycles for treatment": 5
+      },
+      {
+        "Patient ID": "P0920",
+        "Neoadjuvant regimens": "FOLFOX",
+        "Cycles for treatment": 5
+      },
+      {
+        "Patient ID": "P1125",
+        "Neoadjuvant regimens": "FOLFOXIRI+Bevacizumab",
+        "Cycles for treatment": 8
+      },
+      {
+        "Patient ID": "P1231",
+        "Neoadjuvant regimens": "FOLFOX",
+        "Cycles for treatment": 3
+      }
+    ],
+    "footnote": "FOLFOX: Fluorouracil+Calcium levofolinate+Oxaliplatin; FOLFOXIRI: Fluorouracil+Calcium levofolinate+Oxaliplatin+Irinotecan"
+  },
+  "Table S4": {
+    "pdf_page_1_based": 15,
+    "title": "Information of cells obtained from different sites of each patient",
+    "columns": [
+      "Patient ID",
+      "CN CD45+",
+      "CC CD45+",
+      "CC CD45-",
+      "LN CD45+",
+      "LM CD45+",
+      "LM CD45-",
+      "PB CD45+"
+    ],
+    "rows": [
+      {
+        "Patient ID": "P0107",
+        "CN CD45+": "√",
+        "CC CD45+": "√",
+        "CC CD45-": "√",
+        "LN CD45+": "√",
+        "LM CD45+": "√",
+        "LM CD45-": "√",
+        "PB CD45+": "√"
+      },
+      {
+        "Patient ID": "P0115",
+        "CN CD45+": "√",
+        "CC CD45+": "√",
+        "CC CD45-": "√",
+        "LN CD45+": "√",
+        "LM CD45+": "√",
+        "LM CD45-": "√",
+        "PB CD45+": "√"
+      },
+      {
+        "Patient ID": "P0813",
+        "CN CD45+": "√",
+        "CC CD45+": "√",
+        "CC CD45-": "√",
+        "LN CD45+": "√",
+        "LM CD45+": "√",
+        "LM CD45-": "√",
+        "PB CD45+": "√"
+      },
+      {
+        "Patient ID": "P0920",
+        "CN CD45+": "",
+        "CC CD45+": "√",
+        "CC CD45-": "√",
+        "LN CD45+": "√",
+        "LM CD45+": "√",
+        "LM CD45-": "√",
+        "PB CD45+": "√"
+      },
+      {
+        "Patient ID": "P1125",
+        "CN CD45+": "√",
+        "CC CD45+": "√",
+        "CC CD45-": "",
+        "LN CD45+": "√",
+        "LM CD45+": "√",
+        "LM CD45-": "",
+        "PB CD45+": ""
+      },
+      {
+        "Patient ID": "P1231",
+        "CN CD45+": "√",
+        "CC CD45+": "√",
+        "CC CD45-": "√",
+        "LN CD45+": "√",
+        "LM CD45+": "√",
+        "LM CD45-": "√",
+        "PB CD45+": ""
+      }
+    ]
+  }
+}

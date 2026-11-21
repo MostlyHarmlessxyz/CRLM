@@ -1,0 +1,60 @@
+# 数据证据编号 D01–D11（与主报告兼容；保留原文件名）
+
+核验日：2026-11-21。D01–D06 是六个原拟数据集的官方记录；D07 是有明确子项的补充原始来源；D08 是本轮可重跑输入审计；D09、D10 是新发现的现成公开备选。论文 DOI 不代表所有原始数据均已下载；“记录核验”“轻量实测”“完整矩阵实测”须分别表述。
+
+| 编号 | 名称 | 官方 URL / 原始 DOI | 主要支持及边界 |
+|---|---|---|---|
+| D01 | GSE245552 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245552>；<https://doi.org/10.1158/0008-5472.CAN-23-2123> | 39 GSM、真实组织source字段、Cell Ranger v5.0.1计数来源；公共16患者/13对由D08解析。原临床MSS/部位用D07a。 |
+| D02 | GSE164522 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164522>；<https://doi.org/10.1016/j.ccell.2022.02.013> | 17患者级GSM；公开metadata只10患者，六个公开表达表头全257843列已与metadata精确对齐。表达真实尺度必须引用D08，不能仅照GEO“UMI counts”字样。 |
+| D03 | GSE225857 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225857>；<https://doi.org/10.1126/sciadv.adf5464>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC10275599/> | 全转录组BD Rhapsody加7 AbSeq、6/27声明；实际7codes/30groups由D08；6个ST不配对须D07c；新取得S2/S3/S4与六人治疗见D07i，0816身份仍不解决。 |
+| D04 | GSE178318 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178318>；<https://doi.org/10.1038/s41421-021-00312-y>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC8421363/> | 原Methods：6人PT–LM同时切除，3未治/3化疗，MSS；15GSM。GEO数据使用说明需保留。 |
+| D05 | GSE298084 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298084>；<https://doi.org/10.1158/2326-6066.CIR-25-0031>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC12580778/> | 18全研究中只有3人scRNA，8文库，围瘤区域/CD45+；不能当18人核心肿瘤外部验证。 |
+| D06 | GSE335552 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335552>；<https://doi.org/10.1158/2767-9764.CRC-26-0182> | 3患者4Xenium切片，462/319面板；实际共同309基因及646711条码由D08读取全部4H5。 |
+| D07 | 补充原始来源 | 见下列D07a–k | 原始临床、作者明确答复、机构声明、其他候选的访问性；每次引用应注明相关子项。 |
+| D08 | 本轮输入/文件审计 | 随报告交付的脚本、原始metadata、摘要JSON/CSV；见下节 | 不是新发表的生物学结论；只证明本次所读文件、匹配、尺度、维度与数值检查。 |
+| D09 | GSE315534 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315534>；<https://doi.org/10.1038/s41392-026-02732-2>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC13139463/> | 6患者15组织仅3CRLM PT–LM对，全部无新辅助治疗；15barcode实测316993；无邻近肝。 |
+| D10 | GSE312757 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE312757>；<https://doi.org/10.1186/s12943-026-02732-4>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC13673828/> | 4 MSS replacement-type术前化疗患者，CosMx6K边缘/背景肝；norm.RDS实际HEAD200、7682541084字节，未读取大矩阵。 |
+| D11 | GSE203608 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203608>；<https://doi.org/10.1038/s41467-023-43746-6>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC10689473/> | UPenn体内组织15患者代码/24组织/59661细胞，4对PT–LM；53 GSM含培养及技术库。新旧metadata完整重复126014行，不能拼接；49分期/时序有待澄清。仅核身份元数据与临床图，未扫描表达。 |
+
+## D07 补充原始来源子项
+
+| 子项 | 原始来源 | 用途 |
+|---|---|---|
+| D07a | GSE245552原始临床Table S1：<https://doi.org/10.1158/0008-5472.25607328.v1>；<https://api.figshare.com/v2/articles/25607328>；<https://ndownloader.figshare.com/files/45666645> | 18全研究患者、全部MSS、年龄/性别/部位/分期；与GEO联接确认16公共scRNA患者；**没有治疗列**。原DOCX已下载验证。 |
+| D07b | GSE164522作者机构介绍：<https://biopic.pku.edu.cn/en/newscenter/scientificupdates/108bdswyxqycxzxywgb522182.htm> | 17 treatment-naïve患者/101多组织样本；个体临床表仍未获得。 |
+| D07c | GSE225857原作者GitHub答复：<https://github.com/jalon9358/LianLab_CRCLM/issues/1#issuecomment-2652922964> | 6个ST病例、4PT/2LM不配对，亦不与scRNA匹配；PT是否来自已肝转移者作者表示不明。 |
+| D07d | OMIX005611：<https://ngdc.cncb.ac.cn/omix/release/OMIX005611>；原论文<https://doi.org/10.1002/cdt3.70051> | 论文9未治MSS/36四组织；官方controlled/unavailable、MOST登记未完成。本次不能加入已落实样本量。PRJCA022675是BioProject号。 |
+| D07e | GSE231559：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE231559>；<https://doi.org/10.1158/2159-8290.CD-22-1467>；临床S5<https://doi.org/10.1158/2159-8290.24792830.v1>；<https://ndownloader.figshare.com/files/43604693> | S5实际12人，C4为II期MSI，其余11MSS；GEO额外6个L代码不在S5；不能猜C/L配对。 |
+| D07f | 多器官非肿瘤供者参照：<https://doi.org/10.1126/science.abl5197>；<https://www.tissueimmunecellatlas.org/>；<https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-11536>；作者代码<https://github.com/Teichlab/TissueImmuneCellAtlas/tree/v1.1> | 12已故供者/16组织不等于12对肝–结肠；原metadata明确横/乙状结肠只A29，肠数据很多为小肠；要按真实可用供者和未刺激样本筛选。 |
+| D07g | Sathe肝转移研究：<https://doi.org/10.1158/1078-0432.CCR-22-2041>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC9811165/>；作者数据页<https://dna-discovery.stanford.edu/research/datasets/> | LM+邻近肝/PBMC，无PT；作者称有CellRanger矩阵，本次入口502/503，不能写已可靠取得；raw dbGaP受控。 |
+| D07h | Ding四组织小队列：<https://doi.org/10.1136/jitc-2025-012330>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC12551530/> | 4名未经治疗同步MSS/pMMR四组织、63782QC细胞；仅reasonable request，没有公开accession。适合未来申请，不计入现成可用。 |
+| D07i | GSE225857原补充资料：<https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/599/S-EPMC10275599/Files/sciadv.adf5464_sm.pdf>；官方条目<https://www.ebi.ac.uk/biostudies/studies/S-EPMC10275599> | 真PDF9069863字节；S2/S3/S4为PDF第13/14/15页，逐页视觉核对，只有6个临床P代码而无P0816；六人具体新辅助治疗及5left/1right部位已确认，无MSS/MSI/MMR列。删除0816会与原文免疫总数冲突，身份仍须作者解决。 |
+| D07j | Tabula Sapiens v2：<https://doi.org/10.1016/j.cell.2026.08.010>；<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE306755>；<https://doi.org/10.6084/m9.figshare.27921984.v1>；<https://tabula-sapiens.sf.czbiohub.org/organs> | 42.46MB全metadata实际核完1136218细胞/24供者，但肝4、大肠5只有TSP14共同；严格Mono/Mac/DC大肠41肝338，>=50配对为0，宽标签也仅1人；没有多供者正常背景改善。表达H5未下载；尺度/富集/非完美健康等限制见专项备忘。 |
+| D07k | GSE245552原S2：<https://doi.org/10.1158/0008-5472.25607325.v1>；<https://ndownloader.figshare.com/files/45666639>；原S3：<https://doi.org/10.1158/0008-5472.25607322.v1>；<https://ndownloader.figshare.com/files/45666636> | S2交叉确认39标本/16患者，但CD45数单位×10^6而非scRNA QC计数，不能推出谱系N或富集。S3五表600marker行/390unique genes/30群，全390可在肿瘤feature找到；必须用最后gene列，首列存在R行名后缀。原DOCX/SHA/转录CSV均保留。 |
+
+## D08 本轮审计的可重跑证据
+
+- `audit_geo_metadata.py`、`geo/*_full.soft`、`geo_parsed.json`：六组原始GEO记录和解析。
+- `reproduce_data_audit.py`、`data_audit_reproduced.json`：metadata、barcode、矩阵列交集与H5面板核对。
+- `build_GSE245552_manifest.py`、`GSE245552_sample_manifest_audited.csv`、原始S1 DOCX：患者/组织/临床映射。
+- `verify_GSE245552_first_counts.py`、`geo/GSM7844812_count_verification.json`：首MTX全9178559条目实际检查与SHA256。
+- `audit_GSE245552_all_matrices.py`、`geo/GSE245552_matrix_audit/*.json`、`GSE245552_all_matrix_audit.csv/json`：39库完整审计；只有报告status=verified者才算完整验证。报告可不存在或含失败，不能仅凭脚本存在声称完成。
+- 根代理 `probe_processed_scale.py`、`geo/GSE164522_processed_scale_probe.json`：164的24662基因×固定8细胞尺度探针，兼容log1p(normalize10000)，不还原UMI。
+- `audit_GSE164522_expression_headers.py`、`geo/GSE164522_all_expression_headers_audit.json`、六份完整表头：全部257843列与metadata一一匹配；仅消费1573064压缩字节，未读表达行。headerSHA不是整文件SHA。
+- `reproduce_core_audit.py`：起步包默认离线复核，只读所附小证据重聚合；明确区别历史完整MTX扫描与当前重新读取的基因列表/表头，不假装又下载了1GB矩阵。
+- `audit_tabula_sapiens_support.py`、`normal_tabula/TabulaSapiens2_support_summary.json`：完整官方metadata及肝/大肠子集支持计数；只核原作者标签，不分析表达，不把24总供者当24对。
+- `audit_GSE245552_supplement_tables.py`、`GSE245552_S2_S3_provenance.json`：离线解析原S2/S3；原单位上标、标本分母、最后gene列和公共feature覆盖核验。
+- `pilot_164522_support.csv`：既有注释下谱系支持人数，仅是开发可用性审查，须披露外部metadata已查看。
+- `GSE335552_panel_candidate_coverage_by_sample.csv`：4个真实H5的候选面板覆盖；未测基因不填0。
+- `output/CRLM_starter/audit_data/validated/manifest_validation.json`：起步manifest接口校验；其验证范围不等同于完整矩阵内容扫描。
+
+正文可使用D01–D11。细节表优先D07a这类精确子项，避免一个笼统“补充资料”引用支撑彼此无关的事实。
+
+## D11 追加次要外部 GSE203608
+
+- 官方 GEO：<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203608>；BioProject <https://www.ncbi.nlm.nih.gov/bioproject/PRJNA841584>。
+- 原论文：Li et al., Mapping and modeling human colorectal carcinoma interactions with the tumor microenvironment. Nat Commun 2023. <https://doi.org/10.1038/s41467-023-43746-6>；<https://pmc.ncbi.nlm.nih.gov/articles/PMC10689473/>。Methods Human tissues（UPenn取材）、Tissue dissociation and cell sorting（DAPI/FACS）、Fig1A/B（治疗前总体设计、四对均MSS、49分期冲突）。
+- 已实际下载并读EOF：<https://ftp.ncbi.nlm.nih.gov/geo/series/GSE203nnn/GSE203608/suppl/GSE203608_cell_annotation.csv.gz>（4,082,782bytes）；<https://ftp.ncbi.nlm.nih.gov/geo/series/GSE203nnn/GSE203608/suppl/GSE203608_GSM7294726-GSM7294729_cell_annotation.csv.gz>（3,319,064bytes）。所有SHA及精确列快照见 `late_2026_data/GSE203608_identity_subset_provenance.json`。
+- 作者处理对象声明：<https://zenodo.org/records/7872684>；矩阵本轮未读取，不能据声明标数值已核。
+- 原图1：<https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-43746-6/MediaObjects/41467_2023_43746_Fig1_HTML.png>；1,231,226bytes，SHA及四位临床转录见 `late_2026_data/GSE203608_Fig1_provenance.json`。
+- 实测临床子集15患者24组织59,661细胞；4PT–LM配对09/27/44/49、1四组织09；4对作者髓系均≥100，但09NC髓系11，0个≥50四组织。后增146,988行精确包含旧126,014行全部重复。默认离线复核命令 `python audit_data/audit_GSE203608_metadata.py`。

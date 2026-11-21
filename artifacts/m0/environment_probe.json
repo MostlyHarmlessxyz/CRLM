@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-11-21T11:43:21.024547+00:00",
+  "scope": "This runtime only. It is the user's workstation only if run on that workstation.",
+  "project_root": "/home/mostly_harmless/Projects/CRLM",
+  "python": "3.14.10",
+  "python_executable": "/usr/bin/python",
+  "platform": "Linux-7.3.5-arch1-1-x86_64-with-glibc2.44",
+  "cpu_name": "13th Gen Intel(R) Core(TM) i5-13400",
+  "logical_cpu_count": 16,
+  "memory": {
+    "source": "/proc/meminfo",
+    "total_bytes": 67171717120,
+    "available_bytes": 58274652160,
+    "note": "OS-visible physical memory, not a guarantee of process/cgroup allocation."
+  },
+  "project_filesystem_disk": {
+    "total_bytes": 2047333105664,
+    "free_bytes": 515626979328,
+    "free_gib": 480.22
+  },
+  "user_reported_target_hardware_unverified": {
+    "cpu": "Intel Core i5-13400",
+    "ram_gb": 64,
+    "free_ssd_gb": 400,
+    "gpu": "Intel Arc A750",
+    "os": null,
+    "verified_on_target_host": false
+  },
+  "installed_packages": {
+    "numpy": "2.5.5",
+    "pandas": "2.3.3",
+    "scipy": null,
+    "anndata": null,
+    "scanpy": null,
+    "torch": null,
+    "scgpt": null
+  },
+  "R_executable": null,
+  "torch_probe": {
+    "status": "not_requested",
+    "use": "--torch-probe to query an already installed backend"
+  },
+  "arithmetic_examples_not_benchmarks": {
+    "shared_gene_dense_float32_gib": 20.95,
+    "shared_gene_dense_float64_gib": 41.9,
+    "embedding_example_512d_float32_gib": 0.363,
+    "basis": {
+      "cells_before_QC": 190190,
+      "shared_genes": 29569,
+      "example_embedding_dim": 512
+    },
+    "excludes": "Copies, sparse index arrays, model weights, activations, metadata, temporary files and other cohorts. Actual scGPT embedding width follows the selected checkpoint."
+  },
+  "next_step": "Use sparse per-sample import on CPU; profile actual model inputs before choosing GPU/cloud resources. This report does not complete M0."
+}

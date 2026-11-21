@@ -1,0 +1,149 @@
+{
+  "checked_date_utc": "2026-11-21",
+  "scope": "Publication-status follow-up only for M23/M29/M34; no source bibliography or manuscript edits.",
+  "search_strategy": "Current official repository README/CITATION; exact original/current title and method-name web searches; independent Europe PMC TITLE searches rather than DOI-only lookup; institutional or NLM primary pages.",
+  "queries": [
+    "\"MultiNicheNet\" \"a flexible framework\" published journal",
+    "\"scMetaIntegrator\" \"meta-analysis\" journal published",
+    "\"Weakly supervised learning uncovers phenotypic signatures in single-cell data\" journal",
+    "\"MultiNicheNet\" journal published 2026 DOI",
+    "\"scMetaIntegrator\" published journal 2026",
+    "\"Multimodal weakly supervised learning to identify disease-specific changes in single-cell atlases\""
+  ],
+  "rows": [
+    {
+      "reference_id": "M23",
+      "name": "MultiNicheNet",
+      "preprint_doi": "10.1101/2023.06.13.544751",
+      "repo": "https://github.com/saeyslab/multinichenetr",
+      "repository_evidence": "Official README introduction and references explicitly identify the work as a preprint; official inst/CITATION points to the 2023 bioRxiv v1.",
+      "citation_file_url": "https://raw.githubusercontent.com/saeyslab/multinichenetr/main/inst/CITATION",
+      "independent_primary_page": "https://biblio.ugent.be/publication/01HQEAMAHSRTW67HW93HPN7BFH",
+      "primary_page_evidence": "Author institution bibliography classifies the work as Miscellaneous (Preprint), venue bioRxiv; generic publication status published is not peer-reviewed journal status.",
+      "web_refs": [
+        "turn135711828view0",
+        "turn594457581view1",
+        "turn609916255view0"
+      ],
+      "decision": "retain_preprint",
+      "formal_peer_reviewed_version_found": false,
+      "new_formal_doi": null,
+      "europepmc_title_search": {
+        "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22MultiNicheNet%22&format=json&resultType=core&pageSize=25",
+        "hit_count": 1,
+        "records": [
+          {
+            "id": "PPR674981",
+            "source": "PPR",
+            "doi": "10.1101/2023.06.13.544751",
+            "title": "MultiNicheNet: a flexible framework for differential cell-cell communication analysis from multi-sample multi-condition single-cell transcriptomics data",
+            "pubYear": "2023",
+            "pubTypeList": {
+              "pubType": [
+                "Preprint"
+              ]
+            }
+          }
+        ],
+        "cache_file": "research/preprint_status_recheck_20261121/M23_europepmc_title.json"
+      },
+      "repository_tree_lookup": {
+        "url": "https://api.github.com/repos/saeyslab/multinichenetr/git/trees/main?recursive=1",
+        "http_status": 200,
+        "error": null,
+        "citation_paths": [
+          "inst/CITATION"
+        ]
+      },
+      "citation_file_sha256": "30e9e60bef4f229dcfe772d71e6c3691ae4ea2a56219de4c7b29c7242b1f8b6d"
+    },
+    {
+      "reference_id": "M29",
+      "name": "scMetaIntegrator",
+      "preprint_doi": "10.1101/2025.06.04.657898",
+      "repo": "https://github.com/Khatri-Lab/scMetaIntegrator",
+      "repository_evidence": "Official README labels the paper Preprint and links the 2025 bioRxiv DOI.",
+      "independent_primary_page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12157664/",
+      "primary_page_evidence": "Current PMC page labels this a preprint, not yet peer reviewed by a journal; PubMed PMID40501846 also identifies bioRxiv/Preprint.",
+      "web_refs": [
+        "turn135711828view1",
+        "turn594457581view2",
+        "turn609916255view1"
+      ],
+      "decision": "retain_preprint",
+      "formal_peer_reviewed_version_found": false,
+      "new_formal_doi": null,
+      "europepmc_title_search": {
+        "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22scMetaIntegrator%22&format=json&resultType=core&pageSize=25",
+        "hit_count": 1,
+        "records": [
+          {
+            "id": "PPR1033092",
+            "source": "PPR",
+            "doi": "10.1101/2025.06.04.657898",
+            "title": "scMetaIntegrator: a meta-analysis approach to paired single-cell differential expression analysis",
+            "pubYear": "2025",
+            "pubTypeList": {
+              "pubType": [
+                "Preprint"
+              ]
+            }
+          }
+        ],
+        "cache_file": "research/preprint_status_recheck_20261121/M29_europepmc_title.json"
+      },
+      "repository_tree_lookup": {
+        "url": "https://api.github.com/repos/Khatri-Lab/scMetaIntegrator/git/trees/main?recursive=1",
+        "http_status": null,
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "reference_id": "M34",
+      "name": "MultiMIL",
+      "preprint_doi": "10.1101/2024.07.29.605625",
+      "repo": "https://github.com/theislab/multimil",
+      "repository_evidence": "Official README Citation section cites the current title and bioRxiv DOI, with no formal journal citation.",
+      "independent_primary_page": "https://theislab.bio/publications/10.1101-2024.07.29.605625/",
+      "primary_page_evidence": "Author lab publication record identifies the current title as a bioRxiv preprint; both current and original v1 titles were searched.",
+      "web_refs": [
+        "turn135711828view2",
+        "turn594457581view3",
+        "turn135711828view3"
+      ],
+      "decision": "retain_preprint",
+      "formal_peer_reviewed_version_found": false,
+      "new_formal_doi": null,
+      "europepmc_title_search": {
+        "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Weakly+supervised+learning+uncovers+phenotypic+signatures+in+single-cell+data%22+OR+TITLE%3A%22Multimodal+weakly+supervised+learning+to+identify+disease-specific+changes+in+single-cell+atlases%22&format=json&resultType=core&pageSize=25",
+        "hit_count": 1,
+        "records": [
+          {
+            "id": "PPR888514",
+            "source": "PPR",
+            "doi": "10.1101/2024.07.29.605625",
+            "title": "Weakly supervised learning uncovers phenotypic signatures in single-cell data",
+            "pubYear": "2024",
+            "pubTypeList": {
+              "pubType": [
+                "Preprint"
+              ]
+            }
+          }
+        ],
+        "cache_file": "research/preprint_status_recheck_20261121/M34_europepmc_title.json"
+      },
+      "repository_tree_lookup": {
+        "url": "https://api.github.com/repos/theislab/multimil/git/trees/main?recursive=1",
+        "http_status": null,
+        "error": "HTTP Error 403: Forbidden"
+      }
+    }
+  ],
+  "caution": "No verified formal version was found in the checked public sources; this is not a proof that every possible unpublished or newly indexed version is absent. Maintain preprint until a primary publisher record is identified.",
+  "access_limitations": [
+    "GitHub recursive tree API returned HTTP403 for M29 and M34; their official repository pages/README were successfully read. No absence claim was inferred from 403.",
+    "Web renderer could not open the M23 inst/CITATION blob, but the official raw.githubusercontent.com copy was successfully fetched and hashed."
+  ],
+  "source_references_modified": false
+}

@@ -1,0 +1,12 @@
+{
+  "pages": 68,
+  "toc_entries_exact": 22,
+  "out_of_bounds_words": 0,
+  "unexpected_blank_pages": [],
+  "body_visual_QA": "All68pages of v8 inspected through12contact sheets; final v9 differs only in updated TOC page2.",
+  "changed_pages_since_body_visual_QA": [
+    2
+  ],
+  "pdf_sha256": "c445c6c806239a3ba06c36f03c5aacbc5596ff13aedeb9c68aec7820c41b622c",
+  "docx_sha256": "8e684ab57eca9d57db1685f834e3c7df6b474e56cd9cd777ff149c8ea502370f"
+}

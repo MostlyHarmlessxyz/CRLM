@@ -1,0 +1,94 @@
+{
+  "scope": "Official deposited metadata recounted offline; no expression rows read, no reannotation, no biological effects or state-fraction comparisons.",
+  "original_metadata_rows": 126014,
+  "expanded_metadata_rows": 146988,
+  "shared_barcodes": 126014,
+  "original_is_subset_of_expanded": true,
+  "shared_identity_annotation_fields_identical": true,
+  "new_expanded_rows": 20974,
+  "new_expanded_SampleType_counts": {
+    "NA": 4352,
+    "T": 1789,
+    "M+CMT": 493,
+    "M+T": 3031,
+    "F+M+T": 2545,
+    "M+F": 224,
+    "M": 156,
+    "M+O": 2717,
+    "F+M+O": 3371,
+    "M+CMO": 1010,
+    "F": 78,
+    "O": 1208
+  },
+  "in_vivo_cells": 59661,
+  "in_vivo_patients": 15,
+  "in_vivo_specimens": 24,
+  "in_vivo_cells_by_tissue": {
+    "NC": 11221,
+    "PT": 38063,
+    "NL": 4471,
+    "LM": 5906
+  },
+  "in_vivo_specimens_by_tissue": {
+    "NC": 3,
+    "PT": 15,
+    "LM": 4,
+    "NL": 2
+  },
+  "PT_LM_paired_patient_codes": [
+    "09",
+    "27",
+    "44",
+    "49"
+  ],
+  "four_tissue_patient_codes": [
+    "09"
+  ],
+  "myeloid_definition": [
+    "LAMP3+ DC (LAMP3+)",
+    "Macrophage",
+    "cDC1 (BATF3+)",
+    "cDC2 (CD1C+)",
+    "pDC (LILRA4+)"
+  ],
+  "myeloid_excluded_labels": [
+    "Unannotated",
+    "Macrophage-T cell doublet",
+    "Mast cell"
+  ],
+  "myeloid_cells_in_clinical_tissue": 9246,
+  "paired_myeloid_support": {
+    "09": {
+      "PT": 412,
+      "LM": 471
+    },
+    "27": {
+      "PT": 528,
+      "LM": 214
+    },
+    "44": {
+      "PT": 1114,
+      "LM": 1024
+    },
+    "49": {
+      "PT": 361,
+      "LM": 334
+    }
+  },
+  "myeloid_pairs_at50_per_tissue": [
+    "09",
+    "27",
+    "44",
+    "49"
+  ],
+  "myeloid_pairs_at100_per_tissue": [
+    "09",
+    "27",
+    "44",
+    "49"
+  ],
+  "myeloid_quads_at50_per_tissue": [],
+  "full_expression_content_verified": false,
+  "clinical_note": "Paper reports16patients,14MSS2MSI overall; metadata clinical-tissue subset has15. Do not replace actual subset denominator by paper total. Cultures/co-cultures and HTO libraries are not extra clinical subjects.",
+  "status": "passed"
+}

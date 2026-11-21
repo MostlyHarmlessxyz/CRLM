@@ -1,0 +1,25 @@
+{
+  "dataset": "GSE245552",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245552",
+  "source_local_file": "geo/GSE245552_full.soft",
+  "source_sha256": "cd87362b3094e56bec839876cafd0ad6e65df8212d88f6a05434240084fc6468",
+  "samples_examined": 39,
+  "unique_extract_protocol_blocks": 1,
+  "protocol_lines_per_sample": 2,
+  "scope": "All39sample extract_protocol lines, including all6NC/NL. Identical submitted protocol text is not proof of identical unreported enrichment/sorting or mixing.",
+  "term_presence_in_protocol": {
+    "cd45": false,
+    "facs": false,
+    "sorting": false,
+    "enrichment": false,
+    "mixed": false,
+    "ratio": false
+  },
+  "enrichment": "unknown",
+  "cd45_positive_negative_mixing_ratio": "unknown",
+  "same_tumor_normal_enrichment_protocol": "unknown",
+  "verified_shared_submitted_steps": "mechanical chopping; Tumor Dissociation Kit and DNaseI;37C30min;70um filter;RBClysis;10X5primev2 chemistry and library preparation with modifications",
+  "main_paper_access": "Publisher official fulltext page returns403 here; search-indexed page shows abstract/purchase availability. No full Methods successfully read in this limited check.",
+  "supplements_examined": "OriginalS1/S2/S3 DOCX;S2 reportsCD45positive/negative in millions but no measurement stage or physical enrichment/mixing procedure. Indexed supplement list containsS1-S9figures andS1-S4tables; not proof of absence of any further method details.",
+  "interpretation": "Do not assume no enrichment from omission. No evidence for native tissue absolute cell composition; keep capture/protocol limitations."
+}

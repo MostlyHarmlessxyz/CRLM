@@ -1,0 +1,58 @@
+CRLM书目元数据独立核对摘要
+核验日期：2026-11-21
+
+范围与结论（最终增补版）
+本审计分三组，不将不同计数混用：
+A. 最初主书目：81条参考记录，74条含DOI，去重为73个独立DOI。
+B. 后续新增B44/B45/B46：3条记录、3个独立DOI。
+   因此最终主书目范围为84条记录，77条含DOI，去重为76个独立DOI；7条无DOI官方代码/文档/PMLR入口仍按要求跳过。
+C. 额外数据参考D07j（Tabula Sapiens 2.0）：1个DOI，不计入上述84条主书目记录。
+总审计范围 = 73 + 3 + 1 = 77个独立DOI。
+
+审计输入快照：research/bibliography_metadata_audited_references.json。
+该84条快照由初始all_references.json与biology_references.json中B44/B45/B46合并，仅服务元数据核验，没有改写两份源书目。
+初始来源与其SHA、增补来源与其SHA、scope_group和scope_breakdown均保存在audit JSON中。
+
+主书目76/76个DOI均取得Crossref官方元数据；其中26个另取得Europe PMC精确DOI记录。
+主书目19个2026年DOI（初始17个+本次2个）均完成Crossref与Europe PMC第二来源核对。
+额外D07j由Crossref和PubMed核对。实质冲突0，未解决审读项0，无法获得任何官方DOI元数据0。
+本次仅对新增3个DOI发起请求，没有重读或扩展其余候选。
+
+本次新增三篇
+B44：Zhihang Chen，Cancer Discovery，2026。
+  DOI 10.1158/2159-8290.CD-25-0820；正式期刊论文，Crossref与Europe PMC题名/年份/首位作者一致。
+  Crossref在线日期2026-05-19，印刷日期2026-10-01；Europe PMC的firstPublicationDate仅记2026-10-01，不把字段粒度不同当年份冲突。
+B45：Zheyou Cai，Cellular and Molecular Life Sciences，2026。
+  DOI 10.1007/s00018-026-06338-3；正式期刊论文，在线2026-07-11；两个来源题名/年份/首位作者一致。
+B46：Ning Li，Nature Communications，2023。
+  DOI 10.1038/s41467-023-43746-6；正式期刊论文，在线2023-11-30；两个来源题名/年份/首位作者一致。
+新增biology条目未单列publication_status字段；审计以两个官方来源独立确认正式发表，不将未填写字段误报成版本冲突。
+三篇增补独立记录：research/bibliography_metadata_additions_B44_B46.json。
+
+必须人工处理、但不应改错现有书目的两项
+1. B26：Crossref将The CRUK IMAXT Grand Challenge Team放在author数组首位；Europe PMC和出版社作者表均支持Ciara H. O’Flanagan为首位个人作者。现有引文正确。
+   出版社依据：https://link.springer.com/article/10.1186/s13059-019-1830-0
+2. D07j：Crossref展开成员后首位是Robert C. Jones；PubMed正式Authors为Tabula Sapiens Consortium，Jones列于Collaborators。保留团体署名正确，不应自动换成Jones。
+   PubMed依据：https://pubmed.ncbi.nlm.nih.gov/42685689/
+   正式出版2026-10-29，在线2026-09-02，Cell 189(22):7212–7227.e8。
+
+版本与年份
+M06的预印本DOI由Crossref明确关联is-preprint-of至M05正式Cell Systems DOI。M06仅用于早期版本辨别、M05作为正式发表引用，当前安排正确。
+其余所引预印本DOI当前注册为posted-content；这只核验所引版本类型，不凭缺少关系字段断言不存在任何后续正式版。
+M16在线2021/卷期2022、S03在线2019/卷期2020、B06在线2022/卷期2023，当前引用年份均与正式出版日期之一一致，不算年份错误。
+B35与M24使用同一scPAFA DOI，是两个参考编号指向同一论文；本审计已按一个独立DOI计数。
+
+访问情况
+初轮12次Crossref HTTP 429限流在降为单并发、间隔请求后均重试成功；原错误仍保存在缓存历史中。
+B17 Nature网页因身份端点重定向未能由网页工具读取，但Crossref/Europe PMC均取得正确题名、年份及P. Ramachandran署名；不是DOI无效。
+Europe PMC只按精确DOI记录计入核验，未把HTTP 200本身当作论文命中。
+
+记录与边界
+审计JSON：research/bibliography_metadata_audit.json
+原始API缓存：research/bibliography_metadata_cache/
+人工作者表依据：research/bibliography_publisher_checks.json
+最终84条审计快照SHA256：365605a1b77677915d9d14e35618edc040f70275e2dac1b3efb9a2314d26ad58
+初始81条书目SHA256：3a6cb04e0c3763f3e148d4624497b7fcb9c78f09da87b404e3c7335a261564e3
+首位作者按姓氏、完整名或合法首字母形式比对；团体作者与collaborator区别已人工裁定。
+这是题名/年份/署名/版本类型校对，不是重新精读所有论文，也不等于验证全部研究结论或代码可复现性。
+审计程序没有覆盖all_references.json，也没有改动主稿。M12/M23最初缺少显式首位作者字段，主任务在本轮中已自行补全；最终输入内未发现缺失首位作者的DOI条目：[]。

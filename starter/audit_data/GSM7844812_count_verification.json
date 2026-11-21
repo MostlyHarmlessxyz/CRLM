@@ -1,0 +1,29 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7844nnn/GSM7844812/suppl/GSM7844812_Pt01_T1_matrix.mtx.gz",
+  "filename": "GSM7844812_Pt01_T1_matrix.mtx.gz",
+  "bytes": 27818578,
+  "sha256": "d5eec9fcf3e7a7bede367aa7fd3d19e75ca4272729406974026e6cb27f536168",
+  "header": "%%MatrixMarket matrix coordinate integer general",
+  "dimensions": [
+    29569,
+    4593,
+    9178559
+  ],
+  "entries_checked": 9178559,
+  "all_expected_entries_present": true,
+  "non_integer_or_malformed": 0,
+  "negative_entries": 0,
+  "zero_entries": 0,
+  "minimum": 1,
+  "maximum": 17022,
+  "row_range": [
+    1,
+    29510
+  ],
+  "column_range": [
+    1,
+    4593
+  ],
+  "counts_provenance": "GEO GSM7844812 states Cell Ranger v5.0.1 demultiplexing/barcoding/gene counting/aggregation; count matrix published directly by original authors",
+  "verification_scope": "entire one sample matrix, not all39libraries; provenance plus integer nonnegative checks do not establish perfect upstream processing"
+}

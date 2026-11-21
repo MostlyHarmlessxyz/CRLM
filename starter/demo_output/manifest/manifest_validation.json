@@ -1,0 +1,11 @@
+{
+  "status": "passed_with_warnings",
+  "source_sha256": "770e6f084c1b520f90c54fc804201632134f9b161d10691ac1f8bc5664bb1c34",
+  "n_samples": 28,
+  "n_donor_codes": 8,
+  "n_verified_donors": 7,
+  "warnings": [
+    "Unverified donor codes are ineligible for paired conclusions: ['UNRESOLVED_U1']"
+  ],
+  "limitation": "Checks declared provenance and internal consistency; cannot establish true patient identity or raw-count provenance without source audit."
+}

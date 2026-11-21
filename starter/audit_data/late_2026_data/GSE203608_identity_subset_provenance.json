@@ -1,0 +1,26 @@
+[
+  {
+    "source": "GSE203608_cell_annotation.csv.gz",
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE203nnn/GSE203608/suppl/GSE203608_cell_annotation.csv.gz",
+    "source_bytes": 4082782,
+    "source_sha256": "1a0973ae719990ce234e5328ca4897081c36b57e6840c03a57f78c5f058697b4",
+    "snapshot": "GSE203608_original_identity_annotation_subset.csv.gz",
+    "snapshot_bytes": 740107,
+    "snapshot_sha256": "efb04876e698b69fe015dc9459b71bd89f3967a8ff4d95743764b7d12b220823",
+    "snapshot_uncompressed_sha256": "8bad9118fd60b51512461fa39edc87219b3a08f631bb3a19ccf6716945e41268",
+    "rows": 126014,
+    "scope": "All original rows; selected metadata columns only; no filtering or patient renaming. Missing columns in expanded file remain blank. No expression or Macrophage_state column retained."
+  },
+  {
+    "source": "GSE203608_GSM7294726-GSM7294729_cell_annotation.csv.gz",
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE203nnn/GSE203608/suppl/GSE203608_GSM7294726-GSM7294729_cell_annotation.csv.gz",
+    "source_bytes": 3319064,
+    "source_sha256": "3bb74a82dd057cd657bab7a21f85a8643292ee8b592abe7c378e240320af232e",
+    "snapshot": "GSE203608_expanded_identity_annotation_subset.csv.gz",
+    "snapshot_bytes": 857393,
+    "snapshot_sha256": "d56dd05095f897f830233261dac6dcd94a59eb32a396c9783bfaf54a455475d4",
+    "snapshot_uncompressed_sha256": "603a2c8ed1beec26de4928da38895ee8bf857b184a718a2d87f5af23a13970b6",
+    "rows": 146988,
+    "scope": "All original rows; selected metadata columns only; no filtering or patient renaming. Missing columns in expanded file remain blank. No expression or Macrophage_state column retained."
+  }
+]

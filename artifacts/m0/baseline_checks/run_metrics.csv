@@ -1,0 +1,4 @@
+command,started_utc,elapsed_s,peak_rss_kib,exit_code
+python -B selfcheck.py,2026-11-21T11:43:50.202659+00:00,7.692,151364,0
+python -B mil_selfcheck.py,2026-11-21T11:43:57.894957+00:00,6.211,140024,0
+python -B registered_tests_selfcheck.py,2026-11-21T11:44:04.105828+00:00,10.074,148608,0

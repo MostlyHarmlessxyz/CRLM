@@ -1,0 +1,2 @@
+timestamp_utc,dataset,actor,access_type,labels_or_effects_seen,candidate_version,purpose,changes_made_after_access,consequence_for_confirmation_status
+,GSE164522,research_team,author_metadata_label_effect_pilot,true,pre_freeze,disclose previously viewed label/pilot information,record any ensuing changes,replication evidence; not fully blind confirmation

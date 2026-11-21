@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164522/suppl/GSE164522_CRLM_PT_expression.csv.gz",
+  "n_genes_scanned": 24662,
+  "n_columns_retained": 8,
+  "cell_columns": [
+    "AAACCTGAGGTGATTA.3",
+    "AAACCTGTCAACGCTA.3",
+    "AAACGGGCATAGTAAG.3",
+    "AAACGGGCATGACATC.3",
+    "AAAGATGAGAAACCTA.3",
+    "AAAGCAAAGATATGGT.3",
+    "AAAGCAACAGCTGCTG.3",
+    "AAAGTAGAGAGCTTCT.3"
+  ],
+  "sum_as_published": [
+    2194.218662261963,
+    2858.2334334850316,
+    2371.8265445232396,
+    2152.8264257907863,
+    2849.8704748153687,
+    2857.4832719564442,
+    3000.2532403469086,
+    2605.9631741046906
+  ],
+  "sum_expm1": [
+    10000.000540998122,
+    10000.000193058391,
+    10000.00012120987,
+    9999.99991610411,
+    10000.001296974873,
+    10000.00067834097,
+    9999.998516218537,
+    10000.002130616855
+  ],
+  "sum_2power_minus1": [
+    4123.122827369342,
+    4526.729059548371,
+    4234.834893731816,
+    4096.165645335652,
+    4516.133929611892,
+    4526.931860667352,
+    4602.823031328449,
+    4384.110184706243
+  ],
+  "nonzero_features": [
+    881,
+    1373,
+    1004,
+    854,
+    1377,
+    1371,
+    1500,
+    1167
+  ],
+  "noninteger_features": [
+    881,
+    1373,
+    1004,
+    854,
+    1377,
+    1371,
+    1500,
+    1167
+  ],
+  "max_value": [
+    3.54118227958679,
+    3.20453405380249,
+    3.38703393936157,
+    3.43364238739014,
+    3.20444869995117,
+    3.16582632064819,
+    3.15760922431946,
+    3.21922636032104
+  ],
+  "negative_entries": 0,
+  "elapsed_s": 27.87120622700013,
+  "warning": "Numerical compatibility is not verified author provenance; expm1 does not recover raw UMI counts."
+}

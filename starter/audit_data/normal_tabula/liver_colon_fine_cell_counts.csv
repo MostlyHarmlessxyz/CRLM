@@ -1,0 +1,208 @@
+donor,tissue,fine_cell_type,n_cells
+TSP14,Large_Intestine,b cell,514
+TSP14,Large_Intestine,"cd4-positive, alpha-beta t cell",2532
+TSP14,Large_Intestine,"cd8-positive, alpha-beta t cell",2157
+TSP14,Large_Intestine,colon endothelial cell,145
+TSP14,Large_Intestine,colon macrophage,22
+TSP14,Large_Intestine,enterochromaffin-like cell,1
+TSP14,Large_Intestine,enterocyte of epithelium of large intestine,522
+TSP14,Large_Intestine,enteroglial cell,726
+TSP14,Large_Intestine,fibroblast,1064
+TSP14,Large_Intestine,gamma-delta t cell,584
+TSP14,Large_Intestine,innate lymphoid cell,1
+TSP14,Large_Intestine,intestinal crypt stem cell of colon,26
+TSP14,Large_Intestine,large intestine goblet cell,596
+TSP14,Large_Intestine,mast cell,51
+TSP14,Large_Intestine,mature nk t cell,13
+TSP14,Large_Intestine,monocyte,15
+TSP14,Large_Intestine,myeloid dendritic cell,4
+TSP14,Large_Intestine,myeloid leukocyte,13
+TSP14,Large_Intestine,myofibroblast cell,71
+TSP14,Large_Intestine,"naive thymus-derived cd4-positive, alpha-beta t cell",9
+TSP14,Large_Intestine,natural killer cell,5
+TSP14,Large_Intestine,neutrophil,3
+TSP14,Large_Intestine,paneth cell of colon,128
+TSP14,Large_Intestine,plasma cell,468
+TSP14,Large_Intestine,regulatory t cell,189
+TSP14,Large_Intestine,transit amplifying cell of colon,1
+TSP14,Large_Intestine,tuft cell of colon,70
+TSP14,Large_Intestine,type l enteroendocrine cell,1
+TSP14,Liver,b cell,14
+TSP14,Liver,"cd4-positive, alpha-beta t cell",91
+TSP14,Liver,"cd8-positive, alpha-beta t cell",324
+TSP14,Liver,classical monocyte,11
+TSP14,Liver,endothelial cell,258
+TSP14,Liver,erythrocyte,114
+TSP14,Liver,fibroblast,17
+TSP14,Liver,hematopoietic precursor cell,3
+TSP14,Liver,hepatic stellate cell,13
+TSP14,Liver,hepatocyte,5397
+TSP14,Liver,intermediate monocyte,39
+TSP14,Liver,intrahepatic cholangiocyte,119
+TSP14,Liver,macrophage,192
+TSP14,Liver,mature nk t cell,32
+TSP14,Liver,monocyte,95
+TSP14,Liver,myeloid cell,6
+TSP14,Liver,myeloid dendritic cell,1
+TSP14,Liver,natural killer cell,81
+TSP14,Liver,neutrophil,164
+TSP14,Liver,plasma cell,47
+TSP14,Liver,t cell,7
+TSP17,Liver,b cell,48
+TSP17,Liver,"cd4-positive, alpha-beta t cell",29
+TSP17,Liver,"cd8-positive, alpha-beta t cell",131
+TSP17,Liver,classical monocyte,38
+TSP17,Liver,endothelial cell,191
+TSP17,Liver,erythrocyte,52
+TSP17,Liver,fibroblast,11
+TSP17,Liver,hematopoietic precursor cell,18
+TSP17,Liver,hepatic stellate cell,8
+TSP17,Liver,hepatocyte,23
+TSP17,Liver,intermediate monocyte,26
+TSP17,Liver,intrahepatic cholangiocyte,35
+TSP17,Liver,macrophage,336
+TSP17,Liver,mast cell,22
+TSP17,Liver,mature nk t cell,422
+TSP17,Liver,monocyte,104
+TSP17,Liver,myeloid dendritic cell,5
+TSP17,Liver,natural killer cell,95
+TSP17,Liver,neutrophil,163
+TSP17,Liver,non-classical monocyte,46
+TSP17,Liver,plasma cell,306
+TSP17,Liver,t cell,5
+TSP19,Liver,b cell,84
+TSP19,Liver,"cd4-positive, alpha-beta t cell",157
+TSP19,Liver,"cd8-positive, alpha-beta t cell",658
+TSP19,Liver,classical monocyte,173
+TSP19,Liver,endothelial cell,719
+TSP19,Liver,erythrocyte,812
+TSP19,Liver,hematopoietic precursor cell,19
+TSP19,Liver,hepatic stellate cell,201
+TSP19,Liver,hepatocyte,1094
+TSP19,Liver,intermediate monocyte,178
+TSP19,Liver,intrahepatic cholangiocyte,464
+TSP19,Liver,macrophage,1896
+TSP19,Liver,mast cell,2
+TSP19,Liver,mature nk t cell,199
+TSP19,Liver,monocyte,534
+TSP19,Liver,natural killer cell,200
+TSP19,Liver,neutrophil,77
+TSP19,Liver,plasma cell,397
+TSP19,Liver,plasmacytoid dendritic cell,7
+TSP19,Liver,t cell,17
+TSP2,Large_Intestine,b cell,30
+TSP2,Large_Intestine,"best4+ intestinal epithelial cell, human",92
+TSP2,Large_Intestine,"cd4-positive, alpha-beta t cell",3
+TSP2,Large_Intestine,"cd8-positive, alpha-beta t cell",20
+TSP2,Large_Intestine,colon endothelial cell,26
+TSP2,Large_Intestine,colon macrophage,1
+TSP2,Large_Intestine,enterochromaffin-like cell,17
+TSP2,Large_Intestine,enterocyte of epithelium of large intestine,2620
+TSP2,Large_Intestine,enteroglial cell,1
+TSP2,Large_Intestine,fibroblast,121
+TSP2,Large_Intestine,gamma-delta t cell,13
+TSP2,Large_Intestine,intestinal crypt stem cell of colon,1307
+TSP2,Large_Intestine,large intestine goblet cell,354
+TSP2,Large_Intestine,mature nk t cell,4
+TSP2,Large_Intestine,monocyte,1
+TSP2,Large_Intestine,myeloid leukocyte,2
+TSP2,Large_Intestine,natural killer cell,4
+TSP2,Large_Intestine,neutrophil,6
+TSP2,Large_Intestine,paneth cell of colon,45
+TSP2,Large_Intestine,regulatory t cell,1
+TSP2,Large_Intestine,transit amplifying cell of colon,127
+TSP2,Large_Intestine,tuft cell of colon,95
+TSP2,Large_Intestine,type l enteroendocrine cell,32
+TSP25,Large_Intestine,b cell,16
+TSP25,Large_Intestine,"best4+ intestinal epithelial cell, human",140
+TSP25,Large_Intestine,"cd4-positive, alpha-beta t cell",1
+TSP25,Large_Intestine,"cd8-positive, alpha-beta t cell",2
+TSP25,Large_Intestine,colon endothelial cell,8
+TSP25,Large_Intestine,colon macrophage,1
+TSP25,Large_Intestine,enterochromaffin-like cell,1
+TSP25,Large_Intestine,enterocyte of epithelium of large intestine,570
+TSP25,Large_Intestine,enteroglial cell,1
+TSP25,Large_Intestine,fibroblast,37
+TSP25,Large_Intestine,gamma-delta t cell,13
+TSP25,Large_Intestine,intestinal crypt stem cell of colon,346
+TSP25,Large_Intestine,large intestine goblet cell,206
+TSP25,Large_Intestine,mast cell,9
+TSP25,Large_Intestine,mature nk t cell,1
+TSP25,Large_Intestine,monocyte,15
+TSP25,Large_Intestine,myeloid leukocyte,3
+TSP25,Large_Intestine,paneth cell of colon,44
+TSP25,Large_Intestine,transit amplifying cell of colon,69
+TSP25,Large_Intestine,tuft cell of colon,3
+TSP25,Large_Intestine,type l enteroendocrine cell,8
+TSP26,Large_Intestine,b cell,66
+TSP26,Large_Intestine,"best4+ intestinal epithelial cell, human",593
+TSP26,Large_Intestine,"cd4-positive, alpha-beta t cell",436
+TSP26,Large_Intestine,"cd8-positive, alpha-beta t cell",410
+TSP26,Large_Intestine,colon endothelial cell,50
+TSP26,Large_Intestine,colon macrophage,64
+TSP26,Large_Intestine,enterocyte of epithelium of large intestine,3
+TSP26,Large_Intestine,enteroglial cell,32
+TSP26,Large_Intestine,fibroblast,263
+TSP26,Large_Intestine,gamma-delta t cell,515
+TSP26,Large_Intestine,intestinal crypt stem cell of colon,1
+TSP26,Large_Intestine,mast cell,100
+TSP26,Large_Intestine,mature nk t cell,8
+TSP26,Large_Intestine,monocyte,21
+TSP26,Large_Intestine,myeloid dendritic cell,6
+TSP26,Large_Intestine,myeloid leukocyte,111
+TSP26,Large_Intestine,myofibroblast cell,7
+TSP26,Large_Intestine,"naive thymus-derived cd4-positive, alpha-beta t cell",5
+TSP26,Large_Intestine,natural killer cell,1
+TSP26,Large_Intestine,plasma cell,1098
+TSP26,Large_Intestine,regulatory t cell,32
+TSP27,Large_Intestine,b cell,1443
+TSP27,Large_Intestine,"best4+ intestinal epithelial cell, human",265
+TSP27,Large_Intestine,"cd4-positive, alpha-beta t cell",1268
+TSP27,Large_Intestine,"cd8-positive, alpha-beta t cell",373
+TSP27,Large_Intestine,colon endothelial cell,119
+TSP27,Large_Intestine,colon macrophage,240
+TSP27,Large_Intestine,enterochromaffin-like cell,8
+TSP27,Large_Intestine,enterocyte of epithelium of large intestine,852
+TSP27,Large_Intestine,enteroglial cell,88
+TSP27,Large_Intestine,fibroblast,1112
+TSP27,Large_Intestine,gamma-delta t cell,731
+TSP27,Large_Intestine,innate lymphoid cell,12
+TSP27,Large_Intestine,intestinal crypt stem cell of colon,52
+TSP27,Large_Intestine,large intestine goblet cell,401
+TSP27,Large_Intestine,mast cell,233
+TSP27,Large_Intestine,mature nk t cell,21
+TSP27,Large_Intestine,monocyte,14
+TSP27,Large_Intestine,myeloid dendritic cell,30
+TSP27,Large_Intestine,myeloid leukocyte,225
+TSP27,Large_Intestine,myofibroblast cell,4
+TSP27,Large_Intestine,"naive thymus-derived cd4-positive, alpha-beta t cell",214
+TSP27,Large_Intestine,natural killer cell,4
+TSP27,Large_Intestine,plasma cell,1742
+TSP27,Large_Intestine,regulatory t cell,411
+TSP27,Large_Intestine,transit amplifying cell of colon,40
+TSP27,Large_Intestine,tuft cell of colon,10
+TSP27,Large_Intestine,type l enteroendocrine cell,3
+TSP6,Liver,b cell,17
+TSP6,Liver,"cd4-positive, alpha-beta t cell",14
+TSP6,Liver,"cd8-positive, alpha-beta t cell",177
+TSP6,Liver,classical monocyte,104
+TSP6,Liver,endothelial cell,606
+TSP6,Liver,erythrocyte,2
+TSP6,Liver,fibroblast,133
+TSP6,Liver,hematopoietic precursor cell,1
+TSP6,Liver,hepatic stellate cell,1
+TSP6,Liver,hepatocyte,900
+TSP6,Liver,intermediate monocyte,314
+TSP6,Liver,intrahepatic cholangiocyte,47
+TSP6,Liver,macrophage,808
+TSP6,Liver,mast cell,4
+TSP6,Liver,mature nk t cell,155
+TSP6,Liver,monocyte,988
+TSP6,Liver,myeloid cell,75
+TSP6,Liver,myeloid dendritic cell,50
+TSP6,Liver,natural killer cell,369
+TSP6,Liver,neutrophil,335
+TSP6,Liver,non-classical monocyte,67
+TSP6,Liver,plasma cell,16
+TSP6,Liver,plasmacytoid dendritic cell,1
+TSP6,Liver,t cell,3

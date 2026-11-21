@@ -1,0 +1,11 @@
+M23/M29/M34发表状态独立复核（2026-11-21）
+结论：三个条目均维持preprint；未核实到可替换的新正式同行评审DOI。
+
+本轮不仅查询旧DOI，还检查当前官方README/CITATION、方法名/原题精确检索，以及Europe PMC标题检索。
+M23 MultiNicheNet：官方README明确预印本；inst/CITATION仍引用bioRxiv 2023 DOI 10.1101/2023.06.13.544751；作者机构UGent书目仍分类为Preprint。Europe PMC标题检索仅1条PPR674981。
+M29 scMetaIntegrator：官方README仍写Preprint并链接10.1101/2025.06.04.657898；PMC12157664明确非期刊同行评审预印本。Europe PMC标题检索仅1条PPR1033092。
+M34 MultiMIL：官方README Citation仍为bioRxiv 10.1101/2024.07.29.605625；作者Theis Lab当前题名记录仍为Preprint。新旧两个题名均检索，Europe PMC仅1条PPR888514。
+
+M29/M34的GitHub树API返回403，但仓库README正文可读；不把403当作正式版不存在的证据。
+结论的精确措辞应为“截至本轮所核公开来源，未找到明确正式发表版本，维持预印本引用”，而非证明所有可能版本均不存在。
+未改源文献或主稿。详细核验来源、范围与结果见preprint_publication_status_recheck.json。
