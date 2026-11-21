@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1",
   "project_id": "crlm_immune_programs",
-  "research_version": "V1_DRAFT",
-  "status": "discovery_analysis_in_progress",
+  "research_version": "V1_FROZEN",
+  "status": "external_validation_in_progress",
   "created_on": "2026-11-21",
   "purpose": "Planning defaults; a configuration file is not a completed preregistration or analysis result.",
   "source_brief": "docs/source_brief/说明.md",
@@ -67,7 +67,7 @@
     {
       "accession": "GSE203608",
       "role": "external",
-      "purpose": "planned_secondary_direction_precision_pending_preregistration_and_identity_audit"
+      "purpose": "registered_secondary_direction_precision_original_in_vivo_samples"
     },
     {
       "accession": "GSE225857",
@@ -91,19 +91,21 @@
     "M2": "completed",
     "M3": "completed",
     "M4": "completed",
-    "M5": "pending",
-    "M6": "pending",
+    "M5": "completed",
+    "M6": "in_progress",
     "M7": "pending",
     "M8": "pending"
   },
   "candidate_registration": {
-    "status": "not_frozen",
+    "status": "frozen",
+    "freeze_version": "CRLM_V1_245_F1",
+    "freeze_timestamp_utc": "2026-11-21T12:44:41+00:00",
     "primary_lineage_program_total_planned": "2-3 total",
     "primary_external_family": "GSE164522_D_T",
     "background_family_separate": true
   },
   "model_plan": {
-    "encoder": "scGPT_frozen_candidate",
+    "encoder": "scGPT_whole_human_frozen",
     "weights_path": "models/scGPT-whole-human/best_model.pt",
     "vocabulary_path": "models/scGPT-whole-human/vocab.json",
     "backend": "torch_xpu_verified_against_cpu",

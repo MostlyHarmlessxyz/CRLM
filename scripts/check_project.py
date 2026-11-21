@@ -37,16 +37,16 @@ def main():
             if len(accessions) != len(set(accessions)):
                 errors.append("Duplicate dataset accession; conflicting roles cannot be silently collapsed")
             roles = {row["accession"]: row["role"] for row in dataset_rows}
-            if config.get("research_version") == "V1_DRAFT":
+            if config.get("research_version") in ("V1_DRAFT", "V1_FROZEN"):
                 developers = {row["accession"] for row in dataset_rows if row["role"] == "development"}
                 if developers != {"GSE245552"}:
-                    errors.append("V1_DRAFT development sources must be exactly {GSE245552}")
+                    errors.append("V1 development sources must be exactly {GSE245552}")
                 expected = {"GSE245552": "development", "GSE164522": "external", "GSE178318": "external", "GSE225857": "excluded"}
                 for accession, role in expected.items():
                     if roles.get(accession) != role:
-                        errors.append(f"V1_DRAFT role differs from handoff contract: {accession}")
+                        errors.append(f"V1 role differs from dataset contract: {accession}")
                 if roles.get("GSE203608") not in ("external", "excluded", None):
-                    errors.append("V1_DRAFT GSE203608 must remain external, explicitly excluded, or not selected")
+                    errors.append("V1 GSE203608 must remain external, explicitly excluded, or not selected")
             stats["research_version"] = config.get("research_version")
             stats["milestone_states"] = config.get("milestones")
         except (ValueError, KeyError, TypeError) as error:
