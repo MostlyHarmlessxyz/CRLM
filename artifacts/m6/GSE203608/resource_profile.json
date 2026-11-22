@@ -1,10 +1,10 @@
 {
-  "completed_utc": "2026-11-21T18:05:18+00:00",
+  "completed_utc": "2026-11-22T05:09:59+00:00",
   "source_metadata_file": "GSE203608_cell_annotation.csv.gz",
   "metadata_sha256": "1a0973ae719990ce234e5328ca4897081c36b57e6840c03a57f78c5f058697b4",
   "gene_annotation_sha256": "e243c8de69128cffe740314b888b32bc374582563fe4177b996c60b44ae3f09c",
   "expression_sha256": "e6fd8d7c545298f3cbf41e5cc840fb50add3b600b345fc4d0ef9d57f430d07cd",
-  "code_sha256": "fe85de4f43688cb8f77a807ef9f132ac7659834bb5f1e65dca3429b2b462b5d8",
+  "code_sha256": "443a8bddc8ddae0ece82e973e0f27834b59e2ac5ae1b47d531fc5bc8dfeea3b1",
   "rank_code_sha256": "bed642c62495e32d74723a40af76918fe1c7db8d35250a3f112aec339a78ae44",
   "hgnc_code_sha256": "a1c0fffee9f25a0773e1a8e53ebc578809cfca1cb01b16ede89202a266f4432c",
   "annotation_code_sha256": "b3c373dfe90099a382092dd9e7daa3ff004dbd14ee9df20e4da49c1d535c1c57",
@@ -18,6 +18,6 @@
   "in_vivo_cells_excluded_NA_or_highMT": 12136,
   "in_vivo_specimens": 24,
   "donors": 15,
-  "elapsed_seconds": 63.509,
-  "peak_rss_bytes": 4981600256
+  "elapsed_seconds": 61.66,
+  "peak_rss_bytes": 5213437952
 }

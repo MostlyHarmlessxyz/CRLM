@@ -940,11 +940,11 @@ def score_anndata_dict(
             n_clean = int((sm & clean_qc).sum())
             n_auth_tot_imm = int((sm & clean_qc & np.isin(auth_broad, AUTHOR_RESOLVED_IMMUNE)).sum())
             n_auth_c3_imm = int((sm & clean_qc & np.isin(auth_broad, CORE_THREE_IMMUNE)).sum())
-            n_rule_tot_imm = int((sm & np.isin(rule_broad, RULE_RESOLVED_IMMUNE)).sum())
-            n_rule_c3_imm = int((sm & np.isin(rule_broad, CORE_THREE_IMMUNE)).sum())
+            n_rule_tot_imm = int((sm & clean_qc & np.isin(rule_broad, RULE_RESOLVED_IMMUNE)).sum())
+            n_rule_c3_imm = int((sm & clean_qc & np.isin(rule_broad, CORE_THREE_IMMUNE)).sum())
             for lin_name in ("T/NK", "Mono/Mac/DC", "B/Plasma", "Mast", "ILC3", "Neutrophil"):
                 n_a = int((sm & clean_qc & (auth_broad == lin_name)).sum())
-                n_r = int((sm & (rule_broad == lin_name)).sum())
+                n_r = int((sm & clean_qc & (rule_broad == lin_name)).sum())
                 comp_rows.append(
                     {
                         "sample_uid": samp,
@@ -986,7 +986,7 @@ def score_anndata_dict(
 
             auth_raw_match = match_population_mask(target_lin, auth_broad, auth_sub)
             auth_clean_match = auth_raw_match & clean_qc
-            rule_match = match_population_mask(target_lin, rule_broad, rule_sub, rule_mf)
+            rule_match = match_population_mask(target_lin, rule_broad, rule_sub, rule_mf) & clean_qc
             union_mask = auth_raw_match | rule_match
             rows = np.flatnonzero(union_mask)
             if len(rows) == 0:

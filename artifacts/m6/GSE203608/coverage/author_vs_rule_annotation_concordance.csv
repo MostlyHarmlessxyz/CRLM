@@ -23,7 +23,7 @@ True,True,Other/Unknown,Other/Unknown,Nonimmune,epithelial,,501
 True,True,Mast,mast cell,Mast,mast cell,,497
 True,True,T/NK,T cell (author unsplit),T/NK,CD8 T cell,,414
 True,True,Nonimmune,endothelial,Mixed,Cross_lineage_doublet,,374
-False,False,Other/Unknown,Other/Unknown,Unknown,Unknown,,354
+False,False,Other/Unknown,Other/Unknown,Unknown,Unknown,,355
 True,True,Mono/Mac/DC,conventional DC,Mixed,Cross_lineage_doublet,,353
 True,True,Mono/Mac/DC,Macrophage,Unknown,Unknown,,329
 False,False,Other/Unknown,Other/Unknown,Mono/Mac/DC,monocyte/macrophage,Macrophage,285
@@ -40,8 +40,8 @@ True,True,Mono/Mac/DC,mature DC,Mixed,Cross_lineage_doublet,,80
 False,False,Other/Unknown,Other/Unknown,Nonimmune,endothelial,,75
 False,False,Other/Unknown,Other/Unknown,Nonimmune,fibroblast,,73
 True,True,Mono/Mac/DC,plasmacytoid DC,Mixed,Cross_lineage_doublet,,63
+False,False,Other/Unknown,Other/Unknown,T/NK,CD4 T cell,,62
 True,True,Mono/Mac/DC,mature DC,Mono/Mac/DC,monocyte/macrophage,Macrophage,62
-False,False,Other/Unknown,Other/Unknown,T/NK,CD4 T cell,,61
 True,True,Mono/Mac/DC,Macrophage,Mono/Mac/DC,conventional DC,conventional DC,50
 True,True,T/NK,T cell (author unsplit),Unknown,Unknown,,48
 False,False,Other/Unknown,Other/Unknown,Mono/Mac/DC,conventional DC,conventional DC,47
@@ -114,6 +114,4 @@ True,True,B/Plasma,plasma cell,Mast,mast cell,,1
 True,True,Other/Unknown,Other/Unknown,T/NK,CD8 T cell,,1
 True,True,Mono/Mac/DC,Macrophage,T/NK,CD4 T cell,,1
 True,True,Other/Unknown,Other/Unknown,T/NK,NK cell,,1
-False,True,Other/Unknown,Other/Unknown,Unknown,Unknown,,1
 True,True,Nonimmune,fibroblast,T/NK,CD4 T cell,,1
-False,True,Other/Unknown,Other/Unknown,T/NK,CD4 T cell,,1

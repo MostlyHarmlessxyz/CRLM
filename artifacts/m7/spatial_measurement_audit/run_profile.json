@@ -1,8 +1,8 @@
 {
-  "started_utc": "2026-11-21T16:09:39+00:00",
-  "completed_utc": "2026-11-21T16:09:58+00:00",
-  "elapsed_seconds": 18.64,
-  "peak_rss_bytes": 646115328,
+  "started_utc": "2026-11-22T05:09:54+00:00",
+  "completed_utc": "2026-11-22T05:10:20+00:00",
+  "elapsed_seconds": 26.21,
+  "peak_rss_bytes": 640262144,
   "base_seed": 20261121,
   "n_permutations": 1000,
   "tile_sizes_um": [

@@ -534,7 +534,43 @@ def test_m4_m5_m6_v1_1_contracts() -> dict[str, object]:
     for r in full_models.itertuples(index=False):
         assert _sha256(ROOT / r.path) == r.sha256, f"M4 full model checksum mismatch: {r.path}"
 
-    # 2. M5: 72 frozen inputs, 19 M5 outputs, config parity, matched_controls lock, exposure disclosure
+    # 2. M5: 72 frozen inputs, 19 M5 outputs, config parity, matched_controls lock, git 5b01467 byte-identity
+    m5_frozen_sha = _sha256(ROOT / "artifacts/m5/frozen_inputs_sha256.txt")
+    m5_out_sha = _sha256(ROOT / "artifacts/m5/output_sha256.txt")
+    assert m5_frozen_sha == "5ce11557b7bc565184ad7418befc08fec0fe411ab11586de7a92a8d1c7314f14", m5_frozen_sha
+    assert m5_out_sha == "0b52cc300ebaece035572287ee71144d31a5a789e5a51e0435468f19ec1682fe", m5_out_sha
+    assert _verify_sha_manifest(ROOT / "artifacts/m5/frozen_inputs_sha256.txt", ROOT) == 72
+    assert _verify_sha_manifest(ROOT / "artifacts/m5/output_sha256.txt", ROOT) == 19
+    if (ROOT / ".git").exists():
+        rev = subprocess.run(
+            ["git", "rev-parse", "--verify", "5b01467^{commit}"],
+            cwd=ROOT,
+            capture_output=True,
+        )
+        if rev.returncode == 0:
+            diff_locked = subprocess.run(
+                [
+                    "git",
+                    "diff",
+                    "5b01467",
+                    "--",
+                    "artifacts/m5",
+                    "configs/project.json",
+                    "models/m4/full",
+                    "src/crlm",
+                    "starter",
+                    "scripts/encode_scgpt.py",
+                    "scripts/fit_transfer_models.py",
+                    "scripts/freeze_validation.py",
+                ],
+                cwd=ROOT,
+                capture_output=True,
+                check=True,
+            )
+            assert diff_locked.stdout == b"", (
+                f"Frozen M5/code paths drifted from 5b01467:\n{diff_locked.stdout.decode('utf-8', errors='replace')[:500]}"
+            )
+
     assert _sha256(ROOT / "configs/project.json") == _sha256(ROOT / "artifacts/m5/development_config.json")
     proj_cfg = json.loads((ROOT / "configs/project.json").read_text(encoding="utf-8"))
     assert proj_cfg["research_version"] == "V1.1_AUDIT_REMEDIATED"
@@ -552,9 +588,9 @@ def test_m4_m5_m6_v1_1_contracts() -> dict[str, object]:
     assert _sha256(ROOT / "artifacts/m5/matched_controls.csv") == mc_sha
     assert _sha256(ROOT / "artifacts/m5/gene_sets/matched_controls.csv") == mc_sha
 
-    # 3. M6: Clean cohorts + rule_annotation_m1 branch + GSE178318 terms_pending + 15/15 zero-rejection transfer
+    # 3. M6: 8/8 observed registered tests (incl. GSE178318 zero-exposure prospective) + dual 15/15 zero-rejection transfer
     reg_res = pd.read_csv(ROOT / "artifacts/m6/registered_tests/registered_test_results.csv")
-    assert len(reg_res) == 8
+    assert len(reg_res) == 8 and not reg_res["planned_test_missing"].any() and reg_res["raw_p"].notna().all()
     th17_i = reg_res.loc[
         reg_res["cohort"].eq("GSE164522")
         & reg_res["program"].eq("B07_Th17_TWEAK")
@@ -564,16 +600,18 @@ def test_m4_m5_m6_v1_1_contracts() -> dict[str, object]:
     assert float(th17_i["holm_adjusted_p"]) <= 0.05 and bool(th17_i["holm_reject"])
 
     g178 = reg_res.loc[reg_res["cohort"].eq("GSE178318")]
-    assert len(g178) == 2 and g178["planned_test_missing"].all()
-    assert g178["raw_p"].isna().all() and (g178["adjustment_only_p"] == 1.0).all() and (g178["holm_adjusted_p"] == 1.0).all()
+    assert len(g178) == 2 and (g178["n_patients"] == 6).all()
+    assert (g178["direction_status"] == "matches_registered_direction").all()
 
     unif_m6 = pd.read_csv(ROOT / "artifacts/m6/uniform_annotation_effects_summary.csv")
-    assert set(unif_m6["dataset"].unique()) == {"GSE164522", "GSE203608"}
+    assert set(unif_m6["dataset"].unique()) == {"GSE164522", "GSE203608", "GSE178318"}
 
     man_164 = pd.read_csv(ROOT / "artifacts/m6/GSE164522/coverage/sample_manifest.csv")
     assert int(man_164["clean_cells"].sum()) == 156511 and int(man_164["excluded_cd3e_doublets"].sum()) == 6836
     qc_203 = pd.read_csv(ROOT / "artifacts/m6/GSE203608/coverage/cell_qc_audit.csv")
     assert int(qc_203["clean_author_cells"].sum()) == 47525 and int(qc_203["excluded_total_author"].sum()) == 12136
+    qc_178 = pd.read_csv(ROOT / "artifacts/m6/GSE178318/coverage/qc_and_exclusions.csv")
+    assert len(qc_178) == 12 and int(qc_178["retained_cells_m2_primary"].sum()) == 105813
 
     pca_ext = pd.read_csv(ROOT / "artifacts/m6/GSE164522/model_predictions/pca_measurement.csv")
     assert len(pca_ext) == 57 and (pca_ext["n_mapped_hvg"] == 512).all() and (pca_ext["mapped_fraction"] == 1.0).all()
@@ -591,16 +629,75 @@ def test_m4_m5_m6_v1_1_contracts() -> dict[str, object]:
     )
     assert b_prog_auc >= 0.85, f"Expected B/Plasma external program_elastic >= 0.85, got {b_prog_auc}"
 
+    pca_178 = pd.read_csv(ROOT / "artifacts/m6/GSE178318/model_predictions/pca_measurement.csv")
+    assert len(pca_178) == 34 and (pca_178["n_mapped_hvg"] == 512).all() and (pca_178["mapped_fraction"] == 1.0).all()
+    ext_178 = pd.read_csv(ROOT / "artifacts/m6/GSE178318/model_predictions/patient_metrics.csv")
+    ext_178_avail = ext_178.loc[ext_178["scope"].eq("method_available")]
+    assert len(ext_178_avail) == 15 and ext_178_avail["auroc"].notna().all()
+
+    # R1-R9 GSE178318 guards: zero literal "nan" in preop_regimen, drop_liver_Hb_DRB345 exact fix, genuine 3-version scGPT
+    regimen_csvs = [
+        ROOT / "artifacts/m6/GSE178318/model_predictions/embedding_manifest.csv",
+        ROOT / "artifacts/m6/GSE178318/model_predictions/bag_predictions.csv",
+        ROOT / "artifacts/m6/GSE178318/model_predictions/patient_paired_logits.csv",
+    ]
+    local_emb_man = ROOT / "embeddings/m6/GSE178318/scgpt/embedding_manifest.csv"
+    if local_emb_man.is_file():
+        regimen_csvs.append(local_emb_man)
+        assert _sha256(local_emb_man) == _sha256(
+            ROOT / "artifacts/m6/GSE178318/model_predictions/embedding_manifest.csv"
+        )
+    for r_csv in regimen_csvs:
+        df_reg = pd.read_csv(r_csv, keep_default_na=False)
+        vals = df_reg["preop_regimen"].astype(str).str.strip()
+        assert not vals.str.lower().eq("nan").any() and not vals.eq("").any(), f"Literal nan/empty preop_regimen in {r_csv}"
+        naive_vals = vals.loc[df_reg["treatment_status"].eq("treatment_naive")]
+        assert len(naive_vals) > 0 and naive_vals.eq("None").all(), f"Untreated preop_regimen != 'None' in {r_csv}"
+
+    sens_178 = pd.read_csv(ROOT / "artifacts/m6/GSE178318/patient_effects/sensitivity_summary.csv")
+    sam_nl = sens_178.loc[
+        sens_178["analysis"].eq("drop_liver_Hb_DRB345")
+        & sens_178["lineage"].eq("Mono/Mac/DC")
+        & sens_178["program"].eq("Core_Lipid_SAM_R")
+        & sens_178["contrast"].eq("D_T")
+    ].iloc[0]
+    th17_nl = sens_178.loc[
+        sens_178["analysis"].eq("drop_liver_Hb_DRB345")
+        & sens_178["lineage"].eq("T/NK")
+        & sens_178["program"].eq("B07_Th17_TWEAK")
+        & sens_178["contrast"].eq("D_T")
+    ].iloc[0]
+    assert np.isclose(float(sam_nl["mean_difference"]), 0.101025, atol=1e-6), float(sam_nl["mean_difference"])
+    assert int(sam_nl["n_positive"]) == 5 and int(sam_nl["n_negative"]) == 1
+    assert np.isclose(float(th17_nl["mean_difference"]), -0.009012, atol=1e-6), float(th17_nl["mean_difference"])
+    assert int(th17_nl["n_positive"]) == 2 and int(th17_nl["n_negative"]) == 4
+
+    tv_178 = pd.read_csv(ROOT / "artifacts/m6/GSE178318/model_predictions/three_version_gse178318_classifiers.csv")
+    assert len(tv_178) == 45
+    v1_sc = (
+        tv_178.loc[tv_178["version"].eq("CRLM_V1_245_F1") & tv_178["method"].str.startswith("scGPT_")]
+        .set_index(["lineage", "method"])[["auroc", "auroc_lower95", "auroc_upper95", "average_precision", "balanced_accuracy"]]
+        .sort_index()
+    )
+    tf_sc = (
+        tv_178.loc[tv_178["version"].eq("CRLM_V1_245_F1_techfix") & tv_178["method"].str.startswith("scGPT_")]
+        .set_index(["lineage", "method"])[["auroc", "auroc_lower95", "auroc_upper95", "average_precision", "balanced_accuracy"]]
+        .sort_index()
+    )
+    row_diffs = (v1_sc - tf_sc).abs().max(axis=1)
+    assert int((row_diffs > 1e-6).sum()) >= 5, f"scGPT V1_F1 vs Techfix on GSE178318 appear copied: {row_diffs.to_dict()}"
+
     return {
         "m4_tnk_subtype_balanced_auroc": round(float(tnk_sb["auroc"]), 4),
         "m6_th17_I_holm_p": round(float(th17_i["holm_adjusted_p"]), 5),
-        "m6_external_models_active": 15,
-        "m6_external_clean_bags": 57,
+        "m6_registered_observed": "8/8",
+        "m6_external_models_active_164_178": "15/15 + 15/15",
+        "m6_178_drop_liver_sam": round(float(sam_nl["mean_difference"]), 6),
     }
 
 
 def test_m8_figures_source_data_and_manifest() -> dict[str, object]:
-    """Part 2B: Verify M8 PNG/PDF figures, exact source_data parity vs upstream CSVs, and 24-row manifest."""
+    """Part 2B: Verify M8 PNG/PDF figures, exact 9-CSV source_data parity vs upstream CSVs, and 26-row manifest."""
     fig_dir = ROOT / "artifacts/m8/figures"
     src_dir = ROOT / "artifacts/m8/source_data"
     stems = (
@@ -617,7 +714,7 @@ def test_m8_figures_source_data_and_manifest() -> dict[str, object]:
         assert png_p.read_bytes()[:8] == b"\x89PNG\r\n\x1a\n", f"Corrupt PNG header in {png_p}"
         assert pdf_p.read_bytes()[:5] == b"%PDF-", f"Corrupt PDF header in {pdf_p}"
 
-    # Element-by-element equality of all 7 M8 source_data CSVs against upstream M3/M4/M5/M6/M7 CSVs
+    # Element-by-element equality of all 9 M8 source_data CSVs against upstream M3/M4/M5/M6/M7 CSVs
     reg_m5 = pd.read_csv(ROOT / "artifacts/m5/frozen_candidate_registry.csv")
     target_keys = set(zip(reg_m5["lineage"].astype(str), reg_m5["program"].astype(str))) | {
         ("B/Plasma", "HALLMARK_UNFOLDED_PROTEIN_RESPONSE")
@@ -665,7 +762,22 @@ def test_m8_figures_source_data_and_manifest() -> dict[str, object]:
         }
     )
     d164.insert(0, "dataset", "GSE164522")
-    exp_upr = pd.concat([d245, d164], ignore_index=True)
+
+    m6_178_dec = pd.read_csv(ROOT / "artifacts/m6/GSE178318/patient_effects/patient_B_plasma_decomposition.csv")
+    d178 = m6_178_dec.loc[
+        m6_178_dec["program"].eq("HALLMARK_UNFOLDED_PROTEIN_RESPONSE")
+        & m6_178_dec["min_subtype_cells"].eq(1)
+        & m6_178_dec["status"].eq("complete_support"),
+        ["donor_uid", "observed_total_difference", "full_composition", "full_within_type_state"],
+    ].rename(
+        columns={
+            "observed_total_difference": "total_D_T",
+            "full_composition": "composition",
+            "full_within_type_state": "within_subtype_state",
+        }
+    )
+    d178.insert(0, "dataset", "GSE178318")
+    exp_upr = pd.concat([d245, d164, d178], ignore_index=True)
     pd.testing.assert_frame_equal(
         pd.read_csv(src_dir / "upr_decomposition_reference.csv"), exp_upr, check_exact=False, rtol=1e-14, atol=1e-15
     )
@@ -706,10 +818,95 @@ def test_m8_figures_source_data_and_manifest() -> dict[str, object]:
         rtol=1e-14,
         atol=1e-15,
     )
+    pd.testing.assert_frame_equal(
+        pd.read_csv(src_dir / "external_gse178318_classifier_metrics.csv"),
+        pd.read_csv(ROOT / "artifacts/m6/GSE178318/model_predictions/patient_metrics.csv"),
+        check_exact=False,
+        rtol=1e-14,
+        atol=1e-15,
+    )
+    tv_all_src = pd.read_csv(src_dir / "three_version_classifier_comparison.csv")
+    tv_all_m6 = pd.read_csv(ROOT / "artifacts/m6/three_version_classifier_comparison.csv")
+    assert len(tv_all_src) == 90 and len(tv_all_m6) == 30
+    pd.testing.assert_frame_equal(
+        tv_all_src.loc[tv_all_src["cohort"].eq("GSE178318")].drop(columns=["cohort"]).reset_index(drop=True),
+        pd.read_csv(ROOT / "artifacts/m6/GSE178318/model_predictions/three_version_gse178318_classifiers.csv"),
+        check_exact=False,
+        rtol=1e-14,
+        atol=1e-15,
+    )
+    tv_idx = tv_all_src.set_index(["cohort", "version", "lineage", "method"])
+    for r_m6 in tv_all_m6.itertuples(index=False):
+        for ver_key, pfx in (
+            ("CRLM_V1_245_F1", "v1_f1"),
+            ("CRLM_V1_245_F1_techfix", "techfix"),
+            ("CRLM_V1.1_245_F1", "v1_1"),
+        ):
+            src_row = tv_idx.loc[(r_m6.cohort, ver_key, r_m6.lineage, r_m6.method)]
+            for s_col, m_col in (
+                ("auroc", f"{pfx}_auroc"),
+                ("auroc_lower95", f"{pfx}_lower95"),
+                ("auroc_upper95", f"{pfx}_upper95"),
+            ):
+                sv, mv = src_row[s_col], getattr(r_m6, m_col)
+                assert (pd.isna(sv) and pd.isna(mv)) or np.isclose(float(sv), float(mv), rtol=1e-14, atol=1e-15)
+    assert len(list(src_dir.glob("*.csv"))) == 9, "Expected exactly 9 CSVs in artifacts/m8/source_data/"
 
-    # Verify 24-row reproducibility_manifest.csv: all 120 file/venv paths exist & executables have +x
+    # Verify CLI contracts in reproduce.md & wet-lab / platform anti-regression across root & M8 docs
+    repro_md = (ROOT / "artifacts/m8/reproduce.md").read_text(encoding="utf-8")
+    for req_token in (
+        "--manifest data/manifests/m0/sample_manifest_validated.csv --donor GSE245552:Pt18",
+        "encode_scgpt.py --profile --device xpu",
+        "benchmark_discovery.py --representation PCA",
+        "benchmark_discovery.py --representation scGPT",
+        "benchmark_prior_mil.py --representation PCA32",
+        "benchmark_prior_mil.py --representation scGPT32",
+        "benchmark_prior_mil.py --representation scGPT512",
+        "predict_gse178318.py --freeze-commit 5b01467",
+        "run_techfix_v1_f1_models.py mixmil-bugfix",
+        "encode-external",
+        "evaluate-external",
+        "run_techfix_v1_f1_models.py finalize",
+        "torch 2.15.0+xpu",
+    ):
+        assert req_token in repro_md, f"Missing CLI contract token in reproduce.md: {req_token}"
+    assert "run_techfix_v1_f1_models.py all" not in repro_md
+    assert (
+        repro_md.index("run_techfix_v1_f1_models.py finalize")
+        < repro_md.index("assemble_validation.py")
+        < repro_md.index("build_paper_figures.py")
+    ), "Track 1 must run before assemble_validation.py and build_paper_figures.py in reproduce.md"
+
+    for ver_doc in (
+        ROOT / "README.md",
+        ROOT / "artifacts/m8/reproduce.md",
+        ROOT / "artifacts/m8/limitations_and_deviations.md",
+    ):
+        assert "2.8.0+xpu" not in ver_doc.read_text(encoding="utf-8"), f"Stale torch version in {ver_doc}"
+
+    final_md = (ROOT / "artifacts/m8/final_report.md").read_text(encoding="utf-8")
+    status_md = (ROOT / "STATUS.md").read_text(encoding="utf-8")
+    for doc_name, doc_txt in (("final_report.md", final_md), ("STATUS.md", status_md)):
+        assert "ITGAV" not in doc_txt and "溶酶体" not in doc_txt, f"Fabricated wet-lab arm recurred in {doc_name}"
+        for req_m7 in ("SPP1_Rescue_Endo", "rhSPP1_Ext", "Transwell"):
+            assert req_m7 in doc_txt, f"Missing M7 protocol token {req_m7} in {doc_name}"
+        assert ("已完成实际湿实验数为 `0`" in doc_txt) or ("已完成实际湿实验数为 0" in doc_txt), (
+            f"Missing explicit zero executed wet-lab statement in {doc_name}"
+        )
+
+    for plat_doc in (
+        ROOT / "STATUS.md",
+        ROOT / "README.md",
+        ROOT / "artifacts/m8/final_report.md",
+        ROOT / "artifacts/m6/cross_cohort_evidence_cards.md",
+    ):
+        ptxt = plat_doc.read_text(encoding="utf-8")
+        assert "CosMx" not in ptxt, f"GSE335552 mislabeled as CosMx in {plat_doc}"
+        assert "Xenium" in ptxt, f"Expected Xenium platform label in {plat_doc}"
+
+    # Verify 26-row reproducibility_manifest.csv: all 130 file/venv paths exist & executables have +x
     repro = pd.read_csv(ROOT / "artifacts/m8/reproducibility_manifest.csv")
-    assert len(repro) == 24, f"Expected 24 rows in reproducibility_manifest.csv, got {len(repro)}"
+    assert len(repro) == 26, f"Expected 26 rows in reproducibility_manifest.csv, got {len(repro)}"
     path_cols = ("entrypoint", "principal_table", "verification_or_run", "environment", "package_lock")
     for idx_r, row in repro.iterrows():
         for col in path_cols:
@@ -758,7 +955,7 @@ def test_m8_figures_source_data_and_manifest() -> dict[str, object]:
 
     return {
         "m8_figures_png_pdf": 8,
-        "m8_source_tables_exact": 7,
+        "m8_source_tables_exact": 9,
         "reproducibility_manifest_paths": len(repro) * len(path_cols),
         "markdown_links_verified": md_checked,
         "isolated_starter_checks": 106,
@@ -787,6 +984,8 @@ def test_sha256_manifests() -> dict[str, int]:
         ("m5", ROOT / "artifacts/m5/output_sha256.txt", ROOT),
         ("m6_164_models", ROOT / "artifacts/m6/GSE164522/model_predictions/output_sha256.txt", ROOT),
         ("m6_164", ROOT / "artifacts/m6/GSE164522/output_sha256.txt", ROOT),
+        ("m6_178_models", ROOT / "artifacts/m6/GSE178318/model_predictions/output_sha256.txt", ROOT),
+        ("m6_178", ROOT / "artifacts/m6/GSE178318/output_sha256.txt", ROOT),
         ("m6_203608", ROOT / "artifacts/m6/GSE203608/output_sha256.txt", ROOT),
         ("m6", ROOT / "artifacts/m6/output_sha256.txt", ROOT),
         ("m7", ROOT / "artifacts/m7/output_sha256.txt", ROOT),

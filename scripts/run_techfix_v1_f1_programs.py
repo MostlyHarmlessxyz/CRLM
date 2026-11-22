@@ -61,6 +61,9 @@ GSE164_OBJECTS = ROOT / "data/processed/m6/GSE164522"
 GSE164_MANIFEST = ARCHIVE_M6 / "GSE164522/coverage/sample_manifest.csv"
 GSE164_ORGANS = ("PT", "MT", "PN", "MN")
 
+GSE178_OBJECTS = ROOT / "data/processed/m6/GSE178318"
+GSE178_MANIFEST = ROOT / "artifacts/m6/GSE178318/coverage/sample_manifest.csv"
+
 GSE203_RAW = ROOT / "data/raw/GSE203608"
 GSE203_SITES = {"Colon": "NC", "Liver": "NL", "LiverMet": "LM", "Tumor": "PT"}
 GSE203_MYELOID = {
@@ -492,6 +495,123 @@ def score_gse203608_step(
     return summary, patients, sample_df, pd.DataFrame(cov_rows), comp_counts
 
 
+def load_gse178318_tumor_subset() -> tuple[sparse.csr_matrix, pd.DataFrame, pd.DataFrame, pd.DataFrame] | None:
+    """Load the 12 clean tumor PT/LM H5ADs of GSE178318 (PBMC strictly excluded) if materialized."""
+    if not GSE178_MANIFEST.is_file() or not GSE178_OBJECTS.is_dir():
+        return None
+    manifest = pd.read_csv(GSE178_MANIFEST)
+    if manifest.empty:
+        return None
+    mats, obs_parts = [], []
+    var_ref = None
+    for gsm in manifest["sample_uid"].astype(str).tolist():
+        obj = ad.read_h5ad(GSE178_OBJECTS / f"{gsm}.h5ad")
+        if var_ref is None:
+            var_ref = obj.var.copy()
+        mats.append(obj.X.tocsr())
+        obs_parts.append(obj.obs.copy())
+    return sparse.vstack(mats, format="csr"), pd.concat(obs_parts, axis=0).reset_index(drop=True), var_ref, manifest
+
+
+def score_gse178318_step(
+    matrix: sparse.csr_matrix,
+    cells: pd.DataFrame,
+    var_df: pd.DataFrame,
+    manifest: pd.DataFrame,
+    registry: pd.DataFrame,
+    frozen_genes: pd.DataFrame,
+    *,
+    harmonize_hgnc: bool,
+    shared_nuclear_only: bool,
+    clean_cell_qc: bool,
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Score GSE178318 12 paired PT/LM tumor specimens under Track 1 stepwise ablation flags."""
+    if shared_nuclear_only:
+        axis = list(load_shared_nuclear_universe("245_164_203608_shared_nuclear"))
+        canon_idx = pd.Index(var_df["canonical_symbol"].astype(str))
+        cols = canon_idx.get_indexer(axis).astype(np.int32)
+        if (cols < 0).any():
+            raise ValueError("GSE178318 missing expected shared nuclear gene")
+    elif harmonize_hgnc:
+        cols = np.arange(len(var_df), dtype=np.int32)
+        axis = var_df["canonical_symbol"].astype(str).tolist()
+    else:
+        raw_sym = var_df["gene_symbol"].astype(str)
+        uniq = raw_sym.ne("") & (~raw_sym.duplicated(keep=False))
+        cols = np.flatnonzero(uniq.to_numpy()).astype(np.int32)
+        axis = raw_sym.iloc[cols].tolist()
+
+    axis_set = set(axis)
+    active_mask = (
+        cells["qc_retained"].to_numpy(dtype=bool)
+        if clean_cell_qc
+        else cells["n_counts_visible"].gt(0).to_numpy(dtype=bool)
+    )
+    lin_arr = cells["lineage_m2"].astype(str).to_numpy()
+
+    cov_rows = []
+    sample_rows = []
+    for r in registry.itertuples(index=False):
+        raw_req = frozen_genes.loc[
+            frozen_genes["program"].eq(r.program) & frozen_genes["lineage"].eq(r.lineage),
+            "gene_symbol",
+        ].tolist()
+        req = canonicalize_symbols(raw_req) if harmonize_hgnc else raw_req
+        measured = [g for g in req if g in axis_set]
+        ok = (
+            len(measured) >= r.min_measured_positive_genes
+            and len(measured) >= len(req) * r.min_measured_fraction_positive
+        )
+        cov_rows.append(
+            {
+                "cohort": "GSE178318",
+                "lineage": r.lineage,
+                "program": r.program,
+                "n_axis_genes": len(axis),
+                "n_requested": len(req),
+                "n_measured": len(measured),
+                "measured_fraction": len(measured) / len(req),
+                "eligible": ok,
+                "missing_symbols": "|".join(sorted(set(req) - set(measured))),
+            }
+        )
+        lin_rows = np.flatnonzero(active_mask & (lin_arr == r.lineage))
+        scored_df = cells.iloc[lin_rows][["sample_uid"]].copy()
+        if ok and len(lin_rows) > 0:
+            scored_df["score"] = rank_scores(
+                matrix[lin_rows][:, cols],
+                axis,
+                {r.program: measured},
+                max_rank=1500,
+                mode="legacy_positive",
+            )[r.program].to_numpy()
+        else:
+            scored_df["score"] = np.nan
+        by_sample = scored_df.groupby("sample_uid")["score"].agg(["mean", "size"])
+        for smp in manifest.itertuples(index=False):
+            if smp.sample_uid in by_sample.index:
+                n_c = int(by_sample.at[smp.sample_uid, "size"])
+                m_val = float(by_sample.at[smp.sample_uid, "mean"])
+            else:
+                n_c = 0
+                m_val = np.nan
+            sample_rows.append(
+                {
+                    "sample_uid": smp.sample_uid,
+                    "lineage": r.lineage,
+                    "program": r.program,
+                    "n_cells": n_c,
+                    "unfiltered_score": m_val,
+                    "score": m_val if n_c >= 50 else np.nan,
+                }
+            )
+
+    sample_df = pd.DataFrame(sample_rows)
+    patients, _, _, _ = calculate_patient_contrasts(manifest, sample_df[SCORE_COLUMNS])
+    summary = summarize_patients(patients, seed=SEED)
+    return summary, patients, sample_df, pd.DataFrame(cov_rows)
+
+
 def run() -> None:
     t0 = time.perf_counter()
     started_utc = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -508,6 +628,7 @@ def run() -> None:
         manifest_164["eligible_for_paired_analysis"] = True
     h5ads_164 = {code: ad.read_h5ad(GSE164_OBJECTS / f"{code}.h5ad") for code in GSE164_ORGANS}
     X_203, cells_203, genes_203 = load_gse203608_subset()
+    loaded_178 = load_gse178318_tumor_subset()
 
     steps = [
         ("step0_v1_f1_baseline", False, False, False),
@@ -539,8 +660,29 @@ def run() -> None:
             shared_nuclear_only=nuc_flag,
             clean_cell_qc=qc_flag,
         )
-        combined_sum = pd.concat([sum_164, sum_203], ignore_index=True)
-        combined_pts = pd.concat([pts_164, pts_203], ignore_index=True)
+        sum_parts = [sum_164, sum_203]
+        pts_parts = [pts_164, pts_203]
+        cov_parts = [cov_164, cov_203]
+        smp_178 = None
+        if loaded_178 is not None and step_id != "step0_v1_f1_baseline":
+            X_178, cells_178, var_178, manifest_178 = loaded_178
+            sum_178, pts_178, smp_178, cov_178 = score_gse178318_step(
+                X_178,
+                cells_178,
+                var_178,
+                manifest_178,
+                registry,
+                frozen_genes,
+                harmonize_hgnc=hgnc_flag,
+                shared_nuclear_only=nuc_flag,
+                clean_cell_qc=qc_flag,
+            )
+            sum_parts.append(sum_178)
+            pts_parts.append(pts_178)
+            cov_parts.append(cov_178)
+
+        combined_sum = pd.concat(sum_parts, ignore_index=True)
+        combined_pts = pd.concat(pts_parts, ignore_index=True)
         adj, extra, fam, audit = adjust_registered(plan, combined_sum)
 
         if step_id == "step0_v1_f1_baseline":
@@ -567,7 +709,7 @@ def run() -> None:
                 )
             comp_203_before = comp_203.copy()
 
-        cov_step = pd.concat([cov_164, cov_203], ignore_index=True)
+        cov_step = pd.concat(cov_parts, ignore_index=True)
         cov_step.insert(0, "step", step_id)
         cov_tables.append(cov_step)
 
@@ -613,6 +755,8 @@ def run() -> None:
             extra.to_csv(OUT / "unplanned_exploratory_results.csv", index=False)
             smp_164.to_csv(OUT / "GSE164522_sample_program_scores.csv", index=False)
             smp_203.to_csv(OUT / "GSE203608_sample_program_scores.csv", index=False)
+            if smp_178 is not None:
+                smp_178.to_csv(OUT / "GSE178318_sample_program_scores.csv", index=False)
 
             bp_decomp = decompose_gse164522_b_plasma(manifest_164, cells_164, smp_164)
             bp_decomp.to_csv(OUT / "GSE164522_B_plasma_decomposition.csv", index=False)
@@ -724,8 +868,10 @@ def write_report(
         "step2_shared_nuclear_axis",
         "step3_full_techfix",
     ):
-        for cohort in ("GSE164522", "GSE203608"):
+        for cohort in ("GSE164522", "GSE203608", "GSE178318"):
             sub_c = cov_all.loc[cov_all["step"].eq(step_id) & cov_all["cohort"].eq(cohort)]
+            if sub_c.empty:
+                continue
             sp = sub_c.loc[sub_c["program"].eq("B19_S4_Mac_SPP1")].iloc[0]
             up = sub_c.loc[sub_c["program"].eq("HALLMARK_UNFOLDED_PROTEIN_RESPONSE")].iloc[0]
             lines.append(

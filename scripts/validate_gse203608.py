@@ -412,7 +412,7 @@ def evaluate_in_vivo_cohort(
 
     cells = map_author_cells(in_vivo_cells).reset_index(drop=True)
     clean_author = cells["clean_cell_qc"].to_numpy(dtype=bool) & nonempty
-    clean_mito_for_rule = cells["pass_mito_qc"].to_numpy(dtype=bool) & nonempty
+    clean_mito_for_rule = clean_author
     auth_broad = cells["lineage"].astype(str).to_numpy()
     auth_sub = cells["author_subtype"].astype(str).to_numpy()
     sample_arr = cells["sample_uid"].astype(str).to_numpy()

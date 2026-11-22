@@ -21,6 +21,7 @@ TECHFIX_M6 = ROOT / "artifacts/techfix_v1_f1/programs/registered_test_results.cs
 ARCHIVE_V1_CLS = ROOT / "artifacts/archive/CRLM_V1_245_F1/artifacts/m6/GSE164522/model_predictions/patient_metrics.csv"
 TECHFIX_CLS = ROOT / "artifacts/techfix_v1_f1/models/techfix_external_classifier_metrics.csv"
 V11_CLS = ROOT / "artifacts/m6/GSE164522/model_predictions/patient_metrics.csv"
+V11_178_CLS_3VER = ROOT / "artifacts/m6/GSE178318/model_predictions/three_version_gse178318_classifiers.csv"
 
 
 def _sha256(path: Path) -> str:
@@ -97,17 +98,26 @@ def build_three_version_comparison(
         rtf = m_tf.get(k)
         r11 = m_v11_reg.get(k)
         v11_tier = "registered"
+        v11_prog_eval = prog if r11 is not None else ""
+        used_clean_alias = False
         if r11 is None:
             r11 = m_v11_exp.get(k)
-            if r11 is None and prog == "B19_S4_Mac_SPP1":
+            if r11 is not None:
+                v11_prog_eval = prog
+            elif prog == "B19_S4_Mac_SPP1":
                 r11 = m_v11_reg.get((cohort, lineage, "B19_S4_Mac_SPP1_clean", contrast)) or m_v11_exp.get(
                     (cohort, lineage, "B19_S4_Mac_SPP1_clean", contrast)
                 )
+                if r11 is not None:
+                    v11_prog_eval = "B19_S4_Mac_SPP1_clean"
+                    used_clean_alias = True
             v11_tier = "exploratory_sensitivity" if r11 is not None else "not_registered"
 
         c0_txt = _fmt_cell(r0)
         ctf_txt = _fmt_cell(rtf)
         c11_txt = _fmt_cell(r11)
+        if used_clean_alias and r11 is not None:
+            c11_txt = f"{c11_txt} [B19_S4_Mac_SPP1_clean 去FLT1/T-NK污染]"
         md_lines.append(f"| {cohort} | `{contrast}` | `{lineage}::{prog}` | {c0_txt} | {ctf_txt} | {c11_txt} |")
 
         rows.append(
@@ -116,6 +126,7 @@ def build_three_version_comparison(
                 "contrast": contrast,
                 "lineage": lineage,
                 "program": prog,
+                "v1_1_evaluated_program": v11_prog_eval,
                 "v1_f1_summary": c0_txt,
                 "v1_f1_mean": float(r0["mean_difference"]) if (r0 is not None and pd.notna(r0.get("mean_difference"))) else np.nan,
                 "v1_f1_holm_p": float(r0["holm_adjusted_p"]) if (r0 is not None and pd.notna(r0.get("holm_adjusted_p"))) else np.nan,
@@ -134,8 +145,24 @@ def build_three_version_comparison(
 
 
 def _fmt_cls(row: pd.Series | None) -> str:
-    if row is None or pd.isna(row.get("auroc", np.nan)):
-        return "拒判 (<95% 原始符号 HVG)"
+    if row is None:
+        return "未登记/无对应记录"
+    status_raw = str(row.get("status", "")).strip()
+    if (status_raw not in ("", "nan", "None") and status_raw != "predicted") or pd.isna(row.get("auroc", np.nan)):
+        if status_raw == "abstained_lt95pct_raw_hvg":
+            return "拒判 (<95% 原始符号 HVG)"
+        if status_raw in ("", "nan", "None", "predicted"):
+            meth = str(row.get("method", ""))
+            n_sites = row.get("n_sites", np.nan)
+            if meth.startswith("PCA_") and pd.notna(n_sites) and int(n_sites) == 0:
+                return "拒判 (<95% 原始符号 HVG)"
+            return "不可估计 (AUROC=NA)"
+        status_labels = {
+            "fewer_than_50_cells": "不足50细胞门槛",
+            "insufficient_classes": "单侧组织缺失 (AUROC=NA)",
+            "not_estimable": "不可估计",
+        }
+        return status_labels.get(status_raw, f"未预测 ({status_raw})")
     auc = float(row["auroc"])
     lo = float(row["auroc_lower95"])
     hi = float(row["auroc_upper95"])
@@ -149,8 +176,9 @@ def build_classifier_three_version_comparison(
     v1_cls: pd.DataFrame,
     tf_cls: pd.DataFrame,
     v11_cls: pd.DataFrame,
+    cls_178_3ver: pd.DataFrame | None = None,
 ) -> tuple[pd.DataFrame, str]:
-    """Build structured CSV & Markdown section comparing GSE164522 15 external transfer classifiers."""
+    """Build structured CSV & Markdown section comparing GSE164522 & GSE178318 15 external transfer classifiers."""
     if v11_cls.empty:
         return pd.DataFrame(), ""
     v1_sub = v1_cls.loc[v1_cls["scope"].eq("method_available")] if not v1_cls.empty else pd.DataFrame()
@@ -171,10 +199,12 @@ def build_classifier_three_version_comparison(
     rows = []
     md = [
         "",
-        "## 二、GSE164522 外部冻结迁移分类器三版本对照（15 项模型，患者组织级 AUROC [95% CI] 与 LM>PT 配对数）",
+        "## 二、双外部队列冻结迁移分类器三版本对照（`GSE164522` + 零暴露前瞻队列 `GSE178318`，每队列 15 项模型）",
         "",
-        "| 谱系 | 冻结分类头 | `CRLM_V1_245_F1`（11/15 激活，4 拒判） | `CRLM_V1_245_F1_techfix`（15/15 激活） | `CRLM_V1.1_245_F1`（全袋洁净，15/15 激活） |",
-        "|---|---|---|---|---|",
+        "### 2.1 `GSE164522`（主外部队列，已披露前序暴露的稳健性重评估）",
+        "",
+        "| 队列 | 谱系 | 冻结分类头 | `CRLM_V1_245_F1`（11/15 激活，4 拒判） | `CRLM_V1_245_F1_techfix`（15/15 激活） | `CRLM_V1.1_245_F1`（全袋洁净，15/15 激活） |",
+        "|---|---|---|---|---|---|",
     ]
     for lin in lineages:
         for meth in methods:
@@ -182,14 +212,20 @@ def build_classifier_three_version_comparison(
             rtf = mtf.get((lin, meth))
             r11 = m11.get((lin, meth))
             s0, stf, s11 = _fmt_cls(r0), _fmt_cls(rtf), _fmt_cls(r11)
-            md.append(f"| `{lin}` | `{meth}` | {s0} | {stf} | {s11} |")
+            md.append(f"| GSE164522 | `{lin}` | `{meth}` | {s0} | {stf} | {s11} |")
             rows.append(
                 {
+                    "cohort": "GSE164522",
+                    "exposure_tier": "post_exposure_robustness",
                     "lineage": lin,
                     "method": meth,
                     "v1_f1_auroc": float(r0["auroc"]) if (r0 is not None and pd.notna(r0.get("auroc"))) else np.nan,
+                    "v1_f1_lower95": float(r0["auroc_lower95"]) if (r0 is not None and pd.notna(r0.get("auroc_lower95"))) else np.nan,
+                    "v1_f1_upper95": float(r0["auroc_upper95"]) if (r0 is not None and pd.notna(r0.get("auroc_upper95"))) else np.nan,
                     "v1_f1_summary": s0,
                     "techfix_auroc": float(rtf["auroc"]) if (rtf is not None and pd.notna(rtf.get("auroc"))) else np.nan,
+                    "techfix_lower95": float(rtf["auroc_lower95"]) if (rtf is not None and pd.notna(rtf.get("auroc_lower95"))) else np.nan,
+                    "techfix_upper95": float(rtf["auroc_upper95"]) if (rtf is not None and pd.notna(rtf.get("auroc_upper95"))) else np.nan,
                     "techfix_summary": stf,
                     "v1_1_auroc": float(r11["auroc"]) if (r11 is not None and pd.notna(r11.get("auroc"))) else np.nan,
                     "v1_1_lower95": float(r11["auroc_lower95"]) if (r11 is not None and pd.notna(r11.get("auroc_lower95"))) else np.nan,
@@ -197,6 +233,47 @@ def build_classifier_three_version_comparison(
                     "v1_1_summary": s11,
                 }
             )
+
+    if cls_178_3ver is not None and not cls_178_3ver.empty:
+        m178_v1 = lookup(cls_178_3ver.loc[cls_178_3ver["version"].eq("CRLM_V1_245_F1")])
+        m178_tf = lookup(cls_178_3ver.loc[cls_178_3ver["version"].eq("CRLM_V1_245_F1_techfix")])
+        m178_11 = lookup(cls_178_3ver.loc[cls_178_3ver["version"].eq("CRLM_V1.1_245_F1")])
+        md.extend(
+            [
+                "",
+                "### 2.2 `GSE178318`（次要外部队列，M5 `5b01467` 锁定后首次解锁表达矩阵的前瞻零表达暴露验证）",
+                "",
+                "| 队列 | 谱系 | 冻结分类头 | `CRLM_V1_245_F1`（11/15 激活，4 拒判） | `CRLM_V1_245_F1_techfix`（15/15 激活） | `CRLM_V1.1_245_F1`（全袋洁净，15/15 激活） |",
+                "|---|---|---|---|---|---|",
+            ]
+        )
+        for lin in lineages:
+            for meth in methods:
+                r0 = m178_v1.get((lin, meth))
+                rtf = m178_tf.get((lin, meth))
+                r11 = m178_11.get((lin, meth))
+                s0, stf, s11 = _fmt_cls(r0), _fmt_cls(rtf), _fmt_cls(r11)
+                md.append(f"| GSE178318 | `{lin}` | `{meth}` | {s0} | {stf} | {s11} |")
+                rows.append(
+                    {
+                        "cohort": "GSE178318",
+                        "exposure_tier": "prospective_zero_expression_exposure",
+                        "lineage": lin,
+                        "method": meth,
+                        "v1_f1_auroc": float(r0["auroc"]) if (r0 is not None and pd.notna(r0.get("auroc"))) else np.nan,
+                        "v1_f1_lower95": float(r0["auroc_lower95"]) if (r0 is not None and pd.notna(r0.get("auroc_lower95"))) else np.nan,
+                        "v1_f1_upper95": float(r0["auroc_upper95"]) if (r0 is not None and pd.notna(r0.get("auroc_upper95"))) else np.nan,
+                        "v1_f1_summary": s0,
+                        "techfix_auroc": float(rtf["auroc"]) if (rtf is not None and pd.notna(rtf.get("auroc"))) else np.nan,
+                        "techfix_lower95": float(rtf["auroc_lower95"]) if (rtf is not None and pd.notna(rtf.get("auroc_lower95"))) else np.nan,
+                        "techfix_upper95": float(rtf["auroc_upper95"]) if (rtf is not None and pd.notna(rtf.get("auroc_upper95"))) else np.nan,
+                        "techfix_summary": stf,
+                        "v1_1_auroc": float(r11["auroc"]) if (r11 is not None and pd.notna(r11.get("auroc"))) else np.nan,
+                        "v1_1_lower95": float(r11["auroc_lower95"]) if (r11 is not None and pd.notna(r11.get("auroc_lower95"))) else np.nan,
+                        "v1_1_upper95": float(r11["auroc_upper95"]) if (r11 is not None and pd.notna(r11.get("auroc_upper95"))) else np.nan,
+                        "v1_1_summary": s11,
+                    }
+                )
     return pd.DataFrame(rows), "\n".join(md) + "\n"
 
 
@@ -264,9 +341,18 @@ def main() -> None:
     assert adjusted.groupby("family").size().eq(n_per_family).all()
 
     for accession in ("GSE203608", "GSE178318"):
-        folder = out / accession / "registered_tests"
+        acc_dir = out / accession
+        folder = acc_dir / "registered_tests"
         folder.mkdir(parents=True, exist_ok=True)
         adjusted.loc[adjusted.cohort.eq(accession)].to_csv(folder / "registered_results.csv", index=False)
+        if (acc_dir / "output_sha256.txt").is_file():
+            acc_files = sorted(
+                p for p in acc_dir.rglob("*") if p.is_file() and p.name not in ("output_sha256.txt", ".gitkeep")
+            )
+            (acc_dir / "output_sha256.txt").write_text(
+                "".join(f"{_sha256(p)}  {p.relative_to(ROOT)}\n" for p in acc_files),
+                encoding="utf-8",
+            )
 
     v1_df = pd.read_csv(ARCHIVE_V1_M6) if ARCHIVE_V1_M6.is_file() else pd.DataFrame()
     tf_df = pd.read_csv(TECHFIX_M6) if TECHFIX_M6.is_file() else pd.DataFrame()
@@ -275,7 +361,8 @@ def main() -> None:
     v1_cls = pd.read_csv(ARCHIVE_V1_CLS) if ARCHIVE_V1_CLS.is_file() else pd.DataFrame()
     tf_cls = pd.read_csv(TECHFIX_CLS) if TECHFIX_CLS.is_file() else pd.DataFrame()
     v11_cls = pd.read_csv(V11_CLS) if V11_CLS.is_file() else pd.DataFrame()
-    cls_df, cls_md = build_classifier_three_version_comparison(v1_cls, tf_cls, v11_cls)
+    cls_178 = pd.read_csv(V11_178_CLS_3VER) if V11_178_CLS_3VER.is_file() else pd.DataFrame()
+    cls_df, cls_md = build_classifier_three_version_comparison(v1_cls, tf_cls, v11_cls, cls_178)
     if not cls_df.empty:
         cls_df.to_csv(out / "three_version_classifier_comparison.csv", index=False)
         comp_md = comp_md + cls_md
@@ -366,8 +453,34 @@ def self_check() -> None:
     assert len(adj) == 12 and fam["n_planned_tests"].eq(3).all()
     v1 = pd.read_csv(ARCHIVE_V1_M6) if ARCHIVE_V1_M6.is_file() else pd.DataFrame()
     tf = pd.read_csv(TECHFIX_M6) if TECHFIX_M6.is_file() else pd.DataFrame()
-    comp_df, comp_md = build_three_version_comparison(v1, tf, adj, exp)
+    exp_spp1 = pd.concat(
+        [
+            exp,
+            pd.DataFrame(
+                [
+                    {
+                        "dataset": "GSE164522",
+                        "lineage": "Mono/Mac/DC",
+                        "program": "B19_S4_Mac_SPP1_clean",
+                        "contrast": "D_T",
+                        "n_patients": 8,
+                        "mean_difference": 0.03651,
+                        "n_positive": 5,
+                        "n_negative": 3,
+                        "sign_p_two_sided": 0.7265625,
+                    }
+                ]
+            ),
+        ],
+        ignore_index=True,
+    )
+    comp_df, comp_md = build_three_version_comparison(v1, tf, adj, exp_spp1)
     assert not comp_df.empty and "CRLM_V1.1_245_F1" in comp_md
+    if not v1.empty and "B19_S4_Mac_SPP1" in set(v1["program"]):
+        assert "B19_S4_Mac_SPP1_clean" in comp_md
+    assert "拒判" in _fmt_cls(pd.Series({"status": "abstained_lt95pct_raw_hvg", "auroc": np.nan}))
+    assert "不足50细胞门槛" in _fmt_cls(pd.Series({"status": "fewer_than_50_cells", "auroc": np.nan}))
+    assert "不可估计" in _fmt_cls(pd.Series({"status": "not_estimable", "auroc": np.nan}))
     print(f"assemble_validation --self-check PASSED: {len(comp_df)} comparison rows built (zero disk writes).")
 
 

@@ -13,3 +13,11 @@ GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N,0,no_complete_contrast,,,,,0,
 GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_T_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
 GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
 GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,I,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE178318,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_N,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE178318,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_T_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE178318,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_N_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE178318,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,I,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE178318,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE178318,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_T_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE178318,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE178318,external,Mono/Mac/DC,B19_S4_Mac_SPP1,I,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory

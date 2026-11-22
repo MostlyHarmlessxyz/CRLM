@@ -4,7 +4,7 @@
 
 ## 1. 本地模型权重、词表与源码溯源
 
-本项目在 M4（开发集细胞表示比较）与 M6（`GSE164522` 冻结肿瘤分类器外部评估）中仅以**冻结推理模式（零梯度更新、零微调）**调用 `scGPT-whole-human` 检查点：
+本项目在 M4（开发集细胞表示比较）与 M6（`GSE164522` 与授权解锁后的 `GSE178318` 冻结肿瘤分类器外部评估）中仅以**冻结推理模式（零梯度更新、零微调）**调用 `scGPT-whole-human` 检查点：
 
 | 资产文件 | 路径 | 字节数 | SHA256 | 关键元数据 |
 |---|---|---:|---|---|
@@ -35,7 +35,7 @@
 |---|---|---|---|---|---|---|---|
 | **`GSE245552`** | V1/V1.1 唯一开发集（M1–M5） | `2023-10-17` | `2024-01-05` / *Cancer Res* 2024 `[B07]` | **严格晚于截点**（连首次提交也晚 5 个月以上） | 物理上不可能存在于 `2023-05-08` Census | **`DEFINITE_ZERO_OVERLAP`** | M4 开发集折外（OOF）`scGPT` vs `PCA` 比较完全不存在预训练语料重叠 |
 | **`GSE164522`** | 主外部复现与四组织背景（M6） | `2021-01-10` | `2022-02-12` / *Cancer Cell* 2022 `[B02]` | **早于截点**（公开早约 15 个月） | 若在 `2023-05-08` 前被 CELLxGENE Census 收录：配对正常结肠 `PN`（`intestine`）、正常肝 `MN`（`others: liver`）与 `PBMC`（`blood`）命中 `disease == 'normal'`；肿瘤细胞在 `pan-cancer` 配置中命中 `colorectal cancer` | **`POTENTIAL_UNSUPERVISED_EXPOSURE_UNVERIFIED`** | ① 主生物学复现检验（`Mac_SPP1`、`UPR` 等患者级配对效应）完全基于非模型基因集评分，**不依赖 `scGPT`**；② M6 模型迁移必须与零预训练的同折同细胞 **`PCA` 基线**并列报告，不得将 `scGPT` AUROC 单独夸大为“零先验暴露的纯盲外部泛化” |
-| **`GSE178318`** | 次要外部队列（当前 `terms_pending` 未下载表达） | `2021-06-16` | `2021-09-10` / *Cell Discov* 2021 `[B03]` | **早于截点**（公开早约 20 个月） | 含原发 CRC、肝转移与 PBMC；若被 Census 收录，正常标注细胞或肿瘤细胞存在与 `GSE164522` 同类的潜在无监督收录可能 | **`POTENTIAL_UNSUPERVISED_EXPOSURE_UNVERIFIED`（当前未启用）** | 当前維持 `terms_pending` 未运行任何编码；未来若获作者确认接入，主验证同样仅用非模型基因程序统计，若跑 `scGPT` 须附同样声明与 `PCA` 对照 |
+| **`GSE178318`** | 次要外部队列（`5b01467` 冻结后获授权前瞻解锁，M6） | `2021-06-16` | `2021-09-10` / *Cell Discov* 2021 `[B03]` | **早于截点**（公开早约 20 个月） | 含原发 CRC、肝转移与 PBMC（本研究已物理排除 3 个 PBMC 文库）；若在 `2023-05-08` 前被 CELLxGENE Census 收录，PBMC（`blood`）或正常标注细胞命中 `disease == 'normal'`，肿瘤细胞在 `pan-cancer` 配置中命中 `colorectal cancer` | **`POTENTIAL_UNSUPERVISED_EXPOSURE_UNVERIFIED`** | ① 主验证端点基于非模型基因程序配对统计（`SECONDARY_DT_178_V1_1`），**不依赖 `scGPT`**；② M6 对 12 个实体瘤文库的 `scGPT` 冻结推理与零预训练的同细胞袋 **`PCA` 基线**严格并列报告，区分“本研究研究者零前序表达暴露”与“预训练语料未核实潜在无监督收录” |
 | **`GSE203608`** | 可选次要外部队列（M6） | `2022-05-23` | `2023-10-20` / *Nat Commun* 2023-11 `[B46]` | 提交早于截点，但 **GEO 公开晚于截点 5.4 个月** | `2023-05-08` 时仍处未公开保密状态，极不可能进入公开 CELLxGENE Census；且 `metainfo.json` 零命中 | **`NEGLIGIBLE_POST_CUTOFF_PUBLIC_RELEASE`** | 本研究对 `GSE203608` 仅计算基因程序配对方向与幅度，不运行 `scGPT` 模型推理，无表示泄漏影响 |
 | **`GSE225857`** | V1/V1.1 排除（患者身份映射待核） | `2023-02-22` | `2023-02-22` / 2023 | 早于截点 2.5 个月 | 潜在可被 Census 收录，但本阶段不纳入配对推断或模型评估 | **`NOT_USED_EXCLUDED`** | 维持排除状态 |
 | **`GSE298084`** | 癌旁肝背景参考 | `2025-05-27` | `2025-08-11` / 2025 | **严格晚于截点**（晚 >2 年） | 物理上不可能重叠 | **`DEFINITE_ZERO_OVERLAP`（未用于 `scGPT`）** | 无重叠风险 |
@@ -43,6 +43,6 @@
 
 ## 4. 工程与方法学落地要求
 
-1. **公平基线绑定**：在 M4（`GSE245552`）和 M6（`GSE164522`）中，所有 `scGPT` 表示模型（`scGPT_mean`、`scGPT_attention`、`scGPT32`/`scGPT512` `HA/CTA/MixMIL`）必须与仅在 `GSE245552` 训练折拟合的 **`PCA` 表示模型**使用完全相同的患者划分、细胞集合与共同核基因背景（`SHARED_NUCLEAR_UNIVERSE`）。
+1. **公平基线绑定**：在 M4（`GSE245552`）和 M6（`GSE164522`、`GSE178318`）中，所有 `scGPT` 表示模型（`scGPT_mean`、`scGPT_attention`、`scGPT32`/`scGPT512` `HA/CTA/MixMIL`）必须与仅在 `GSE245552` 训练折拟合的 **`PCA` 表示模型**使用完全相同的患者划分、细胞集合与共同核基因背景（`SHARED_NUCLEAR_UNIVERSE`）。
 2. **生物结论脱钩**：跨队列生物学复现结论完全由冻结候选程序的患者级配对检验（双侧精确符号检验 + Holm 校正、四组织交互项 `I = D_T - D_N`）决定；`scGPT` 分类器仅作为补充性的组织来源可分性与表示比较证据。
-3. **透明披露**：在 M4、M6 与 M8 总报告中引用本核查文件（`artifacts/m0/scgpt_pretraining_overlap_audit.md` 及同名 `.json`），明确区分 `GSE245552` 的确定性零重叠与 `GSE164522`（2022）无法排除 CELLxGENE Census `2023-05-08` 无监督正常细胞收录的客观边界。
+3. **透明披露**：在 M4、M6 与 M8 总报告中引用本核查文件（`artifacts/m0/scgpt_pretraining_overlap_audit.md` 及同名 `.json`），明确区分 `GSE245552` 的确定性零重叠与 `GSE164522`（2022）、`GSE178318`（2021）无法排除 CELLxGENE Census `2023-05-08` 无监督细胞收录（`POTENTIAL_UNSUPERVISED_EXPOSURE_UNVERIFIED`）的客观边界。

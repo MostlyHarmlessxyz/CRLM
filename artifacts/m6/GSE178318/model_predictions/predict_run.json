@@ -1,0 +1,18 @@
+{
+  "command": [
+    "scripts/predict_gse178318.py",
+    "--freeze-commit",
+    "5b01467"
+  ],
+  "prospective_zero_exposure": true,
+  "freeze_commit": "5b0146714b24ca8479cda3459510d84e0c34373e",
+  "freeze_mode": "5b01467",
+  "frozen_inputs_sha256": "5ce11557b7bc565184ad7418befc08fec0fe411ab11586de7a92a8d1c7314f14",
+  "gene_universe": "245_164_203608_shared_nuclear",
+  "max_cells": null,
+  "out_dir": "artifacts/m6/GSE178318/model_predictions",
+  "python": "3.12.13",
+  "executable": "/home/mostly_harmless/Projects/CRLM/.venv-scgpt/bin/python",
+  "seconds": 29.255922997001107,
+  "peak_rss_bytes": 3358097408
+}

@@ -1,0 +1,15 @@
+{
+  "n_planned_tests": 2,
+  "n_families": 1,
+  "n_unplanned_results": 33,
+  "n_missing_planned_tests": 0,
+  "unplanned_policy": "separate",
+  "synthetic_example": false,
+  "notes": [
+    "Missing planned tests keep raw_p missing and use p=1 only for Holm adjustment; family size never shrinks.",
+    "Direction requires both mean difference and nonzero-patient sign majority to match the frozen expected direction; all ties are not evaluable.",
+    "Primary/secondary/background labels come from the frozen plan; separate families do not imply study-wide error control.",
+    "A Holm rejection plus direction match is a statistical criterion, not proof of full biological replication, independence or mechanism.",
+    "A frozen timestamp declaration is checked for format, not historical truth; use the external-access log and archived registry hash."
+  ]
+}

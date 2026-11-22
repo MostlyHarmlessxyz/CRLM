@@ -101,16 +101,16 @@
     },
     {
       "accession": "GSE178318",
-      "project_role": "external_secondary_terms_pending",
+      "project_role": "external_secondary_prospective_zero_expression_exposure",
       "geo_submission_date": "2021-06-16",
       "geo_public_date": "2021-09-10",
       "publication_year": 2021,
       "doi": "10.1038/s41421-021-00312-y",
       "temporal_relation_to_snapshot": "before_2023-05-08",
-      "used_for_scgpt_encoding": false,
-      "overlap_status": "POTENTIAL_UNSUPERVISED_EXPOSURE_UNVERIFIED_NOT_RUN",
-      "rationale": "Public ~20 months before 2023-05-08; currently terms_pending with zero expression files downloaded or encoded.",
-      "interpretive_rule": "Keep terms_pending until PI confirmation; if later evaluated, apply non-scGPT program statistics as primary endpoint."
+      "used_for_scgpt_encoding": true,
+      "overlap_status": "POTENTIAL_UNSUPERVISED_EXPOSURE_UNVERIFIED",
+      "rationale": "Public ~20 months before 2023-05-08. If ingested into CELLxGENE Census by 2023-05-08, PBMC (blood) or normal-annotated cells match disease == 'normal' in whole-human; tumor cells match colorectal cancer in pan-cancer queries. Exact SOMA dataset_id roster is not bundled with best_model.pt.",
+      "interpretive_rule": "Primary biological confirmation relies on non-scGPT gene-program statistics; M6 GSE178318 scGPT classifiers (encoded post-freeze on 12 PT/LM tumor libraries with 3 PBMC libraries physically excluded) must be reported alongside zero-pretraining PCA baselines on identical donor bags without claiming zero-pretraining foundation generalization."
     },
     {
       "accession": "GSE203608",

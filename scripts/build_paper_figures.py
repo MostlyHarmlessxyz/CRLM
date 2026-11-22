@@ -37,7 +37,7 @@ PLANNED_COHORTS = (
     ("GSE245552", "245\n(Dev)"),
     ("GSE164522", "164\n(Pri)"),
     ("GSE203608", "203608\n(Sec)"),
-    ("GSE178318", "178\n(Sec)"),
+    ("GSE178318", "178\n(Zero-Exp)"),
 )
 
 SINGLE_LINEAGE_METHODS = (
@@ -99,6 +99,12 @@ def apply_rcparams() -> None:
     )
 
 
+def _savefig_metadata(ext: str) -> dict[str, object]:
+    if ext == "pdf":
+        return {"CreationDate": None, "ModDate": None, "Producer": "Matplotlib"}
+    return {"Software": "Matplotlib"}
+
+
 def save_or_verify(fig: plt.Figure, stem: str, fig_dir: Path | None) -> dict[str, int]:
     """Save PNG + PDF to `fig_dir`, or verify non-empty in-memory rendering when `fig_dir is None`."""
     sizes: dict[str, int] = {}
@@ -106,12 +112,24 @@ def save_or_verify(fig: plt.Figure, stem: str, fig_dir: Path | None) -> dict[str
         if fig_dir is not None:
             for ext in ("png", "pdf"):
                 out_path = fig_dir / f"{stem}.{ext}"
-                fig.savefig(out_path, dpi=200, bbox_inches="tight")
+                fig.savefig(
+                    out_path,
+                    format=ext,
+                    dpi=200,
+                    bbox_inches="tight",
+                    metadata=_savefig_metadata(ext),
+                )
                 sizes[ext] = out_path.stat().st_size
         else:
             for ext in ("png", "pdf"):
                 buf = io.BytesIO()
-                fig.savefig(buf, format=ext, dpi=160, bbox_inches="tight")
+                fig.savefig(
+                    buf,
+                    format=ext,
+                    dpi=160,
+                    bbox_inches="tight",
+                    metadata=_savefig_metadata(ext),
+                )
                 data = buf.getvalue()
                 if len(data) < 1500:
                     raise RuntimeError(f"In-memory {stem}.{ext} buffer unexpectedly small ({len(data)} B)")
@@ -189,6 +207,7 @@ def render_patient_programs(
     candidates_df: pd.DataFrame | None,
     m3_decomp_df: pd.DataFrame | None,
     m6_decomp_df: pd.DataFrame | None,
+    m6_178_decomp_df: pd.DataFrame | None = None,
     *,
     fig_dir: Path | None = FIG,
     data_dir: Path | None = DATA,
@@ -244,6 +263,10 @@ def render_patient_programs(
                 )
                 xtick_labels.append(f"{short_name}\nN = NA")
             else:
+                if acc == "GSE178318":
+                    ax_top.axvspan(x - 0.35, x + 0.35, color="#ecfdf5", alpha=0.88, zorder=0)
+                    ax_top.axvline(x - 0.35, color="#6ee7b7", lw=0.8, ls=":")
+                    ax_top.axvline(x + 0.35, color="#6ee7b7", lw=0.8, ls=":")
                 _scatter_with_mean(ax_top, x, vals, color)
                 xtick_labels.append(f"{short_name}\nN = {len(vals)}")
 
@@ -352,18 +375,60 @@ def render_patient_programs(
                 }
             )
 
+    if m6_178_decomp_df is not None and not m6_178_decomp_df.empty:
+        min_col178 = (
+            "min_subtype_cells"
+            if "min_subtype_cells" in m6_178_decomp_df.columns
+            else "min_subtype_cells_per_tissue"
+        )
+        tot_col178 = (
+            "observed_total_difference"
+            if "observed_total_difference" in m6_178_decomp_df.columns
+            else "observed_total_D_T"
+        )
+        st_col178 = (
+            "full_within_type_state"
+            if "full_within_type_state" in m6_178_decomp_df.columns
+            else "full_within_subtype_state"
+        )
+        d178 = m6_178_decomp_df.loc[
+            m6_178_decomp_df["program"].eq("HALLMARK_UNFOLDED_PROTEIN_RESPONSE")
+            & m6_178_decomp_df[min_col178].eq(1)
+            & m6_178_decomp_df["status"].eq("complete_support")
+        ].copy()
+        for r in d178.itertuples(index=False):
+            decomp_export.append(
+                {
+                    "dataset": "GSE178318",
+                    "donor_uid": r.donor_uid,
+                    "total_D_T": float(getattr(r, tot_col178)),
+                    "composition": float(r.full_composition),
+                    "within_subtype_state": float(getattr(r, st_col178)),
+                }
+            )
+
     decomp_df_out = pd.DataFrame(decomp_export)
     if data_dir is not None and not decomp_df_out.empty:
         decomp_df_out.to_csv(data_dir / "upr_decomposition_reference.csv", index=False)
 
     upr_slots = [
-        ("GSE245552", "total_D_T", "245\nTotal", "#4b5563"),
-        ("GSE245552", "composition", "245\nComp", "#b45309"),
-        ("GSE245552", "within_subtype_state", "245\nState", "#2563eb"),
-        ("GSE164522", "total_D_T", "164\nTotal", "#4b5563"),
-        ("GSE164522", "composition", "164\nComp", "#b45309"),
-        ("GSE164522", "within_subtype_state", "164\nState", "#2563eb"),
+        ("GSE245552", "total_D_T", "245\nTot", "#4b5563"),
+        ("GSE245552", "composition", "245\nCmp", "#b45309"),
+        ("GSE245552", "within_subtype_state", "245\nSt", "#2563eb"),
+        ("GSE164522", "total_D_T", "164\nTot", "#4b5563"),
+        ("GSE164522", "composition", "164\nCmp", "#b45309"),
+        ("GSE164522", "within_subtype_state", "164\nSt", "#2563eb"),
     ]
+    if not decomp_df_out.empty and "GSE178318" in set(decomp_df_out["dataset"]):
+        ax_upr_top.axvline(5.5, color="#cbd5e1", lw=1.0, ls=":", zorder=1)
+        ax_upr_top.axvspan(5.5, 8.5, color="#ecfdf5", alpha=0.65, zorder=0)
+        upr_slots.extend(
+            [
+                ("GSE178318", "total_D_T", "178\nTot", "#4b5563"),
+                ("GSE178318", "composition", "178\nCmp", "#b45309"),
+                ("GSE178318", "within_subtype_state", "178\nSt", "#2563eb"),
+            ]
+        )
     upr_ticks = []
     for x, (ds, col_name, lbl, c_hex) in enumerate(upr_slots):
         vals = (
@@ -372,19 +437,19 @@ def render_patient_programs(
             else np.array([], dtype=float)
         )
         _scatter_with_mean(ax_upr_top, x, vals, c_hex, annotate_signs=False)
-        upr_ticks.append(f"{lbl}\nN={len(vals)}")
+        upr_ticks.append(f"{lbl}\n({len(vals)})")
     upr_all = (
         decomp_df_out[["total_D_T", "composition", "within_subtype_state"]].to_numpy(dtype=float).ravel()
         if not decomp_df_out.empty
         else np.array([0.04])
     )
     upr_max = max(float(np.nanmax(np.abs(upr_all))), 0.03)
-    ax_upr_top.set_xlim(-0.5, 5.5)
+    ax_upr_top.set_xlim(-0.5, len(upr_slots) - 0.5)
     ax_upr_top.set_ylim(-1.22 * upr_max, 1.22 * upr_max)
-    ax_upr_top.set_xticks(range(6), upr_ticks, fontsize=7.2)
+    ax_upr_top.set_xticks(range(len(upr_slots)), upr_ticks, fontsize=6.6 if len(upr_slots) > 6 else 7.2)
     ax_upr_top.set_ylabel("Component of D_T (B vs Plasma)")
-    ax_upr_top.set_title("B/Plasma · UPR (falsified: composition shift)", loc="left", fontsize=9.5, weight="bold")
-    ax_upr_top.set_xlabel("Symmetric subtype decomposition (min ≥1 cell/side)")
+    ax_upr_top.set_title("B/Plasma · UPR (B vs Plasma decomposition; 203608 N/A)", loc="left", fontsize=9.1, weight="bold")
+    ax_upr_top.set_xlabel("Symmetric decomposition (min ≥1/side; 178 N=4: 65.6% Cmp, 34.4% St)", fontsize=7.5)
 
     # Bottom right: B/Plasma::UPR GSE164522 Quartet Q
     ax_upr_bot = axes[1, upr_col]
@@ -463,7 +528,7 @@ def render_development_classifiers(
             color="#e5e7eb",
             alpha=0.85,
             zorder=0,
-            label=f"200-perm 95% null [{lo_env:.2f}, {hi_env:.2f}]",
+            label=f"200-perm 95% null envelope [{lo_env:.2f}, {hi_env:.2f}]",
         )
 
     s_keys = [m for m, _ in present_single]
@@ -740,42 +805,20 @@ def render_spatial_distances(
     return save_or_verify(fig, "03_spatial_distances", fig_dir)
 
 
-def render_external_classifiers(
-    v11_metrics_df: pd.DataFrame,
-    techfix_metrics_df: pd.DataFrame | None = None,
-    v1_archive_metrics_df: pd.DataFrame | None = None,
+def _plot_external_cohort_row(
+    row_axes: np.ndarray,
+    v11_tab: pd.DataFrame,
+    tf_tab: pd.DataFrame,
+    v1_tab: pd.DataFrame,
+    cohort_prefix: str,
+    xlabel_text: str,
     *,
-    fig_dir: Path | None = FIG,
-    data_dir: Path | None = DATA,
-) -> dict[str, int]:
-    """Build `04_external_classifiers` (`1 x 3`: GSE164522 15/15 V1.1 transfer + V1/Techfix reference)."""
-    if data_dir is not None:
-        v11_metrics_df.to_csv(data_dir / "external_classifier_metrics.csv", index=False)
-
-    v11_tab = v11_metrics_df.loc[v11_metrics_df["scope"].eq("common_predicting_methods")].copy()
-    tf_tab = pd.DataFrame()
-    v1_tab = pd.DataFrame()
-    if techfix_metrics_df is not None and not techfix_metrics_df.empty:
-        tf_tab = techfix_metrics_df.loc[
-            techfix_metrics_df["step"].eq("step_b_full_techfix")
-            & techfix_metrics_df["scope"].eq("method_available")
-        ].copy()
-        if v1_archive_metrics_df is None or v1_archive_metrics_df.empty:
-            v1_tab = techfix_metrics_df.loc[
-                techfix_metrics_df["step"].eq("m6_original_published")
-                & techfix_metrics_df["scope"].eq("method_available")
-            ].copy()
-    if v1_tab.empty and v1_archive_metrics_df is not None and not v1_archive_metrics_df.empty:
-        v1_tab = v1_archive_metrics_df.loc[
-            v1_archive_metrics_df["scope"].eq("method_available")
-        ].copy()
-
+    include_legend_labels: bool,
+) -> None:
     m_keys = [m for m, _ in EXTERNAL_METHODS]
     m_labels = [lbl for _, lbl in EXTERNAL_METHODS]
-
-    fig, axes = plt.subplots(1, 3, figsize=(12.2, 4.2), sharey=True, layout="constrained")
     for idx_l, (ax, lineage, color) in enumerate(
-        zip(axes, ["T/NK", "Mono/Mac/DC", "B/Plasma"], PALETTE[:3])
+        zip(row_axes, ["T/NK", "Mono/Mac/DC", "B/Plasma"], PALETTE[:3])
     ):
         r_v11 = v11_tab.loc[v11_tab["lineage"].eq(lineage)].set_index("method").reindex(m_keys)
         r_tf = (
@@ -790,7 +833,6 @@ def render_external_classifiers(
         )
 
         for i, m in enumerate(m_keys):
-            # 1. V1.1 primary (full clean bags, 100% HVG coverage, 15/15 active)
             row11 = r_v11.loc[m]
             y11 = i - 0.15 if (r_tf is not None or r_v1 is not None) else float(i)
             if pd.notna(row11.get("auroc", np.nan)):
@@ -808,12 +850,11 @@ def render_external_classifiers(
                     color=color,
                     s=36,
                     zorder=4,
-                    label="V1.1 (full clean bags, 15/15)" if (idx_l == 0 and i == 0) else None,
+                    label="V1.1 (full clean bags, 15/15)" if (include_legend_labels and idx_l == 0 and i == 0) else None,
                 )
             else:
                 ax.text(0.5, y11, "not estimable", ha="center", va="center", fontsize=7.5)
 
-            # 2. Track 1 Techfix reference (frozen V1 models + HGNC/CP10k/doublet fix)
             if r_tf is not None and m in r_tf.index and pd.notna(r_tf.loc[m].get("auroc", np.nan)):
                 row_tf = r_tf.loc[m]
                 ytf = i + 0.03
@@ -835,10 +876,9 @@ def render_external_classifiers(
                     s=22,
                     lw=1.0,
                     zorder=3,
-                    label="V1_F1_techfix (15/15)" if (idx_l == 0 and i == 0) else None,
+                    label="V1_F1_techfix (15/15)" if (include_legend_labels and idx_l == 0 and i == 0) else None,
                 )
 
-            # 3. Archived V1_F1 baseline (showing the 4 raw-symbol HVG abstentions)
             if r_v1 is not None and m in r_v1.index:
                 row_v1 = r_v1.loc[m]
                 yv1 = i + 0.20
@@ -851,7 +891,7 @@ def render_external_classifiers(
                         s=24,
                         lw=1.1,
                         zorder=2,
-                        label="V1_F1 baseline (11/15, 4 abstained)" if (idx_l == 0 and i == 0) else None,
+                        label="V1_F1 baseline (11/15, 4 abstained)" if (include_legend_labels and idx_l == 0 and i == 0) else None,
                     )
                 else:
                     ax.text(
@@ -860,7 +900,7 @@ def render_external_classifiers(
                         "V1 abstained (<95% raw HVG)",
                         ha="center",
                         va="center",
-                        fontsize=6.6,
+                        fontsize=6.5,
                         color="#b91c1c",
                     )
 
@@ -868,24 +908,161 @@ def render_external_classifiers(
         ax.set_xlim(-0.03, 1.04)
         n_don = int(r_v11["n_donors"].max()) if r_v11["n_donors"].notna().any() else 0
         n_sit = int(r_v11["n_sites"].max()) if r_v11["n_sites"].notna().any() else 0
-        ax.set_title(f"{lineage} · {n_don} donors ({n_sit} sites)", loc="left", weight="bold", fontsize=9.8)
-        ax.set_xlabel("GSE164522 patient-site AUROC")
+        ax.set_title(
+            f"{cohort_prefix} · {lineage} ({n_don}d, {n_sit}s)",
+            loc="left",
+            weight="bold",
+            fontsize=9.0,
+        )
+        ax.set_xlabel(xlabel_text)
 
-    axes[0].set_yticks(range(len(m_labels)), m_labels, fontsize=8.4)
-    axes[0].invert_yaxis()
-    handles, labels = axes[0].get_legend_handles_labels()
+    row_axes[0].set_yticks(range(len(m_labels)), m_labels, fontsize=8.3)
+
+
+def _collect_three_version_rows(
+    cohort: str,
+    v1_tab: pd.DataFrame,
+    tf_tab: pd.DataFrame,
+    v11_tab: pd.DataFrame,
+) -> list[dict[str, object]]:
+    m_keys = [m for m, _ in EXTERNAL_METHODS]
+    out: list[dict[str, object]] = []
+    for ver_name, tab in (
+        ("CRLM_V1_245_F1", v1_tab),
+        ("CRLM_V1_245_F1_techfix", tf_tab),
+        ("CRLM_V1.1_245_F1", v11_tab),
+    ):
+        for lineage in ("T/NK", "Mono/Mac/DC", "B/Plasma"):
+            sub = (
+                tab.loc[tab["lineage"].eq(lineage)].set_index("method").reindex(m_keys)
+                if not tab.empty
+                else pd.DataFrame(index=m_keys)
+            )
+            for m in m_keys:
+                row = sub.loc[m] if m in sub.index else pd.Series(dtype=object)
+                auc = row.get("auroc", np.nan)
+                status = str(row.get("status", "")).strip()
+                if status in ("", "nan", "None"):
+                    if pd.notna(auc):
+                        status = "predicted"
+                    elif m.startswith("PCA_") and pd.notna(row.get("n_sites", np.nan)) and int(row["n_sites"]) == 0:
+                        status = "abstained_lt95pct_raw_hvg"
+                    else:
+                        status = "not_estimable"
+                out.append(
+                    {
+                        "cohort": cohort,
+                        "version": ver_name,
+                        "lineage": lineage,
+                        "method": m,
+                        "status": status,
+                        "n_donors": int(row["n_donors"]) if pd.notna(row.get("n_donors", np.nan)) else 0,
+                        "n_sites": int(row["n_sites"]) if pd.notna(row.get("n_sites", np.nan)) else 0,
+                        "paired_n": int(row["paired_n"]) if pd.notna(row.get("paired_n", np.nan)) else 0,
+                        "auroc": float(auc) if pd.notna(auc) else np.nan,
+                        "auroc_lower95": float(row["auroc_lower95"]) if pd.notna(row.get("auroc_lower95", np.nan)) else np.nan,
+                        "auroc_upper95": float(row["auroc_upper95"]) if pd.notna(row.get("auroc_upper95", np.nan)) else np.nan,
+                        "average_precision": float(row["average_precision"]) if pd.notna(row.get("average_precision", np.nan)) else np.nan,
+                        "balanced_accuracy": float(row["balanced_accuracy"]) if pd.notna(row.get("balanced_accuracy", np.nan)) else np.nan,
+                        "fraction_LM_above_PT": float(row["fraction_LM_above_PT"]) if pd.notna(row.get("fraction_LM_above_PT", np.nan)) else np.nan,
+                    }
+                )
+    return out
+
+
+def render_external_classifiers(
+    v11_metrics_df: pd.DataFrame,
+    techfix_metrics_df: pd.DataFrame | None = None,
+    v1_archive_metrics_df: pd.DataFrame | None = None,
+    v11_178_metrics_df: pd.DataFrame | None = None,
+    three_ver_178_df: pd.DataFrame | None = None,
+    *,
+    fig_dir: Path | None = FIG,
+    data_dir: Path | None = DATA,
+) -> dict[str, int]:
+    """Build `04_external_classifiers` (`2 x 3`: GSE164522 + prospective GSE178318 15/15 transfer)."""
+    if data_dir is not None:
+        v11_metrics_df.to_csv(data_dir / "external_classifier_metrics.csv", index=False)
+        if v11_178_metrics_df is not None and not v11_178_metrics_df.empty:
+            v11_178_metrics_df.to_csv(data_dir / "external_gse178318_classifier_metrics.csv", index=False)
+
+    v11_tab = v11_metrics_df.loc[v11_metrics_df["scope"].eq("common_predicting_methods")].copy()
+    tf_tab = pd.DataFrame()
+    v1_tab = pd.DataFrame()
+    if techfix_metrics_df is not None and not techfix_metrics_df.empty:
+        tf_tab = techfix_metrics_df.loc[
+            techfix_metrics_df["step"].eq("step_b_full_techfix")
+            & techfix_metrics_df["scope"].eq("method_available")
+        ].copy()
+        if v1_archive_metrics_df is None or v1_archive_metrics_df.empty:
+            v1_tab = techfix_metrics_df.loc[
+                techfix_metrics_df["step"].eq("m6_original_published")
+                & techfix_metrics_df["scope"].eq("method_available")
+            ].copy()
+    if v1_tab.empty and v1_archive_metrics_df is not None and not v1_archive_metrics_df.empty:
+        v1_tab = v1_archive_metrics_df.loc[
+            v1_archive_metrics_df["scope"].eq("method_available")
+        ].copy()
+
+    plotted_3ver_rows = _collect_three_version_rows("GSE164522", v1_tab, tf_tab, v11_tab)
+
+    has_178 = v11_178_metrics_df is not None and not v11_178_metrics_df.empty
+    n_rows = 2 if has_178 else 1
+    fig, axes = plt.subplots(
+        n_rows,
+        3,
+        figsize=(12.4, 7.2 if has_178 else 4.2),
+        sharey=True,
+        layout="constrained",
+    )
+    axes_2d = np.atleast_2d(axes)
+
+    _plot_external_cohort_row(
+        axes_2d[0],
+        v11_tab,
+        tf_tab,
+        v1_tab,
+        "A · 164 (Pri)",
+        "GSE164522 patient-site AUROC",
+        include_legend_labels=True,
+    )
+
+    if has_178:
+        v11_178_tab = v11_178_metrics_df.loc[v11_178_metrics_df["scope"].eq("method_available")].copy()
+        tf_178_tab = pd.DataFrame()
+        v1_178_tab = pd.DataFrame()
+        if three_ver_178_df is not None and not three_ver_178_df.empty:
+            tf_178_tab = three_ver_178_df.loc[three_ver_178_df["version"].eq("CRLM_V1_245_F1_techfix")].copy()
+            v1_178_tab = three_ver_178_df.loc[three_ver_178_df["version"].eq("CRLM_V1_245_F1")].copy()
+        plotted_3ver_rows.extend(_collect_three_version_rows("GSE178318", v1_178_tab, tf_178_tab, v11_178_tab))
+        _plot_external_cohort_row(
+            axes_2d[1],
+            v11_178_tab,
+            tf_178_tab,
+            v1_178_tab,
+            "B · 178 (Zero-Exp)",
+            "GSE178318 prospective patient-site AUROC",
+            include_legend_labels=False,
+        )
+    if data_dir is not None:
+        pd.DataFrame(plotted_3ver_rows).to_csv(
+            data_dir / "three_version_classifier_comparison.csv", index=False
+        )
+    axes_2d[0, 0].invert_yaxis()
+
+    handles, labels = axes_2d[0, 0].get_legend_handles_labels()
     if handles:
         fig.legend(
             handles,
             labels,
             loc="lower center",
-            bbox_to_anchor=(0.5, -0.08),
+            bbox_to_anchor=(0.5, -0.05 if has_178 else -0.08),
             ncol=len(handles),
             frameon=False,
-            fontsize=8.0,
+            fontsize=8.2,
         )
     fig.suptitle(
-        "GSE164522 external transfer · 100% HVG coverage (15/15 active models in V1.1 & Techfix vs V1_F1)",
+        "Dual-cohort external transfer (GSE164522 + prospective GSE178318) · V1.1 100% HVG coverage (15/15 active)",
         weight="bold",
         fontsize=11.0,
     )
@@ -915,6 +1092,8 @@ def build_all_from_disk(root_dir: Path = ROOT) -> dict[str, dict[str, int]]:
     m3_decomp = pd.read_csv(m3_decomp_path) if m3_decomp_path.is_file() else None
     m6_decomp_path = art / "m6/GSE164522/patient_effects/patient_B_plasma_decomposition.csv"
     m6_decomp = pd.read_csv(m6_decomp_path) if m6_decomp_path.is_file() else None
+    m6_178_decomp_path = art / "m6/GSE178318/patient_effects/patient_B_plasma_decomposition.csv"
+    m6_178_decomp = pd.read_csv(m6_178_decomp_path) if m6_178_decomp_path.is_file() else None
 
     m4_metrics = pd.read_csv(art / "m4/patient_metrics.csv")
     perm_path = art / "m4/PCA/permutation_null_summary.csv"
@@ -926,10 +1105,20 @@ def build_all_from_disk(root_dir: Path = ROOT) -> dict[str, dict[str, int]]:
     ext_v11 = pd.read_csv(art / "m6/GSE164522/model_predictions/patient_metrics.csv")
     ext_tf = pd.read_csv(TECHFIX_EXT_METRICS) if TECHFIX_EXT_METRICS.is_file() else None
     ext_v1 = pd.read_csv(ARCHIVE_V1_EXT_METRICS) if ARCHIVE_V1_EXT_METRICS.is_file() else None
+    ext_178_path = art / "m6/GSE178318/model_predictions/patient_metrics.csv"
+    ext_178 = pd.read_csv(ext_178_path) if ext_178_path.is_file() else None
+    ext_178_3v_path = art / "m6/GSE178318/model_predictions/three_version_gse178318_classifiers.csv"
+    ext_178_3v = pd.read_csv(ext_178_3v_path) if ext_178_3v_path.is_file() else None
 
     return {
         "01_patient_programs": render_patient_programs(
-            patients, candidates, m3_decomp, m6_decomp, fig_dir=fig_dir, data_dir=data_dir
+            patients,
+            candidates,
+            m3_decomp,
+            m6_decomp,
+            m6_178_decomp,
+            fig_dir=fig_dir,
+            data_dir=data_dir,
         ),
         "02_development_classifiers": render_development_classifiers(
             m4_metrics, perm_null, fig_dir=fig_dir, data_dir=data_dir
@@ -938,7 +1127,13 @@ def build_all_from_disk(root_dir: Path = ROOT) -> dict[str, dict[str, int]]:
             spatial_dist, spatial_sup, fig_dir=fig_dir, data_dir=data_dir
         ),
         "04_external_classifiers": render_external_classifiers(
-            ext_v11, ext_tf, ext_v1, fig_dir=fig_dir, data_dir=data_dir
+            ext_v11,
+            ext_tf,
+            ext_v1,
+            ext_178,
+            ext_178_3v,
+            fig_dir=fig_dir,
+            data_dir=data_dir,
         ),
     }
 

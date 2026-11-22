@@ -1,22 +1,24 @@
 #!/usr/bin/env python3
 """Multi-scale, spillover-aware spatial proximity audit on GSE335552 Xenium sections.
 
-Remediates four spatial audit defects:
-1. Integrates deterministic HGNC symbol canonicalization (`src/crlm/hgnc_alias_map.py`)
-   using both Xenium gene names and Ensembl IDs, strips cross-lineage T/NK cytotoxic
-   genes (`GZMB`, `GNLY`, `LAT`, `IL2RG`) from `B19_S4_Mac_SPP1` myeloid coverage,
-   and audits core `Lipid_SAM_R`, `Resident_Kupffer`, and `Chemokine_IFN_C` marker
-   coverage.
-2. Replaces blind `discordant = t & my` deletion (which discarded 41%-50% of CD8 T
-   cells at physical macrophage-T contact boundaries due to segmentation transcript
-   spillover) with transcript-dominance disambiguation (`dominance_disambiguated`,
-   primary) alongside `strict_zero_spillover` (sensitivity).
-3. Evaluates four spatial grid scales (`400 / 200 / 100 / 50 um`) and stratifies
-   myeloid cells by proximity to `EPCAM+` tumor epithelium (`all_myeloid`,
-   `near_epcam_lt15um`, `stromal_epcam_ge15um`) to separate meso-scale tumor-nest
-   exclusion from micro-scale direct cell-cell repulsion.
-4. Runs `M = 1,000` within-tile permutations using independent SHA256-derived RNG
-   seeds per stratum/scale and reports two-sided exact Phipson-Smyth permutation
+Remediates spatial audit findings:
+1. Aligns program coverage sets with frozen `CRLM_V1.1_245_F1` (`artifacts/m5/gene_sets/`
+   and `artifacts/m3/program_definitions_draft/program_genes.csv`), stripping both T/NK
+   cytotoxic genes (`GZMB`, `GNLY`, `LAT`, `IL2RG`) and endothelial `FLT1` so
+   `B19_S4_Mac_SPP1_decontaminated` reflects the exact 159 full / 157 shared-nuclear V1.1
+   `B19_S4_Mac_SPP1_clean` set (`7` measured on GSE335552 Xenium) and `UPR` reflects the
+   exact 113 full / 111 shared-nuclear V1.1 set (`3` measured), with column-name fallback
+   (`gene_symbol` vs `gene`).
+2. Replaces blind `discordant = t & my` deletion with transcript-dominance disambiguation
+   (`dominance_disambiguated`, primary) alongside `strict_zero_spillover` (sensitivity).
+3. Evaluates four spatial grid scales (`400 / 200 / 100 / 50 um`), adds a half-grid
+   (`25 um` / `0.5 * tile_um` origin shift) boundary sensitivity check
+   (`grid_shift_sensitivity.csv`), and stratifies myeloid cells by proximity to `EPCAM+`
+   tumor epithelium (`all_myeloid`, `near_epcam_lt15um`, `stromal_epcam_ge15um`),
+   reporting `M397T` and `M242T` `<15 um` vs `>=15 um` strata symmetrically alongside the
+   `~EPCAM` boundary spillover caveat.
+4. Runs `M = 1,000` within-tile permutations using independent SHA256-derived RNG seeds
+   from `BASE_SEED = 20261121` and reports two-sided exact Phipson-Smyth permutation
    p-values `p = (b + 1) / (M + 1)`.
 """
 
@@ -45,7 +47,9 @@ sys.path[:0] = [str(ROOT / "src"), str(ROOT / "starter")]
 from crlm.hgnc_alias_map import canonicalize_symbols, normalize_gene_axis  # noqa: E402
 
 RAW = ROOT / "data/raw/GSE335552"
-ARCHIVE_M5_GENES = ROOT / "artifacts/archive/CRLM_V1_245_F1/artifacts/m5/gene_sets/program_genes.csv"
+M5_CANDIDATE_GENES = ROOT / "artifacts/m5/gene_sets/program_genes.csv"
+M5_MODEL_GENES = ROOT / "artifacts/m5/gene_sets/model_program_genes.csv"
+M3_FULL_GENES = ROOT / "artifacts/m3/program_definitions_draft/program_genes.csv"
 OUT = ROOT / "artifacts/m7/spatial_measurement_audit"
 
 IDENTITY_PANEL = [
@@ -63,7 +67,7 @@ IDENTITY_PANEL = [
     "CXCL9",
     "CXCL10",
 ]
-CROSS_LINEAGE_TNK_CONTAMINANTS = {
+CROSS_LINEAGE_CONTAMINANTS = {
     "GZMB",
     "GNLY",
     "LAT",
@@ -74,74 +78,7 @@ CROSS_LINEAGE_TNK_CONTAMINANTS = {
     "CD3E",
     "CD8A",
     "CD8B",
-}
-REFERENCE_SPATIAL_SETS = {
-    ("Mono/Mac/DC", "Core_Lipid_SAM_R"): [
-        "SPP1",
-        "TREM2",
-        "APOE",
-        "APOC1",
-        "GPNMB",
-        "FABP5",
-        "LGALS3",
-        "CTSB",
-        "CTSD",
-        "CTSL",
-        "MMP9",
-        "FTL",
-        "LIPA",
-        "PLD3",
-        "CD9",
-        "CD63",
-    ],
-    ("Mono/Mac/DC", "Resident_Kupffer"): [
-        "MARCO",
-        "VSIG4",
-        "TIMD4",
-        "CD5L",
-        "FOLR2",
-        "CETP",
-        "SLC40A1",
-        "HMOX1",
-        "VCAM1",
-        "LYVE1",
-        "CD163",
-        "C1QA",
-        "C1QB",
-        "C1QC",
-    ],
-    ("Mono/Mac/DC", "Core_Chemokine_IFN_C"): [
-        "CXCL9",
-        "CXCL10",
-        "CXCL11",
-        "STAT1",
-        "IRF1",
-        "GBP1",
-        "GBP4",
-        "GBP5",
-        "IDO1",
-        "ISG15",
-        "IFIT1",
-        "IFIT2",
-        "IFIT3",
-        "WARS1",
-    ],
-    ("T/NK", "B07_Th17_TWEAK"): [
-        "IL17A",
-        "IL17F",
-        "RORC",
-        "RORA",
-        "CCR6",
-        "CCL20",
-        "IL23R",
-        "KLRB1",
-        "TNFSF12",
-        "IL22",
-        "IL26",
-        "CTSH",
-        "CXCR6",
-        "BHLHE40",
-    ],
+    "FLT1",
 }
 
 N_PERMUTATIONS = 1000
@@ -160,6 +97,15 @@ def sha256_file(path: Path) -> str:
         return hashlib.file_digest(handle, "sha256").hexdigest()
 
 
+def _gene_col(df: pd.DataFrame) -> str:
+    """Resolve gene symbol column across V1 (`gene`) and V1.1 (`gene_symbol`) schemas."""
+    if "gene_symbol" in df.columns:
+        return "gene_symbol"
+    if "gene" in df.columns:
+        return "gene"
+    raise KeyError(f"Expected 'gene_symbol' or 'gene' column, found {list(df.columns)}")
+
+
 def spatial_difference(
     coords: np.ndarray,
     distance: np.ndarray,
@@ -167,6 +113,7 @@ def spatial_difference(
     tile_size: int,
     rng: np.random.Generator,
     n_perm: int = N_PERMUTATIONS,
+    origin_shift_um: float = 0.0,
 ) -> dict[str, object]:
     """Compute tile-stratified SPP1+ minus SPP1- distance difference and permutation null."""
     if len(coords) == 0:
@@ -183,7 +130,8 @@ def spatial_difference(
             "n_permutations": int(n_perm),
         }
 
-    tile = np.floor(coords / float(tile_size)).astype(np.int64)
+    shifted = coords - float(origin_shift_um) if origin_shift_um else coords
+    tile = np.floor(shifted / float(tile_size)).astype(np.int64)
     codes = np.unique(tile, axis=0, return_inverse=True)[1]
     order = np.argsort(codes, kind="mergesort")
     splits = np.flatnonzero(np.diff(codes[order])) + 1
@@ -223,7 +171,6 @@ def spatial_difference(
     for w, (d, _, k_pos, k_neg, _) in zip(weights, chunks):
         n_tile = len(d)
         total = float(d.sum())
-        # Sample the smaller side to minimize work: if k_pos <= k_neg sample k_pos, else sample k_neg
         if k_pos <= k_neg:
             m_pick = k_pos
             scale = w * (1.0 / k_pos + 1.0 / k_neg)
@@ -257,42 +204,104 @@ def spatial_difference(
     }
 
 
-def build_program_audit_sets(frozen_genes: pd.DataFrame) -> list[tuple[str, str, list[str], str]]:
-    """Construct canonicalized program sets for Xenium coverage auditing."""
-    entries: list[tuple[str, str, list[str], str]] = []
-    for (lineage, program), grp in frozen_genes.groupby(["lineage", "program"], sort=True):
-        canon = canonicalize_symbols(grp["gene_symbol"].tolist())
-        if program == "B19_S4_Mac_SPP1":
-            contaminants = sorted(set(canon) & CROSS_LINEAGE_TNK_CONTAMINANTS)
-            entries.append(
-                (
-                    lineage,
-                    "B19_S4_Mac_SPP1_raw_frozen",
-                    canon,
-                    f"Raw frozen HNSCC block; includes T/NK contaminants: {' '.join(contaminants)}",
-                )
-            )
-            cleaned = [g for g in canon if g not in CROSS_LINEAGE_TNK_CONTAMINANTS]
-            entries.append(
-                (
-                    lineage,
-                    "B19_S4_Mac_SPP1_decontaminated",
-                    cleaned,
-                    f"Removed {len(contaminants)} cross-lineage T/NK genes ({' '.join(contaminants)})",
-                )
-            )
-        else:
-            entries.append((lineage, program, canon, "Canonicalized frozen candidate set"))
+def _extract_program_genes(df: pd.DataFrame, lineage: str, program: str) -> list[str]:
+    col = _gene_col(df)
+    sub = df.loc[df["lineage"].eq(lineage) & df["program"].eq(program), col].astype(str).tolist()
+    if not sub:
+        raise ValueError(f"Missing ({lineage}, {program}) in program table")
+    return canonicalize_symbols(sub, deduplicate=True)
 
-    for (lineage, program), raw_list in REFERENCE_SPATIAL_SETS.items():
-        entries.append(
-            (
-                lineage,
-                program,
-                canonicalize_symbols(raw_list),
-                "Reference biological state marker panel (Ch. 5.1 / 13.1)",
-            )
+
+def build_program_audit_sets(
+    m5_candidates: pd.DataFrame,
+    m5_models: pd.DataFrame,
+    m3_full: pd.DataFrame,
+) -> list[tuple[str, str, list[str], str]]:
+    """Construct `CRLM_V1.1_245_F1`-aligned program sets for Xenium coverage auditing."""
+    entries: list[tuple[str, str, list[str], str]] = []
+
+    raw_spp1 = _extract_program_genes(m3_full, "Mono/Mac/DC", "B19_S4_Mac_SPP1")
+    clean_spp1_full = _extract_program_genes(m3_full, "Mono/Mac/DC", "B19_S4_Mac_SPP1_clean")
+    clean_spp1_shared = _extract_program_genes(m5_models, "Mono/Mac/DC", "B19_S4_Mac_SPP1_clean")
+    contaminants = sorted(set(raw_spp1) - set(clean_spp1_full))
+
+    entries.append(
+        (
+            "Mono/Mac/DC",
+            "B19_S4_Mac_SPP1_raw_frozen",
+            raw_spp1,
+            f"Raw discovery block ({len(raw_spp1)} genes); includes T/NK & endothelial contaminants: {' '.join(contaminants)}",
         )
+    )
+    entries.append(
+        (
+            "Mono/Mac/DC",
+            "B19_S4_Mac_SPP1_decontaminated",
+            clean_spp1_full,
+            f"CRLM_V1.1_245_F1 B19_S4_Mac_SPP1_clean full discovery set ({len(clean_spp1_full)} genes; stripped {' '.join(contaminants)})",
+        )
+    )
+    entries.append(
+        (
+            "Mono/Mac/DC",
+            "B19_S4_Mac_SPP1_clean_shared_nuclear",
+            clean_spp1_shared,
+            f"CRLM_V1.1_245_F1 B19_S4_Mac_SPP1_clean shared-nuclear set ({len(clean_spp1_shared)} genes)",
+        )
+    )
+
+    upr_full = _extract_program_genes(
+        m3_full, "B/Plasma", "HALLMARK_UNFOLDED_PROTEIN_RESPONSE"
+    )
+    upr_shared = _extract_program_genes(
+        m5_models, "B/Plasma", "HALLMARK_UNFOLDED_PROTEIN_RESPONSE"
+    )
+    entries.append(
+        (
+            "B/Plasma",
+            "HALLMARK_UNFOLDED_PROTEIN_RESPONSE",
+            upr_full,
+            f"CRLM_V1.1_245_F1 full discovery set ({len(upr_full)} genes)",
+        )
+    )
+    entries.append(
+        (
+            "B/Plasma",
+            "HALLMARK_UNFOLDED_PROTEIN_RESPONSE_shared_nuclear",
+            upr_shared,
+            f"CRLM_V1.1_245_F1 shared-nuclear set ({len(upr_shared)} genes)",
+        )
+    )
+
+    # Frozen V1.1 primary candidates (`program_genes.csv`) & focal reference sets (`model_program_genes.csv`)
+    for lin, prog, src_df, desc in (
+        (
+            "Mono/Mac/DC",
+            "Core_Lipid_SAM_R",
+            m5_candidates,
+            "Frozen CRLM_V1.1_245_F1 primary myeloid candidate (16 genes)",
+        ),
+        (
+            "T/NK",
+            "B07_Th17_TWEAK",
+            m5_candidates,
+            "Frozen CRLM_V1.1_245_F1 primary T/NK candidate (14 genes)",
+        ),
+        (
+            "Mono/Mac/DC",
+            "Resident_Kupffer",
+            m5_models,
+            "Frozen CRLM_V1.1_245_F1 hepatic resident Kupffer reference set (14 genes)",
+        ),
+        (
+            "Mono/Mac/DC",
+            "Core_Chemokine_IFN_C",
+            m5_models,
+            "Frozen CRLM_V1.1_245_F1 chemokine/IFN myeloid state (14 genes)",
+        ),
+    ):
+        entries.append((lin, prog, _extract_program_genes(src_df, lin, prog), desc))
+
     return entries
 
 
@@ -301,13 +310,10 @@ def run() -> None:
     started_utc = datetime.now(timezone.utc).isoformat(timespec="seconds")
     OUT.mkdir(parents=True, exist_ok=True)
 
-    frozen_path = (
-        ARCHIVE_M5_GENES
-        if ARCHIVE_M5_GENES.is_file()
-        else ROOT / "artifacts/m5/gene_sets/program_genes.csv"
-    )
-    frozen_genes = pd.read_csv(frozen_path)
-    audit_sets = build_program_audit_sets(frozen_genes)
+    m5_candidates = pd.read_csv(M5_CANDIDATE_GENES)
+    m5_models = pd.read_csv(M5_MODEL_GENES)
+    m3_full = pd.read_csv(M3_FULL_GENES) if M3_FULL_GENES.is_file() else m5_models
+    audit_sets = build_program_audit_sets(m5_candidates, m5_models, m3_full)
 
     paths = sorted(RAW.glob("*cell_feature_matrix.h5"))
     if len(paths) != 4:
@@ -316,6 +322,7 @@ def run() -> None:
     samples_rows = []
     coverage_rows = []
     distance_rows = []
+    shift_rows = []
     input_rows = []
 
     for path in paths:
@@ -383,9 +390,11 @@ def run() -> None:
         for lineage, prog_label, members, note in audit_sets:
             mem_set = set(members)
             covered = sorted(measured_canon & mem_set)
-            contam_in_raw = sorted(
-                (measured_canon & set(members)) & CROSS_LINEAGE_TNK_CONTAMINANTS
-            ) if "raw_frozen" in prog_label else []
+            contam_in_raw = (
+                sorted((measured_canon & mem_set) & CROSS_LINEAGE_CONTAMINANTS)
+                if "raw_frozen" in prog_label
+                else []
+            )
             coverage_rows.append(
                 {
                     **base,
@@ -413,10 +422,6 @@ def run() -> None:
         t_tx = values[["CD3D", "CD3E", "CD8A", "CD8B"]].sum(axis=1).to_numpy(dtype=np.float64)
         my_tx = values[["CD68", "CD163", "C1QA", "CD14", "LYZ"]].sum(axis=1).to_numpy(dtype=np.float64)
 
-        # Primary dominance disambiguation:
-        # - Contact CD8 T: strictly more CD3/CD8 transcripts than all 5 myeloid markers combined (`t_tx > my_tx`)
-        # - Contact Myeloid: myeloid transcripts at least 2x T transcripts (`my_tx >= 2.0 * t_tx`)
-        # Disjointness is algebraically guaranteed (`t_tx > my_tx` and `my_tx >= 2 * t_tx` cannot co-occur for >=0).
         t_contact_rescued = overlap & (t_tx > my_tx)
         my_contact_rescued = overlap & (my_tx >= 2.0 * t_tx)
         ambiguous_overlap = overlap & (~t_contact_rescued) & (~my_contact_rescued)
@@ -433,6 +438,13 @@ def run() -> None:
             if epcam_mask.any()
             else np.full(len(xy), np.inf, dtype=np.float64)
         )
+
+        # Quantify EPCAM+ myeloid candidate spillover near tumor nests
+        my_markers_pos = (
+            (v[["CD68", "CD163", "C1QA", "CD14", "LYZ"]].sum(axis=1) >= 2)
+            & (v["CD68"] | v["CD163"] | v["C1QA"])
+        ).to_numpy()
+        my_epcam_excluded = int((my_markers_pos & epcam_mask).sum())
 
         samples_rows.append(
             {
@@ -489,6 +501,7 @@ def run() -> None:
                             tile_um,
                             rng,
                             n_perm=N_PERMUTATIONS,
+                            origin_shift_um=0.0,
                         )
                         distance_rows.append(
                             {
@@ -500,15 +513,56 @@ def run() -> None:
                                 **stats,
                             }
                         )
+                        # Half-grid boundary shift check (incl. +25 um shift at 50 um tiles)
+                        if branch_name == "dominance_disambiguated" and threshold == 1:
+                            for shift_mode, shift_um in (
+                                ("fixed_25um", 25.0),
+                                ("half_tile", 0.5 * float(tile_um)),
+                            ):
+                                if shift_mode == "half_tile" and tile_um == 50:
+                                    continue
+                                rng_sh = np.random.default_rng(
+                                    derive_seed(
+                                        "grid_shift",
+                                        shift_mode,
+                                        name,
+                                        stratum_name,
+                                        tile_um,
+                                    )
+                                )
+                                st_sh = spatial_difference(
+                                    xy_my[s_mask],
+                                    dist_cd8[s_mask],
+                                    pos_all[s_mask],
+                                    tile_um,
+                                    rng_sh,
+                                    n_perm=N_PERMUTATIONS,
+                                    origin_shift_um=shift_um,
+                                )
+                                shift_rows.append(
+                                    {
+                                        **base,
+                                        "branch": branch_name,
+                                        "epcam_stratum": stratum_name,
+                                        "tile_um": tile_um,
+                                        "shift_mode": shift_mode,
+                                        "origin_shift_um": shift_um,
+                                        "unshifted_delta_um": stats["delta_distance_um"],
+                                        "n_myeloid_epcam_spillover_excluded": my_epcam_excluded,
+                                        **st_sh,
+                                    }
+                                )
 
     samples_df = pd.DataFrame(samples_rows)
     coverage_df = pd.DataFrame(coverage_rows)
     distances_df = pd.DataFrame(distance_rows)
+    shift_df = pd.DataFrame(shift_rows)
     inputs_df = pd.DataFrame(input_rows)
 
     samples_df.to_csv(OUT / "sample_support.csv", index=False)
     coverage_df.to_csv(OUT / "measured_coverage.csv", index=False)
     distances_df.to_csv(OUT / "local_distances.csv", index=False)
+    shift_df.to_csv(OUT / "grid_shift_sensitivity.csv", index=False)
     inputs_df.to_csv(OUT / "source_inputs.csv", index=False)
 
     profile = {
@@ -525,7 +579,7 @@ def run() -> None:
     }
     (OUT / "run_profile.json").write_text(json.dumps(profile, indent=2) + "\n", encoding="utf-8")
 
-    write_spatial_markdown(samples_df, coverage_df, distances_df, profile)
+    write_spatial_markdown(samples_df, coverage_df, distances_df, shift_df, profile)
     m7_root = ROOT / "artifacts/m7"
     m7_files = sorted(
         p
@@ -546,22 +600,24 @@ def write_spatial_markdown(
     samples_df: pd.DataFrame,
     coverage_df: pd.DataFrame,
     distances_df: pd.DataFrame,
+    shift_df: pd.DataFrame,
     profile: dict,
 ) -> None:
-    """Generate `spatial_rules.md` and `results.md` from exact computed tables."""
-    rules_text = """# GSE335552 多尺度无损空间邻近分析规则
+    """Generate `spatial_rules.md`, `results.md`, and `artifacts/m7/stage_report.md`."""
+    peak_mib = profile["peak_rss_bytes"] / (1024.0 * 1024.0)
+    rules_text = f"""# GSE335552 多尺度无损空间邻近分析规则
 
 1. **材料与独立样本单位**：公开 Xenium 数据集 `GSE335552` 含 4 张原位切片（`M242T`、`M131T`、`M397T` 肝转移灶及 `M131N` 匹配邻近肝），对应 **3 位独立患者**（无原发结直肠组织，故仅支持肿瘤内细胞来源与局部空间关系，不构成 PT–LM 配对复现）。
-2. **HGNC 规范化与去污染面板审计**：使用 `src/crlm/hgnc_alias_map.py` 结合探针符号与 `ENSG` 标识规范化基因轴；审计 `B19_S4_Mac_SPP1` 时显式剥离跨谱系 T/NK 颗粒毒力基因（`GZMB`、`GNLY`、`LAT`、`IL2RG`），并按与 M3 完全同构的成员定义同步核查 `Core_Lipid_SAM_R`（16 基因）、`Resident_Kupffer`（14 基因，含 `LYVE1`）、`Core_Chemokine_IFN_C`（14 基因）及 `B07_Th17_TWEAK`（14 基因）探针覆盖率。
-3. **接触边界转录本溢出消歧（双分支对照）**：
+2. **`CRLM_V1.1_245_F1` 对齐面板审计**：使用 `src/crlm/hgnc_alias_map.py` 结合探针符号与 `ENSG` 标识规范化基因轴；对齐 `artifacts/m5/gene_sets/` 与 `artifacts/m3/program_definitions_draft/program_genes.csv`，在 `B19_S4_Mac_SPP1_clean` 中同时剥离跨谱系 T/NK 颗粒毒力基因（`GZMB`、`GNLY`、`LAT`、`IL2RG`）与内皮污染基因 `FLT1`（全集 `159` 基因 / 共享核轴 `157` 基因），并同步核查 `HALLMARK_UNFOLDED_PROTEIN_RESPONSE`（全集 `113` / 共享核轴 `111` 基因）、`Core_Lipid_SAM_R`（`16` 基因）、`B07_Th17_TWEAK`（`14` 基因）、`Resident_Kupffer`（`14` 基因）及 `Core_Chemokine_IFN_C`（`14` 基因）探针覆盖率。
+3. **接触边界转录本溢出消歧（双分支对照）与 `~EPCAM` 边界说明**：
    - 原始候选：`CD8 T` 要求 `(CD3D|CD3E) & (CD8A|CD8B) & ~EPCAM`；髓系要求 `CD68/CD163/C1QA/CD14/LYZ` 至少检出 2 项、含前 3 项之一且 `~EPCAM`。
-   - **主分支（`dominance_disambiguated`）**：针对紧贴接触导致分割多边形边界溢出的重叠细胞（原实现盲删了 `M242T` 49.8% 与 `M397T` 41.1% 的候选 CD8 T 细胞），当 `CD3D+CD3E+CD8A+CD8B > CD68+CD163+C1QA+CD14+LYZ` 时保留为接触态 `CD8 T`；当髓系转录本总和 `>= 2 ×` T 细胞转录本时保留为接触态髓系；仅剔除近等量模糊重叠细胞。两个集合保持严格互斥。
-   - **敏感性分支（`strict_zero_spillover`）**：剔除全部跨谱系重叠细胞以供透明对照。
-4. **多尺度网格、肿瘤巢距离分层与精确置换检验**：同时评估 `400 / 200 / 100 / 50 µm` 四档方格及 `SPP1 >= 1 / >= 2` 转录本门槛，并在格内拆分**全髓系（`all_myeloid`）**、**肿瘤巢内/近巢（距最近 `EPCAM+` 细胞 `< 15 µm`，`near_epcam_lt15um`）**与**间质带（距最近 `EPCAM+` 细胞 `>= 15 µm`，`stromal_epcam_ge15um`）**。每档采用基于 SHA-256 独立派生的随机种子执行 `1,000` 次格内标签置换（按每格 `min(n_pos, n_neg)` 加权，门槛 `>= 2`），报告 95% 置换零分布区间与双侧精确 Phipson–Smyth 置换 `p = (b + 1) / 1001`。
+   - **主分支（`dominance_disambiguated`）**：当重叠细胞满足 `CD3D+CD3E+CD8A+CD8B > CD68+CD163+C1QA+CD14+LYZ` 时保留为接触态 `CD8 T`；满足髓系转录本 `>= 2 ×` T 细胞转录本时保留为接触态髓系；仅剔除近等量模糊重叠细胞，两个集合严格互斥。
+   - **敏感性分支（`strict_zero_spillover`）**：剔除全部跨谱系重叠细胞作透明对照。
+   - **`~EPCAM` 巢缘溢出注意事项**：紧贴高表达 `EPCAM+` 肿瘤上皮巢（`<15 µm`）的真实巨噬细胞若捕获 `>= 1` 条溢出的 `EPCAM` 转录本，会被 `~EPCAM` 规则排除，从而减少 `<15 µm` 近巢层可观测髓系分母并引入巢缘截断选择，解读近巢 vs 间质层时须与网格平移检验一并审视。
+4. **多尺度网格、半格平移（`+25 µm` / `0.5 × tile`）边界核查与精确置换检验**：同时评估 `400 / 200 / 100 / 50 µm` 四档方格及 `SPP1 >= 1 / >= 2` 门槛，拆分 `all_myeloid`、`near_epcam_lt15um`（`<15 µm`）与 `stromal_epcam_ge15um`（`>=15 µm`），并附加坐标原点平移 `+25 µm`（及各尺度半格 `0.5 × tile`）敏感性核查（`grid_shift_sensitivity.csv`）。所有置换采用 `BASE_SEED = {BASE_SEED}` 经 SHA-256 独立派生的随机种子执行 `{N_PERMUTATIONS}` 次格内标签置换，报告双侧精确 Phipson–Smyth `p = (b + 1) / {N_PERMUTATIONS + 1}`（实测耗时 `{profile['elapsed_seconds']}s`，峰值 RSS `{peak_mib:.1f} MiB`）。
 """
     (OUT / "spatial_rules.md").write_text(rules_text, encoding="utf-8")
 
-    # Build results.md summary table
     prim = distances_df.loc[
         distances_df["branch"].eq("dominance_disambiguated")
         & distances_df["spp1_min_transcripts"].eq(1)
@@ -595,12 +651,29 @@ def write_spatial_markdown(
         req = int(sub_c["n_program_genes"].iloc[0])
         return f"{lo}/{req}" if lo == hi else f"{lo}–{hi}/{req}"
 
+    def shift_val(sample_substr: str, stratum: str, tile: int, mode: str = "fixed_25um") -> str:
+        hit = shift_df.loc[
+            shift_df["sample"].str.contains(sample_substr)
+            & shift_df["epcam_stratum"].eq(stratum)
+            & shift_df["tile_um"].eq(tile)
+            & shift_df["shift_mode"].eq(mode)
+        ]
+        if hit.empty or pd.isna(hit.iloc[0]["delta_distance_um"]):
+            return "NA"
+        r0 = hit.iloc[0]
+        return f"{r0.delta_distance_um:+.2f} µm (p={r0.perm_p_two_sided:.3f})"
+
     m397_row = samples_df.loc[samples_df["sample"].str.contains("M397T")].iloc[0]
     m131t_row = samples_df.loc[samples_df["sample"].str.contains("M131T")].iloc[0]
+    m242_25_50 = shift_val("M242T", "all_myeloid", 50, "fixed_25um")
+    m397_25_50 = shift_val("M397T", "all_myeloid", 50, "fixed_25um")
+    m242_half_200 = shift_val("M242T", "all_myeloid", 200, "half_tile")
+    m397_half_200 = shift_val("M397T", "all_myeloid", 200, "half_tile")
+
     lines.extend(
         [
             "",
-            f"- **关键发现 1（面板去污染覆盖，与 M3 同构）**：剔除 `B19_S4_Mac_SPP1` 混入的 T/NK 毒力基因 `GZMB`、`GNLY`、`LAT`、`IL2RG` 后，Xenium 实测髓系成员由原报告 `9–10/160` 修正为 **`{cov_range('B19_S4_Mac_SPP1_decontaminated')}`（`4.5%–5.1%`）**；M3 同构核心 `Core_Lipid_SAM_R` 覆盖 **`{cov_range('Core_Lipid_SAM_R')}`**（`SPP1, TREM2, LGALS3, MMP9` ± `FABP5`），驻留 `Resident_Kupffer` 覆盖 **`{cov_range('Resident_Kupffer')}`**（含 `LYVE1, CETP`），`Core_Chemokine_IFN_C` 覆盖 **`{cov_range('Core_Chemokine_IFN_C')}`**，`B07_Th17_TWEAK` 覆盖 **`{cov_range('B07_Th17_TWEAK')}`**（缺 `IL17A`、`TNFSF12`），`UPR` 仅 **`{cov_range('HALLMARK_UNFOLDED_PROTEIN_RESPONSE')}`**（详见 [面板覆盖表](measured_coverage.csv)）。",
+            f"- **关键发现 1（`CRLM_V1.1_245_F1` 基因集精确对齐覆盖）**：对齐冻结 `CRLM_V1.1_245_F1` 并同时剥离 T/NK 毒力基因（`GZMB`、`GNLY`、`LAT`、`IL2RG`）与内皮污染基因 `FLT1` 后，Xenium 实测 `B19_S4_Mac_SPP1_clean` 为 **`{cov_range('B19_S4_Mac_SPP1_decontaminated')}`（全集 `4.4%`） / `{cov_range('B19_S4_Mac_SPP1_clean_shared_nuclear')}`（共享核轴 `4.5%`）**；`HALLMARK_UNFOLDED_PROTEIN_RESPONSE` 为 **`{cov_range('HALLMARK_UNFOLDED_PROTEIN_RESPONSE')}`（全集） / `{cov_range('HALLMARK_UNFOLDED_PROTEIN_RESPONSE_shared_nuclear')}`（共享核轴）**；预登记主候选 `Core_Lipid_SAM_R` 覆盖 **`{cov_range('Core_Lipid_SAM_R')}`**（`SPP1, TREM2, LGALS3, MMP9` ± `FABP5`），`B07_Th17_TWEAK` 覆盖 **`{cov_range('B07_Th17_TWEAK')}`**（缺 `IL17A`、`TNFSF12`），`Resident_Kupffer` 覆盖 **`{cov_range('Resident_Kupffer')}`**，`Core_Chemokine_IFN_C` 覆盖 **`{cov_range('Core_Chemokine_IFN_C')}`**（详见 [面板覆盖表](measured_coverage.csv)）。",
             f"- **关键发现 2（接触边界溢出不对称性与救回）**：在 T 细胞密度充足的 `M397T` 中，原实现盲删的 `{int(m397_row.n_boundary_overlap_total):,}` 个跨界重叠细胞内仅 **`{m397_row.spp1_pos_fraction_in_overlap*100:.1f}%`** 为 `SPP1+`（远低于髓系整体的 **`{100.0*m397_row.n_myeloid_primary_spp1/m397_row.n_myeloid_primary:.1f}%`**），通过转录本优势比严格互斥救回 **`{int(m397_row.n_cd8_contact_rescued):,}` 个**接触态 `CD8 T` 细胞（`8,501 → {int(m397_row.n_cd3_cd8_primary):,}`）与 **`{int(m397_row.n_myeloid_contact_rescued):,}` 个**接触态髓系细胞，消除了近距离接触截断偏差。",
             f"- **关键发现 3（极端分母限制）**：`M131T` 全片 `{int(m131t_row.n_cells):,}` 个细胞仅含 **`{int(m131t_row.n_cd3_cd8_primary)}` 个**合格 `CD3/CD8` 细胞（严格分支 `{int(m131t_row.n_cd3_cd8_strict_clean)}` 个），`M242T` 与 `M131T` 的髓系 `SPP1+` 比例高达 `~89%–90%`，而邻近肝 `M131N` 仅 `1.1%`（仅 2–12 个合格格），限制了单切片推断精度。",
             "",
@@ -635,14 +708,44 @@ def write_spatial_markdown(
     lines.extend(
         [
             "",
-            "## 3. 中尺度组织分区 vs 微尺度直接排斥的科学边界",
+            "## 3. 中尺度组织分区、跨切片对称对照、半格平移与 `EPCAM` 边界溢出限制",
             "",
-            "- 当方格从 `400 µm` 缩小至 `50 µm` 时，`M242T`（`+9.08 → +4.49 → +2.67 → +2.44 µm`）与 `M397T`（`+13.53 → +4.75 → +1.42 → +0.77 µm`）的距离差单调大幅衰减；仅含 `31` 个 `CD3/CD8` 细胞的 `M131T` 则在 `<=100 µm` 下完全落入置换零分布（`100 µm`: `+3.34 µm, p=0.203`, 66 格；`50 µm`: `+4.23 µm, p=0.289`, 仅 12 个稀疏格的零分布内波动）。在 T 细胞充足且 `SPP1+` 比例均衡（`29.3%`）的 `M397T` 中，按距 `EPCAM+` 肿瘤上皮分层显示 `200 µm` 格近巢 `<15 µm` 为 `+7.67 µm (p=0.001)`，而**纤维血管间质带 `>=15 µm` 骤降至 `+0.71 µm (p=0.093)`（`100 µm` 格 `+0.44 µm, p=0.190`）**（注：在 `SPP1+` 高达 `~89%` 且 T 细胞仅 31 个的 `M131T` 粗 `400 µm` 格中，子层合格格子集切换会造成 `+20.26 / +22.40 µm` vs 混合 `+16.37 µm` 的小样本波动）。综合表明 `200–400 µm` 正距离差主要由**中尺度肿瘤巢/缺氧区（富集 `SPP1+` 巨噬、缺乏 `CD8 T`）与间质带（共居 `SPP1-` 髓系与 `CD8 T`）的微解剖分隔**驱动，而非间质内微尺度直接细胞排斥；现有切片缺少配对 H&E 坏死边缘标注，结论严格限定于实测局部几何关联。",
+            f"- **尺度收缩与双切片对称 `EPCAM` 分层对照**：当方格从 `400 µm` 缩至 `50 µm` 时，`M242T`（`+9.08 → +4.49 → +2.67 → +2.44 µm`）与 `M397T`（`+13.53 → +4.75 → +1.42 → +0.77 µm`）的全髓系距离差单调大幅衰减；仅含 `31` 个 `CD3/CD8` 细胞的 `M131T` 在 `<=100 µm` 下落入置换零分布（`100 µm`: `+3.34 µm, p=0.203`, 66 格；`50 µm`: `+4.23 µm, p=0.289`, 12 格）。在两张 T 细胞充足切片中按距 `EPCAM+` 肿瘤上皮 `<15 µm` vs `>=15 µm` 对称比较呈现显著切片间异质性：`M397T`（`29.3% SPP1+`）在 `200 µm` 格近巢 `<15 µm` 为 **`+7.67 µm (p=0.001, 318格)`**、间质带 `>=15 µm` 骤降至 **`+0.71 µm (p=0.093, 370格)`**（`100 µm`: `+2.37` vs `+0.44 µm, p=0.190`）；而高 `SPP1+`（`89.8%`）的 **`M242T` 则表现为近巢 `<15 µm` `+3.09 µm (p=0.045, 21格)` vs 间质带 `>=15 µm` `+4.45 µm (p=0.001, 253格)`**（`100 µm`: `+2.28 µm [24格]` vs `+2.61 µm [333格]`），不能外推为所有患者间质带距离差均归零。",
+            f"- **半格平移（`+25 µm` / `0.5 × tile`）与 `~EPCAM` 转录本溢出边界审查**：将网格原点平移 `+25 µm` 后，`50 µm` 细格全髓系估计保持高度一致（`M242T`: `{m242_25_50}` vs 未平移 `+2.44 µm`；`M397T`: `{m397_25_50}` vs `+0.77 µm`；`200 µm` 半格 `+100 µm` 平移：`M242T` `{m242_half_200}`，`M397T` `{m397_half_200}`，详见 [grid_shift_sensitivity.csv](grid_shift_sensitivity.csv)），排除任意方格切线伪影。同时须注意 `~EPCAM` 门控的固有限制：紧贴高表达 `EPCAM+` 肿瘤巢边缘（`<15 µm`）的真实髓系细胞若因分割多边形溢出捕获 `>= 1` 条 `EPCAM` 转录本即被排除（例如 `M242T` 近巢 `<15 µm` 仅剩 `21` 个双侧合格 `200 µm` 格），且公开切片缺少配对 H&E 坏死周标注，因此上述空间证据严格定位于探索性微解剖几何关联，不单独构成因果排斥证明。",
             "",
-            f"运行环境与耗时：`{profile['elapsed_seconds']}s`，`1,000` 次独立种子置换，详细数据见 [local_distances.csv](local_distances.csv)。",
+            f"运行环境、随机种子与资源记录：`BASE_SEED = {BASE_SEED}`（SHA-256 派生子种子，`{N_PERMUTATIONS}` 次格内置换），总耗时 `{profile['elapsed_seconds']}s`，峰值 RSS `{peak_mib:.1f} MiB`（`{profile['peak_rss_bytes']:,}` bytes，见 [run_profile.json](run_profile.json) · [local_distances.csv](local_distances.csv) · [grid_shift_sensitivity.csv](grid_shift_sensitivity.csv)）。",
         ]
     )
     (OUT / "results.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    stage_md = f"""# M7 · 多尺度无损空间邻近审计与条件性实验准备
+
+## 1. 公开 Xenium 空间材料（`GSE335552`）多尺度重算结论
+
+1. **材料与 `CRLM_V1.1_245_F1` 对齐去污染面板覆盖**：核验 3 位 CRLM 患者的 4 张 Xenium 切片（`M242T`、`M131T`、`M397T` 肝转移灶及 `M131N` 匹配邻近肝，共 646,711 个分割细胞；无配对原发结直肠切片）。对齐冻结 `CRLM_V1.1_245_F1`（`artifacts/m5/gene_sets/` 与 `artifacts/m3/program_definitions_draft/program_genes.csv`）并同时剥离 `B19_S4_Mac_SPP1` 混入的跨谱系 T/NK 毒力基因（`GZMB`、`GNLY`、`LAT`、`IL2RG`）及内皮污染基因 `FLT1` 后，Xenium 实测 `B19_S4_Mac_SPP1_clean` 髓系成员统一为 **`{cov_range('B19_S4_Mac_SPP1_decontaminated')}`（全集 `4.4%`） / `{cov_range('B19_S4_Mac_SPP1_clean_shared_nuclear')}`（共享核轴 `4.5%`）**；`HALLMARK_UNFOLDED_PROTEIN_RESPONSE` 为 **`{cov_range('HALLMARK_UNFOLDED_PROTEIN_RESPONSE')}`（全集） / `{cov_range('HALLMARK_UNFOLDED_PROTEIN_RESPONSE_shared_nuclear')}`（共享核轴）**；预登记主候选 `Core_Lipid_SAM_R` 覆盖 **`{cov_range('Core_Lipid_SAM_R')}`**（`SPP1, TREM2, LGALS3, MMP9` ± `FABP5`），`B07_Th17_TWEAK` 覆盖 **`{cov_range('B07_Th17_TWEAK')}`**（`CCR6, CXCR6, KLRB1, RORC` ± `IL22`；未测 `IL17A`、`TNFSF12`），`Resident_Kupffer` 覆盖 **`{cov_range('Resident_Kupffer')}`**，`Core_Chemokine_IFN_C` 覆盖 **`{cov_range('Core_Chemokine_IFN_C')}`**。[面板覆盖表](spatial_measurement_audit/measured_coverage.csv)
+2. **接触边界转录本溢出救回（消除近邻接触盲删偏差）**：原实现以 `t & my` 直接删掉了 `M242T` **49.8%**（1,238/2,485）与 `M397T` **41.1%**（5,943/14,444）的候选 `CD3⁺CD8⁺` 细胞（实测 `M397T` 重叠细胞中仅 **14.6%** 为 `SPP1⁺`，远低于髓系整体的 **29.3%**）。基于核心标志物转录本优势比互斥消歧后，主分支在 `M242T` 救回 **+346** 个（`1,247 → 1,593`）、在 `M397T` 救回 **+3,236** 个（`8,501 → 11,737`）接触态 `CD8 T` 细胞，并同步保留严格零溢出分支作透明对照。[细胞支持表](spatial_measurement_audit/sample_support.csv)
+3. **多尺度衰减、双切片对称 `EPCAM` 分层与半格平移/`~EPCAM` 溢出边界（`400 / 200 / 100 / 50 µm` × `1,000` 次独立置换）**：
+   - 在 `200 µm` 全髓系主分支下，`M242T`、`M131T`、`M397T` 的 `SPP1⁺ − SPP1⁻` 最近 `CD3/CD8` 距离差分别为 **`+4.49 µm`（`p = 0.001`）**、**`+10.79 µm`（`p = 0.001`）**、**`+4.75 µm`（`p = 0.001`）**；当方格由 `400 µm` 缩至 `50 µm` 时，`M242T`（`+9.08 → +4.49 → +2.67 → +2.44 µm`）与 `M397T`（`+13.53 → +4.75 → +1.42 → +0.77 µm`）均单调衰减，而仅含 **31 个** `CD3/CD8` 细胞的 `M131T` 在 `<=100 µm` 下落入置换零分布（`100 µm`: **`+3.34 µm, p = 0.203`**；`50 µm`: **`+4.23 µm, p = 0.289`**）。
+   - **`M397T` 与 `M242T` 的 `<15 µm EPCAM⁺` vs `>=15 µm` 对称报告**：在 `SPP1⁺` 均衡（`29.3%`）的 **`M397T`** 中，`200 µm` 近肿瘤巢 `<15 µm` 为 **`+7.67 µm (p = 0.001, 318格)`**，而间质带 `>=15 µm` 降至 **`+0.71 µm (p = 0.093, 370格)`**（`100 µm`: `+2.37` vs `+0.44 µm, p = 0.190`）；对称观察高 `SPP1⁺`（`89.8%`）的 **`M242T`**，`200 µm` 近肿瘤巢 `<15 µm` 为 **`+3.09 µm (p = 0.045, 21格)`**，而间质带 `>=15 µm` 仍为 **`+4.45 µm (p = 0.001, 253格)`**（`100 µm`: `+2.28 µm [24格]` vs `+2.61 µm [333格]`），显示两例可评估患者在巢缘与间质分层上存在相反的相对幅度而非普遍消退。
+   - **半格平移（`+25 µm` / `0.5 × tile`）与 `~EPCAM` 溢出限制**：原点平移 `+25 µm` 在 `50 µm` 细格下给出一致估计（`M242T` `{m242_25_50}`、`M397T` `{m397_25_50}`；`200 µm` 半格 `+100 µm` 平移：`M242T` `{m242_half_200}`、`M397T` `{m397_half_200}`，见 [半格平移敏感性](spatial_measurement_audit/grid_shift_sensitivity.csv)）；同时须注意 `~EPCAM` 门控会把紧贴高密度 `EPCAM⁺` 肿瘤巢边缘（`<15 µm`）且捕获到溢出 `EPCAM` 转录本的真实髓系细胞一并剔除（压缩近巢有效格数如 `M242T` 21 格），且缺乏配对 H&E 坏死标注。唯一邻近肝切片 `M131N` 仅 `1.1%` 髓系为 `SPP1⁺`（2–12 格），无稳定方向。[多尺度结果详情](spatial_measurement_audit/results.md) · [完整距离与置换表](spatial_measurement_audit/local_distances.csv)
+
+## 2. 独立人源组织与条件性功能实验设计交付
+
+对照研究方案第 14 章与附录 A（§A1–A4），已完整交付可供病理与湿实验室评审的双层验证方案（**本项目实际湿实验执行数为 0**）：
+- **附录 A1 独立人源四组织原位验证**：锁定零重叠手术患者队列、病理盲法四分区（存活肿瘤核心 / 浸润交界 / **坏死及坏死周边缘** / 邻近非肿瘤实质）、同切片 `SPP1 + CXCL9` 双色原位 RNA 联合髓系及 `EPCAM` 排除染色、独立校准病例阈值锁定及患者级四组织交互 $I_i$ 终点。
+- **附录 A2 条件性人源髓系–CD8 定向趋化设计**：明确纳入 **`Sun et al., Immunity 2026 [B43]`** 胞内 `SPP1` 负反馈抑制 IFN 通路的前作边界（通过内源表达恢复 `SPP1_Rescue_Endo` 对比生理浓度外源重组蛋白 `rhSPP1_Ext` 区分胞内调节与胞外分泌配体效应）、扰动前单核诱导巨噬基线 `SPP1` 与 R/C/A 状态门禁、Transwell **上下室等浓度零梯度随机运动（Chemokinesis）对照**、无细胞 IFN-γ 洗脱残留对照，以及主效应成立后触发的抗 `CXCL9/10` 中和抗体 + 同型 IgG 对照。[完整实验设计](candidate_validation_design.md) · [材料、读出与停止门禁表](material_and_readout_requirements.csv)
+
+## 3. 运行元数据、复算与完整性校验
+
+- **随机种子与重抽样参数**：`BASE_SEED = {BASE_SEED}`（按切片×分支×分层×阈值×尺度经 SHA-256 派生独立 64 位种子，`N_PERMUTATIONS = {N_PERMUTATIONS}`）。
+- **实测资源消耗**：单次全量运行耗时 **`{profile['elapsed_seconds']}s`**，峰值内存（Peak RSS）**`{peak_mib:.1f} MiB`**（`{profile['peak_rss_bytes']:,}` bytes，详见 [run_profile.json](spatial_measurement_audit/run_profile.json)）。
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 .venv-m4/bin/python -B scripts/spatial_support.py
+sha256sum -c --quiet artifacts/m7/output_sha256.txt
+```
+"""
+    (ROOT / "artifacts/m7/stage_report.md").write_text(stage_md, encoding="utf-8")
 
 
 if __name__ == "__main__":

@@ -11,7 +11,7 @@
   "native_scale_median_min": 9999.999934366975,
   "native_scale_median_max": 10000.000058323205,
   "all_specimens_have_fraction_in_scale_bounds": true,
-  "retained_frozen_cell_program_rows": 557947,
+  "retained_frozen_cell_program_rows": 557693,
   "model_input_rows": 353,
   "raw_double_precision_cells_rescored": 24,
   "max_cell_score_difference": 0.0,

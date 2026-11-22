@@ -1,8 +1,8 @@
 {
   "n_planned_tests": 8,
   "n_families": 4,
-  "n_unplanned_results": 14,
-  "n_missing_planned_tests": 2,
+  "n_unplanned_results": 22,
+  "n_missing_planned_tests": 0,
   "unplanned_policy": "separate",
   "synthetic_example": false,
   "notes": [
@@ -13,10 +13,10 @@
     "A frozen timestamp declaration is checked for format, not historical truth; use the external-access log and archived registry hash."
   ],
   "version": "CRLM_V1_245_F1_techfix",
-  "started_utc": "2026-11-21T16:09:59+00:00",
-  "completed_utc": "2026-11-21T16:11:22+00:00",
-  "elapsed_seconds": 82.67,
-  "peak_rss_bytes": 7804772352,
+  "started_utc": "2026-11-22T03:23:43+00:00",
+  "completed_utc": "2026-11-22T03:25:08+00:00",
+  "elapsed_seconds": 85.07,
+  "peak_rss_bytes": 7730073600,
   "archived_plan_sha256": "d4651f49e11b8c98747cfbb55b672c4816e1203a054358c93bea03fa5e230e8a",
   "gse164522_cd3e_doublets_removed": {
     "B/Plasma_hC75_B-CD3E": 3174,

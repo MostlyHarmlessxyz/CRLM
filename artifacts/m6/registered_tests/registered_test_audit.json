@@ -1,8 +1,8 @@
 {
   "n_planned_tests": 8,
   "n_families": 4,
-  "n_unplanned_results": 64,
-  "n_missing_planned_tests": 2,
+  "n_unplanned_results": 97,
+  "n_missing_planned_tests": 0,
   "unplanned_policy": "separate",
   "synthetic_example": false,
   "notes": [
@@ -13,5 +13,5 @@
     "A frozen timestamp declaration is checked for format, not historical truth; use the external-access log and archived registry hash."
   ],
   "plan_sha256": "e69a79ea1869b8755e4a1c81d2b23ab4fef48a1b7a999d179713dc8f1f8eed07",
-  "summaries_sha256": "57340abaa5ee7d5fbd6ca47b91e5ed02aedd0313d02fd400002340fa69dffde4"
+  "summaries_sha256": "8d9bc27e0268b9c074944ff08e16749f9f975f51eb298ae99f61e4c49475ee1a"
 }

@@ -1,6 +1,6 @@
 lineage,program,n_axis_genes,n_frozen_raw,n_frozen,n_measured,measured_fraction,has_frozen_matched_controls,primary_annotation_source,n_cells_main,n_cells_rule_m1,missing_symbols,eligible
 Mono/Mac/DC,Core_Lipid_SAM_R,18733,16,16,16,1.0,True,clean_author_exact,9241,6955,,True
-T/NK,B07_Th17_TWEAK,18733,14,14,14,1.0,True,clean_author_exact,3963,2966,,True
+T/NK,B07_Th17_TWEAK,18733,14,14,14,1.0,True,clean_author_exact,3963,2965,,True
 Mono/Mac/DC,B19_S4_Mac_APOE,18733,397,397,388,0.9773299748110831,True,clean_author_exact,9241,6955,AC004540.1 AC006333.2 AC008915.2 AC090825.1 AC100810.1 AC244090.1 LINC02384 MMP2-AS1 SIK1B,True
 Mono/Mac/DC,B19_S4_Mac_CCL18,18733,24,24,22,0.9166666666666666,True,clean_author_exact,9241,6955,AC008033.3 AC243829.4,True
 Mono/Mac/DC,B19_S4_Mac_SPP1_clean,18733,157,157,152,0.9681528662420382,True,clean_author_exact,9241,6955,AC073611.1 AC147651.4 AL136454.1 DMP1-AS1 LINC02345,True
