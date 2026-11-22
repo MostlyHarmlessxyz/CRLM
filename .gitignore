@@ -13,6 +13,7 @@ embeddings/*
 !embeddings/.gitkeep
 models/*
 !models/.gitkeep
+paper/
 references/papers/*.pdf
 *.h5ad
 *.h5
