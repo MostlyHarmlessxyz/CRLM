@@ -1,0 +1,351 @@
+tissue,author_lineage,author_subtype,clean_author_qc,rule_lineage_m1,rule_subtype_m1,n_cells
+PT,T/NK,CD4 T cell,True,T/NK,CD4 T cell,9079
+PT,B/Plasma,plasma cell,True,B/Plasma,plasma cell,5634
+PT,T/NK,CD8 T cell,True,T/NK,CD8 T cell,4631
+PT,B/Plasma,B cell,True,B/Plasma,B cell,2048
+PT,T/NK,CD4 T cell,True,T/NK,Double_neg_or_unsplit_T,1616
+PT,T/NK,CD4 T cell,True,Mixed,Cross_lineage_doublet,1316
+PT,B/Plasma,Cross_lineage_doublet,False,Mixed,Cross_lineage_doublet,1121
+PT,Mono/Mac/DC,Macrophage,True,Mono/Mac/DC,monocyte/macrophage,1060
+PT,B/Plasma,B cell,True,Mixed,Cross_lineage_doublet,1033
+PT,T/NK,CD8 T cell,True,T/NK,Double_neg_or_unsplit_T,991
+PT,Mast,mast cell,True,Mast,mast cell,928
+PT,B/Plasma,plasma cell,True,Mixed,Cross_lineage_doublet,783
+PT,T/NK,CD4 T cell,True,T/NK,CD8 T cell,735
+PT,T/NK,CD8 T cell,True,Mixed,Cross_lineage_doublet,657
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,Mixed,Cross_lineage_doublet,533
+PT,CD45-,Nonimmune,True,Nonimmune,epithelial,431
+PT,T/NK,NK cell,True,T/NK,CD4 T cell,419
+PT,T/NK,NK cell,True,T/NK,Double_neg_or_unsplit_T,409
+PT,T/NK,CD8 T cell,True,T/NK,CD4 T cell,387
+PT,T/NK,NK cell,True,T/NK,NK cell,359
+PT,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,monocyte/macrophage,300
+PT,B/Plasma,B cell,True,B/Plasma,plasma cell,292
+PT,Mono/Mac/DC,Macrophage,True,Mixed,Cross_lineage_doublet,280
+PT,CD45-,Nonimmune,True,Mixed,Cross_lineage_doublet,260
+PT,T/NK,NK cell,True,T/NK,CD8 T cell,211
+PT,CD45-,Nonimmune,True,Nonimmune,fibroblast,205
+PT,Mast,mast cell,True,Mixed,Cross_lineage_doublet,180
+PT,Mono/Mac/DC,conventional DC,True,Mixed,Cross_lineage_doublet,170
+PT,T/NK,NK cell,True,Mixed,Cross_lineage_doublet,156
+PT,T/NK,Double_neg_or_unsplit_T,True,T/NK,Double_neg_or_unsplit_T,151
+PT,B/Plasma,plasma cell,True,B/Plasma,B cell,148
+PT,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,monocyte/macrophage,115
+PT,ILC3,ILC3,True,T/NK,CD4 T cell,99
+PT,CD45-,Nonimmune,True,Nonimmune,mural,72
+PT,ILC3,ILC3,True,Mixed,Cross_lineage_doublet,62
+PT,Mono/Mac/DC,Macrophage,True,Unknown,Unknown,59
+PT,Mono/Mac/DC,plasmacytoid DC,True,Mixed,Cross_lineage_doublet,57
+PT,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,mature DC,53
+PT,CD45-,Nonimmune,True,Nonimmune,endothelial,50
+PT,T/NK,NK cell,True,Unknown,Unknown,46
+PT,Mono/Mac/DC,Monocyte,True,Mixed,Cross_lineage_doublet,43
+PT,ILC3,ILC3,True,T/NK,Double_neg_or_unsplit_T,43
+PT,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,conventional DC,41
+PT,T/NK,Double_neg_or_unsplit_T,True,Mixed,Cross_lineage_doublet,32
+PT,T/NK,Double_neg_or_unsplit_T,True,T/NK,CD8 T cell,32
+PT,Mono/Mac/DC,mature DC,True,Mixed,Cross_lineage_doublet,23
+PT,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,monocyte/macrophage,17
+PT,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,mature DC,14
+PT,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,monocyte/macrophage,12
+PT,ILC3,ILC3,True,T/NK,NK cell,12
+PT,T/NK,Double_neg_or_unsplit_T,True,T/NK,CD4 T cell,12
+PT,Mono/Mac/DC,Monocyte,True,Unknown,Unknown,8
+PT,B/Plasma,B cell,True,Unknown,Unknown,8
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,CD4 T cell,8
+PT,CD45-,Nonimmune,True,B/Plasma,plasma cell,7
+PT,ILC3,ILC3,True,Unknown,Unknown,7
+PT,T/NK,NK cell,True,B/Plasma,plasma cell,5
+PT,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,plasmacytoid DC,5
+PT,B/Plasma,plasma cell,True,Unknown,Unknown,5
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,B/Plasma,plasma cell,5
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,CD8 T cell,5
+PT,ILC3,ILC3,True,T/NK,CD8 T cell,4
+PT,CD45-,Nonimmune,True,Unknown,Unknown,3
+PT,Mono/Mac/DC,Macrophage,True,Neutrophil,neutrophil,3
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,Unknown,Unknown,3
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,monocyte/macrophage,3
+PT,B/Plasma,B cell,True,T/NK,Double_neg_or_unsplit_T,2
+PT,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,conventional DC,2
+PT,CD45-,Nonimmune,True,Mono/Mac/DC,monocyte/macrophage,2
+PT,B/Plasma,B cell,True,Mono/Mac/DC,mature DC,2
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,Double_neg_or_unsplit_T,2
+PT,T/NK,NK cell,True,Mono/Mac/DC,monocyte/macrophage,2
+PT,Mono/Mac/DC,Macrophage,True,Mono/Mac/DC,conventional DC,2
+PT,B/Plasma,Cross_lineage_doublet,False,B/Plasma,B cell,2
+PT,Mono/Mac/DC,Macrophage,True,Mast,mast cell,1
+PT,B/Plasma,Cross_lineage_doublet,False,B/Plasma,plasma cell,1
+PT,B/Plasma,B cell,True,Mast,mast cell,1
+PT,B/Plasma,Cross_lineage_doublet,False,T/NK,CD4 T cell,1
+PT,B/Plasma,plasma cell,True,Nonimmune,epithelial,1
+PT,Mast,mast cell,True,Mono/Mac/DC,plasmacytoid DC,1
+PT,Mast,mast cell,True,T/NK,CD4 T cell,1
+PT,Mast,mast cell,True,Mono/Mac/DC,monocyte/macrophage,1
+PT,Mono/Mac/DC,Monocyte,True,B/Plasma,plasma cell,1
+PT,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,plasmacytoid DC,1
+PT,Mast,mast cell,True,Unknown,Unknown,1
+PT,CD45-,Nonimmune,True,Mono/Mac/DC,mature DC,1
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,Neutrophil,neutrophil,1
+PT,Mono/Mac/DC,Cross_lineage_doublet,False,B/Plasma,B cell,1
+PT,Mono/Mac/DC,Monocyte,True,Neutrophil,neutrophil,1
+PT,Mono/Mac/DC,plasmacytoid DC,True,Mast,mast cell,1
+PT,T/NK,NK cell,True,B/Plasma,B cell,1
+LM,T/NK,CD4 T cell,True,T/NK,CD4 T cell,10078
+LM,T/NK,CD8 T cell,True,T/NK,CD8 T cell,6691
+LM,Mono/Mac/DC,Macrophage,True,Mono/Mac/DC,monocyte/macrophage,2165
+LM,T/NK,CD8 T cell,True,T/NK,Double_neg_or_unsplit_T,1514
+LM,T/NK,CD4 T cell,True,T/NK,Double_neg_or_unsplit_T,1393
+LM,T/NK,NK cell,True,T/NK,NK cell,1238
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,Mixed,Cross_lineage_doublet,1185
+LM,T/NK,NK cell,True,T/NK,Double_neg_or_unsplit_T,1100
+LM,B/Plasma,B cell,True,B/Plasma,B cell,1064
+LM,T/NK,CD4 T cell,True,T/NK,CD8 T cell,981
+LM,T/NK,CD4 T cell,True,Mixed,Cross_lineage_doublet,964
+LM,Mono/Mac/DC,Macrophage,True,Mixed,Cross_lineage_doublet,826
+LM,T/NK,NK cell,True,T/NK,CD4 T cell,794
+LM,T/NK,CD8 T cell,True,Mixed,Cross_lineage_doublet,753
+LM,CD45-,Nonimmune,True,Nonimmune,epithelial,665
+LM,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,monocyte/macrophage,647
+LM,B/Plasma,plasma cell,True,B/Plasma,plasma cell,631
+LM,T/NK,Double_neg_or_unsplit_T,True,T/NK,Double_neg_or_unsplit_T,618
+LM,T/NK,NK cell,True,T/NK,CD8 T cell,505
+LM,T/NK,CD8 T cell,True,T/NK,CD4 T cell,453
+LM,B/Plasma,B cell,True,Mixed,Cross_lineage_doublet,420
+LM,B/Plasma,Cross_lineage_doublet,False,Mixed,Cross_lineage_doublet,353
+LM,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,monocyte/macrophage,239
+LM,Mono/Mac/DC,conventional DC,True,Mixed,Cross_lineage_doublet,230
+LM,T/NK,NK cell,True,Mixed,Cross_lineage_doublet,200
+LM,Mono/Mac/DC,plasmacytoid DC,True,Mixed,Cross_lineage_doublet,184
+LM,B/Plasma,plasma cell,True,Mixed,Cross_lineage_doublet,169
+LM,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,conventional DC,141
+LM,Mast,mast cell,True,Mast,mast cell,115
+LM,Mono/Mac/DC,Monocyte,True,Mixed,Cross_lineage_doublet,109
+LM,T/NK,Double_neg_or_unsplit_T,True,T/NK,CD8 T cell,102
+LM,CD45-,Nonimmune,True,Mixed,Cross_lineage_doublet,99
+LM,B/Plasma,plasma cell,True,B/Plasma,B cell,95
+LM,T/NK,Double_neg_or_unsplit_T,True,Mixed,Cross_lineage_doublet,61
+LM,T/NK,NK cell,True,Unknown,Unknown,55
+LM,B/Plasma,B cell,True,B/Plasma,plasma cell,45
+LM,Mono/Mac/DC,Macrophage,True,Unknown,Unknown,36
+LM,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,mature DC,34
+LM,ILC3,ILC3,True,T/NK,CD4 T cell,33
+LM,T/NK,Double_neg_or_unsplit_T,True,T/NK,CD4 T cell,32
+LM,CD45-,Nonimmune,True,Nonimmune,fibroblast,26
+LM,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,mature DC,26
+LM,Mast,mast cell,True,Mixed,Cross_lineage_doublet,24
+LM,CD45-,Nonimmune,True,Nonimmune,mural,24
+LM,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,plasmacytoid DC,23
+LM,Mono/Mac/DC,mature DC,True,Mixed,Cross_lineage_doublet,16
+LM,CD45-,Nonimmune,True,Nonimmune,endothelial,16
+LM,Mono/Mac/DC,Macrophage,True,Mono/Mac/DC,conventional DC,15
+LM,Mono/Mac/DC,Monocyte,True,Unknown,Unknown,14
+LM,ILC3,ILC3,True,T/NK,Double_neg_or_unsplit_T,12
+LM,B/Plasma,B cell,True,Unknown,Unknown,12
+LM,ILC3,ILC3,True,Mixed,Cross_lineage_doublet,10
+LM,Mono/Mac/DC,Macrophage,True,Neutrophil,neutrophil,10
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,CD4 T cell,9
+LM,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,conventional DC,9
+LM,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,monocyte/macrophage,8
+LM,B/Plasma,plasma cell,True,Unknown,Unknown,8
+LM,B/Plasma,Cross_lineage_doublet,False,B/Plasma,B cell,7
+LM,ILC3,ILC3,True,T/NK,NK cell,6
+LM,CD45-,Nonimmune,True,Unknown,Unknown,5
+LM,ILC3,ILC3,True,Unknown,Unknown,5
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,monocyte/macrophage,5
+LM,CD45-,Nonimmune,True,Mono/Mac/DC,monocyte/macrophage,4
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,CD8 T cell,4
+LM,CD45-,Nonimmune,True,B/Plasma,plasma cell,3
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,Double_neg_or_unsplit_T,3
+LM,CD45-,Nonimmune,True,Nonimmune,hepatocyte,3
+LM,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,monocyte/macrophage,3
+LM,Mono/Mac/DC,Monocyte,True,Neutrophil,neutrophil,3
+LM,CD45-,Nonimmune,True,T/NK,CD4 T cell,2
+LM,CD45-,Nonimmune,True,T/NK,CD8 T cell,2
+LM,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,conventional DC,2
+LM,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,plasmacytoid DC,2
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,B/Plasma,B cell,2
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,Unknown,Unknown,2
+LM,Mono/Mac/DC,Macrophage,True,Nonimmune,epithelial,1
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,NK cell,1
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,conventional DC,1
+LM,B/Plasma,Cross_lineage_doublet,False,B/Plasma,plasma cell,1
+LM,T/NK,NK cell,True,B/Plasma,B cell,1
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,mature DC,1
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,plasmacytoid DC,1
+LM,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,plasmacytoid DC,1
+LM,B/Plasma,Cross_lineage_doublet,False,T/NK,CD8 T cell,1
+LM,B/Plasma,Cross_lineage_doublet,False,Unknown,Unknown,1
+LM,B/Plasma,Cross_lineage_doublet,False,T/NK,Double_neg_or_unsplit_T,1
+LM,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,conventional DC,1
+LM,Mono/Mac/DC,Monocyte,True,B/Plasma,plasma cell,1
+LM,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,plasmacytoid DC,1
+LM,CD45-,Nonimmune,True,Neutrophil,neutrophil,1
+LM,Mono/Mac/DC,Cross_lineage_doublet,False,Neutrophil,neutrophil,1
+LM,T/NK,NK cell,True,Mono/Mac/DC,mature DC,1
+NC,B/Plasma,plasma cell,True,B/Plasma,plasma cell,5856
+NC,B/Plasma,B cell,True,B/Plasma,B cell,4538
+NC,T/NK,CD8 T cell,True,T/NK,CD8 T cell,4234
+NC,T/NK,CD4 T cell,True,T/NK,CD4 T cell,3950
+NC,B/Plasma,B cell,True,Mixed,Cross_lineage_doublet,2043
+NC,B/Plasma,Cross_lineage_doublet,False,Mixed,Cross_lineage_doublet,1283
+NC,CD45-,Nonimmune,True,Nonimmune,epithelial,872
+NC,T/NK,CD8 T cell,True,T/NK,Double_neg_or_unsplit_T,808
+NC,B/Plasma,plasma cell,True,Mixed,Cross_lineage_doublet,712
+NC,T/NK,CD8 T cell,True,Mixed,Cross_lineage_doublet,608
+NC,T/NK,CD4 T cell,True,Mixed,Cross_lineage_doublet,530
+NC,T/NK,CD4 T cell,True,T/NK,Double_neg_or_unsplit_T,480
+NC,T/NK,CD4 T cell,True,T/NK,CD8 T cell,405
+NC,Mono/Mac/DC,Macrophage,True,Mono/Mac/DC,monocyte/macrophage,364
+NC,B/Plasma,plasma cell,True,B/Plasma,B cell,322
+NC,T/NK,NK cell,True,T/NK,CD4 T cell,259
+NC,B/Plasma,B cell,True,B/Plasma,plasma cell,226
+NC,Mono/Mac/DC,Cross_lineage_doublet,False,Mixed,Cross_lineage_doublet,224
+NC,T/NK,NK cell,True,T/NK,Double_neg_or_unsplit_T,198
+NC,CD45-,Nonimmune,True,Nonimmune,fibroblast,170
+NC,T/NK,NK cell,True,T/NK,NK cell,161
+NC,ILC3,ILC3,True,T/NK,CD4 T cell,159
+NC,Mast,mast cell,True,Mast,mast cell,157
+NC,T/NK,NK cell,True,T/NK,CD8 T cell,146
+NC,T/NK,CD8 T cell,True,T/NK,CD4 T cell,141
+NC,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,monocyte/macrophage,121
+NC,CD45-,Nonimmune,True,Mixed,Cross_lineage_doublet,105
+NC,T/NK,Double_neg_or_unsplit_T,True,T/NK,Double_neg_or_unsplit_T,99
+NC,T/NK,NK cell,True,Mixed,Cross_lineage_doublet,70
+NC,Mono/Mac/DC,Macrophage,True,Mixed,Cross_lineage_doublet,64
+NC,Mono/Mac/DC,conventional DC,True,Mixed,Cross_lineage_doublet,51
+NC,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,conventional DC,43
+NC,ILC3,ILC3,True,T/NK,Double_neg_or_unsplit_T,43
+NC,ILC3,ILC3,True,Mixed,Cross_lineage_doublet,33
+NC,T/NK,Double_neg_or_unsplit_T,True,T/NK,CD8 T cell,29
+NC,CD45-,Nonimmune,True,Nonimmune,mural,29
+NC,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,monocyte/macrophage,28
+NC,Mono/Mac/DC,plasmacytoid DC,True,Mixed,Cross_lineage_doublet,26
+NC,T/NK,Double_neg_or_unsplit_T,True,Mixed,Cross_lineage_doublet,19
+NC,B/Plasma,B cell,True,Unknown,Unknown,18
+NC,ILC3,ILC3,True,T/NK,NK cell,15
+NC,T/NK,NK cell,True,Unknown,Unknown,13
+NC,B/Plasma,plasma cell,True,Unknown,Unknown,12
+NC,CD45-,Nonimmune,True,Nonimmune,endothelial,12
+NC,Mono/Mac/DC,Monocyte,True,Mixed,Cross_lineage_doublet,12
+NC,ILC3,ILC3,True,Unknown,Unknown,11
+NC,B/Plasma,Cross_lineage_doublet,False,B/Plasma,plasma cell,11
+NC,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,monocyte/macrophage,10
+NC,CD45-,Nonimmune,True,Unknown,Unknown,9
+NC,Mast,mast cell,True,Mixed,Cross_lineage_doublet,7
+NC,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,mature DC,7
+NC,T/NK,Double_neg_or_unsplit_T,True,T/NK,CD4 T cell,5
+NC,ILC3,ILC3,True,T/NK,CD8 T cell,5
+NC,Mono/Mac/DC,Monocyte,True,Unknown,Unknown,4
+NC,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,conventional DC,3
+NC,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,plasmacytoid DC,3
+NC,B/Plasma,Cross_lineage_doublet,False,T/NK,CD8 T cell,3
+NC,CD45-,Nonimmune,True,B/Plasma,plasma cell,3
+NC,B/Plasma,Cross_lineage_doublet,False,B/Plasma,B cell,3
+NC,Mono/Mac/DC,Macrophage,True,Mono/Mac/DC,conventional DC,3
+NC,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,mature DC,2
+NC,CD45-,Nonimmune,True,Mono/Mac/DC,monocyte/macrophage,2
+NC,T/NK,NK cell,True,B/Plasma,plasma cell,2
+NC,Mono/Mac/DC,mature DC,True,Mixed,Cross_lineage_doublet,2
+NC,Mono/Mac/DC,conventional DC,True,Unknown,Unknown,1
+NC,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,monocyte/macrophage,1
+NC,ILC3,ILC3,True,B/Plasma,plasma cell,1
+NC,B/Plasma,B cell,True,T/NK,CD4 T cell,1
+NC,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,plasmacytoid DC,1
+NC,Mono/Mac/DC,Cross_lineage_doublet,False,Unknown,Unknown,1
+NC,B/Plasma,Cross_lineage_doublet,False,Unknown,Unknown,1
+NC,B/Plasma,plasma cell,True,T/NK,CD4 T cell,1
+NC,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,monocyte/macrophage,1
+NC,B/Plasma,B cell,True,Mono/Mac/DC,mature DC,1
+NC,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,CD4 T cell,1
+NC,Mono/Mac/DC,Macrophage,True,Unknown,Unknown,1
+NL,T/NK,CD8 T cell,True,T/NK,CD8 T cell,17844
+NL,T/NK,NK cell,True,T/NK,NK cell,6179
+NL,T/NK,CD8 T cell,True,T/NK,Double_neg_or_unsplit_T,4528
+NL,T/NK,NK cell,True,T/NK,Double_neg_or_unsplit_T,4521
+NL,T/NK,CD4 T cell,True,T/NK,CD4 T cell,2866
+NL,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,monocyte/macrophage,2179
+NL,Mono/Mac/DC,Macrophage,True,Mono/Mac/DC,monocyte/macrophage,2073
+NL,T/NK,CD8 T cell,True,Mixed,Cross_lineage_doublet,1882
+NL,T/NK,NK cell,True,T/NK,CD8 T cell,1627
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,Mixed,Cross_lineage_doublet,1602
+NL,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,monocyte/macrophage,1410
+NL,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,conventional DC,1400
+NL,T/NK,Double_neg_or_unsplit_T,True,T/NK,Double_neg_or_unsplit_T,1369
+NL,B/Plasma,B cell,True,B/Plasma,B cell,897
+NL,T/NK,CD4 T cell,True,T/NK,Double_neg_or_unsplit_T,856
+NL,T/NK,CD8 T cell,True,T/NK,CD4 T cell,724
+NL,Mono/Mac/DC,conventional DC,True,Mixed,Cross_lineage_doublet,644
+NL,B/Plasma,plasma cell,True,B/Plasma,plasma cell,582
+NL,T/NK,CD4 T cell,True,T/NK,CD8 T cell,543
+NL,T/NK,Double_neg_or_unsplit_T,True,T/NK,CD8 T cell,505
+NL,T/NK,NK cell,True,Mixed,Cross_lineage_doublet,460
+NL,Mono/Mac/DC,Macrophage,True,Mixed,Cross_lineage_doublet,407
+NL,B/Plasma,Cross_lineage_doublet,False,Mixed,Cross_lineage_doublet,378
+NL,Mono/Mac/DC,Monocyte,True,Mixed,Cross_lineage_doublet,368
+NL,B/Plasma,B cell,True,Mixed,Cross_lineage_doublet,303
+NL,T/NK,CD4 T cell,True,Mixed,Cross_lineage_doublet,286
+NL,T/NK,NK cell,True,T/NK,CD4 T cell,245
+NL,Mono/Mac/DC,plasmacytoid DC,True,Mixed,Cross_lineage_doublet,243
+NL,T/NK,Double_neg_or_unsplit_T,True,Mixed,Cross_lineage_doublet,206
+NL,CD45-,Nonimmune,True,Mixed,Cross_lineage_doublet,183
+NL,CD45-,Nonimmune,True,Nonimmune,endothelial,151
+NL,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,plasmacytoid DC,129
+NL,CD45-,Nonimmune,True,Nonimmune,hepatocyte,127
+NL,B/Plasma,plasma cell,True,Mixed,Cross_lineage_doublet,115
+NL,Mono/Mac/DC,conventional DC,True,Mono/Mac/DC,mature DC,99
+NL,CD45-,Nonimmune,True,Nonimmune,epithelial,67
+NL,B/Plasma,B cell,True,B/Plasma,plasma cell,65
+NL,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,conventional DC,56
+NL,Mono/Mac/DC,Monocyte,True,Unknown,Unknown,53
+NL,T/NK,Double_neg_or_unsplit_T,True,T/NK,CD4 T cell,43
+NL,B/Plasma,plasma cell,True,B/Plasma,B cell,42
+NL,Mono/Mac/DC,Macrophage,True,Unknown,Unknown,38
+NL,T/NK,NK cell,True,Unknown,Unknown,36
+NL,CD45-,Nonimmune,True,Unknown,Unknown,36
+NL,ILC3,ILC3,True,T/NK,CD4 T cell,26
+NL,CD45-,Nonimmune,True,Mono/Mac/DC,monocyte/macrophage,21
+NL,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,monocyte/macrophage,20
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,monocyte/macrophage,19
+NL,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,conventional DC,19
+NL,Mono/Mac/DC,Macrophage,True,Mono/Mac/DC,conventional DC,16
+NL,CD45-,Nonimmune,True,Nonimmune,fibroblast,15
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,conventional DC,14
+NL,CD45-,Nonimmune,True,Nonimmune,mural,13
+NL,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,mature DC,13
+NL,Mono/Mac/DC,mature DC,True,Mono/Mac/DC,monocyte/macrophage,10
+NL,Mono/Mac/DC,Monocyte,True,Mono/Mac/DC,plasmacytoid DC,7
+NL,ILC3,ILC3,True,Mixed,Cross_lineage_doublet,7
+NL,Mast,mast cell,True,Mixed,Cross_lineage_doublet,7
+NL,Mono/Mac/DC,Macrophage,True,Neutrophil,neutrophil,7
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,CD8 T cell,6
+NL,Mast,mast cell,True,Mast,mast cell,6
+NL,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,plasmacytoid DC,6
+NL,ILC3,ILC3,True,Unknown,Unknown,6
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,Double_neg_or_unsplit_T,5
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,Neutrophil,neutrophil,5
+NL,Mono/Mac/DC,mature DC,True,Mixed,Cross_lineage_doublet,4
+NL,ILC3,ILC3,True,T/NK,NK cell,4
+NL,B/Plasma,Cross_lineage_doublet,False,B/Plasma,B cell,4
+NL,B/Plasma,B cell,True,Unknown,Unknown,4
+NL,Mono/Mac/DC,Monocyte,True,B/Plasma,plasma cell,3
+NL,ILC3,ILC3,True,T/NK,Double_neg_or_unsplit_T,3
+NL,CD45-,Nonimmune,True,B/Plasma,plasma cell,2
+NL,B/Plasma,Cross_lineage_doublet,False,B/Plasma,plasma cell,2
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,Unknown,Unknown,2
+NL,Mono/Mac/DC,Monocyte,True,Neutrophil,neutrophil,2
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,CD4 T cell,2
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,T/NK,NK cell,2
+NL,T/NK,NK cell,True,Neutrophil,neutrophil,2
+NL,CD45-,Nonimmune,True,T/NK,CD8 T cell,1
+NL,Mono/Mac/DC,conventional DC,True,Unknown,Unknown,1
+NL,Mono/Mac/DC,plasmacytoid DC,True,Mono/Mac/DC,mature DC,1
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,B/Plasma,plasma cell,1
+NL,Mono/Mac/DC,Monocyte,True,Nonimmune,hepatocyte,1
+NL,Mono/Mac/DC,Cross_lineage_doublet,False,Mono/Mac/DC,mature DC,1
+NL,B/Plasma,plasma cell,True,T/NK,Double_neg_or_unsplit_T,1
+NL,Mono/Mac/DC,Monocyte,True,T/NK,CD8 T cell,1
+NL,CD45-,Nonimmune,True,T/NK,NK cell,1
+NL,CD45-,Nonimmune,True,T/NK,Double_neg_or_unsplit_T,1
+NL,T/NK,NK cell,True,Mono/Mac/DC,monocyte/macrophage,1
+NL,Mono/Mac/DC,Monocyte,True,T/NK,NK cell,1
+NL,CD45-,Nonimmune,True,T/NK,CD4 T cell,1

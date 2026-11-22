@@ -1,0 +1,23 @@
+{
+  "command": [
+    "scripts/predict_gse164522.py",
+    "encode",
+    "--freeze-commit",
+    "WORKTREE",
+    "--device",
+    "xpu",
+    "--batch",
+    "16",
+    "--overwrite"
+  ],
+  "freeze_commit": "91a589f5ec58736753e5fd71138e0733e3bc8ab1",
+  "freeze_mode": "WORKTREE",
+  "frozen_inputs_sha256": "5ce11557b7bc565184ad7418befc08fec0fe411ab11586de7a92a8d1c7314f14",
+  "gene_universe": "245_164_shared_nuclear",
+  "exclude_doublets": true,
+  "max_cells": null,
+  "python": "3.12.13",
+  "executable": "/home/mostly_harmless/Projects/CRLM/.venv-scgpt/bin/python",
+  "seconds": 894.3098683590001,
+  "peak_rss_bytes": 3328909312
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "0.1",
+  "project_id": "crlm_immune_programs",
+  "research_version": "V1_FROZEN",
+  "status": "local_v1_delivered",
+  "created_on": "2026-11-21",
+  "purpose": "Planning defaults; a configuration file is not a completed preregistration or analysis result.",
+  "source_brief": "docs/source_brief/说明.md",
+  "report": "docs/CRLM_Research_Plan.md",
+  "paths": {
+    "raw": "data/raw",
+    "processed": "data/processed",
+    "manifests": "data/manifests",
+    "embeddings": "embeddings",
+    "models": "models",
+    "artifacts": "artifacts",
+    "starter": "starter"
+  },
+  "user_reported_hardware": {
+    "cpu": "Intel Core i5-13400",
+    "ram_gb": 64,
+    "free_ssd_gb": 400,
+    "gpu": "Intel Arc A750",
+    "os": "Arch Linux",
+    "verified_on_target_host": true
+  },
+  "compute": {
+    "initial_backend": "cpu",
+    "max_simultaneous_heavy_jobs_initial": 1,
+    "initial_workers": 4,
+    "gpu_policy": "profile_before_scgpt_encoding",
+    "cuda_gpu_available": false,
+    "xpu_gpu_available": true,
+    "reserved_free_disk_gb_planning_target": 80,
+    "cloud_instance": null
+  },
+  "analysis_unit": "patient",
+  "split_group": "donor_uid",
+  "donor_uid_semantics": "canonical identity across datasets after provenance and duplicate-patient audit",
+  "tissues": [
+    "PT",
+    "LM",
+    "NC",
+    "NL"
+  ],
+  "datasets": [
+    {
+      "accession": "GSE245552",
+      "role": "development",
+      "purpose": "discovery_and_model_development",
+      "published_input": "raw_counts_feature_filtered",
+      "manifest_status": "locally_verified_39_samples_16_donors"
+    },
+    {
+      "accession": "GSE164522",
+      "role": "external",
+      "purpose": "primary_frozen_replication_and_four_tissue_background",
+      "published_input": "processed_continuous",
+      "external_metadata_previously_exposed": true
+    },
+    {
+      "accession": "GSE178318",
+      "role": "external",
+      "purpose": "secondary_direction_precision",
+      "access_status": "review_PI_usage_condition_before_use"
+    },
+    {
+      "accession": "GSE203608",
+      "role": "external",
+      "purpose": "registered_secondary_direction_precision_original_in_vivo_samples"
+    },
+    {
+      "accession": "GSE225857",
+      "role": "excluded",
+      "purpose": "until_patient_mapping_resolved"
+    },
+    {
+      "accession": "GSE298084",
+      "role": "exploratory",
+      "purpose": "peritumoral_context_not_primary_paired_replication"
+    },
+    {
+      "accession": "GSE335552",
+      "role": "exploratory",
+      "purpose": "measured_spatial_panel_context_only"
+    }
+  ],
+  "milestones": {
+    "M0": "completed",
+    "M1": "completed",
+    "M2": "completed",
+    "M3": "completed",
+    "M4": "completed",
+    "M5": "completed",
+    "M6": "completed_for_available_sources_GSE178318_terms_pending",
+    "M7": "completed_spatial_measurement_and_experimental_design",
+    "M8": "completed"
+  },
+  "candidate_registration": {
+    "status": "frozen",
+    "freeze_version": "CRLM_V1_245_F1",
+    "freeze_timestamp_utc": "2026-11-21T12:44:41+00:00",
+    "primary_lineage_program_total_planned": "2-3 total",
+    "primary_external_family": "GSE164522_D_T",
+    "background_family_separate": true
+  },
+  "model_plan": {
+    "encoder": "scGPT_whole_human_frozen",
+    "weights_path": "models/scGPT-whole-human/best_model.pt",
+    "vocabulary_path": "models/scGPT-whole-human/vocab.json",
+    "backend": "torch_xpu_verified_against_cpu",
+    "pretraining_overlap_audit_required": true,
+    "comparators": [
+      "fixed_program_composition_baselines",
+      "PCA_mean",
+      "PCA_attention",
+      "scGPT_mean",
+      "scGPT_attention",
+      "conditional_HA_CTA_MixMIL"
+    ]
+  },
+  "prohibited_shortcuts": [
+    "cell_level_random_split",
+    "round_processed_values_into_UMI",
+    "missing_normal_equals_zero",
+    "using_external_effects_to_tune_primary_candidates",
+    "calling_synthetic_checks_real_biological_validation"
+  ]
+}

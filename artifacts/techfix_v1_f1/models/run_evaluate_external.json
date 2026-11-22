@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/mostly_harmless/Projects/CRLM/.venv-m4/bin/python",
+    "scripts/run_techfix_v1_f1_models.py",
+    "evaluate-external"
+  ],
+  "completed_utc": "2026-11-21T15:05:16+00:00",
+  "python": "3.12.13",
+  "seconds": 29.284,
+  "peak_rss_bytes": 462733312
+}

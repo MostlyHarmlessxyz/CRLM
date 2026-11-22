@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/home/mostly_harmless/Projects/CRLM/.venv-scgpt/bin/python",
+    "scripts/run_techfix_v1_f1_models.py",
+    "encode-external",
+    "--device",
+    "xpu",
+    "--batch",
+    "4"
+  ],
+  "completed_utc": "2026-11-21T15:04:45+00:00",
+  "python": "3.12.13",
+  "seconds": 527.624,
+  "peak_rss_bytes": 3074744320
+}

@@ -1,0 +1,119 @@
+clean_author_qc,pass_mito_qc,author_lineage,author_subtype,rule_lineage_m1,rule_subtype_m1,rule_myeloid_fine_m1,n_cells
+True,True,Nonimmune,epithelial,Nonimmune,epithelial,,13216
+False,False,Other/Unknown,Other/Unknown,Nonimmune,epithelial,,8824
+True,True,Nonimmune,epithelial,Mixed,Cross_lineage_doublet,,7214
+True,True,Mono/Mac/DC,Macrophage,Mono/Mac/DC,monocyte/macrophage,Macrophage,4149
+True,True,Nonimmune,endothelial,Nonimmune,endothelial,,2435
+True,True,B/Plasma,plasma cell,B/Plasma,plasma cell,,2372
+False,False,Other/Unknown,Other/Unknown,Mixed,Cross_lineage_doublet,,2186
+True,True,Nonimmune,fibroblast,Nonimmune,fibroblast,,1936
+True,True,Other/Unknown,Other/Unknown,Nonimmune,mural,,1686
+True,True,T/NK,T cell (author unsplit),T/NK,CD4 T cell,,1591
+True,True,Mono/Mac/DC,Macrophage,Mixed,Cross_lineage_doublet,,1355
+True,True,B/Plasma,plasma cell,Mixed,Cross_lineage_doublet,,1338
+True,True,Mono/Mac/DC,conventional DC,Mono/Mac/DC,monocyte/macrophage,Macrophage,974
+True,True,T/NK,T cell (author unsplit),Mixed,Cross_lineage_doublet,,947
+True,True,Mono/Mac/DC,Macrophage,Mono/Mac/DC,monocyte/macrophage,Monocyte,889
+True,True,T/NK,T cell (author unsplit),T/NK,Double_neg_or_unsplit_T,,827
+True,True,Other/Unknown,Other/Unknown,Nonimmune,fibroblast,,621
+True,True,Other/Unknown,Other/Unknown,Mixed,Cross_lineage_doublet,,577
+True,True,Nonimmune,fibroblast,Mixed,Cross_lineage_doublet,,576
+True,True,Mono/Mac/DC,conventional DC,Mono/Mac/DC,conventional DC,conventional DC,574
+True,True,Other/Unknown,Other/Unknown,Nonimmune,epithelial,,501
+True,True,Mast,mast cell,Mast,mast cell,,497
+True,True,T/NK,T cell (author unsplit),T/NK,CD8 T cell,,414
+True,True,Nonimmune,endothelial,Mixed,Cross_lineage_doublet,,374
+False,False,Other/Unknown,Other/Unknown,Unknown,Unknown,,354
+True,True,Mono/Mac/DC,conventional DC,Mixed,Cross_lineage_doublet,,353
+True,True,Mono/Mac/DC,Macrophage,Unknown,Unknown,,329
+False,False,Other/Unknown,Other/Unknown,Mono/Mac/DC,monocyte/macrophage,Macrophage,285
+True,True,B/Plasma,B cell,Mixed,Cross_lineage_doublet,,227
+True,True,B/Plasma,B cell,B/Plasma,B cell,,180
+False,False,Other/Unknown,Other/Unknown,B/Plasma,plasma cell,,129
+True,True,T/NK,T cell (author unsplit),T/NK,NK cell,,121
+True,True,Mast,mast cell,Mixed,Cross_lineage_doublet,,116
+True,True,Nonimmune,epithelial,Unknown,Unknown,,115
+True,True,B/Plasma,B cell,B/Plasma,plasma cell,,101
+True,True,Mono/Mac/DC,mature DC,Mono/Mac/DC,mature DC,mature DC,98
+True,True,Mono/Mac/DC,conventional DC,Unknown,Unknown,,84
+True,True,Mono/Mac/DC,mature DC,Mixed,Cross_lineage_doublet,,80
+False,False,Other/Unknown,Other/Unknown,Nonimmune,endothelial,,75
+False,False,Other/Unknown,Other/Unknown,Nonimmune,fibroblast,,73
+True,True,Mono/Mac/DC,plasmacytoid DC,Mixed,Cross_lineage_doublet,,63
+True,True,Mono/Mac/DC,mature DC,Mono/Mac/DC,monocyte/macrophage,Macrophage,62
+False,False,Other/Unknown,Other/Unknown,T/NK,CD4 T cell,,61
+True,True,Mono/Mac/DC,Macrophage,Mono/Mac/DC,conventional DC,conventional DC,50
+True,True,T/NK,T cell (author unsplit),Unknown,Unknown,,48
+False,False,Other/Unknown,Other/Unknown,Mono/Mac/DC,conventional DC,conventional DC,47
+True,True,Nonimmune,endothelial,Unknown,Unknown,,39
+True,True,Mono/Mac/DC,conventional DC,Mono/Mac/DC,monocyte/macrophage,Monocyte,33
+True,True,Other/Unknown,Other/Unknown,Unknown,Unknown,,30
+True,True,Mono/Mac/DC,mature DC,Unknown,Unknown,,29
+False,False,Other/Unknown,Other/Unknown,T/NK,Double_neg_or_unsplit_T,,29
+True,True,Mono/Mac/DC,conventional DC,Mono/Mac/DC,mature DC,mature DC,26
+False,False,Other/Unknown,Other/Unknown,Nonimmune,mural,,25
+True,True,Nonimmune,fibroblast,Unknown,Unknown,,22
+True,True,Mono/Mac/DC,plasmacytoid DC,Mono/Mac/DC,plasmacytoid DC,plasmacytoid DC,18
+True,True,B/Plasma,B cell,Mast,mast cell,,15
+True,True,Nonimmune,endothelial,Mono/Mac/DC,monocyte/macrophage,Macrophage,14
+True,True,Nonimmune,fibroblast,Nonimmune,epithelial,,13
+False,False,Other/Unknown,Other/Unknown,Mono/Mac/DC,monocyte/macrophage,Monocyte,13
+True,True,B/Plasma,B cell,Unknown,Unknown,,13
+True,True,Other/Unknown,Other/Unknown,Mono/Mac/DC,monocyte/macrophage,Macrophage,13
+True,True,Mono/Mac/DC,plasmacytoid DC,Mono/Mac/DC,monocyte/macrophage,Macrophage,13
+True,True,Mono/Mac/DC,conventional DC,Mono/Mac/DC,plasmacytoid DC,plasmacytoid DC,13
+False,False,Other/Unknown,Other/Unknown,B/Plasma,B cell,,12
+True,True,Nonimmune,endothelial,Nonimmune,epithelial,,11
+True,True,Mono/Mac/DC,Macrophage,Nonimmune,epithelial,,11
+True,True,T/NK,T cell (author unsplit),Nonimmune,epithelial,,11
+False,False,Other/Unknown,Other/Unknown,Mast,mast cell,,8
+False,False,Other/Unknown,Other/Unknown,T/NK,CD8 T cell,,8
+True,True,Other/Unknown,Other/Unknown,Mast,mast cell,,7
+True,True,B/Plasma,plasma cell,Unknown,Unknown,,6
+True,True,Mast,mast cell,Unknown,Unknown,,6
+True,True,B/Plasma,plasma cell,B/Plasma,B cell,,6
+True,True,Nonimmune,fibroblast,Nonimmune,mural,,5
+True,True,Mast,mast cell,Mono/Mac/DC,mature DC,mature DC,5
+True,True,Mono/Mac/DC,Macrophage,B/Plasma,plasma cell,,5
+True,True,Mono/Mac/DC,Macrophage,Mono/Mac/DC,mature DC,mature DC,5
+True,True,Mono/Mac/DC,conventional DC,B/Plasma,plasma cell,,4
+True,True,Mast,mast cell,Mono/Mac/DC,monocyte/macrophage,Macrophage,4
+True,True,T/NK,T cell (author unsplit),Mast,mast cell,,4
+True,True,Other/Unknown,Other/Unknown,Nonimmune,endothelial,,3
+True,True,Nonimmune,epithelial,Nonimmune,fibroblast,,3
+True,True,Nonimmune,endothelial,Nonimmune,fibroblast,,3
+True,True,Mono/Mac/DC,Macrophage,Mono/Mac/DC,plasmacytoid DC,plasmacytoid DC,3
+False,False,Other/Unknown,Other/Unknown,T/NK,NK cell,,3
+True,True,Mono/Mac/DC,Macrophage,Nonimmune,fibroblast,,2
+True,True,Mono/Mac/DC,mature DC,Mono/Mac/DC,monocyte/macrophage,Monocyte,2
+True,True,Mast,mast cell,T/NK,CD4 T cell,,2
+True,True,Mono/Mac/DC,mature DC,Mono/Mac/DC,conventional DC,conventional DC,2
+True,True,Mono/Mac/DC,Macrophage,Neutrophil,neutrophil,,2
+True,True,B/Plasma,B cell,Mono/Mac/DC,mature DC,mature DC,2
+False,False,Other/Unknown,Other/Unknown,Nonimmune,hepatocyte,,2
+True,True,Nonimmune,epithelial,B/Plasma,plasma cell,,2
+True,True,B/Plasma,plasma cell,Nonimmune,epithelial,,2
+True,True,Mono/Mac/DC,plasmacytoid DC,Unknown,Unknown,,2
+True,True,Mono/Mac/DC,conventional DC,B/Plasma,B cell,,2
+True,True,Mono/Mac/DC,conventional DC,T/NK,Double_neg_or_unsplit_T,,2
+True,True,Mono/Mac/DC,plasmacytoid DC,Mono/Mac/DC,conventional DC,conventional DC,2
+True,True,Mast,mast cell,Nonimmune,fibroblast,,1
+True,True,Nonimmune,endothelial,T/NK,CD8 T cell,,1
+True,True,Mono/Mac/DC,conventional DC,Nonimmune,epithelial,,1
+True,True,Mono/Mac/DC,conventional DC,Nonimmune,endothelial,,1
+True,True,Nonimmune,endothelial,Mono/Mac/DC,monocyte/macrophage,Monocyte,1
+True,True,Mono/Mac/DC,Macrophage,B/Plasma,B cell,,1
+True,True,Other/Unknown,Other/Unknown,Mono/Mac/DC,monocyte/macrophage,Monocyte,1
+True,True,Mono/Mac/DC,Macrophage,T/NK,Double_neg_or_unsplit_T,,1
+True,True,Mast,mast cell,T/NK,Double_neg_or_unsplit_T,,1
+True,True,B/Plasma,B cell,T/NK,Double_neg_or_unsplit_T,,1
+True,True,B/Plasma,B cell,Mono/Mac/DC,plasmacytoid DC,plasmacytoid DC,1
+True,True,Nonimmune,epithelial,Mono/Mac/DC,monocyte/macrophage,Macrophage,1
+True,True,B/Plasma,B cell,Nonimmune,epithelial,,1
+True,True,B/Plasma,plasma cell,Mast,mast cell,,1
+True,True,Other/Unknown,Other/Unknown,T/NK,CD8 T cell,,1
+True,True,Mono/Mac/DC,Macrophage,T/NK,CD4 T cell,,1
+True,True,Other/Unknown,Other/Unknown,T/NK,NK cell,,1
+False,True,Other/Unknown,Other/Unknown,Unknown,Unknown,,1
+True,True,Nonimmune,fibroblast,T/NK,CD4 T cell,,1
+False,True,Other/Unknown,Other/Unknown,T/NK,CD4 T cell,,1

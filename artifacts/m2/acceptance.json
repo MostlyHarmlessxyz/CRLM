@@ -1,7 +1,7 @@
 {
   "n_h5ads_reopened": 39,
   "input_cells": 190190,
-  "retained_cells": 190031,
+  "retained_cells": 173450,
   "pseudobulk_rows_verified": 1131,
   "exact_count_sums_recomputed": 35061,
   "coordinate_seed": 20261121,

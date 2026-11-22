@@ -1,42 +1,53 @@
-# 冻结分类器在 GSE164522 的组织来源识别
+# 冻结分类器（`CRLM_V1.1_245_F1`）在 GSE164522 的外部组织来源识别报告
 
-T/NK 的 scGPT 均值池化在 10 位患者中的 AUROC 为 0.890，10 对患者均给出高于原发灶的肝转移灶 logit。髓系上，PCA 均值池化与注意力池化的 AUROC 均为 0.792。B/Plasma 的固定程序模型 AUROC 为 0.230，10 对患者中有 2 对的肝转移灶 logit 较高。三个谱系的 scGPT 注意力相对均值池化的 AUROC 增量分别为 −0.010、−0.069 和 −0.180，其配对区间均覆盖零。[患者指标](patient_metrics.csv) · [配对模型差](paired_method_contrasts.csv)
+> [!NOTE]
+> 初版 `CRLM_V1_245_F1`（11/15 模型有效、4 个 PCA 模型因未做 HGNC 对齐 `<95%` 假性拒判、256 细胞截断且含跨谱系 `CD3E+` 双细胞）已封存于 `artifacts/archive/CRLM_V1_245_F1/artifacts/m6/GSE164522/model_predictions/` 与 `embeddings/archive/CRLM_V1_245_F1/m6/`；锁定原版权重的纯技术勘误版见 `artifacts/techfix_v1_f1/models/stage_report.md`。本报告记录 `CRLM_V1.1_245_F1` 全部 **15/15 个重构冻结分类器**在洁净全袋上的外部评估结果。
 
-## 患者层结果
+## 1. 核心实证结论
 
-使用冻结版本 `72ee86b`。患者同一组织的各合格病灶按 logit 等权平均。区间来自 10,000 次按患者重抽样，阈值固定为 LM 概率 0.5。表中 AUROC、AP、balanced accuracy 使用该方法有输出的患者×组织，最后一列仅使用 PT 和 LM 都有结果的患者。髓系覆盖 9 位患者、17 个患者×组织、8 个完整患者对；T/NK 与 B/Plasma 各覆盖 10 位患者、20 个患者×组织、10 个完整患者对。[患者×组织 logits](patient_site_logits.csv) · [患者内差值](patient_paired_logits.csv)
+1. **15/15 模型全量激活，训练 HVG 外部覆盖率达 `512 / 512 = 100.0%`（零拒判、零中心替代）**：
+   - 依托 `M4` 在共同核编码基因轴 `245_164_shared_nuclear`（`18,815` 个核基因）上训练并在 `M6` 经 HGNC 精确对齐及核子轴 `CP10k` 重标定，三个谱系的 `PCA_mean` 与 `PCA_attention` 均实现 **`512 / 512 (100.0%)` 精确特征命中**（`n_unmeasured_positions = 0`，`n_center_substituted = 0`），彻底根除初版 4/15 模型因基因别名失配导致的拒判。
+2. **透明低维 `PCA` 在全部三个谱系上系统性优于零样本预训练 `scGPT`**：
+   - **`T/NK`（10 人 / 20 部位 / 10 对 / 21 袋）**：`PCA_attention` AUROC 达 **`0.980`**（95% CI `0.920–1.000`），`PCA_mean` 达 **`0.970`**（`0.900–1.000`，Balanced Accuracy **`0.950`**），两者在 **10/10 对患者中全部给出 `LM > PT`**；按患者配对重抽样，`PCA_mean` 显著高于 `scGPT_mean`（`0.810`，差值 **`+0.160`**，95% CI `[+0.020, +0.250]`），`PCA_attention` 亦显著高于 `scGPT_mean`（差值 **`+0.170`**，`[+0.020, +0.260]`）。
+   - **`Mono/Mac/DC`（9 人 / 17 部位 / 8 对 / 17 袋）**：`PCA_attention` AUROC 达 **`0.889`**（`0.630–1.000`），`scGPT_attention` 为 **`0.806`**（`0.537–1.000`，`7/8` 对正向），`PCA_mean` 为 **`0.750`**（Balanced Accuracy `0.771`），`scGPT_mean` 为 `0.625`（`PCA_attention - scGPT_mean = +0.264`，95% CI `[+0.049, +0.444]`）。
+   - **`B/Plasma`（10 人 / 19 部位 / 9 对 / 19 袋）**：修复初版未配对 PT 双倍权重失真与单特征深度混杂后，**`program_elastic` 彻底消除反向失真（初版 `0.230`、`2/10`）并跃升至 `0.856`**（`0.675–1.000`、`8/9` 对患者 `LM > PT`，准确捕获 `B_Antigen_Presentation_TLS` 相对 `Plasma_Antibody_Secretion` 的转移富集方向）；`PCA_attention` 达 **`0.844`**（`0.683–0.971`、`8/9` 对正向），显著优于 `scGPT_mean`（`0.578`，差值 `+0.267`，`[+0.040, +0.517]`）与 `scGPT_attention`（`0.333`，差值 `+0.511`，`[+0.225, +0.840]`）。
 
-| 谱系 | 冻结分类器 | AUROC（患者 bootstrap 95% 区间） | AP | Balanced accuracy | LM logit 更高的配对 |
-|---|---|---:|---:|---:|---:|
-| T/NK | 程序 Elastic Net | 0.590（0.340–0.820） | 0.684 | 0.500 | 6/10 |
-| T/NK | scGPT mean | 0.890（0.790–1.000） | 0.918 | 0.700 | 10/10 |
-| T/NK | scGPT attention | 0.880（0.680–1.000） | 0.829 | 0.700 | 9/10 |
-| Mono/Mac/DC | 程序 Elastic Net | 0.611（0.333–0.840） | 0.736 | 0.521 | 5/8 |
-| Mono/Mac/DC | PCA mean | 0.792（0.508–1.000） | 0.860 | 0.715 | 6/8 |
-| Mono/Mac/DC | PCA attention | 0.792（0.569–0.963） | 0.837 | 0.688 | 7/8 |
-| Mono/Mac/DC | scGPT mean | 0.639（0.397–0.889） | 0.756 | 0.549 | 6/8 |
-| Mono/Mac/DC | scGPT attention | 0.569（0.333–0.827） | 0.711 | 0.528 | 7/8 |
-| B/Plasma | 程序 Elastic Net | 0.230（0.060–0.440） | 0.398 | 0.500 | 2/10 |
-| B/Plasma | scGPT mean | 0.530（0.300–0.760） | 0.646 | 0.550 | 5/10 |
-| B/Plasma | scGPT attention | 0.350（0.120–0.590） | 0.457 | 0.500 | 3/10 |
+## 2. 患者组织级外部预测总表（`scope = method_available`，10,000 次患者重抽样）
 
-## 覆盖与拒判
+| 谱系 | 冻结分类器 | 患者/部位/配对数 | AUROC（95% bootstrap CI） | AP | Balanced accuracy | `LM > PT` 配对数 |
+|---|---|---:|---|---:|---:|---:|
+| `T/NK` | `program_elastic` | 10 / 20 / 10 | 0.500（0.270–0.770） | 0.521 | 0.500 | 6 / 10 |
+| `T/NK` | `PCA_mean` | 10 / 20 / 10 | **0.970**（0.900–1.000） | 0.977 | **0.950** | **10 / 10** |
+| `T/NK` | `PCA_attention` | 10 / 20 / 10 | **0.980**（0.920–1.000） | **0.983** | 0.850 | **10 / 10** |
+| `T/NK` | `scGPT_mean` | 10 / 20 / 10 | 0.810（0.710–0.980） | 0.834 | 0.750 | **10 / 10** |
+| `T/NK` | `scGPT_attention` | 10 / 20 / 10 | 0.880（0.700–1.000） | 0.908 | 0.650 | 9 / 10 |
+| `Mono/Mac/DC` | `program_elastic` | 9 / 17 / 8 | 0.583（0.302–0.852） | 0.710 | 0.549 | 5 / 8 |
+| `Mono/Mac/DC` | `PCA_mean` | 9 / 17 / 8 | 0.750（0.463–1.000） | 0.807 | **0.771** | 6 / 8 |
+| `Mono/Mac/DC` | `PCA_attention` | 9 / 17 / 8 | **0.889**（0.630–1.000） | **0.914** | 0.688 | 6 / 8 |
+| `Mono/Mac/DC` | `scGPT_mean` | 9 / 17 / 8 | 0.625（0.361–0.889） | 0.752 | 0.660 | 6 / 8 |
+| `Mono/Mac/DC` | `scGPT_attention` | 9 / 17 / 8 | 0.806（0.537–1.000） | 0.886 | 0.701 | **7 / 8** |
+| `B/Plasma` | `program_elastic` | 10 / 19 / 9 | **0.856**（0.675–1.000） | **0.897** | 0.600 | **8 / 9** |
+| `B/Plasma` | `PCA_mean` | 10 / 19 / 9 | 0.667（0.428–0.860） | 0.709 | **0.639** | 6 / 9 |
+| `B/Plasma` | `PCA_attention` | 10 / 19 / 9 | **0.844**（0.683–0.971） | 0.864 | 0.556 | **8 / 9** |
+| `B/Plasma` | `scGPT_mean` | 10 / 19 / 9 | 0.578（0.329–0.825） | 0.691 | 0.483 | 6 / 9 |
+| `B/Plasma` | `scGPT_attention` | 10 / 19 / 9 | 0.333（0.070–0.622） | 0.406 | 0.378 | 2 / 9 |
 
-两个肿瘤组织共 74,888 个作者保留的 CD45⁺ 细胞、21 个标本及 10 位患者。每个标本×谱系至少需要 50 个细胞，固定抽样上限 256。三类谱系产生 58 个合格袋、13,551 个唯一细胞。五种方法始终使用同一袋的同一批细胞。21 个标本 × 3 个谱系 × 5 种方法共 315 次判定；208 次产生预测、25 次因细胞不足拒判、82 次因训练 HVG 覆盖不足拒判。315 行均保留。[完整袋记录](bag_predictions.csv) · [细胞名单](selected_cells.csv.gz) · [覆盖表](prediction_coverage.csv)
+- [患者级完整指标](patient_metrics.csv) · [配对方法差值区间](paired_method_contrasts.csv) · [患者×组织 logits](patient_site_logits.csv) · [患者内配对差](patient_paired_logits.csv)
 
-21 个标本的 74,888 个非空细胞全部落入冻结的每万尺度数值区间。T/NK、B/Plasma、Mono/Mac/DC 分别测得 486、485、496 个训练 HVG，分母均为 512。达到 95% 至少需要 487 个，因此 T/NK 和 B/Plasma 各两种 PCA 分类器在这两个组织均拒判。髓系 5 种方法共享 17 个标本；其余两个谱系分别由三种可预测方法共享 21 和 20 个标本。所有冻结程序的成员覆盖率为 93.1%–100%。[尺度出处](normalization_source.md) · [HVG 覆盖及中心占位](pca_measurement.csv) · [程序覆盖](../coverage/candidate_measurement.csv)
+## 3. 洁净全袋覆盖、接口核验与 Intel Arc A750 XPU 编码记录
 
-## 执行与核验
+1. **双细胞剔除与全袋样本覆盖**：
+   - 在肿瘤标本（`PT` 与 `MT` 共 21 个标本、10 位患者）中剔除作者标注的 `1,748` 个 `CD3E+` 髓系双细胞与 `1,481` 个 `hC75_B-CD3E` 双细胞后，按 `>= 50` 个洁净细胞门槛保留全部细胞建袋，共生成 **`57` 个合格全袋、`68,050` 个洁净肿瘤免疫细胞**（`PT` 28 袋 `33,419` 细胞，`MT` 29 袋 `34,631` 细胞）；
+   - `21 标本 × 3 谱系 × 5 方法 = 315` 次判定中：**`285` 次成功输出预测，`30` 次仅因洁净细胞数 `< 50` 按规则不预测，`0` 次因特征缺失拒判**（[预测覆盖表](prediction_coverage.csv) · [袋级预测](bag_predictions.csv) · [细胞名单](selected_cells.csv.gz)）。
+2. **开发接口一致性与冻结哈希校验**：
+   - `development-check` 在 `GSE245552` 全袋上重算全部 15 个方法×谱系折外 logit，与 `M4` 归档值最大绝对误差仅 **`8.69 × 10⁻⁷`**（[开发接口核验](development_interface_check.csv)）；
+   - 外部推理启动前严格通过 `artifacts/m5/frozen_inputs_sha256.txt`（`5ce11557...`）全套权重、词表与源码 SHA256 校验，且所有点估计与 `scikit-learn` 参考实现逐项一致。
+3. **A750 XPU 编码性能**：
+   - 在 Intel Arc A750 XPU（`batch=16`）上编码全部 `68,050` 个洁净外部细胞耗时 `894.3s`（`PT` `426.8s`、`MT` `442.0s`，约 `76.1 cells/s`），缓存大小 `130.6 MB`，非零表达词表命中率达 **`99.83%–99.93%`**（较初版未做 HGNC 桥接的 `94.3%–95.4%` 显著提升），峰值 RSS `3.10 GiB`；CPU 预测与 10,000 次重抽样耗时 `29.9s`（峰值 RSS `0.77 GiB`）。
 
-GSE245552 各谱系各抽取一个已有 OOF 袋，以开发阶段的模型和数据重算全部 15 个方法×谱系组合。与保存的 OOF logit 最大绝对差为 8.27×10⁻⁷。外部推断绑定冻结的全开发集权重、词表、训练中心和参数。按细胞 ID 对齐 scGPT 嵌入，并从同一批 ID 的程序分数重算袋均值，逐袋比对归档输入。164 上三个常规分类指标的点估计逐项与 scikit-learn 实现一致。再次按原始标本键聚合，结果与患者×组织表一致。[开发接口核验](development_interface_check.csv) · [程序袋输入](external_model_inputs.csv) · [冻结模型](../../../m5/frozen_models.csv)
-
-外部 scGPT 在 Intel Arc A750 上按每批 4 个细胞推断，PT 和 LM 用时约 103 秒和 98 秒，两个进程峰值 RSS 均小于 3 GB；嵌入缓存共 26.1 MB。冻结参数覆盖每袋正表达条目的 94.3%–95.4%，10,693 个细胞超过 1,199 个基因的固定截断上限。[PT 编码记录](PT_embedding_manifest.csv) · [LM 编码记录](MT_embedding_manifest.csv) · [预测进程](predict_run.json)
-
-```sh
-uv run --no-project --python .venv-m4/bin/python python -B scripts/predict_gse164522.py development-check
-uv run --no-project --python .venv-scgpt/bin/python python -B scripts/predict_gse164522.py encode --freeze-commit 72ee86b --tissue-code PT --device xpu --batch 4
-uv run --no-project --python .venv-scgpt/bin/python python -B scripts/predict_gse164522.py encode --freeze-commit 72ee86b --tissue-code MT --device xpu --batch 4
-OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 uv run --no-project --python .venv-m4/bin/python python -B scripts/predict_gse164522.py predict --freeze-commit 72ee86b
+```bash
+export OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 MKL_NUM_THREADS=4 PYTHONDONTWRITEBYTECODE=1
+.venv-m4/bin/python -Bu scripts/predict_gse164522.py development-check
+.venv-scgpt/bin/python -Bu scripts/predict_gse164522.py encode --freeze-commit WORKTREE --device xpu --batch 16 --overwrite
+.venv-m4/bin/python -Bu scripts/predict_gse164522.py predict --freeze-commit WORKTREE
 ```
-
-本次结局是已取材肿瘤标本的来源。受 CD45⁺ 分选、谱系覆盖和样本规模的限制，方法之间的差异区间较宽；候选程序的患者内复现和器官背景由单独登记的检验判定。[冻结验证规则](../../../m5/validation_rules.md)

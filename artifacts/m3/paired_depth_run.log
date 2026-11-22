@@ -1,7 +1,20 @@
-WARN `--no-project` was provided, but no project was found
-                                    count      mean    median
-program                                                      
-B19_S4_Mac_CXCL10                      11 -0.007601 -0.015937
-B19_S4_Mac_SPP1                        11  0.018334  0.017487
-HALLMARK_INTERFERON_GAMMA_RESPONSE     12  0.001741 -0.001506
-HALLMARK_UNFOLDED_PROTEIN_RESPONSE      8 -0.004000 -0.005491
+    lineage                            program  legacy_positive_mean_cell_rho_genes  ucell_debiased_mean_cell_rho_genes  legacy_positive_paired_rho_DT_delta_genes  ucell_debiased_paired_rho_DT_delta_genes
+   B/Plasma         B_Antigen_Presentation_TLS                             0.002240                           -0.167427                                   0.000000                                 -0.166667
+   B/Plasma HALLMARK_UNFOLDED_PROTEIN_RESPONSE                             0.611457                            0.270833                                   0.523810                                  0.119048
+   B/Plasma          Plasma_Antibody_Secretion                             0.475256                           -0.062719                                   0.166667                                  0.119048
+Mono/Mac/DC                    B19_S4_Mac_APOE                             0.541424                            0.243989                                   0.581818                                  0.145455
+Mono/Mac/DC                   B19_S4_Mac_CCL18                             0.160281                            0.174106                                   0.045455                                  0.072727
+Mono/Mac/DC                  B19_S4_Mac_CXCL10                             0.007252                           -0.074084                                   0.345455                                  0.300000
+Mono/Mac/DC                   B19_S4_Mac_F13A1                             0.238430                            0.176956                                   0.500000                                  0.472727
+Mono/Mac/DC              B19_S4_Mac_SPP1_clean                             0.064162                           -0.036026                                  -0.472727                                 -0.472727
+Mono/Mac/DC                 B19_S4_Mono_CCL3L1                            -0.033830                           -0.223756                                   0.109091                                 -0.054545
+Mono/Mac/DC               Core_Chemokine_IFN_C                             0.091126                           -0.013570                                   0.563636                                  0.345455
+Mono/Mac/DC                   Core_Lipid_SAM_R                             0.506188                            0.182117                                  -0.027273                                 -0.427273
+Mono/Mac/DC          Core_MHCII_Presentation_A                             0.600572                            0.198377                                   0.718182                                  0.627273
+Mono/Mac/DC                   Resident_Kupffer                             0.428167                            0.214519                                   0.763636                                  0.509091
+       T/NK                     B07_Th17_TWEAK                             0.302140                            0.193349                                   0.797203                                  0.566434
+       T/NK               CD4_Treg_Suppressive                             0.247017                            0.130203                                   0.370629                                  0.244755
+       T/NK             CD8_CXCL13_Dysfunction                             0.283728                            0.177684                                   0.853147                                  0.699301
+       T/NK             CD8_Cytotoxic_Effector                             0.043985                           -0.116927                                   0.832168                                  0.755245
+       T/NK HALLMARK_INTERFERON_GAMMA_RESPONSE                             0.482059                           -0.028244                                   0.909091                                  0.720280
+       T/NK                T_Progenitor_Memory                             0.111100                           -0.110275                                  -0.251748                                 -0.629371

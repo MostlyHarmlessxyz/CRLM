@@ -1,0 +1,1201 @@
+annotation_branch,parent_candidate_lineage,min_cells_threshold,dataset,donor_uid,role,lineage,program,A_PT,A_LM,A_NC,A_NL,n_lesions_PT,n_lesions_LM,n_lesions_NC,n_lesions_NL,D_T,D_N,I,D_T_Q,D_N_Q,complete_four_tissue
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,Core_Lipid_SAM_R,0.03979700923539519,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,Core_Lipid_SAM_R,0.08694513692162417,0.1183569817300522,,-0.06591436384876806,1,1,0,1,0.03141184480842803,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,Core_Lipid_SAM_R,0.21875196694599627,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,Core_Lipid_SAM_R,0.09749511019283748,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,Core_Lipid_SAM_R,0.09117732617586913,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,Core_Lipid_SAM_R,0.1724921888053467,0.3185266034031414,,,1,1,0,0,0.14603441459779468,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,Core_Lipid_SAM_R,0.1483557306590258,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,Core_Lipid_SAM_R,-0.05459052901023891,0.009193623117223314,,-0.045504856346483706,1,1,0,1,0.06378415212746223,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,Core_Lipid_SAM_R,0.1380444306344697,0.01883863636363637,,,1,1,0,0,-0.11920579427083333,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,Core_Lipid_SAM_R,0.03979700923539519,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,Core_Lipid_SAM_R,0.08694513692162417,0.1183569817300522,,-0.06591436384876806,1,1,0,1,0.03141184480842803,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,Core_Lipid_SAM_R,0.21875196694599627,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,Core_Lipid_SAM_R,0.09749511019283748,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,Core_Lipid_SAM_R,0.09117732617586913,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1724921888053467,0.3185266034031414,,,1,1,0,0,0.14603441459779468,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1483557306590258,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,Core_Lipid_SAM_R,-0.05459052901023891,0.009193623117223314,,-0.045504856346483706,1,1,0,1,0.06378415212746223,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1380444306344697,0.01883863636363637,,,1,1,0,0,-0.11920579427083333,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:07,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:09,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:08,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:24,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:26,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:27,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:28,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:44,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:49,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:80,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:81,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:83,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:84,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:86,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:87,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:07,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:09,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:08,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:24,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:26,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:27,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:28,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:44,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:49,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:80,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:81,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:83,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:84,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:86,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:87,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:07,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:09,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:08,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:24,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:26,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:27,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:28,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:44,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:49,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:80,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:81,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:83,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:84,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:86,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,50,GSE203608,GSE203608:87,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_APOE,-0.01091425026185766,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_APOE,-0.00690358414419421,-0.006495094360416066,,-0.01781360956509152,1,1,0,1,0.00040848978377814454,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_APOE,0.008881526223819998,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_APOE,-0.008994313490764405,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_APOE,0.007476016186357501,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_APOE,0.008731925826685902,0.027441173641694894,,,1,1,0,0,0.018709247815008993,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_APOE,-0.007695509812152916,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_APOE,-0.019697779953202994,-0.011201536827185493,,-0.023941859000775157,1,1,0,1,0.0084962431260175,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_APOE,0.0024422583461955237,-0.012345912166322696,,,1,1,0,0,-0.014788170512518219,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.01091425026185766,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.00690358414419421,-0.006495094360416066,,-0.01781360956509152,1,1,0,1,0.00040848978377814454,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_APOE,0.008881526223819998,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.008994313490764405,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_APOE,0.007476016186357501,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_APOE,0.008731925826685902,0.027441173641694894,,,1,1,0,0,0.018709247815008993,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.007695509812152916,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.019697779953202994,-0.011201536827185493,,-0.023941859000775157,1,1,0,1,0.0084962431260175,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_APOE,0.0024422583461955237,-0.012345912166322696,,,1,1,0,0,-0.014788170512518219,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_CCL18,-0.0015469579818806636,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_CCL18,0.010292295476006524,0.004162839807470681,,0.0006787595581988088,1,1,0,1,-0.006129455668535843,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_CCL18,0.005754706280683931,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_CCL18,0.004540264212371645,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_CCL18,-0.0043774168060977895,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_CCL18,0.013059835194045714,0.044270625099159126,,,1,1,0,0,0.03121078990511341,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_CCL18,0.0026976947121646264,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_CCL18,-0.009197643672217048,-0.009290578674763348,,-0.011130885181142471,1,1,0,1,-9.293500254630056e-05,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_CCL18,-2.2068698347101097e-05,-0.011979647382920108,,,1,1,0,0,-0.011957578684573008,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.0015469579818806636,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.010292295476006524,0.004162839807470681,,0.0006787595581988088,1,1,0,1,-0.006129455668535843,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.005754706280683931,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.004540264212371645,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.0043774168060977895,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.013059835194045714,0.044270625099159126,,,1,1,0,0,0.03121078990511341,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.0026976947121646264,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.009197643672217048,-0.009290578674763348,,-0.011130885181142471,1,1,0,1,-9.293500254630056e-05,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_CCL18,-2.2068698347101097e-05,-0.011979647382920108,,,1,1,0,0,-0.011957578684573008,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_SPP1_clean,0.005505429607913244,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_SPP1_clean,0.02060866053834566,0.02689635366835017,,0.010100996304306257,1,1,0,1,0.006287693130004511,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_SPP1_clean,0.011849242415391393,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_SPP1_clean,0.017371409880915695,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_SPP1_clean,-0.0074272605948860265,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_SPP1_clean,0.018543995638130997,0.0279914790454257,,,1,1,0,0,0.009447483407294704,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_SPP1_clean,0.028962944959173963,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_SPP1_clean,0.021494191006262195,0.019676114860477024,,0.02292012817512013,1,1,0,1,-0.0018180761457851705,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_SPP1_clean,0.060272909475275145,0.030035020823431246,,,1,1,0,0,-0.0302378886518439,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.005505429607913244,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.02060866053834566,0.02689635366835017,,0.010100996304306257,1,1,0,1,0.006287693130004511,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.011849242415391393,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.017371409880915695,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,-0.0074272605948860265,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.018543995638130997,0.0279914790454257,,,1,1,0,0,0.009447483407294704,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.028962944959173963,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.021494191006262195,0.019676114860477024,,0.02292012817512013,1,1,0,1,-0.0018180761457851705,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.060272909475275145,0.030035020823431246,,,1,1,0,0,-0.0302378886518439,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,Resident_Kupffer,0.03367091310751104,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,Resident_Kupffer,0.072247403210576,0.019101219772025137,,-0.026806697819314645,1,1,0,1,-0.05314618343855086,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,Resident_Kupffer,0.0898743149773876,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,Resident_Kupffer,0.052228207398661936,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,Resident_Kupffer,0.13776626497224656,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,Resident_Kupffer,0.1010670843776107,0.16837365993517825,,,1,1,0,0,0.06730657555756756,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,Resident_Kupffer,0.018017335243553007,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,Resident_Kupffer,0.04301451053686548,0.09485077182149873,,0.01025209915870293,1,1,0,1,0.05183626128463325,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,Resident_Kupffer,0.0530484916125541,0.027818303030303023,,,1,1,0,0,-0.025230188582251078,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,Resident_Kupffer,0.03367091310751104,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,Resident_Kupffer,0.072247403210576,0.019101219772025137,,-0.026806697819314645,1,1,0,1,-0.05314618343855086,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,Resident_Kupffer,0.0898743149773876,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,Resident_Kupffer,0.052228207398661936,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,Resident_Kupffer,0.13776626497224656,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,Resident_Kupffer,0.1010670843776107,0.16837365993517825,,,1,1,0,0,0.06730657555756756,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,Resident_Kupffer,0.018017335243553007,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,Resident_Kupffer,0.04301451053686548,0.09485077182149873,,0.01025209915870293,1,1,0,1,0.05183626128463325,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,Resident_Kupffer,0.0530484916125541,0.027818303030303023,,,1,1,0,0,-0.025230188582251078,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:07,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,0.010449153067658408,,0,0,1,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:09,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.012164234234234223,0.002863961719567099,,,1,1,0,0,-0.009300272514667125,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:08,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,0.01573281197864531,,0,0,1,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:24,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.007860259269170158,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:26,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.012043900639770207,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:27,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.014468226461755879,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:28,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:44,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.01258608383302917,,,0.020468823823823826,1,0,0,1,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:49,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:80,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.012800086625086625,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:81,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:83,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.024946383816972055,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:84,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:86,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:87,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.016146699168304107,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:07,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:09,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:08,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:24,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:26,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.020104672040461506,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:27,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:28,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:44,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.025621921921921947,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:49,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:80,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:81,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:83,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.0018305597263930584,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:84,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:86,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,50,GSE203608,GSE203608:87,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.03604424809424808,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,Core_Lipid_SAM_R,0.06860138052208836,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,Core_Lipid_SAM_R,0.08531588541666667,0.1205117467948718,,-0.05899052225594335,1,1,0,1,0.03519586137820513,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,Core_Lipid_SAM_R,0.22510878851540617,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,Core_Lipid_SAM_R,0.0987859243697479,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,Core_Lipid_SAM_R,0.08857303403755869,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,Core_Lipid_SAM_R,0.15761495456560282,0.29035954861111113,,,1,1,0,0,0.1327445940455083,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,Core_Lipid_SAM_R,0.19460999273255813,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,Core_Lipid_SAM_R,-0.07296049346016646,-0.0620488616838488,,-0.08230590231045311,1,1,0,1,0.010911631776317661,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,Core_Lipid_SAM_R,0.13244086879432623,-0.0010573412698412653,,,1,1,0,0,-0.1334982100641675,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,Core_Lipid_SAM_R,-0.061155729166666666,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,Core_Lipid_SAM_R,,,,-0.09003694204463644,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,Core_Lipid_SAM_R,0.07811102272727272,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,Core_Lipid_SAM_R,,,,-0.0742919207317073,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,Core_Lipid_SAM_R,0.017456242396593675,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,Core_Lipid_SAM_R,0.06367237194189602,0.10945984848484848,,-0.0718020127748069,1,1,0,1,0.045787476542952454,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,Core_Lipid_SAM_R,0.21095676256613757,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,Core_Lipid_SAM_R,0.07718363888888889,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,Core_Lipid_SAM_R,0.08223008333333334,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1500200158227848,0.287456406641604,,,1,1,0,0,0.1374363908188192,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,Core_Lipid_SAM_R,0.16638337004405285,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,Core_Lipid_SAM_R,-0.07327206105422829,-0.06229060901534528,,-0.08150936111111111,1,1,0,1,0.01098145203888301,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1301133507853403,-0.00036970315904138963,,,1,1,0,0,-0.1304830539443817,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:07,external,CD4 T cell,B07_Th17_TWEAK,0.04862639623750735,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:09,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:08,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:24,external,CD4 T cell,B07_Th17_TWEAK,0.04739810566562391,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:26,external,CD4 T cell,B07_Th17_TWEAK,0.06154430438842203,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:27,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:28,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:44,external,CD4 T cell,B07_Th17_TWEAK,0.028994413919413917,0.0016171703296703277,,,1,1,0,0,-0.02737724358974359,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:49,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:80,external,CD4 T cell,B07_Th17_TWEAK,0.0845043098251959,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:81,external,CD4 T cell,B07_Th17_TWEAK,0.00920833633201391,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:83,external,CD4 T cell,B07_Th17_TWEAK,0.01897520325203252,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:84,external,CD4 T cell,B07_Th17_TWEAK,0.17330881370091897,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:86,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:87,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:07,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:09,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:08,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:24,external,CD8 T cell,B07_Th17_TWEAK,0.06233817082388511,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:26,external,CD8 T cell,B07_Th17_TWEAK,-0.032207333333333345,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:27,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:28,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:44,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:49,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:80,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:81,external,CD8 T cell,B07_Th17_TWEAK,-0.016446246498599434,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:83,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:84,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:86,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:87,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:07,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:09,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:08,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:24,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:26,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:27,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:28,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:44,external,NK cell,B07_Th17_TWEAK,,,,0.009448526077097499,0,0,0,1,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:49,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:80,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:81,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:83,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:84,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:86,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,50,GSE203608,GSE203608:87,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_APOE,-0.008285111201540405,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_APOE,-0.004204685314070088,-0.006214587640390242,,-0.017330913389130224,1,1,0,1,-0.002009902326320154,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_APOE,0.0111212014475507,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_APOE,-0.008600127602932982,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_APOE,0.006367458974604262,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_APOE,0.006966900554592147,0.025033468410460964,,,1,1,0,0,0.018066567855868815,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_APOE,-0.0013492238245739311,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_APOE,-0.022206208530042248,-0.02115869083586523,,-0.02936438292493408,1,1,0,1,0.0010475176941770192,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_APOE,0.00032326684001746716,-0.014616364102634763,,,1,1,0,0,-0.014939630942652231,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_APOE,-0.022025028170802572,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_APOE,,,,-0.021089729896526015,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_APOE,-0.013647996389297614,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_APOE,,,,-0.029355543227475016,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.01370084489745396,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.007823879922223768,-0.00786069159287722,,-0.01888201146660282,1,1,0,1,-3.681167065345235e-05,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_APOE,0.009078472429785676,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.011116465431031376,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_APOE,0.005234837786545013,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_APOE,0.005768344032073062,0.024585160660619512,,,1,1,0,0,0.01881681662854645,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.004329102639815352,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.022527870371397977,-0.021236613374925686,,-0.02936350431258057,1,1,0,1,0.0012912569964722911,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.00010486145464427382,-0.014441705044309559,,,1,1,0,0,-0.014336843589665286,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_CCL18,-8.9083607155904e-06,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_CCL18,0.010458608815426996,0.0010000990675990678,,-6.479974249321908e-05,1,1,0,1,-0.009458509747827928,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_CCL18,0.004513509039979627,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_CCL18,0.004255958747135212,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_CCL18,-0.004298047375160053,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_CCL18,0.011112169568020627,0.04259639577594123,,,1,1,0,0,0.0314842262079206,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_CCL18,0.005583157152924597,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_CCL18,-0.010346086909523293,-0.012375995782567945,,-0.012152830458012158,1,1,0,1,-0.0020299088730446526,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_CCL18,0.00023517891682785724,-0.010627489177489177,,,1,1,0,0,-0.010862668094317034,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_CCL18,-0.0061442340067340015,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_CCL18,,,,0.0009101642777668679,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_CCL18,0.002277465564738293,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_CCL18,,,,-0.007950646711012574,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.002427211900022118,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.007996907144842925,0.0002659575553514955,,0.0003375249824447669,1,1,0,1,-0.00773094958949143,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.0033424963924963908,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.0020612323232323177,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.0043696919191919216,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.010688400460299188,0.042095033037138296,,,1,1,0,0,0.03140663257683911,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.0047822186623948755,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.010312588340745336,-0.012331052855924975,,-0.011735158861340682,1,1,0,1,-0.0020184645151796396,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.00010107091861019047,-0.011454822737175676,,,1,1,0,0,-0.011555893655785866,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_SPP1_clean,0.004094769046559189,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_SPP1_clean,0.017586887473330374,0.025913050306771768,,0.006483209642678883,1,1,0,1,0.008326162833441394,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_SPP1_clean,0.009464180879741229,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_SPP1_clean,0.015638615969217947,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_SPP1_clean,-0.00843747658923215,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_SPP1_clean,0.016459573409755544,0.02562810412859863,,,1,1,0,0,0.009168530718843087,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_SPP1_clean,0.02555725193089184,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_SPP1_clean,0.018064638737694767,0.013588061387488488,,0.017735020274039046,1,1,0,1,-0.00447657735020628,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_SPP1_clean,0.06162957106443543,0.028200363402593524,,,1,1,0,0,-0.0334292076618419,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_SPP1_clean,0.012169561650938729,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,0.011203879768740141,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_SPP1_clean,0.025892359627998348,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,0.028168139624015615,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.0072775340147087884,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.018526285117831335,0.02627084629162153,,0.008431222359582949,1,1,0,1,0.0077445611737901945,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.009784584437547142,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.016764764397196086,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,-0.007687204397583361,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.0164171529135102,0.026021860004664842,,,1,1,0,0,0.009604707091154643,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.025638445425785486,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.018327192086949887,0.01375084244720514,,0.018772009106400356,1,1,0,1,-0.004576349639744747,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.06177372053339027,0.028990436648692244,,,1,1,0,0,-0.03278328388469802,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Macrophage,Resident_Kupffer,0.07101992254733218,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Macrophage,Resident_Kupffer,0.0914615936147186,0.020370998168498165,,0.031287430450177046,1,1,0,1,-0.07109059544622044,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Macrophage,Resident_Kupffer,0.10718825530212085,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Macrophage,Resident_Kupffer,0.06366392557022808,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Macrophage,Resident_Kupffer,0.1425962105969148,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Macrophage,Resident_Kupffer,0.10624340172239108,0.16471814574314572,,,1,1,0,0,0.05847474402075464,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Macrophage,Resident_Kupffer,0.06768666943521594,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Macrophage,Resident_Kupffer,0.03612577996715927,0.06442003252331861,,0.0010189546882009865,1,1,0,1,0.02829425255615934,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Macrophage,Resident_Kupffer,0.04599113475177305,0.022046647230320696,,,1,1,0,0,-0.023944487521452354,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,Monocyte,Resident_Kupffer,-0.08051490299823634,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,Monocyte,Resident_Kupffer,,,,-0.09505889128869692,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,Monocyte,Resident_Kupffer,-0.04714510822510823,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,Monocyte,Resident_Kupffer,,,,-0.07405653310104532,0,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:07,external,monocyte/macrophage,Resident_Kupffer,0.011290867222801523,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:09,external,monocyte/macrophage,Resident_Kupffer,0.05732714067278286,0.007980952380952375,,-0.020850133689839574,1,1,0,1,-0.04934618829183049,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:08,external,monocyte/macrophage,Resident_Kupffer,0.09774559712773997,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:24,external,monocyte/macrophage,Resident_Kupffer,0.03419019047619048,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:26,external,monocyte/macrophage,Resident_Kupffer,0.13159518253968253,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:27,external,monocyte/macrophage,Resident_Kupffer,0.09826620855937312,0.1630984067311135,,,1,1,0,0,0.06483219817174038,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:28,external,monocyte/macrophage,Resident_Kupffer,0.03986399202852947,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:44,external,monocyte/macrophage,Resident_Kupffer,0.03085549054661682,0.0629992266471806,,-0.006443093795093798,1,1,0,1,0.032143736100563786,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:49,external,monocyte/macrophage,Resident_Kupffer,0.04406755173273497,0.018589682539682535,,,1,1,0,0,-0.02547786919305244,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:80,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:81,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:83,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:84,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:86,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,50,GSE203608,GSE203608:87,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:07,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:09,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,0.0028903241951629063,,,0,1,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:08,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:24,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.005424007025893824,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:26,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.011679480169825,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:27,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.01589921474269301,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:28,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:44,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.012623799813326836,,,0.019117951284617952,1,0,0,1,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:49,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:80,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:81,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:83,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.02472935390118489,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:84,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:86,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:87,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.016088198775698774,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:07,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:09,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:08,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:24,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:26,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:27,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:28,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:44,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:49,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:80,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:81,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:83,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:84,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:86,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,50,GSE203608,GSE203608:87,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,Core_Lipid_SAM_R,0.03979700923539519,,0.05047654569892472,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,Core_Lipid_SAM_R,0.08694513692162417,0.1183569817300522,,-0.06591436384876806,1,1,0,1,0.03141184480842803,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,Core_Lipid_SAM_R,0.21875196694599627,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,Core_Lipid_SAM_R,0.09749511019283748,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,Core_Lipid_SAM_R,0.09117732617586913,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,Core_Lipid_SAM_R,0.1724921888053467,0.3185266034031414,,,1,1,0,0,0.14603441459779468,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,Core_Lipid_SAM_R,0.1483557306590258,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,Core_Lipid_SAM_R,-0.05459052901023891,0.009193623117223314,,-0.045504856346483706,1,1,0,1,0.06378415212746223,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,Core_Lipid_SAM_R,0.1380444306344697,0.01883863636363637,,,1,1,0,0,-0.11920579427083333,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,Core_Lipid_SAM_R,-0.021346614583333333,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,Core_Lipid_SAM_R,0.1349223611111111,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,Core_Lipid_SAM_R,0.006510937499999992,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,Core_Lipid_SAM_R,0.03979700923539519,,0.05047654569892472,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,Core_Lipid_SAM_R,0.08694513692162417,0.1183569817300522,,-0.06591436384876806,1,1,0,1,0.03141184480842803,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,Core_Lipid_SAM_R,0.21875196694599627,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,Core_Lipid_SAM_R,0.09749511019283748,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,Core_Lipid_SAM_R,0.09117732617586913,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1724921888053467,0.3185266034031414,,,1,1,0,0,0.14603441459779468,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1483557306590258,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,Core_Lipid_SAM_R,-0.05459052901023891,0.009193623117223314,,-0.045504856346483706,1,1,0,1,0.06378415212746223,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1380444306344697,0.01883863636363637,,,1,1,0,0,-0.11920579427083333,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,Core_Lipid_SAM_R,-0.021346614583333333,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1349223611111111,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,Core_Lipid_SAM_R,0.006510937499999992,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:07,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:09,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:08,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:24,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:26,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:27,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:28,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:44,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:49,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:80,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:81,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:83,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:84,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:86,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:87,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:07,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:09,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:08,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:24,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:26,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:27,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:28,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:44,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:49,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:80,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:81,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:83,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:84,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:86,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:87,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:07,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:09,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:08,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:24,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:26,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:27,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:28,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:44,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:49,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:80,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:81,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:83,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:84,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:86,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,T/NK,20,GSE203608,GSE203608:87,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_APOE,-0.01091425026185766,,-0.004913985536940291,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_APOE,-0.00690358414419421,-0.006495094360416066,,-0.01781360956509152,1,1,0,1,0.00040848978377814454,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_APOE,0.008881526223819998,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_APOE,-0.008994313490764405,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_APOE,0.007476016186357501,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_APOE,0.008731925826685902,0.027441173641694894,,,1,1,0,0,0.018709247815008993,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_APOE,-0.007695509812152916,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_APOE,-0.019697779953202994,-0.011201536827185493,,-0.023941859000775157,1,1,0,1,0.0084962431260175,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_APOE,0.0024422583461955237,-0.012345912166322696,,,1,1,0,0,-0.014788170512518219,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_APOE,-0.019653003072918163,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_APOE,-0.0064745273793397375,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_APOE,-0.01671067174910689,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.01091425026185766,,-0.004913985536940291,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.00690358414419421,-0.006495094360416066,,-0.01781360956509152,1,1,0,1,0.00040848978377814454,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_APOE,0.008881526223819998,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.008994313490764405,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_APOE,0.007476016186357501,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_APOE,0.008731925826685902,0.027441173641694894,,,1,1,0,0,0.018709247815008993,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.007695509812152916,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.019697779953202994,-0.011201536827185493,,-0.023941859000775157,1,1,0,1,0.0084962431260175,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_APOE,0.0024422583461955237,-0.012345912166322696,,,1,1,0,0,-0.014788170512518219,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.019653003072918163,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.0064745273793397375,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.01671067174910689,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_CCL18,-0.0015469579818806636,,0.002634261974584566,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_CCL18,0.010292295476006524,0.004162839807470681,,0.0006787595581988088,1,1,0,1,-0.006129455668535843,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_CCL18,0.005754706280683931,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_CCL18,0.004540264212371645,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_CCL18,-0.0043774168060977895,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_CCL18,0.013059835194045714,0.044270625099159126,,,1,1,0,0,0.03121078990511341,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_CCL18,0.0026976947121646264,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_CCL18,-0.009197643672217048,-0.009290578674763348,,-0.011130885181142471,1,1,0,1,-9.293500254630056e-05,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_CCL18,-2.2068698347101097e-05,-0.011979647382920108,,,1,1,0,0,-0.011957578684573008,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_CCL18,-0.01831348484848485,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_CCL18,-0.0054337373737373944,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_CCL18,-0.005792099567099558,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.0015469579818806636,,0.002634261974584566,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.010292295476006524,0.004162839807470681,,0.0006787595581988088,1,1,0,1,-0.006129455668535843,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.005754706280683931,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.004540264212371645,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.0043774168060977895,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.013059835194045714,0.044270625099159126,,,1,1,0,0,0.03121078990511341,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.0026976947121646264,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.009197643672217048,-0.009290578674763348,,-0.011130885181142471,1,1,0,1,-9.293500254630056e-05,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_CCL18,-2.2068698347101097e-05,-0.011979647382920108,,,1,1,0,0,-0.011957578684573008,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.01831348484848485,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.0054337373737373944,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.005792099567099558,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_SPP1_clean,0.005505429607913244,,-0.005834033626043323,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_SPP1_clean,0.02060866053834566,0.02689635366835017,,0.010100996304306257,1,1,0,1,0.006287693130004511,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_SPP1_clean,0.011849242415391393,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_SPP1_clean,0.017371409880915695,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_SPP1_clean,-0.0074272605948860265,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_SPP1_clean,0.018543995638130997,0.0279914790454257,,,1,1,0,0,0.009447483407294704,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_SPP1_clean,0.028962944959173963,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_SPP1_clean,0.021494191006262195,0.019676114860477024,,0.02292012817512013,1,1,0,1,-0.0018180761457851705,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_SPP1_clean,0.060272909475275145,0.030035020823431246,,,1,1,0,0,-0.0302378886518439,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_SPP1_clean,0.016881190709596833,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_SPP1_clean,0.0371267720072809,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_SPP1_clean,0.015176892510664067,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.005505429607913244,,-0.005834033626043323,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.02060866053834566,0.02689635366835017,,0.010100996304306257,1,1,0,1,0.006287693130004511,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.011849242415391393,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.017371409880915695,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,-0.0074272605948860265,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.018543995638130997,0.0279914790454257,,,1,1,0,0,0.009447483407294704,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.028962944959173963,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.021494191006262195,0.019676114860477024,,0.02292012817512013,1,1,0,1,-0.0018180761457851705,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.060272909475275145,0.030035020823431246,,,1,1,0,0,-0.0302378886518439,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.016881190709596833,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.0371267720072809,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.015176892510664067,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,Resident_Kupffer,0.03367091310751104,,0.19154900153609833,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,Resident_Kupffer,0.072247403210576,0.019101219772025137,,-0.026806697819314645,1,1,0,1,-0.05314618343855086,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,Resident_Kupffer,0.0898743149773876,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,Resident_Kupffer,0.052228207398661936,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,Resident_Kupffer,0.13776626497224656,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,Resident_Kupffer,0.1010670843776107,0.16837365993517825,,,1,1,0,0,0.06730657555756756,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,Resident_Kupffer,0.018017335243553007,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,Resident_Kupffer,0.04301451053686548,0.09485077182149873,,0.01025209915870293,1,1,0,1,0.05183626128463325,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,Resident_Kupffer,0.0530484916125541,0.027818303030303023,,,1,1,0,0,-0.025230188582251078,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,Resident_Kupffer,0.009696071428571432,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,Resident_Kupffer,0.02765396825396826,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,Resident_Kupffer,0.012178316326530625,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,Resident_Kupffer,0.03367091310751104,,0.19154900153609833,,1,0,1,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,Resident_Kupffer,0.072247403210576,0.019101219772025137,,-0.026806697819314645,1,1,0,1,-0.05314618343855086,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,Resident_Kupffer,0.0898743149773876,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,Resident_Kupffer,0.052228207398661936,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,Resident_Kupffer,0.13776626497224656,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,Resident_Kupffer,0.1010670843776107,0.16837365993517825,,,1,1,0,0,0.06730657555756756,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,Resident_Kupffer,0.018017335243553007,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,Resident_Kupffer,0.04301451053686548,0.09485077182149873,,0.01025209915870293,1,1,0,1,0.05183626128463325,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,Resident_Kupffer,0.0530484916125541,0.027818303030303023,,,1,1,0,0,-0.025230188582251078,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,Resident_Kupffer,0.009696071428571432,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,Resident_Kupffer,0.02765396825396826,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,Resident_Kupffer,0.012178316326530625,,,,1,0,0,0,,,,,,False
+clean_author,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:07,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,0.010449153067658408,,0,0,1,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:09,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.012164234234234223,0.002863961719567099,,0.014621142419014754,1,1,0,1,-0.009300272514667125,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:08,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.011085376073748163,,0.01573281197864531,,1,0,1,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:24,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.007860259269170158,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:26,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.012043900639770207,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:27,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.014468226461755879,0.014229397482588968,,,1,1,0,0,-0.0002388289791669107,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:28,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:44,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.01258608383302917,0.023917631917631906,,0.020468823823823826,1,1,0,1,0.011331548084602737,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:49,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:80,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.012800086625086625,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:81,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.02302481572481573,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:83,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.024946383816972055,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:84,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:86,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:87,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.016146699168304107,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:07,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:09,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,-0.021970788029408703,,-0.03094727963257377,0,1,0,1,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:08,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:24,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:26,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.020104672040461506,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:27,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.0053337937937937875,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:28,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:44,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.025621921921921947,,,-0.021927961294627967,1,0,0,1,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:49,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:80,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:81,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:83,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.0018305597263930584,,,,1,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:84,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:86,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+clean_author,B/Plasma,20,GSE203608,GSE203608:87,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.03604424809424808,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,Core_Lipid_SAM_R,0.06860138052208836,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,Core_Lipid_SAM_R,0.08531588541666667,0.1205117467948718,,-0.05899052225594335,1,1,0,1,0.03519586137820513,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,Core_Lipid_SAM_R,0.22510878851540617,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,Core_Lipid_SAM_R,0.0987859243697479,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,Core_Lipid_SAM_R,0.08857303403755869,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,Core_Lipid_SAM_R,0.15761495456560282,0.29035954861111113,,,1,1,0,0,0.1327445940455083,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,Core_Lipid_SAM_R,0.19460999273255813,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,Core_Lipid_SAM_R,-0.07296049346016646,-0.0620488616838488,,-0.08230590231045311,1,1,0,1,0.010911631776317661,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,Core_Lipid_SAM_R,0.13244086879432623,-0.0010573412698412653,,,1,1,0,0,-0.1334982100641675,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,Core_Lipid_SAM_R,0.1770094696969697,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,Core_Lipid_SAM_R,-0.061155729166666666,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,Core_Lipid_SAM_R,-0.027024255952380952,0.031797860360360364,,-0.09003694204463644,1,1,0,1,0.05882211631274131,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,Core_Lipid_SAM_R,-0.005741263440860213,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,Core_Lipid_SAM_R,0.07811102272727272,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,Core_Lipid_SAM_R,-0.08016754385964911,,,-0.0742919207317073,1,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,Core_Lipid_SAM_R,0.017456242396593675,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,Core_Lipid_SAM_R,0.06367237194189602,0.10945984848484848,,-0.0718020127748069,1,1,0,1,0.045787476542952454,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,Core_Lipid_SAM_R,0.21095676256613757,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,Core_Lipid_SAM_R,0.07718363888888889,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,Core_Lipid_SAM_R,0.08223008333333334,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1500200158227848,0.287456406641604,,,1,1,0,0,0.1374363908188192,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,Core_Lipid_SAM_R,0.16638337004405285,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,Core_Lipid_SAM_R,-0.07327206105422829,-0.06229060901534528,,-0.08150936111111111,1,1,0,1,0.01098145203888301,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,Core_Lipid_SAM_R,0.1301133507853403,-0.00036970315904138963,,,1,1,0,0,-0.1304830539443817,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,Core_Lipid_SAM_R,0.15000824652777778,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,Core_Lipid_SAM_R,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:07,external,CD4 T cell,B07_Th17_TWEAK,0.04862639623750735,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:09,external,CD4 T cell,B07_Th17_TWEAK,0.060898168498168495,0.0708979407979408,,,1,1,0,0,0.009999772299772308,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:08,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:24,external,CD4 T cell,B07_Th17_TWEAK,0.04739810566562391,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:26,external,CD4 T cell,B07_Th17_TWEAK,0.06154430438842203,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:27,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:28,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:44,external,CD4 T cell,B07_Th17_TWEAK,0.028994413919413917,0.0016171703296703277,,0.027677173913043484,1,1,0,1,-0.02737724358974359,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:49,external,CD4 T cell,B07_Th17_TWEAK,,0.01835443722943724,,,0,1,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:80,external,CD4 T cell,B07_Th17_TWEAK,0.0845043098251959,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:81,external,CD4 T cell,B07_Th17_TWEAK,0.00920833633201391,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:83,external,CD4 T cell,B07_Th17_TWEAK,0.01897520325203252,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:84,external,CD4 T cell,B07_Th17_TWEAK,0.17330881370091897,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:86,external,CD4 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:87,external,CD4 T cell,B07_Th17_TWEAK,0.03936352813852814,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:07,external,CD8 T cell,B07_Th17_TWEAK,0.022278571428571425,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:09,external,CD8 T cell,B07_Th17_TWEAK,,-0.025104308390022683,,,0,1,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:08,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:24,external,CD8 T cell,B07_Th17_TWEAK,0.06233817082388511,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:26,external,CD8 T cell,B07_Th17_TWEAK,-0.032207333333333345,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:27,external,CD8 T cell,B07_Th17_TWEAK,-0.045610622710622724,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:28,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:44,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:49,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:80,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:81,external,CD8 T cell,B07_Th17_TWEAK,-0.016446246498599434,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:83,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:84,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:86,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:87,external,CD8 T cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:07,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:09,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:08,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:24,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:26,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:27,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:28,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:44,external,NK cell,B07_Th17_TWEAK,,,,0.009448526077097499,0,0,0,1,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:49,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:80,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:81,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:83,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:84,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:86,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,T/NK,20,GSE203608,GSE203608:87,external,NK cell,B07_Th17_TWEAK,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_APOE,-0.008285111201540405,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_APOE,-0.004204685314070088,-0.006214587640390242,,-0.017330913389130224,1,1,0,1,-0.002009902326320154,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_APOE,0.0111212014475507,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_APOE,-0.008600127602932982,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_APOE,0.006367458974604262,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_APOE,0.006966900554592147,0.025033468410460964,,,1,1,0,0,0.018066567855868815,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_APOE,-0.0013492238245739311,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_APOE,-0.022206208530042248,-0.02115869083586523,,-0.02936438292493408,1,1,0,1,0.0010475176941770192,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_APOE,0.00032326684001746716,-0.014616364102634763,,,1,1,0,0,-0.014939630942652231,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_APOE,-0.002669981914313384,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_APOE,-0.022025028170802572,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_APOE,-0.022990028756391574,-0.01942790855629924,,-0.021089729896526015,1,1,0,1,0.0035621202000923335,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_APOE,-0.020775955803409074,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_APOE,-0.013647996389297614,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_APOE,-0.029646754807718213,,,-0.029355543227475016,1,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.01370084489745396,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.007823879922223768,-0.00786069159287722,,-0.01888201146660282,1,1,0,1,-3.681167065345235e-05,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_APOE,0.009078472429785676,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.011116465431031376,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_APOE,0.005234837786545013,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_APOE,0.005768344032073062,0.024585160660619512,,,1,1,0,0,0.01881681662854645,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.004329102639815352,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.022527870371397977,-0.021236613374925686,,-0.02936350431258057,1,1,0,1,0.0012912569964722911,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.00010486145464427382,-0.014441705044309559,,,1,1,0,0,-0.014336843589665286,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_APOE,-0.00473148218675453,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_APOE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_CCL18,-8.9083607155904e-06,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_CCL18,0.010458608815426996,0.0010000990675990678,,-6.479974249321908e-05,1,1,0,1,-0.009458509747827928,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_CCL18,0.004513509039979627,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_CCL18,0.004255958747135212,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_CCL18,-0.004298047375160053,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_CCL18,0.011112169568020627,0.04259639577594123,,,1,1,0,0,0.0314842262079206,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_CCL18,0.005583157152924597,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_CCL18,-0.010346086909523293,-0.012375995782567945,,-0.012152830458012158,1,1,0,1,-0.0020299088730446526,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_CCL18,0.00023517891682785724,-0.010627489177489177,,,1,1,0,0,-0.010862668094317034,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_CCL18,-0.008923347107438043,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_CCL18,-0.0061442340067340015,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_CCL18,-0.0023187950937950926,-0.00489287469287469,,0.0009101642777668679,1,1,0,1,-0.0025740795990795975,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_CCL18,-0.006363685239491697,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_CCL18,0.002277465564738293,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_CCL18,-0.009571212121212126,,,-0.007950646711012574,1,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.002427211900022118,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.007996907144842925,0.0002659575553514955,,0.0003375249824447669,1,1,0,1,-0.00773094958949143,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.0033424963924963908,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.0020612323232323177,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.0043696919191919216,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.010688400460299188,0.042095033037138296,,,1,1,0,0,0.03140663257683911,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.0047822186623948755,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.010312588340745336,-0.012331052855924975,,-0.011735158861340682,1,1,0,1,-0.0020184645151796396,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_CCL18,0.00010107091861019047,-0.011454822737175676,,,1,1,0,0,-0.011555893655785866,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_CCL18,-0.009247222222222245,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_CCL18,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,B19_S4_Mac_SPP1_clean,0.004094769046559189,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,B19_S4_Mac_SPP1_clean,0.017586887473330374,0.025913050306771768,,0.006483209642678883,1,1,0,1,0.008326162833441394,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,B19_S4_Mac_SPP1_clean,0.009464180879741229,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,B19_S4_Mac_SPP1_clean,0.015638615969217947,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,B19_S4_Mac_SPP1_clean,-0.00843747658923215,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,B19_S4_Mac_SPP1_clean,0.016459573409755544,0.02562810412859863,,,1,1,0,0,0.009168530718843087,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,B19_S4_Mac_SPP1_clean,0.02555725193089184,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,B19_S4_Mac_SPP1_clean,0.018064638737694767,0.013588061387488488,,0.017735020274039046,1,1,0,1,-0.00447657735020628,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,B19_S4_Mac_SPP1_clean,0.06162957106443543,0.028200363402593524,,,1,1,0,0,-0.0334292076618419,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,B19_S4_Mac_SPP1_clean,0.03570551882981085,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,B19_S4_Mac_SPP1_clean,0.012169561650938729,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,B19_S4_Mac_SPP1_clean,0.022462808580502033,0.028785088347322563,,0.011203879768740141,1,1,0,1,0.006322279766820531,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,B19_S4_Mac_SPP1_clean,0.021087721265886365,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,B19_S4_Mac_SPP1_clean,0.025892359627998348,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,B19_S4_Mac_SPP1_clean,0.02413791226388556,,,0.028168139624015615,1,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.0072775340147087884,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.018526285117831335,0.02627084629162153,,0.008431222359582949,1,1,0,1,0.0077445611737901945,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.009784584437547142,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.016764764397196086,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,-0.007687204397583361,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.0164171529135102,0.026021860004664842,,,1,1,0,0,0.009604707091154643,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.025638445425785486,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.018327192086949887,0.01375084244720514,,0.018772009106400356,1,1,0,1,-0.004576349639744747,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.06177372053339027,0.028990436648692244,,,1,1,0,0,-0.03278328388469802,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,0.03562644982523916,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,B19_S4_Mac_SPP1_clean,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Macrophage,Resident_Kupffer,0.07101992254733218,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Macrophage,Resident_Kupffer,0.0914615936147186,0.020370998168498165,,0.031287430450177046,1,1,0,1,-0.07109059544622044,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Macrophage,Resident_Kupffer,0.10718825530212085,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Macrophage,Resident_Kupffer,0.06366392557022808,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Macrophage,Resident_Kupffer,0.1425962105969148,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Macrophage,Resident_Kupffer,0.10624340172239108,0.16471814574314572,,,1,1,0,0,0.05847474402075464,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Macrophage,Resident_Kupffer,0.06768666943521594,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Macrophage,Resident_Kupffer,0.03612577996715927,0.06442003252331861,,0.0010189546882009865,1,1,0,1,0.02829425255615934,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Macrophage,Resident_Kupffer,0.04599113475177305,0.022046647230320696,,,1,1,0,0,-0.023944487521452354,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Macrophage,Resident_Kupffer,0.0405732683982684,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,Monocyte,Resident_Kupffer,-0.08051490299823634,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,Monocyte,Resident_Kupffer,-0.08571247165532882,-0.07908423423423425,,-0.09505889128869692,1,1,0,1,0.006628237421094571,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,Monocyte,Resident_Kupffer,-0.07895092165898619,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,Monocyte,Resident_Kupffer,-0.04714510822510823,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,Monocyte,Resident_Kupffer,-0.08578433583959899,,,-0.07405653310104532,1,0,0,1,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,Monocyte,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:07,external,monocyte/macrophage,Resident_Kupffer,0.011290867222801523,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:09,external,monocyte/macrophage,Resident_Kupffer,0.05732714067278286,0.007980952380952375,,-0.020850133689839574,1,1,0,1,-0.04934618829183049,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:08,external,monocyte/macrophage,Resident_Kupffer,0.09774559712773997,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:24,external,monocyte/macrophage,Resident_Kupffer,0.03419019047619048,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:26,external,monocyte/macrophage,Resident_Kupffer,0.13159518253968253,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:27,external,monocyte/macrophage,Resident_Kupffer,0.09826620855937312,0.1630984067311135,,,1,1,0,0,0.06483219817174038,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:28,external,monocyte/macrophage,Resident_Kupffer,0.03986399202852947,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:44,external,monocyte/macrophage,Resident_Kupffer,0.03085549054661682,0.0629992266471806,,-0.006443093795093798,1,1,0,1,0.032143736100563786,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:49,external,monocyte/macrophage,Resident_Kupffer,0.04406755173273497,0.018589682539682535,,,1,1,0,0,-0.02547786919305244,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:80,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:81,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:83,external,monocyte/macrophage,Resident_Kupffer,0.03231339285714286,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:84,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:86,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,Mono/Mac/DC,20,GSE203608,GSE203608:87,external,monocyte/macrophage,Resident_Kupffer,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:07,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:09,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.011783197150639014,0.0028903241951629063,,0.019921864721864718,1,1,0,1,-0.008892872955476108,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:08,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:24,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.005424007025893824,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:26,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.011679480169825,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:27,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.01589921474269301,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:28,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:44,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.012623799813326836,0.023917631917631906,,0.019117951284617952,1,1,0,1,0.01129383210430507,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:49,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:80,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.018312492492492487,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:81,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:83,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.02472935390118489,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:84,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:86,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:87,external,plasma cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,0.016088198775698774,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:07,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:09,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:08,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:24,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:26,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.03070109674892283,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:27,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:28,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:44,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.030239417678548156,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:49,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:80,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:81,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:83,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.03753779493779495,,,,1,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:84,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:86,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,,,,,0,0,0,0,,,,,,False
+rule_annotation_m1,B/Plasma,20,GSE203608,GSE203608:87,external,B cell,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,-0.037010378671354274,,,,1,0,0,0,,,,,,False

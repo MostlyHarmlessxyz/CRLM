@@ -1,0 +1,1378 @@
+lineage,program,gene_symbol,role,source_doi,source_location,on_discovery_axis
+Mono/Mac/DC,B19_S4_Mac_SPP1,SPP1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MATK,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ZNF395,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,EMP1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,LONP1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,False
+Mono/Mac/DC,B19_S4_Mac_SPP1,SDC2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,HK2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLC11A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SPOCD1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,AK4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ENO2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,BNIP3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,FBP1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SFXN3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MMP9,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLC16A10,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CD109,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MMP7,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MAPK13,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,LAT,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MSC,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ANGPTL4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,GZMB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,FLT1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,FAM213B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,False
+Mono/Mac/DC,B19_S4_Mac_SPP1,ITGA5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLAMF9,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,RAI14,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MSANTD3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLC6A8,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,GSDME,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,VMO1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ANPEP,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,EGLN3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PDE4A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CD82,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,RUNX1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MIR210HG,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MXI1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MMP8,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,TM4SF19,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SELENON,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,LINC02345,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MYO1E,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,IRAK1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SDC4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SCG5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SPAG4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CCL7,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CRABP2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLC2A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,TNIK,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ST20,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,False
+Mono/Mac/DC,B19_S4_Mac_SPP1,TREM1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,COL27A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,NDRG1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ADM,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PARP6,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,IL2RG,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,GPC4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MECP2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,EZH1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,AC147651.4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,DUSP4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,GYS1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,RNF187,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CAVIN3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,AC093895.1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,TNFRSF12A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ASPHD1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,AVL9,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,HTRA1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PLIN2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MAFK,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,KDM3A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ADAM17,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,AL136454.1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MIF-AS1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ZMIZ1-AS1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,GGA1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CTTN,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,METRNL,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,UAP1L1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,RAPH1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLCO4A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CEBPB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,RCAN1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,UBXN7,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,NRIP3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,FAM129B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,False
+Mono/Mac/DC,B19_S4_Mac_SPP1,ACVR1B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLC17A5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CCR1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,EMILIN1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ARRDC3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SCIN,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MMP12,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,IDE,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CIR1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PHLDA1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PLAUR,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,NMB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLC16A3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PHF1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,C15orf48,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ADARB1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ELMO2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ARID5B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ZFYVE16,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,BCAT1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CLEC5A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PC,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ZBTB43,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PAQR5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,FAM214B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SMIM13,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,METTL7B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,EAF1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,TFRC,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,TRIP10,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MUCL1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,WHRN,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,LMBRD1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,AHNAK,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ANG,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,RYBP,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,DTX2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SHB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLC35E1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PRKAG2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CYP19A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PDK1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PI4K2A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,TMEM41B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CSTB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SMOX,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,P2RX4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,AC073611.1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,VPS37C,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,IGFBP6,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MMP19,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,UBTD1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ANGPTL6,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ZFYVE28,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,GNLY,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CSF1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PCGF1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CA12,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SQOR,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ZNF397,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,CAVIN1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MITF,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,HOXB13,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,PHC2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,TNS1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,INHBA,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ST3GAL1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,ADAM10,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SLC35F5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,TMEM45A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,STX1A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MT3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,MINDY2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_SPP1,SEMA3C,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CXCL10,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CXCL11,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CCL8,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IFIT2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IFIT1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,ISG20,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,RSAD2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,DEFB1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,ETV7,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IFIT3,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,GBP1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p27,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,HAPLN3,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,ANKRD22,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,RARRES3,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,False
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CXCL9,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IDO1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,GBP5,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IL27,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,TNFSF10,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,ISG15,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,SOCS1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,SAMD9,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,GBP4,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,WARS,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IFIH1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IFITM3,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CCL2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,HELZ2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,OASL,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,HIVEP2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,PLEK,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CCL19,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IFI35,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IRF1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CD274,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,SAMD9L,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,PSTPIP2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CSF2RB,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,PNPT1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,ATF5,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,GCH1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IRF7,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IFI44L,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CALHM6,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p28,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IL15,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,SLC25A28,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,TGM1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,STAP1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,HESX1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,UBD,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,BACH1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CFLAR,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,BCL2L14,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,TAP1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,OAS2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,STOML1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,HSH2D,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,P2RY13,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,DUSP22,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,XRN1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,FHAD1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,MIB1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,USP30-AS1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,RAPGEF2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,EXOC3L1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,C19orf66,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,False
+Mono/Mac/DC,B19_S4_Mac_CXCL10,FBXO6,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,MMP25-AS1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,AL591468.1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CD40,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,C9orf66,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,False
+Mono/Mac/DC,B19_S4_Mac_CXCL10,LILRB1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,MAPK8,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,GTPBP1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,VAMP5,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,TDRD7,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CUL1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p29,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,RPS6KC1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,False
+Mono/Mac/DC,B19_S4_Mac_CXCL10,PML,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,TRADD,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,SAMD4A,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IFITM1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,SEMA4A,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,GBP2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,IL31RA,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,TMEM255B,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,STAT2,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,ERI1,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,DDX58,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,PUS7,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,STK3,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,RASGEF1B,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,CASP5,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B19_S4_Mac_CXCL10,AL357054.4,complete_program,10.1126/science.ade2292,Table S4; Mac_CXCL10; PDF p30,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,CTSA,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,HLA-DMB,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,CTSL,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,CTSH,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,DYNLL1,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,CTSD,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,AP2M1,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,LGMN,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_A_MHCII_overlap,CTSB,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 18; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,CD151,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,SDC2,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,FN1,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,P4HA1,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,CTSL,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,BSG,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,TIMP2,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,SPP1,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,ADAM9,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,ADAM8,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,P4HB,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,A2M,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,PPIB,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,CTSD,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_matrix_overlap,CTSB,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 23; Genes column D,True
+Mono/Mac/DC,B06_S5_R_lipid_overlap,ABCA1,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 29; Genes column D,True
+Mono/Mac/DC,B06_S5_R_lipid_overlap,APOE,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 29; Genes column D,True
+Mono/Mac/DC,B06_S5_R_lipid_overlap,A2M,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 29; Genes column D,True
+Mono/Mac/DC,B06_S5_R_lipid_overlap,PLTP,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 29; Genes column D,True
+Mono/Mac/DC,B06_S5_A_crosspresentation_overlap,PSMD8,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 36; Genes column D,True
+Mono/Mac/DC,B06_S5_A_crosspresentation_overlap,PDIA3,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 36; Genes column D,True
+Mono/Mac/DC,B06_S5_A_crosspresentation_overlap,UBB,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 36; Genes column D,True
+Mono/Mac/DC,B06_S5_A_crosspresentation_overlap,CTSL,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 36; Genes column D,True
+Mono/Mac/DC,B06_S5_A_crosspresentation_overlap,PSMB1,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 36; Genes column D,True
+Mono/Mac/DC,B06_S5_A_crosspresentation_overlap,CALR,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 36; Genes column D,True
+Mono/Mac/DC,B06_S5_A_crosspresentation_overlap,FCGR1A,pathway_overlap,10.1158/1078-0432.CCR-22-2041,Supplemental Table 5; S5 row 36; Genes column D,True
+Mono/Mac/DC,B06_S6_Foam,GPX1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A6,False
+Mono/Mac/DC,B06_S6_Foam,FTL,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A7,True
+Mono/Mac/DC,B06_S6_Foam,PSAP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A8,True
+Mono/Mac/DC,B06_S6_Foam,PLIN2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A9,True
+Mono/Mac/DC,B06_S6_Foam,PFDN5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A10,True
+Mono/Mac/DC,B06_S6_Foam,TMSB10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A11,True
+Mono/Mac/DC,B06_S6_Foam,APOC1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A12,True
+Mono/Mac/DC,B06_S6_Foam,CCL2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A13,True
+Mono/Mac/DC,B06_S6_Foam,TPT1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A14,True
+Mono/Mac/DC,B06_S6_Foam,CD63,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A15,True
+Mono/Mac/DC,B06_S6_Foam,APOE,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A16,True
+Mono/Mac/DC,B06_S6_Foam,EEF1A1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A17,True
+Mono/Mac/DC,B06_S6_Foam,LGALS1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A18,True
+Mono/Mac/DC,B06_S6_Foam,CSTB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A19,True
+Mono/Mac/DC,B06_S6_Foam,ACTB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A20,True
+Mono/Mac/DC,B06_S6_Foam,FCER1G,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A21,True
+Mono/Mac/DC,B06_S6_Foam,CTSB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A22,True
+Mono/Mac/DC,B06_S6_Foam,B2M,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A23,True
+Mono/Mac/DC,B06_S6_Foam,VIM,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A24,True
+Mono/Mac/DC,B06_S6_Foam,NPC2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A25,True
+Mono/Mac/DC,B06_S6_Foam,TMSB4X,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A26,True
+Mono/Mac/DC,B06_S6_Foam,SERF2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A27,True
+Mono/Mac/DC,B06_S6_Foam,RNASE1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A28,True
+Mono/Mac/DC,B06_S6_Foam,FTH1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A29,True
+Mono/Mac/DC,B06_S6_Foam,YBX1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A30,True
+Mono/Mac/DC,B06_S6_Foam,FABP5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!A31,True
+Mono/Mac/DC,B06_S6_SAM,FCGR1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B6,True
+Mono/Mac/DC,B06_S6_SAM,TNFAIP8L2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B7,True
+Mono/Mac/DC,B06_S6_SAM,TMCO1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B8,True
+Mono/Mac/DC,B06_S6_SAM,MGAT4A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B9,True
+Mono/Mac/DC,B06_S6_SAM,FN1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B10,True
+Mono/Mac/DC,B06_S6_SAM,CCR2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B11,True
+Mono/Mac/DC,B06_S6_SAM,STAB1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B12,True
+Mono/Mac/DC,B06_S6_SAM,CLDN1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B13,True
+Mono/Mac/DC,B06_S6_SAM,LINC01094,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B14,True
+Mono/Mac/DC,B06_S6_SAM,ARHGAP24,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B15,True
+Mono/Mac/DC,B06_S6_SAM,SPARCL1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B16,True
+Mono/Mac/DC,B06_S6_SAM,SPP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B17,True
+Mono/Mac/DC,B06_S6_SAM,SNCA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B18,True
+Mono/Mac/DC,B06_S6_SAM,LTC4S,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B19,True
+Mono/Mac/DC,B06_S6_SAM,TREM2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B20,True
+Mono/Mac/DC,B06_S6_SAM,DSE,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B21,True
+Mono/Mac/DC,B06_S6_SAM,CDK6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B22,True
+Mono/Mac/DC,B06_S6_SAM,GAL3ST4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B23,True
+Mono/Mac/DC,B06_S6_SAM,CLEC5A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B24,True
+Mono/Mac/DC,B06_S6_SAM,TLR7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B25,True
+Mono/Mac/DC,B06_S6_SAM,DEFB1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B26,True
+Mono/Mac/DC,B06_S6_SAM,FABP4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B27,True
+Mono/Mac/DC,B06_S6_SAM,NEK6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B28,True
+Mono/Mac/DC,B06_S6_SAM,ASCL2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B29,True
+Mono/Mac/DC,B06_S6_SAM,LMO2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B30,True
+Mono/Mac/DC,B06_S6_SAM,B3GAT3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B31,True
+Mono/Mac/DC,B06_S6_SAM,CST6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B32,True
+Mono/Mac/DC,B06_S6_SAM,SORL1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B33,True
+Mono/Mac/DC,B06_S6_SAM,PLXDC2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B34,True
+Mono/Mac/DC,B06_S6_SAM,RP11-472N13.3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B35,False
+Mono/Mac/DC,B06_S6_SAM,C10orf11,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B36,False
+Mono/Mac/DC,B06_S6_SAM,ANKRD22,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B37,True
+Mono/Mac/DC,B06_S6_SAM,FBXL15,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B38,True
+Mono/Mac/DC,B06_S6_SAM,HTRA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B39,True
+Mono/Mac/DC,B06_S6_SAM,VWF,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B40,True
+Mono/Mac/DC,B06_S6_SAM,OLR1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B41,True
+Mono/Mac/DC,B06_S6_SAM,BCAT1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B42,True
+Mono/Mac/DC,B06_S6_SAM,BHLHE41,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B43,True
+Mono/Mac/DC,B06_S6_SAM,STK38L,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B44,True
+Mono/Mac/DC,B06_S6_SAM,RP11-467L13.7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B45,False
+Mono/Mac/DC,B06_S6_SAM,FMNL3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B46,True
+Mono/Mac/DC,B06_S6_SAM,RP11-796E2.4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B47,False
+Mono/Mac/DC,B06_S6_SAM,SDSL,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B48,True
+Mono/Mac/DC,B06_S6_SAM,RCBTB2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B49,True
+Mono/Mac/DC,B06_S6_SAM,MMP14,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B50,True
+Mono/Mac/DC,B06_S6_SAM,PLEK2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B51,True
+Mono/Mac/DC,B06_S6_SAM,VASH1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B52,True
+Mono/Mac/DC,B06_S6_SAM,IFI27L2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B53,True
+Mono/Mac/DC,B06_S6_SAM,NUDT14,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B54,True
+Mono/Mac/DC,B06_S6_SAM,TM6SF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B55,True
+Mono/Mac/DC,B06_S6_SAM,MEF2A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B56,True
+Mono/Mac/DC,B06_S6_SAM,TNFSF12,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B57,True
+Mono/Mac/DC,B06_S6_SAM,TMEM107,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B58,True
+Mono/Mac/DC,B06_S6_SAM,PIGS,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B59,True
+Mono/Mac/DC,B06_S6_SAM,CISD3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B60,True
+Mono/Mac/DC,B06_S6_SAM,SNHG25,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B61,True
+Mono/Mac/DC,B06_S6_SAM,MILR1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B62,True
+Mono/Mac/DC,B06_S6_SAM,C3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B63,True
+Mono/Mac/DC,B06_S6_SAM,HAMP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B64,True
+Mono/Mac/DC,B06_S6_SAM,FCGBP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B65,True
+Mono/Mac/DC,B06_S6_SAM,SERTAD1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B66,True
+Mono/Mac/DC,B06_S6_SAM,APOC2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B67,True
+Mono/Mac/DC,B06_S6_SAM,CLEC11A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B68,True
+Mono/Mac/DC,B06_S6_SAM,DONSON,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B69,True
+Mono/Mac/DC,B06_S6_SAM,PDXK,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B70,True
+Mono/Mac/DC,B06_S6_SAM,OLFML3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B71,True
+Mono/Mac/DC,B06_S6_SAM,RPL22,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B72,False
+Mono/Mac/DC,B06_S6_SAM,PARK7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B73,True
+Mono/Mac/DC,B06_S6_SAM,ENO1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B74,True
+Mono/Mac/DC,B06_S6_SAM,CAPZB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B75,True
+Mono/Mac/DC,B06_S6_SAM,RPL11,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B76,False
+Mono/Mac/DC,B06_S6_SAM,SH3BGRL3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B77,True
+Mono/Mac/DC,B06_S6_SAM,CD52,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B78,True
+Mono/Mac/DC,B06_S6_SAM,LAPTM5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B79,True
+Mono/Mac/DC,B06_S6_SAM,CAP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B80,True
+Mono/Mac/DC,B06_S6_SAM,YBX1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B81,True
+Mono/Mac/DC,B06_S6_SAM,RPS8,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B82,False
+Mono/Mac/DC,B06_S6_SAM,UQCRH,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B83,True
+Mono/Mac/DC,B06_S6_SAM,RPL5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B84,False
+Mono/Mac/DC,B06_S6_SAM,LAMTOR5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B85,True
+Mono/Mac/DC,B06_S6_SAM,CD53,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B86,True
+Mono/Mac/DC,B06_S6_SAM,RHOC,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B87,True
+Mono/Mac/DC,B06_S6_SAM,RBM8A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B88,True
+Mono/Mac/DC,B06_S6_SAM,TXNIP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B89,True
+Mono/Mac/DC,B06_S6_SAM,PLEKHO1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B90,True
+Mono/Mac/DC,B06_S6_SAM,PSMD4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B91,True
+Mono/Mac/DC,B06_S6_SAM,S100A10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B92,True
+Mono/Mac/DC,B06_S6_SAM,S100A11,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B93,True
+Mono/Mac/DC,B06_S6_SAM,S100A6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B94,True
+Mono/Mac/DC,B06_S6_SAM,S100A4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B95,True
+Mono/Mac/DC,B06_S6_SAM,RPS27,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B96,False
+Mono/Mac/DC,B06_S6_SAM,SSR2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B97,True
+Mono/Mac/DC,B06_S6_SAM,LAMTOR2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B98,True
+Mono/Mac/DC,B06_S6_SAM,CCT3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B99,True
+Mono/Mac/DC,B06_S6_SAM,CD1D,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B100,True
+Mono/Mac/DC,B06_S6_SAM,CD1C,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B101,True
+Mono/Mac/DC,B06_S6_SAM,MNDA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B102,True
+Mono/Mac/DC,B06_S6_SAM,IFI16,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B103,True
+Mono/Mac/DC,B06_S6_SAM,FCER1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B104,True
+Mono/Mac/DC,B06_S6_SAM,PEA15,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B105,True
+Mono/Mac/DC,B06_S6_SAM,CD48,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B106,True
+Mono/Mac/DC,B06_S6_SAM,FCGR2A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B107,True
+Mono/Mac/DC,B06_S6_SAM,FCGR2B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B108,True
+Mono/Mac/DC,B06_S6_SAM,MGST3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B109,True
+Mono/Mac/DC,B06_S6_SAM,NCF2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B110,True
+Mono/Mac/DC,B06_S6_SAM,ARPC5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B111,True
+Mono/Mac/DC,B06_S6_SAM,RGS2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B112,True
+Mono/Mac/DC,B06_S6_SAM,PTPRC,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B113,True
+Mono/Mac/DC,B06_S6_SAM,BTG2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B114,True
+Mono/Mac/DC,B06_S6_SAM,SNRPE,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B115,True
+Mono/Mac/DC,B06_S6_SAM,TRAF3IP3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B116,True
+Mono/Mac/DC,B06_S6_SAM,ATF3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B117,True
+Mono/Mac/DC,B06_S6_SAM,H3F3A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B118,True
+Mono/Mac/DC,B06_S6_SAM,GUK1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B119,True
+Mono/Mac/DC,B06_S6_SAM,TOMM20,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B120,False
+Mono/Mac/DC,B06_S6_SAM,RPS7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B121,False
+Mono/Mac/DC,B06_S6_SAM,PDIA6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B122,True
+Mono/Mac/DC,B06_S6_SAM,LAPTM4A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B123,True
+Mono/Mac/DC,B06_S6_SAM,PTRHD1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B124,True
+Mono/Mac/DC,B06_S6_SAM,HADHA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B125,True
+Mono/Mac/DC,B06_S6_SAM,OST4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B126,True
+Mono/Mac/DC,B06_S6_SAM,ATRAID,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B127,True
+Mono/Mac/DC,B06_S6_SAM,MRPL33,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B128,False
+Mono/Mac/DC,B06_S6_SAM,YPEL5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B129,True
+Mono/Mac/DC,B06_S6_SAM,COX7A2L,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B130,True
+Mono/Mac/DC,B06_S6_SAM,ZFP36L2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B131,True
+Mono/Mac/DC,B06_S6_SAM,CALM2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B132,True
+Mono/Mac/DC,B06_S6_SAM,RTN4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B133,True
+Mono/Mac/DC,B06_S6_SAM,REL,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B134,True
+Mono/Mac/DC,B06_S6_SAM,RAB1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B135,True
+Mono/Mac/DC,B06_S6_SAM,ACTR2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B136,True
+Mono/Mac/DC,B06_S6_SAM,NAGK,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B137,True
+Mono/Mac/DC,B06_S6_SAM,CCT7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B138,True
+Mono/Mac/DC,B06_S6_SAM,DGUOK,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B139,True
+Mono/Mac/DC,B06_S6_SAM,MOB1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B140,True
+Mono/Mac/DC,B06_S6_SAM,MTHFD2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B141,True
+Mono/Mac/DC,B06_S6_SAM,POLE4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B142,True
+Mono/Mac/DC,B06_S6_SAM,TMSB10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B143,True
+Mono/Mac/DC,B06_S6_SAM,CAPG,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B144,True
+Mono/Mac/DC,B06_S6_SAM,VAMP8,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B145,True
+Mono/Mac/DC,B06_S6_SAM,KRCC1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B146,True
+Mono/Mac/DC,B06_S6_SAM,IGKC,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B147,True
+Mono/Mac/DC,B06_S6_SAM,DUSP2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B148,True
+Mono/Mac/DC,B06_S6_SAM,EIF5B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B149,True
+Mono/Mac/DC,B06_S6_SAM,PDCL3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B150,True
+Mono/Mac/DC,B06_S6_SAM,RPL31,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B151,False
+Mono/Mac/DC,B06_S6_SAM,LIMS1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B152,True
+Mono/Mac/DC,B06_S6_SAM,CHCHD5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B153,True
+Mono/Mac/DC,B06_S6_SAM,IL1B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B154,True
+Mono/Mac/DC,B06_S6_SAM,MZT2B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B155,True
+Mono/Mac/DC,B06_S6_SAM,PTPN18,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B156,True
+Mono/Mac/DC,B06_S6_SAM,UBXN4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B157,True
+Mono/Mac/DC,B06_S6_SAM,CXCR4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B158,True
+Mono/Mac/DC,B06_S6_SAM,PRPF40A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B159,True
+Mono/Mac/DC,B06_S6_SAM,CYTIP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B160,True
+Mono/Mac/DC,B06_S6_SAM,GCA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B161,True
+Mono/Mac/DC,B06_S6_SAM,PPIG,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B162,True
+Mono/Mac/DC,B06_S6_SAM,SSB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B163,True
+Mono/Mac/DC,B06_S6_SAM,OLA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B164,True
+Mono/Mac/DC,B06_S6_SAM,WIPF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B165,True
+Mono/Mac/DC,B06_S6_SAM,HNRNPA3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B166,True
+Mono/Mac/DC,B06_S6_SAM,NFE2L2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B167,True
+Mono/Mac/DC,B06_S6_SAM,ITGA4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B168,True
+Mono/Mac/DC,B06_S6_SAM,ANKRD44,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B169,True
+Mono/Mac/DC,B06_S6_SAM,SF3B1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B170,True
+Mono/Mac/DC,B06_S6_SAM,HSPE1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B171,True
+Mono/Mac/DC,B06_S6_SAM,BZW1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B172,True
+Mono/Mac/DC,B06_S6_SAM,EEF1B2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B173,True
+Mono/Mac/DC,B06_S6_SAM,XRCC5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B174,True
+Mono/Mac/DC,B06_S6_SAM,RPL37A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B175,False
+Mono/Mac/DC,B06_S6_SAM,ARPC2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B176,True
+Mono/Mac/DC,B06_S6_SAM,PID1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B177,True
+Mono/Mac/DC,B06_S6_SAM,EIF4E2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B178,True
+Mono/Mac/DC,B06_S6_SAM,LRRFIP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B179,True
+Mono/Mac/DC,B06_S6_SAM,NDUFA10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B180,True
+Mono/Mac/DC,B06_S6_SAM,MYEOV2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B181,False
+Mono/Mac/DC,B06_S6_SAM,SEPT2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B182,False
+Mono/Mac/DC,B06_S6_SAM,MTMR14,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B183,True
+Mono/Mac/DC,B06_S6_SAM,CAMK1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B184,True
+Mono/Mac/DC,B06_S6_SAM,TADA3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B185,True
+Mono/Mac/DC,B06_S6_SAM,ARPC4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B186,True
+Mono/Mac/DC,B06_S6_SAM,BRK1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B187,True
+Mono/Mac/DC,B06_S6_SAM,SEC13,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B188,True
+Mono/Mac/DC,B06_S6_SAM,RPL32,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B189,False
+Mono/Mac/DC,B06_S6_SAM,LSM3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B190,True
+Mono/Mac/DC,B06_S6_SAM,UBE2E1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B191,True
+Mono/Mac/DC,B06_S6_SAM,RPL15,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B192,False
+Mono/Mac/DC,B06_S6_SAM,ACAA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B193,True
+Mono/Mac/DC,B06_S6_SAM,MYD88,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B194,True
+Mono/Mac/DC,B06_S6_SAM,CSRNP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B195,True
+Mono/Mac/DC,B06_S6_SAM,CX3CR1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B196,True
+Mono/Mac/DC,B06_S6_SAM,RPSA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B197,False
+Mono/Mac/DC,B06_S6_SAM,EIF1B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B198,True
+Mono/Mac/DC,B06_S6_SAM,RPL14,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B199,False
+Mono/Mac/DC,B06_S6_SAM,CCDC12,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B200,True
+Mono/Mac/DC,B06_S6_SAM,TMA7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B201,True
+Mono/Mac/DC,B06_S6_SAM,QARS,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B202,True
+Mono/Mac/DC,B06_S6_SAM,GNAI2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B203,True
+Mono/Mac/DC,B06_S6_SAM,MAPKAPK3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B204,True
+Mono/Mac/DC,B06_S6_SAM,MANF,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B205,True
+Mono/Mac/DC,B06_S6_SAM,RPL29,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B206,False
+Mono/Mac/DC,B06_S6_SAM,TKT,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B207,True
+Mono/Mac/DC,B06_S6_SAM,SELK,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B208,False
+Mono/Mac/DC,B06_S6_SAM,CACNA2D3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B209,True
+Mono/Mac/DC,B06_S6_SAM,ARF4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B210,True
+Mono/Mac/DC,B06_S6_SAM,ARL6IP5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B211,True
+Mono/Mac/DC,B06_S6_SAM,RPL24,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B212,False
+Mono/Mac/DC,B06_S6_SAM,CD47,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B213,True
+Mono/Mac/DC,B06_S6_SAM,HCLS1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B214,True
+Mono/Mac/DC,B06_S6_SAM,CD86,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B215,True
+Mono/Mac/DC,B06_S6_SAM,CSTA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B216,True
+Mono/Mac/DC,B06_S6_SAM,RAB7A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B217,True
+Mono/Mac/DC,B06_S6_SAM,H1FX,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B218,True
+Mono/Mac/DC,B06_S6_SAM,ATP1B3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B219,True
+Mono/Mac/DC,B06_S6_SAM,PLSCR1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B220,True
+Mono/Mac/DC,B06_S6_SAM,SERP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B221,True
+Mono/Mac/DC,B06_S6_SAM,EIF2A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B222,True
+Mono/Mac/DC,B06_S6_SAM,SELT,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B223,False
+Mono/Mac/DC,B06_S6_SAM,SSR3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B224,True
+Mono/Mac/DC,B06_S6_SAM,NDUFB5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B225,True
+Mono/Mac/DC,B06_S6_SAM,TRA2B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B226,True
+Mono/Mac/DC,B06_S6_SAM,EIF4A2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B227,True
+Mono/Mac/DC,B06_S6_SAM,PAK2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B228,True
+Mono/Mac/DC,B06_S6_SAM,RPL35A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B229,False
+Mono/Mac/DC,B06_S6_SAM,ATP5I,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B230,False
+Mono/Mac/DC,B06_S6_SAM,LRPAP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B231,True
+Mono/Mac/DC,B06_S6_SAM,MRFAP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B232,True
+Mono/Mac/DC,B06_S6_SAM,LAP3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B233,True
+Mono/Mac/DC,B06_S6_SAM,MED28,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B234,True
+Mono/Mac/DC,B06_S6_SAM,KLF3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B235,True
+Mono/Mac/DC,B06_S6_SAM,RPL9,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B236,False
+Mono/Mac/DC,B06_S6_SAM,OCIAD1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B237,True
+Mono/Mac/DC,B06_S6_SAM,TMEM165,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B238,True
+Mono/Mac/DC,B06_S6_SAM,JCHAIN,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B239,True
+Mono/Mac/DC,B06_S6_SAM,AREG,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B240,True
+Mono/Mac/DC,B06_S6_SAM,CCNI,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B241,True
+Mono/Mac/DC,B06_S6_SAM,GPAT3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B242,True
+Mono/Mac/DC,B06_S6_SAM,HSD17B11,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B243,True
+Mono/Mac/DC,B06_S6_SAM,UBE2D3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B244,True
+Mono/Mac/DC,B06_S6_SAM,CCDC109B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B245,False
+Mono/Mac/DC,B06_S6_SAM,LARP7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B246,True
+Mono/Mac/DC,B06_S6_SAM,SNHG8,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B247,True
+Mono/Mac/DC,B06_S6_SAM,ANXA5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B248,True
+Mono/Mac/DC,B06_S6_SAM,MGST2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B249,True
+Mono/Mac/DC,B06_S6_SAM,LSM6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B250,True
+Mono/Mac/DC,B06_S6_SAM,PRMT9,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B251,True
+Mono/Mac/DC,B06_S6_SAM,RPS3A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B252,False
+Mono/Mac/DC,B06_S6_SAM,HMGB2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B253,True
+Mono/Mac/DC,B06_S6_SAM,SPCS3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B254,True
+Mono/Mac/DC,B06_S6_SAM,NIPBL,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B255,True
+Mono/Mac/DC,B06_S6_SAM,FYB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B256,False
+Mono/Mac/DC,B06_S6_SAM,RPL37,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B257,False
+Mono/Mac/DC,B06_S6_SAM,GAPT,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B258,True
+Mono/Mac/DC,B06_S6_SAM,BTF3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B259,True
+Mono/Mac/DC,B06_S6_SAM,HEXB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B260,True
+Mono/Mac/DC,B06_S6_SAM,RPS23,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B261,False
+Mono/Mac/DC,B06_S6_SAM,TMEM167A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B262,True
+Mono/Mac/DC,B06_S6_SAM,COX7C,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B263,True
+Mono/Mac/DC,B06_S6_SAM,CCNH,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B264,True
+Mono/Mac/DC,B06_S6_SAM,MEF2C,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B265,True
+Mono/Mac/DC,B06_S6_SAM,GLRX,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B266,True
+Mono/Mac/DC,B06_S6_SAM,CAST,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B267,True
+Mono/Mac/DC,B06_S6_SAM,CHD1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B268,True
+Mono/Mac/DC,B06_S6_SAM,REEP5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B269,True
+Mono/Mac/DC,B06_S6_SAM,SNX2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B270,True
+Mono/Mac/DC,B06_S6_SAM,IRF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B271,True
+Mono/Mac/DC,B06_S6_SAM,UBE2B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B272,True
+Mono/Mac/DC,B06_S6_SAM,DDX46,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B273,True
+Mono/Mac/DC,B06_S6_SAM,FAM53C,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B274,True
+Mono/Mac/DC,B06_S6_SAM,HSPA9,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B275,True
+Mono/Mac/DC,B06_S6_SAM,TMEM173,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B276,True
+Mono/Mac/DC,B06_S6_SAM,HBEGF,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B277,True
+Mono/Mac/DC,B06_S6_SAM,SRA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B278,True
+Mono/Mac/DC,B06_S6_SAM,TCOF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B279,True
+Mono/Mac/DC,B06_S6_SAM,RPS14,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B280,False
+Mono/Mac/DC,B06_S6_SAM,ANXA6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B281,True
+Mono/Mac/DC,B06_S6_SAM,DUSP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B282,True
+Mono/Mac/DC,B06_S6_SAM,ATP6V0E1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B283,True
+Mono/Mac/DC,B06_S6_SAM,HIGD2A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B284,True
+Mono/Mac/DC,B06_S6_SAM,PRELID1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B285,True
+Mono/Mac/DC,B06_S6_SAM,RNF130,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B286,True
+Mono/Mac/DC,B06_S6_SAM,MGAT1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B287,True
+Mono/Mac/DC,B06_S6_SAM,GNB2L1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B288,False
+Mono/Mac/DC,B06_S6_SAM,SERPINB1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B289,True
+Mono/Mac/DC,B06_S6_SAM,F13A1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B290,True
+Mono/Mac/DC,B06_S6_SAM,EEF1E1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B291,True
+Mono/Mac/DC,B06_S6_SAM,TMEM14C,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B292,True
+Mono/Mac/DC,B06_S6_SAM,PHACTR1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B293,True
+Mono/Mac/DC,B06_S6_SAM,CD83,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B294,True
+Mono/Mac/DC,B06_S6_SAM,SOX4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B295,True
+Mono/Mac/DC,B06_S6_SAM,HLA-F,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B296,True
+Mono/Mac/DC,B06_S6_SAM,HLA-A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B297,True
+Mono/Mac/DC,B06_S6_SAM,PPP1R10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B298,True
+Mono/Mac/DC,B06_S6_SAM,TUBB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B299,True
+Mono/Mac/DC,B06_S6_SAM,IER3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B300,True
+Mono/Mac/DC,B06_S6_SAM,HLA-C,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B301,True
+Mono/Mac/DC,B06_S6_SAM,HLA-B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B302,True
+Mono/Mac/DC,B06_S6_SAM,LTB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B303,True
+Mono/Mac/DC,B06_S6_SAM,LST1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B304,True
+Mono/Mac/DC,B06_S6_SAM,AIF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B305,True
+Mono/Mac/DC,B06_S6_SAM,CLIC1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B306,True
+Mono/Mac/DC,B06_S6_SAM,LSM2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B307,True
+Mono/Mac/DC,B06_S6_SAM,C6orf48,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B308,False
+Mono/Mac/DC,B06_S6_SAM,GPSM3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B309,True
+Mono/Mac/DC,B06_S6_SAM,HLA-DRA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B310,True
+Mono/Mac/DC,B06_S6_SAM,HLA-DRB5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B311,True
+Mono/Mac/DC,B06_S6_SAM,HLA-DRB1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B312,True
+Mono/Mac/DC,B06_S6_SAM,HLA-DQA2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B313,True
+Mono/Mac/DC,B06_S6_SAM,PSMB8-AS1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B314,True
+Mono/Mac/DC,B06_S6_SAM,HLA-DMB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B315,True
+Mono/Mac/DC,B06_S6_SAM,HLA-DPA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B316,True
+Mono/Mac/DC,B06_S6_SAM,RPS18,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B317,False
+Mono/Mac/DC,B06_S6_SAM,NUDT3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B318,True
+Mono/Mac/DC,B06_S6_SAM,RPS10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B319,False
+Mono/Mac/DC,B06_S6_SAM,DEF6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B320,True
+Mono/Mac/DC,B06_S6_SAM,RPL10A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B321,False
+Mono/Mac/DC,B06_S6_SAM,CDKN1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B322,True
+Mono/Mac/DC,B06_S6_SAM,CNPY3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B323,True
+Mono/Mac/DC,B06_S6_SAM,KLHDC3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B324,True
+Mono/Mac/DC,B06_S6_SAM,HSP90AB1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B325,True
+Mono/Mac/DC,B06_S6_SAM,OGFRL1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B326,True
+Mono/Mac/DC,B06_S6_SAM,EEF1A1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B327,True
+Mono/Mac/DC,B06_S6_SAM,PNRC1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B328,True
+Mono/Mac/DC,B06_S6_SAM,PNISR,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B329,True
+Mono/Mac/DC,B06_S6_SAM,SNX3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B330,True
+Mono/Mac/DC,B06_S6_SAM,FAM26F,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B331,False
+Mono/Mac/DC,B06_S6_SAM,STX7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B332,True
+Mono/Mac/DC,B06_S6_SAM,RPS12,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B333,False
+Mono/Mac/DC,B06_S6_SAM,BCLAF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B334,True
+Mono/Mac/DC,B06_S6_SAM,IFNGR1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B335,True
+Mono/Mac/DC,B06_S6_SAM,ABRACL,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B336,True
+Mono/Mac/DC,B06_S6_SAM,SF3B5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B337,True
+Mono/Mac/DC,B06_S6_SAM,STX11,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B338,True
+Mono/Mac/DC,B06_S6_SAM,DYNLT1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B339,True
+Mono/Mac/DC,B06_S6_SAM,EZR,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B340,True
+Mono/Mac/DC,B06_S6_SAM,TAGAP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B341,True
+Mono/Mac/DC,B06_S6_SAM,MRPL18,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B342,False
+Mono/Mac/DC,B06_S6_SAM,SFT2D1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B343,True
+Mono/Mac/DC,B06_S6_SAM,RNASET2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B344,True
+Mono/Mac/DC,B06_S6_SAM,ACTB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B345,True
+Mono/Mac/DC,B06_S6_SAM,ARL4A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B346,True
+Mono/Mac/DC,B06_S6_SAM,TOMM7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B347,False
+Mono/Mac/DC,B06_S6_SAM,HNRNPA2B1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B348,True
+Mono/Mac/DC,B06_S6_SAM,SKAP2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B349,True
+Mono/Mac/DC,B06_S6_SAM,TAX1BP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B350,True
+Mono/Mac/DC,B06_S6_SAM,CPVL,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B351,True
+Mono/Mac/DC,B06_S6_SAM,AOAH,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B352,True
+Mono/Mac/DC,B06_S6_SAM,SEC61G,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B353,True
+Mono/Mac/DC,B06_S6_SAM,LAT2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B354,True
+Mono/Mac/DC,B06_S6_SAM,NCF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B355,True
+Mono/Mac/DC,B06_S6_SAM,AKAP9,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B356,True
+Mono/Mac/DC,B06_S6_SAM,FAM133B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B357,True
+Mono/Mac/DC,B06_S6_SAM,SAMD9L,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B358,True
+Mono/Mac/DC,B06_S6_SAM,BRI3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B359,True
+Mono/Mac/DC,B06_S6_SAM,ARPC1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B360,True
+Mono/Mac/DC,B06_S6_SAM,ARPC1B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B361,True
+Mono/Mac/DC,B06_S6_SAM,ATP5J2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B362,False
+Mono/Mac/DC,B06_S6_SAM,LAMTOR4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B363,True
+Mono/Mac/DC,B06_S6_SAM,PILRA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B364,True
+Mono/Mac/DC,B06_S6_SAM,TSC22D4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B365,True
+Mono/Mac/DC,B06_S6_SAM,POLR2J,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B366,True
+Mono/Mac/DC,B06_S6_SAM,POLR2J3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B367,True
+Mono/Mac/DC,B06_S6_SAM,KMT2E,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B368,True
+Mono/Mac/DC,B06_S6_SAM,CAPZA2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B369,True
+Mono/Mac/DC,B06_S6_SAM,ARF5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B370,True
+Mono/Mac/DC,B06_S6_SAM,C7orf73,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B371,False
+Mono/Mac/DC,B06_S6_SAM,TBXAS1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B372,True
+Mono/Mac/DC,B06_S6_SAM,ZYX,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B373,True
+Mono/Mac/DC,B06_S6_SAM,GIMAP7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B374,True
+Mono/Mac/DC,B06_S6_SAM,TMEM176B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B375,True
+Mono/Mac/DC,B06_S6_SAM,TMEM176A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B376,True
+Mono/Mac/DC,B06_S6_SAM,INSIG1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B377,True
+Mono/Mac/DC,B06_S6_SAM,DNAJB6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B378,True
+Mono/Mac/DC,B06_S6_SAM,CSF2RA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B379,True
+Mono/Mac/DC,B06_S6_SAM,SLC25A6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B380,True
+Mono/Mac/DC,B06_S6_SAM,TMSB4X,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B381,True
+Mono/Mac/DC,B06_S6_SAM,AP1S2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B382,True
+Mono/Mac/DC,B06_S6_SAM,SYAP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B383,True
+Mono/Mac/DC,B06_S6_SAM,SH3KBP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B384,True
+Mono/Mac/DC,B06_S6_SAM,EIF1AX,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B385,True
+Mono/Mac/DC,B06_S6_SAM,EIF2S3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B386,True
+Mono/Mac/DC,B06_S6_SAM,CXorf21,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B387,True
+Mono/Mac/DC,B06_S6_SAM,ATP6AP2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B388,True
+Mono/Mac/DC,B06_S6_SAM,TIMP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B389,True
+Mono/Mac/DC,B06_S6_SAM,RBM3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B390,True
+Mono/Mac/DC,B06_S6_SAM,WAS,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B391,True
+Mono/Mac/DC,B06_S6_SAM,PQBP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B392,True
+Mono/Mac/DC,B06_S6_SAM,PLP2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B393,True
+Mono/Mac/DC,B06_S6_SAM,MSN,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B394,True
+Mono/Mac/DC,B06_S6_SAM,IGBP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B395,True
+Mono/Mac/DC,B06_S6_SAM,IL2RG,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B396,True
+Mono/Mac/DC,B06_S6_SAM,RPS4X,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B397,False
+Mono/Mac/DC,B06_S6_SAM,ATRX,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B398,True
+Mono/Mac/DC,B06_S6_SAM,RPL36A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B399,False
+Mono/Mac/DC,B06_S6_SAM,GLA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B400,True
+Mono/Mac/DC,B06_S6_SAM,TSC22D3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B401,True
+Mono/Mac/DC,B06_S6_SAM,IL13RA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B402,True
+Mono/Mac/DC,B06_S6_SAM,SLC25A5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B403,True
+Mono/Mac/DC,B06_S6_SAM,SEPT6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B404,False
+Mono/Mac/DC,B06_S6_SAM,RPL39,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B405,False
+Mono/Mac/DC,B06_S6_SAM,VMA21,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B406,True
+Mono/Mac/DC,B06_S6_SAM,BCAP31,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B407,True
+Mono/Mac/DC,B06_S6_SAM,NAA10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B408,True
+Mono/Mac/DC,B06_S6_SAM,FLNA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B409,True
+Mono/Mac/DC,B06_S6_SAM,RPL10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B410,False
+Mono/Mac/DC,B06_S6_SAM,PCM1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B411,True
+Mono/Mac/DC,B06_S6_SAM,DOK2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B412,True
+Mono/Mac/DC,B06_S6_SAM,SARAF,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B413,True
+Mono/Mac/DC,B06_S6_SAM,CEBPD,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B414,True
+Mono/Mac/DC,B06_S6_SAM,RPS20,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B415,False
+Mono/Mac/DC,B06_S6_SAM,RPL7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B416,False
+Mono/Mac/DC,B06_S6_SAM,FABP5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B417,True
+Mono/Mac/DC,B06_S6_SAM,RPL30,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B418,False
+Mono/Mac/DC,B06_S6_SAM,PABPC1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B419,True
+Mono/Mac/DC,B06_S6_SAM,YWHAZ,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B420,True
+Mono/Mac/DC,B06_S6_SAM,EIF3E,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B421,True
+Mono/Mac/DC,B06_S6_SAM,EIF3H,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B422,True
+Mono/Mac/DC,B06_S6_SAM,LY6E,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B423,True
+Mono/Mac/DC,B06_S6_SAM,EEF1D,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B424,True
+Mono/Mac/DC,B06_S6_SAM,RPL8,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B425,False
+Mono/Mac/DC,B06_S6_SAM,DOCK8,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B426,True
+Mono/Mac/DC,B06_S6_SAM,PLIN2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B427,True
+Mono/Mac/DC,B06_S6_SAM,RPS6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B428,False
+Mono/Mac/DC,B06_S6_SAM,HACD4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B429,True
+Mono/Mac/DC,B06_S6_SAM,DNAJA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B430,True
+Mono/Mac/DC,B06_S6_SAM,TLN1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B431,True
+Mono/Mac/DC,B06_S6_SAM,GLIPR2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B432,True
+Mono/Mac/DC,B06_S6_SAM,CLTA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B433,True
+Mono/Mac/DC,B06_S6_SAM,ZFAND5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B434,True
+Mono/Mac/DC,B06_S6_SAM,ANXA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B435,True
+Mono/Mac/DC,B06_S6_SAM,HNRNPK,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B436,True
+Mono/Mac/DC,B06_S6_SAM,CKS2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B437,True
+Mono/Mac/DC,B06_S6_SAM,SYK,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B438,True
+Mono/Mac/DC,B06_S6_SAM,FBP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B439,True
+Mono/Mac/DC,B06_S6_SAM,ERP44,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B440,True
+Mono/Mac/DC,B06_S6_SAM,KLF4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B441,True
+Mono/Mac/DC,B06_S6_SAM,SLC31A2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B442,True
+Mono/Mac/DC,B06_S6_SAM,ATP6V1G1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B443,True
+Mono/Mac/DC,B06_S6_SAM,RPL35,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B444,False
+Mono/Mac/DC,B06_S6_SAM,HSPA5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B445,True
+Mono/Mac/DC,B06_S6_SAM,C9orf16,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B446,True
+Mono/Mac/DC,B06_S6_SAM,NUP214,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B447,True
+Mono/Mac/DC,B06_S6_SAM,RPL7A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B448,False
+Mono/Mac/DC,B06_S6_SAM,FCN1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B449,True
+Mono/Mac/DC,B06_S6_SAM,PHPT1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B450,True
+Mono/Mac/DC,B06_S6_SAM,EDF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B451,True
+Mono/Mac/DC,B06_S6_SAM,IFITM2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B452,True
+Mono/Mac/DC,B06_S6_SAM,IFITM3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B453,True
+Mono/Mac/DC,B06_S6_SAM,SIGIRR,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B454,True
+Mono/Mac/DC,B06_S6_SAM,RPLP2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B455,False
+Mono/Mac/DC,B06_S6_SAM,LSP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B456,True
+Mono/Mac/DC,B06_S6_SAM,MRPL23,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B457,False
+Mono/Mac/DC,B06_S6_SAM,EIF3F,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B458,True
+Mono/Mac/DC,B06_S6_SAM,RPL27A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B459,False
+Mono/Mac/DC,B06_S6_SAM,EIF4G2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B460,True
+Mono/Mac/DC,B06_S6_SAM,C11orf58,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B461,True
+Mono/Mac/DC,B06_S6_SAM,RPS13,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B462,False
+Mono/Mac/DC,B06_S6_SAM,EIF3M,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B463,True
+Mono/Mac/DC,B06_S6_SAM,CAT,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B464,True
+Mono/Mac/DC,B06_S6_SAM,SPI1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B465,True
+Mono/Mac/DC,B06_S6_SAM,LPXN,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B466,True
+Mono/Mac/DC,B06_S6_SAM,TMEM258,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B467,True
+Mono/Mac/DC,B06_S6_SAM,UBXN1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B468,True
+Mono/Mac/DC,B06_S6_SAM,SLC3A2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B469,True
+Mono/Mac/DC,B06_S6_SAM,RARRES3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B470,False
+Mono/Mac/DC,B06_S6_SAM,COX8A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B471,True
+Mono/Mac/DC,B06_S6_SAM,DNAJC4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B472,True
+Mono/Mac/DC,B06_S6_SAM,FAU,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B473,False
+Mono/Mac/DC,B06_S6_SAM,CFL1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B474,True
+Mono/Mac/DC,B06_S6_SAM,CCDC85B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B475,True
+Mono/Mac/DC,B06_S6_SAM,DRAP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B476,True
+Mono/Mac/DC,B06_S6_SAM,CORO1B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B477,True
+Mono/Mac/DC,B06_S6_SAM,GSTP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B478,True
+Mono/Mac/DC,B06_S6_SAM,SPCS2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B479,True
+Mono/Mac/DC,B06_S6_SAM,RPS3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B480,False
+Mono/Mac/DC,B06_S6_SAM,NDUFC2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B481,True
+Mono/Mac/DC,B06_S6_SAM,CASP4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B482,True
+Mono/Mac/DC,B06_S6_SAM,CASP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B483,True
+Mono/Mac/DC,B06_S6_SAM,CARD16,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B484,True
+Mono/Mac/DC,B06_S6_SAM,JAML,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B485,True
+Mono/Mac/DC,B06_S6_SAM,ATP5L,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B486,False
+Mono/Mac/DC,B06_S6_SAM,RPS25,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B487,False
+Mono/Mac/DC,B06_S6_SAM,KIF5B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B488,True
+Mono/Mac/DC,B06_S6_SAM,HNRNPF,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B489,True
+Mono/Mac/DC,B06_S6_SAM,ALOX5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B490,True
+Mono/Mac/DC,B06_S6_SAM,JMJD1C,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B491,True
+Mono/Mac/DC,B06_S6_SAM,DDX21,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B492,True
+Mono/Mac/DC,B06_S6_SAM,PPA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B493,True
+Mono/Mac/DC,B06_S6_SAM,C10orf54,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B494,False
+Mono/Mac/DC,B06_S6_SAM,DDIT4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B495,True
+Mono/Mac/DC,B06_S6_SAM,RPS24,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B496,False
+Mono/Mac/DC,B06_S6_SAM,PGAM1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B497,True
+Mono/Mac/DC,B06_S6_SAM,GSTO1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B498,True
+Mono/Mac/DC,B06_S6_SAM,EIF3A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B499,True
+Mono/Mac/DC,B06_S6_SAM,RGS10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B500,True
+Mono/Mac/DC,B06_S6_SAM,PTPRE,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B501,True
+Mono/Mac/DC,B06_S6_SAM,TNFRSF1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B502,True
+Mono/Mac/DC,B06_S6_SAM,GAPDH,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B503,True
+Mono/Mac/DC,B06_S6_SAM,PTMS,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B504,True
+Mono/Mac/DC,B06_S6_SAM,TPI1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B505,True
+Mono/Mac/DC,B06_S6_SAM,PTPN6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B506,True
+Mono/Mac/DC,B06_S6_SAM,SLC2A3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B507,True
+Mono/Mac/DC,B06_S6_SAM,CLEC4A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B508,True
+Mono/Mac/DC,B06_S6_SAM,M6PR,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B509,True
+Mono/Mac/DC,B06_S6_SAM,CLEC2B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B510,True
+Mono/Mac/DC,B06_S6_SAM,CLEC12A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B511,True
+Mono/Mac/DC,B06_S6_SAM,YBX3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B512,True
+Mono/Mac/DC,B06_S6_SAM,CDKN1B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B513,True
+Mono/Mac/DC,B06_S6_SAM,PLBD1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B514,True
+Mono/Mac/DC,B06_S6_SAM,SCAF11,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B515,True
+Mono/Mac/DC,B06_S6_SAM,TUBA1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B516,True
+Mono/Mac/DC,B06_S6_SAM,NR4A1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B517,True
+Mono/Mac/DC,B06_S6_SAM,PFDN5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B518,True
+Mono/Mac/DC,B06_S6_SAM,PCBP2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B519,True
+Mono/Mac/DC,B06_S6_SAM,ATP5G2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B520,False
+Mono/Mac/DC,B06_S6_SAM,HNRNPA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B521,True
+Mono/Mac/DC,B06_S6_SAM,ZNF385A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B522,True
+Mono/Mac/DC,B06_S6_SAM,RPS26,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B523,False
+Mono/Mac/DC,B06_S6_SAM,RPL41,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B524,False
+Mono/Mac/DC,B06_S6_SAM,MYL6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B525,True
+Mono/Mac/DC,B06_S6_SAM,PTGES3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B526,True
+Mono/Mac/DC,B06_S6_SAM,NACA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B527,True
+Mono/Mac/DC,B06_S6_SAM,TMBIM4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B528,True
+Mono/Mac/DC,B06_S6_SAM,LYZ,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B529,True
+Mono/Mac/DC,B06_S6_SAM,NAP1L1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B530,True
+Mono/Mac/DC,B06_S6_SAM,BTG1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B531,True
+Mono/Mac/DC,B06_S6_SAM,SNRPF,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B532,True
+Mono/Mac/DC,B06_S6_SAM,LTA4H,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B533,True
+Mono/Mac/DC,B06_S6_SAM,ISCU,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B534,True
+Mono/Mac/DC,B06_S6_SAM,ALDH2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B535,False
+Mono/Mac/DC,B06_S6_SAM,RPL6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B536,False
+Mono/Mac/DC,B06_S6_SAM,SDS,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B537,True
+Mono/Mac/DC,B06_S6_SAM,PEBP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B538,True
+Mono/Mac/DC,B06_S6_SAM,TAOK3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B539,True
+Mono/Mac/DC,B06_S6_SAM,RPLP0,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B540,False
+Mono/Mac/DC,B06_S6_SAM,ARL6IP4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B541,True
+Mono/Mac/DC,B06_S6_SAM,RILPL2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B542,True
+Mono/Mac/DC,B06_S6_SAM,UBC,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B543,True
+Mono/Mac/DC,B06_S6_SAM,RPL21,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B544,False
+Mono/Mac/DC,B06_S6_SAM,POLR1D,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B545,True
+Mono/Mac/DC,B06_S6_SAM,POMP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B546,True
+Mono/Mac/DC,B06_S6_SAM,ALOX5AP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B547,True
+Mono/Mac/DC,B06_S6_SAM,N4BP2L2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B548,True
+Mono/Mac/DC,B06_S6_SAM,EPSTI1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B549,True
+Mono/Mac/DC,B06_S6_SAM,TPT1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B550,True
+Mono/Mac/DC,B06_S6_SAM,LCP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B551,True
+Mono/Mac/DC,B06_S6_SAM,LPAR6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B552,True
+Mono/Mac/DC,B06_S6_SAM,COMMD6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B553,True
+Mono/Mac/DC,B06_S6_SAM,TNFSF13B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B554,True
+Mono/Mac/DC,B06_S6_SAM,RNASE6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B555,True
+Mono/Mac/DC,B06_S6_SAM,DAD1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B556,True
+Mono/Mac/DC,B06_S6_SAM,OXA1L,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B557,False
+Mono/Mac/DC,B06_S6_SAM,PSME1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B558,True
+Mono/Mac/DC,B06_S6_SAM,BAZ1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B559,True
+Mono/Mac/DC,B06_S6_SAM,RPS29,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B560,False
+Mono/Mac/DC,B06_S6_SAM,RPL36AL,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B561,False
+Mono/Mac/DC,B06_S6_SAM,ARF6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B562,True
+Mono/Mac/DC,B06_S6_SAM,LGALS3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B563,True
+Mono/Mac/DC,B06_S6_SAM,SRSF5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B564,True
+Mono/Mac/DC,B06_S6_SAM,NDUFB1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B565,True
+Mono/Mac/DC,B06_S6_SAM,SERPINA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B566,True
+Mono/Mac/DC,B06_S6_SAM,HSP90AA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B567,True
+Mono/Mac/DC,B06_S6_SAM,C14orf2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B568,False
+Mono/Mac/DC,B06_S6_SAM,PLD4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B569,True
+Mono/Mac/DC,B06_S6_SAM,IGHA1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B570,True
+Mono/Mac/DC,B06_S6_SAM,IGHG1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B571,True
+Mono/Mac/DC,B06_S6_SAM,IGHG3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B572,True
+Mono/Mac/DC,B06_S6_SAM,IGHM,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B573,True
+Mono/Mac/DC,B06_S6_SAM,NOP10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B574,True
+Mono/Mac/DC,B06_S6_SAM,PDIA3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B575,True
+Mono/Mac/DC,B06_S6_SAM,SERF2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B576,True
+Mono/Mac/DC,B06_S6_SAM,EID1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B577,True
+Mono/Mac/DC,B06_S6_SAM,LYSMD2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B578,True
+Mono/Mac/DC,B06_S6_SAM,RSL24D1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B579,False
+Mono/Mac/DC,B06_S6_SAM,ANXA2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B580,True
+Mono/Mac/DC,B06_S6_SAM,LACTB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B581,True
+Mono/Mac/DC,B06_S6_SAM,RPS27L,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B582,False
+Mono/Mac/DC,B06_S6_SAM,OAZ2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B583,True
+Mono/Mac/DC,B06_S6_SAM,RPL4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B584,False
+Mono/Mac/DC,B06_S6_SAM,RPLP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B585,False
+Mono/Mac/DC,B06_S6_SAM,HEXA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B586,True
+Mono/Mac/DC,B06_S6_SAM,CSK,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B587,True
+Mono/Mac/DC,B06_S6_SAM,SCAMP2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B588,True
+Mono/Mac/DC,B06_S6_SAM,MORF4L1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B589,True
+Mono/Mac/DC,B06_S6_SAM,BCL2A1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B590,True
+Mono/Mac/DC,B06_S6_SAM,RPS17,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B591,False
+Mono/Mac/DC,B06_S6_SAM,SEC11A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B592,True
+Mono/Mac/DC,B06_S6_SAM,CIB1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B593,True
+Mono/Mac/DC,B06_S6_SAM,NDUFB10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B594,True
+Mono/Mac/DC,B06_S6_SAM,RPS2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B595,False
+Mono/Mac/DC,B06_S6_SAM,RNPS1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B596,True
+Mono/Mac/DC,B06_S6_SAM,TCEB2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B597,False
+Mono/Mac/DC,B06_S6_SAM,RPS15A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B598,False
+Mono/Mac/DC,B06_S6_SAM,SPN,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B599,True
+Mono/Mac/DC,B06_S6_SAM,TMEM219,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B600,True
+Mono/Mac/DC,B06_S6_SAM,ALDOA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B601,True
+Mono/Mac/DC,B06_S6_SAM,CORO1A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B602,True
+Mono/Mac/DC,B06_S6_SAM,FUS,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B603,True
+Mono/Mac/DC,B06_S6_SAM,PYCARD,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B604,True
+Mono/Mac/DC,B06_S6_SAM,VPS35,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B605,True
+Mono/Mac/DC,B06_S6_SAM,CKLF,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B606,True
+Mono/Mac/DC,B06_S6_SAM,CMTM3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B607,True
+Mono/Mac/DC,B06_S6_SAM,HSBP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B608,True
+Mono/Mac/DC,B06_S6_SAM,COTL1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B609,True
+Mono/Mac/DC,B06_S6_SAM,COX4I1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B610,True
+Mono/Mac/DC,B06_S6_SAM,CYBA,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B611,True
+Mono/Mac/DC,B06_S6_SAM,APRT,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B612,True
+Mono/Mac/DC,B06_S6_SAM,RPL13,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B613,False
+Mono/Mac/DC,B06_S6_SAM,PFN1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B614,True
+Mono/Mac/DC,B06_S6_SAM,TMEM256,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B615,True
+Mono/Mac/DC,B06_S6_SAM,TRAPPC1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B616,True
+Mono/Mac/DC,B06_S6_SAM,VAMP2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B617,True
+Mono/Mac/DC,B06_S6_SAM,RPL26,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B618,False
+Mono/Mac/DC,B06_S6_SAM,MTRNR2L1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B619,True
+Mono/Mac/DC,B06_S6_SAM,LGALS9,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B620,True
+Mono/Mac/DC,B06_S6_SAM,RPL23A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B621,False
+Mono/Mac/DC,B06_S6_SAM,EVI2B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B622,True
+Mono/Mac/DC,B06_S6_SAM,EVI2A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B623,True
+Mono/Mac/DC,B06_S6_SAM,RPL23,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B624,False
+Mono/Mac/DC,B06_S6_SAM,RPL19,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B625,False
+Mono/Mac/DC,B06_S6_SAM,EIF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B626,True
+Mono/Mac/DC,B06_S6_SAM,DNAJC7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B627,True
+Mono/Mac/DC,B06_S6_SAM,RPL27,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B628,False
+Mono/Mac/DC,B06_S6_SAM,GRN,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B629,True
+Mono/Mac/DC,B06_S6_SAM,FMNL1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B630,True
+Mono/Mac/DC,B06_S6_SAM,LUC7L3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B631,True
+Mono/Mac/DC,B06_S6_SAM,SCPEP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B632,True
+Mono/Mac/DC,B06_S6_SAM,RP5-1171I10.5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B633,False
+Mono/Mac/DC,B06_S6_SAM,SUPT4H1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B634,True
+Mono/Mac/DC,B06_S6_SAM,LIMD2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B635,True
+Mono/Mac/DC,B06_S6_SAM,PSMC5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B636,True
+Mono/Mac/DC,B06_S6_SAM,DDX5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B637,True
+Mono/Mac/DC,B06_S6_SAM,RPL38,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B638,False
+Mono/Mac/DC,B06_S6_SAM,CD300A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B639,True
+Mono/Mac/DC,B06_S6_SAM,MIF4GD,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B640,True
+Mono/Mac/DC,B06_S6_SAM,GRB2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B641,True
+Mono/Mac/DC,B06_S6_SAM,H3F3B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B642,True
+Mono/Mac/DC,B06_S6_SAM,SEPT9,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B643,False
+Mono/Mac/DC,B06_S6_SAM,SOCS3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B644,True
+Mono/Mac/DC,B06_S6_SAM,EIF4A3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B645,True
+Mono/Mac/DC,B06_S6_SAM,ACTG1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B646,True
+Mono/Mac/DC,B06_S6_SAM,SLC16A3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B647,True
+Mono/Mac/DC,B06_S6_SAM,TGIF1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B648,True
+Mono/Mac/DC,B06_S6_SAM,ANKRD12,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B649,True
+Mono/Mac/DC,B06_S6_SAM,CHMP1B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B650,True
+Mono/Mac/DC,B06_S6_SAM,PTPN2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B651,True
+Mono/Mac/DC,B06_S6_SAM,ROCK1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B652,True
+Mono/Mac/DC,B06_S6_SAM,RPL17,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B653,False
+Mono/Mac/DC,B06_S6_SAM,RBCK1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B654,True
+Mono/Mac/DC,B06_S6_SAM,C20orf27,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B655,True
+Mono/Mac/DC,B06_S6_SAM,CST3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B656,True
+Mono/Mac/DC,B06_S6_SAM,HCK,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B657,True
+Mono/Mac/DC,B06_S6_SAM,CHMP4B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B658,True
+Mono/Mac/DC,B06_S6_SAM,ERGIC3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B659,True
+Mono/Mac/DC,B06_S6_SAM,ROMO1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B660,True
+Mono/Mac/DC,B06_S6_SAM,RBM39,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B661,True
+Mono/Mac/DC,B06_S6_SAM,C20orf24,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B662,False
+Mono/Mac/DC,B06_S6_SAM,SAMHD1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B663,True
+Mono/Mac/DC,B06_S6_SAM,STK4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B664,True
+Mono/Mac/DC,B06_S6_SAM,ZFAS1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B665,True
+Mono/Mac/DC,B06_S6_SAM,RTFDC1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B666,False
+Mono/Mac/DC,B06_S6_SAM,GNAS,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B667,True
+Mono/Mac/DC,B06_S6_SAM,ATP5E,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B668,False
+Mono/Mac/DC,B06_S6_SAM,RPS21,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B669,False
+Mono/Mac/DC,B06_S6_SAM,PPDPF,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B670,True
+Mono/Mac/DC,B06_S6_SAM,RGS19,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B671,True
+Mono/Mac/DC,B06_S6_SAM,CNN2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B672,True
+Mono/Mac/DC,B06_S6_SAM,ATP5D,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B673,False
+Mono/Mac/DC,B06_S6_SAM,RPS15,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B674,False
+Mono/Mac/DC,B06_S6_SAM,UQCR11,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B675,True
+Mono/Mac/DC,B06_S6_SAM,OAZ1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B676,True
+Mono/Mac/DC,B06_S6_SAM,LSM7,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B677,True
+Mono/Mac/DC,B06_S6_SAM,GADD45B,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B678,True
+Mono/Mac/DC,B06_S6_SAM,EEF2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B679,True
+Mono/Mac/DC,B06_S6_SAM,RPL36,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B680,False
+Mono/Mac/DC,B06_S6_SAM,PET100,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B681,True
+Mono/Mac/DC,B06_S6_SAM,RPS28,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B682,False
+Mono/Mac/DC,B06_S6_SAM,MYO1F,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B683,True
+Mono/Mac/DC,B06_S6_SAM,EIF3G,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B684,True
+Mono/Mac/DC,B06_S6_SAM,ICAM3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B685,True
+Mono/Mac/DC,B06_S6_SAM,ACP5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B686,True
+Mono/Mac/DC,B06_S6_SAM,C19orf43,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B687,False
+Mono/Mac/DC,B06_S6_SAM,JUNB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B688,True
+Mono/Mac/DC,B06_S6_SAM,CALR,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B689,True
+Mono/Mac/DC,B06_S6_SAM,RAD23A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B690,True
+Mono/Mac/DC,B06_S6_SAM,C19orf53,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B691,True
+Mono/Mac/DC,B06_S6_SAM,CTD-3252C9.4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B692,False
+Mono/Mac/DC,B06_S6_SAM,BST2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B693,True
+Mono/Mac/DC,B06_S6_SAM,PGLS,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B694,True
+Mono/Mac/DC,B06_S6_SAM,RPL18A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B695,False
+Mono/Mac/DC,B06_S6_SAM,IFI30,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B696,True
+Mono/Mac/DC,B06_S6_SAM,UBA52,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B697,False
+Mono/Mac/DC,B06_S6_SAM,FXYD5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B698,True
+Mono/Mac/DC,B06_S6_SAM,COX6B1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B699,True
+Mono/Mac/DC,B06_S6_SAM,NFKBID,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B700,True
+Mono/Mac/DC,B06_S6_SAM,HCST,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B701,True
+Mono/Mac/DC,B06_S6_SAM,KCNK6,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B702,True
+Mono/Mac/DC,B06_S6_SAM,EIF3K,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B703,True
+Mono/Mac/DC,B06_S6_SAM,GMFG,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B704,True
+Mono/Mac/DC,B06_S6_SAM,ZFP36,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B705,True
+Mono/Mac/DC,B06_S6_SAM,RPS16,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B706,False
+Mono/Mac/DC,B06_S6_SAM,FBL,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B707,True
+Mono/Mac/DC,B06_S6_SAM,SHKBP1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B708,True
+Mono/Mac/DC,B06_S6_SAM,RPS19,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B709,False
+Mono/Mac/DC,B06_S6_SAM,POU2F2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B710,True
+Mono/Mac/DC,B06_S6_SAM,ETHE1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B711,True
+Mono/Mac/DC,B06_S6_SAM,PLAUR,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B712,True
+Mono/Mac/DC,B06_S6_SAM,FOSB,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B713,True
+Mono/Mac/DC,B06_S6_SAM,VASP,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B714,True
+Mono/Mac/DC,B06_S6_SAM,SNRPD2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B715,True
+Mono/Mac/DC,B06_S6_SAM,GLTSCR2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B716,False
+Mono/Mac/DC,B06_S6_SAM,EMP3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B717,True
+Mono/Mac/DC,B06_S6_SAM,RPL18,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B718,False
+Mono/Mac/DC,B06_S6_SAM,PPP1R15A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B719,True
+Mono/Mac/DC,B06_S6_SAM,CD37,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B720,True
+Mono/Mac/DC,B06_S6_SAM,RPL13A,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B721,False
+Mono/Mac/DC,B06_S6_SAM,RPS11,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B722,False
+Mono/Mac/DC,B06_S6_SAM,ZNF331,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B723,True
+Mono/Mac/DC,B06_S6_SAM,RPS9,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B724,False
+Mono/Mac/DC,B06_S6_SAM,LAIR1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B725,True
+Mono/Mac/DC,B06_S6_SAM,LILRB4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B726,True
+Mono/Mac/DC,B06_S6_SAM,RPL28,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B727,False
+Mono/Mac/DC,B06_S6_SAM,RPS5,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B728,False
+Mono/Mac/DC,B06_S6_SAM,RPS4Y1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B729,False
+Mono/Mac/DC,B06_S6_SAM,BID,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B730,True
+Mono/Mac/DC,B06_S6_SAM,IGLC2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B731,True
+Mono/Mac/DC,B06_S6_SAM,IGLC3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B732,True
+Mono/Mac/DC,B06_S6_SAM,CHCHD10,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B733,True
+Mono/Mac/DC,B06_S6_SAM,EIF3D,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B734,True
+Mono/Mac/DC,B06_S6_SAM,RAC2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B735,True
+Mono/Mac/DC,B06_S6_SAM,LGALS2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B736,True
+Mono/Mac/DC,B06_S6_SAM,LGALS1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B737,True
+Mono/Mac/DC,B06_S6_SAM,EIF3L,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B738,True
+Mono/Mac/DC,B06_S6_SAM,RPL3,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B739,False
+Mono/Mac/DC,B06_S6_SAM,ATF4,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B740,True
+Mono/Mac/DC,B06_S6_SAM,ST13,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B741,True
+Mono/Mac/DC,B06_S6_SAM,SNU13,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B742,True
+Mono/Mac/DC,B06_S6_SAM,SMDT1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B743,True
+Mono/Mac/DC,B06_S6_SAM,TSPO,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B744,True
+Mono/Mac/DC,B06_S6_SAM,SOD1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B745,True
+Mono/Mac/DC,B06_S6_SAM,IFNGR2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B746,True
+Mono/Mac/DC,B06_S6_SAM,SON,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B747,True
+Mono/Mac/DC,B06_S6_SAM,HMGN1,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B748,True
+Mono/Mac/DC,B06_S6_SAM,ITGB2,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B749,True
+Mono/Mac/DC,B06_S6_SAM,XIST,noncancer_background,10.1158/1078-0432.CCR-22-2041,S6!B750,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ADAR,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,APOL6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ARID5B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ARL4A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,AUTS2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,B2M,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,BANK1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,BATF2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,BPGM,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,BST2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,BTG1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,C1R,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,C1S,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CASP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CASP3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CASP4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CASP7,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CASP8,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CCL2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CCL5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CCL7,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CD274,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CD38,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CD40,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CD69,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CD74,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CD86,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CDKN1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CFB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CFH,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CIITA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CMKLR1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CMPK2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CMTR1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CSF2RB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CXCL10,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CXCL11,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,CXCL9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,DDX60,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,DHX58,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,EIF2AK2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,EIF4E3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,EPSTI1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,FAS,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,FCGR1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,FGL2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,FPR1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,GBP4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,GBP6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,GCH1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,GPR18,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,GZMA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HELZ2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HERC6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HIF1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HLA-A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HLA-B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HLA-DMA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HLA-DQA1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HLA-DRB1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,HLA-G,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ICAM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IDO1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFI27,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFI30,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFI35,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFI44,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFI44L,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFIH1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFIT1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFIT2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFIT3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFITM2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFITM3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IFNAR2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IL10RA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IL15,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IL15RA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IL18BP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IL2RB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IL4R,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IL6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IL7,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IRF1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IRF2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IRF4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IRF5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IRF7,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IRF8,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,IRF9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ISG15,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ISG20,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ISOC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ITGB7,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,JAK2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,KLRK1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,LAP3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,LATS2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,LCP2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,LGALS3BP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,LY6E,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,LYSMD2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,MARCHF1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,False
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,MT2A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,MTHFD2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,MVP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,MX1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,MX2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,MYD88,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,NAMPT,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,NCOA3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,NFKB1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,NFKBIA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,NLRC5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,NMI,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,NOD1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,NUP93,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,OAS2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,OAS3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,OASL,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,OGFR,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,P2RY14,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PARP12,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PARP14,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PDE4B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PELI1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PFKP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PIM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PLA2G4A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PLSCR1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PML,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PNP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PNPT1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PSMA2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PSMA3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PSMB10,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PSMB2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PSMB8,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PSMB9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PSME1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PSME2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PTGS2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PTPN1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PTPN2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,PTPN6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RAPGEF6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RBCK1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RIGI,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,False
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RIPK1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RIPK2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RNF213,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RNF31,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RSAD2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,RTP4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SAMD9L,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SAMHD1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SECTM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SELP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SERPING1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SLAMF7,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SLC25A28,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SOCS1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SOCS3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SOD2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SP110,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SPPL2A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SRI,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,SSPN,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ST3GAL5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ST8SIA4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,STAT1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,STAT2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,STAT3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,STAT4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TAP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TAPBP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TDRD7,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TMT1B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,False
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TNFAIP2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TNFAIP3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TNFAIP6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TNFSF10,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TOR1B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TRAFD1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TRIM14,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TRIM21,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TRIM25,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TRIM26,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,TXNIP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,UBE2L6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,UPP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,USP18,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,VAMP5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,VAMP8,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,VCAM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,WARS1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,False
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,XAF1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,XCL1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ZBP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+T/NK,HALLMARK_INTERFERON_GAMMA_RESPONSE,ZNFX1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ALDH18A1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ARFGAP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ASNS,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ATF3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ATF4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ATF6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ATP6V0D1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,BAG3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,BANF1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CALR,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CCL2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CEBPB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CEBPG,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CHAC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CKS1B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CNOT2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CNOT4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CNOT6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CXXC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DCP1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DCP2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DCTN1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DDIT4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DDX10,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DKC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DNAJA4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DNAJB9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DNAJC3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EDC4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EDEM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EEF2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF2AK3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF2S1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4A1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4A2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4A3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4E,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4EBP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4G1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ERN1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ERO1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOC2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC10,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,FKBP14,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,FUS,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,GEMIN4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,GOSR2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,H2AX,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,False
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HERPUD1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HSP90B1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HSPA5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HSPA9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HYOU1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,IARS1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,False
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,IFIT1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,IGFBP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,IMP3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,KDELR3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,KHSRP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,KIF5B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,LSM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,LSM4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,MTHFD2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,MTREX,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NABP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NFYA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NFYB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NHP2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NOLC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NOP14,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NOP56,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NPM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PAIP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PARN,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PDIA5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PDIA6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,POP4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PREB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PSAT1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,RPS14,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,False
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,RRP9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,False
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SDAD1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SEC11A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SEC31A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SERP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SHC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SKIC3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,False
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SLC1A4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SLC30A5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SLC7A5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SPCS1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SPCS3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SRPRA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SRPRB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SSR1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,STC2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,TARS1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,False
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,TATDN2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,TSPYL2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,TUBB2A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,VEGFA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,WFS1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,WIPI1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,XBP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,XPOT,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,YIF1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,YWHAZ,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
+B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ZBTB17,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True

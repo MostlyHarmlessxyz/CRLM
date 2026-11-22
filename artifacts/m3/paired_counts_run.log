@@ -1,15 +1,26 @@
-WARN `--no-project` was provided, but no project was found
-T/NK pooled_lesions 28 GSM 12 patients
-T/NK first_eligible_specimen 24 GSM 12 patients
-Mono/Mac/DC pooled_lesions 25 GSM 11 patients
-/home/mostly_harmless/.local/share/venvs/crlm-m3-de/lib/python3.12/site-packages/pydeseq2/dds.py:820: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
+[lineage] T/NK | pooled_lesions: 28 GSMs, 12 paired patients
+[lineage] T/NK | first_eligible_specimen: 24 GSMs, 12 paired patients
+[lineage] Mono/Mac/DC | pooled_lesions: 25 GSMs, 11 paired patients
+[lineage] Mono/Mac/DC | first_eligible_specimen: 22 GSMs, 11 paired patients
+[lineage] B/Plasma | pooled_lesions: 19 GSMs, 8 paired patients
+/home/mostly_harmless/Projects/CRLM/.venv-m4/lib/python3.12/site-packages/pydeseq2/dds.py:733: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
   self._fit_parametric_dispersion_trend(vst)
-Mono/Mac/DC first_eligible_specimen 22 GSM 11 patients
-/home/mostly_harmless/.local/share/venvs/crlm-m3-de/lib/python3.12/site-packages/pydeseq2/dds.py:820: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
+[lineage] B/Plasma | first_eligible_specimen: 16 GSMs, 8 paired patients
+/home/mostly_harmless/Projects/CRLM/.venv-m4/lib/python3.12/site-packages/pydeseq2/dds.py:733: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
   self._fit_parametric_dispersion_trend(vst)
-B/Plasma pooled_lesions 20 GSM 8 patients
-/home/mostly_harmless/.local/share/venvs/crlm-m3-de/lib/python3.12/site-packages/pydeseq2/dds.py:820: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
+[subtype] CD8 T cell | pooled_lesions: 24 GSMs, 10 paired patients
+[subtype] CD8 T cell | first_eligible_specimen: 20 GSMs, 10 paired patients
+/home/mostly_harmless/Projects/CRLM/.venv-m4/lib/python3.12/site-packages/pydeseq2/dds.py:733: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
   self._fit_parametric_dispersion_trend(vst)
-B/Plasma first_eligible_specimen 16 GSM 8 patients
-/home/mostly_harmless/.local/share/venvs/crlm-m3-de/lib/python3.12/site-packages/pydeseq2/dds.py:820: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
+[subtype] CD4 T cell | pooled_lesions: 28 GSMs, 12 paired patients
+[subtype] CD4 T cell | first_eligible_specimen: 24 GSMs, 12 paired patients
+[myeloid_fine] Macrophage | pooled_lesions: 25 GSMs, 11 paired patients
+[myeloid_fine] Macrophage | first_eligible_specimen: 22 GSMs, 11 paired patients
+/home/mostly_harmless/Projects/CRLM/.venv-m4/lib/python3.12/site-packages/pydeseq2/dds.py:733: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
+  self._fit_parametric_dispersion_trend(vst)
+[subtype] plasma cell | pooled_lesions: 15 GSMs, 6 paired patients
+/home/mostly_harmless/Projects/CRLM/.venv-m4/lib/python3.12/site-packages/pydeseq2/dds.py:733: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
+  self._fit_parametric_dispersion_trend(vst)
+[subtype] plasma cell | first_eligible_specimen: 12 GSMs, 6 paired patients
+/home/mostly_harmless/Projects/CRLM/.venv-m4/lib/python3.12/site-packages/pydeseq2/dds.py:733: UserWarning: The dispersion trend curve fitting did not converge. Switching to a mean-based dispersion trend.
   self._fit_parametric_dispersion_trend(vst)

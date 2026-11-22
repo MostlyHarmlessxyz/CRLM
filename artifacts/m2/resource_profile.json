@@ -1,21 +1,24 @@
 {
-  "ended_utc": "2026-11-21T12:20:55+00:00",
-  "command": "/home/mostly_harmless/Projects/CRLM/.venv-m2/bin/python scripts/process_gse245552.py --reports-only",
+  "ended_utc": "2026-11-21T15:12:08+00:00",
+  "command": "/home/mostly_harmless/Projects/CRLM/.venv-m2/bin/python scripts/process_gse245552.py",
   "source_versions": {
-    "m2_code": "1a8546f5ad59913549775e9b2caebd89d4e04e6912cae94f777282b05b4dec0b",
-    "m1_import": "67d9f2afd5e4dbd2164d6378ceaabde10ca4f17b81075d19ed90bbb56265ce75",
-    "m1_annotation": "08109ad793eec0f7a2f01ded38d2c2c9965fb2fe6550b502b4f56d1383a8649d",
+    "m2_code": "c0523e1e09ae72e55efcc705b40951d4fd0876d6be91f4cbcf59f3ee760aacaa",
+    "m1_import": "1c2674a27dd605154cdcaf220af2958d98e8cd0c9076b13e11ba629978fd0f64",
+    "m1_annotation": "b3c373dfe90099a382092dd9e7daa3ff004dbd14ee9df20e4da49c1d535c1c57",
+    "hgnc_code": "a1c0fffee9f25a0773e1a8e53ebc578809cfca1cb01b16ede89202a266f4432c",
+    "hgnc_table": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+    "hgnc_provenance": "7d34504cc055d09587583bdd9d0aea944994154664bf97eae683b51a08afac05",
     "manifest": "e00890459bffd45c93785f248bca9d9a8fc3ba01f7d52107f21b2b46b9942d35",
     "marker_table": "b619be6abd6dbe8e9d8ff819466142c80d3b541e442c0cf822d0a20dbfad2cde",
     "common_genes": "18710b4b5504ffe87de04af89ecb645375735ee0b806a5cdab9207e5360b2788",
     "normal_extra": "42ce2f12fff98b20b03c4e99f7ec9d1f9b961382c83dec65746df3b6a52cb499"
   },
   "python": "3.12.13 (main, Jun 11 2026, 04:03:26) [Clang 22.1.3 ]",
-  "build_seconds_sum": 54.487,
-  "summary_seconds": 24.17071470699966,
-  "summary_peak_rss_bytes": 828149760,
-  "max_build_peak_rss_bytes": 844378112,
+  "build_seconds_sum": 70.607,
+  "summary_seconds": 26.539519003999885,
+  "summary_peak_rss_bytes": 985796608,
+  "max_build_peak_rss_bytes": 985796608,
   "source_bytes": 1065655466,
-  "h5ad_bytes": 1881892842,
-  "pseudobulk_bytes": 42984640
+  "h5ad_bytes": 1963215918,
+  "pseudobulk_bytes": 44150883
 }

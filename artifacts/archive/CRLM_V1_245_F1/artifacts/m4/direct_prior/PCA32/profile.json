@@ -1,0 +1,8 @@
+{
+  "mixmil_commit": "16d92349ccf19b73c1dccd167934fcc3202b6be4",
+  "torch": "2.15.0+xpu",
+  "torch_threads": 2,
+  "seconds": 31.920482461000574,
+  "peak_rss_bytes": 1561112576,
+  "command": "/home/mostly_harmless/Projects/CRLM/.venv-scgpt/bin/python scripts/benchmark_prior_mil.py --representation PCA32"
+}

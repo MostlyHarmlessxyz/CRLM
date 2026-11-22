@@ -1,0 +1,5 @@
+sample,donor_uid,tissue,n_cells,panel_size,n_epcam_pos,n_myeloid_primary,n_cd3_cd8_primary,n_myeloid_strict_clean,n_cd3_cd8_strict_clean,n_boundary_overlap_total,n_cd8_contact_rescued,n_myeloid_contact_rescued,n_ambiguous_boundary_excluded,n_myeloid_primary_spp1,n_myeloid_primary_cxcl9,n_myeloid_primary_cxcl10,spp1_pos_fraction_in_overlap
+GSM9815454_tumor1_M242T,GSE335552:M242,LM,80036,462,1340,28897,1593,28281,1247,1238,346,616,276,25940,4326,2775,0.5581583198707593
+GSM9815455_tumor2_M131T,GSE335552:M131,LM,166860,462,95036,6292,31,6289,29,7,2,3,2,5580,75,67,0.8571428571428571
+GSM9815456_tumor3_M397T,GSE335552:M397,LM,213319,319,120724,36996,11737,35524,8501,5943,3236,1472,1235,10844,2831,1787,0.14554938583207133
+GSM9815457_AdjNormal_M131N,GSE335552:M131,NL,186496,462,760,5312,72,5312,72,3,0,0,3,57,36,26,0.0

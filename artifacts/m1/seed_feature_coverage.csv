@@ -1,41 +1,41 @@
-seed_set_id,tissue,n_seed_genes,n_on_axis,absent_exact_symbols
-B06_S5_A_MHCII_overlap,PT,9,9,
-B06_S5_A_MHCII_overlap,LM,9,9,
-B06_S5_A_MHCII_overlap,NC,9,9,
-B06_S5_A_MHCII_overlap,NL,9,9,
-B06_S5_A_crosspresentation_overlap,PT,7,7,
-B06_S5_A_crosspresentation_overlap,LM,7,7,
-B06_S5_A_crosspresentation_overlap,NC,7,7,
-B06_S5_A_crosspresentation_overlap,NL,7,7,
-B06_S5_R_lipid_overlap,PT,4,4,
-B06_S5_R_lipid_overlap,LM,4,4,
-B06_S5_R_lipid_overlap,NC,4,4,
-B06_S5_R_lipid_overlap,NL,4,4,
-B06_S5_R_matrix_overlap,PT,15,15,
-B06_S5_R_matrix_overlap,LM,15,15,
-B06_S5_R_matrix_overlap,NC,15,15,
-B06_S5_R_matrix_overlap,NL,15,15,
-B06_text_EcoTyper_examples,PT,8,8,
-B06_text_EcoTyper_examples,LM,8,8,
-B06_text_EcoTyper_examples,NC,8,8,
-B06_text_EcoTyper_examples,NL,8,8,
-B19_S4_Mac_CXCL10,PT,94,90,C19orf66 C9orf66 RARRES3 RPS6KC1
-B19_S4_Mac_CXCL10,LM,94,90,C19orf66 C9orf66 RARRES3 RPS6KC1
-B19_S4_Mac_CXCL10,NC,94,91,C19orf66 C9orf66 RARRES3
-B19_S4_Mac_CXCL10,NL,94,91,C19orf66 C9orf66 RARRES3
-B19_S4_Mac_SPP1,PT,164,160,FAM129B FAM213B LONP1 ST20
-B19_S4_Mac_SPP1,LM,164,160,FAM129B FAM213B LONP1 ST20
-B19_S4_Mac_SPP1,NC,164,161,FAM129B FAM213B ST20
-B19_S4_Mac_SPP1,NL,164,161,FAM129B FAM213B ST20
-B20_text_CXCL9_TAM,PT,2,2,
-B20_text_CXCL9_TAM,LM,2,2,
-B20_text_CXCL9_TAM,NC,2,2,
-B20_text_CXCL9_TAM,NL,2,2,
-B20_text_ISG15_TAM,PT,3,3,
-B20_text_ISG15_TAM,LM,3,3,
-B20_text_ISG15_TAM,NC,3,3,
-B20_text_ISG15_TAM,NL,3,3,
-B36_THP1_mechanistic_endpoints,PT,4,4,
-B36_THP1_mechanistic_endpoints,LM,4,4,
-B36_THP1_mechanistic_endpoints,NC,4,4,
-B36_THP1_mechanistic_endpoints,NL,4,4,
+seed_set_id,tissue,n_seed_genes,n_on_axis,absent_exact_symbols,n_seed_genes_canonical,n_on_axis_canonical,absent_canonical_symbols
+B06_S5_A_MHCII_overlap,PT,9,9,,9,9,
+B06_S5_A_MHCII_overlap,LM,9,9,,9,9,
+B06_S5_A_MHCII_overlap,NC,9,9,,9,9,
+B06_S5_A_MHCII_overlap,NL,9,9,,9,9,
+B06_S5_A_crosspresentation_overlap,PT,7,7,,7,7,
+B06_S5_A_crosspresentation_overlap,LM,7,7,,7,7,
+B06_S5_A_crosspresentation_overlap,NC,7,7,,7,7,
+B06_S5_A_crosspresentation_overlap,NL,7,7,,7,7,
+B06_S5_R_lipid_overlap,PT,4,4,,4,4,
+B06_S5_R_lipid_overlap,LM,4,4,,4,4,
+B06_S5_R_lipid_overlap,NC,4,4,,4,4,
+B06_S5_R_lipid_overlap,NL,4,4,,4,4,
+B06_S5_R_matrix_overlap,PT,15,15,,15,15,
+B06_S5_R_matrix_overlap,LM,15,15,,15,15,
+B06_S5_R_matrix_overlap,NC,15,15,,15,15,
+B06_S5_R_matrix_overlap,NL,15,15,,15,15,
+B06_text_EcoTyper_examples,PT,8,8,,8,8,
+B06_text_EcoTyper_examples,LM,8,8,,8,8,
+B06_text_EcoTyper_examples,NC,8,8,,8,8,
+B06_text_EcoTyper_examples,NL,8,8,,8,8,
+B19_S4_Mac_CXCL10,PT,94,90,C19orf66 C9orf66 RARRES3 RPS6KC1,94,93,RPS6KC1
+B19_S4_Mac_CXCL10,LM,94,90,C19orf66 C9orf66 RARRES3 RPS6KC1,94,93,RPS6KC1
+B19_S4_Mac_CXCL10,NC,94,91,C19orf66 C9orf66 RARRES3,94,94,
+B19_S4_Mac_CXCL10,NL,94,91,C19orf66 C9orf66 RARRES3,94,94,
+B19_S4_Mac_SPP1,PT,164,160,FAM129B FAM213B LONP1 ST20,164,162,LONP1 ST20
+B19_S4_Mac_SPP1,LM,164,160,FAM129B FAM213B LONP1 ST20,164,162,LONP1 ST20
+B19_S4_Mac_SPP1,NC,164,161,FAM129B FAM213B ST20,164,163,ST20
+B19_S4_Mac_SPP1,NL,164,161,FAM129B FAM213B ST20,164,163,ST20
+B20_text_CXCL9_TAM,PT,2,2,,2,2,
+B20_text_CXCL9_TAM,LM,2,2,,2,2,
+B20_text_CXCL9_TAM,NC,2,2,,2,2,
+B20_text_CXCL9_TAM,NL,2,2,,2,2,
+B20_text_ISG15_TAM,PT,3,3,,3,3,
+B20_text_ISG15_TAM,LM,3,3,,3,3,
+B20_text_ISG15_TAM,NC,3,3,,3,3,
+B20_text_ISG15_TAM,NL,3,3,,3,3,
+B36_THP1_mechanistic_endpoints,PT,4,4,,4,4,
+B36_THP1_mechanistic_endpoints,LM,4,4,,4,4,
+B36_THP1_mechanistic_endpoints,NC,4,4,,4,4,
+B36_THP1_mechanistic_endpoints,NL,4,4,,4,4,

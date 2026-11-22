@@ -1,0 +1,7 @@
+date_utc,phase,source,material,observed,outcome_record
+2026-11-21,before_freeze,all external sources,Historical exposure plus accession-specific technical preparation,Published 164 subset proportions and input probes recorded in the archived access log,artifacts/m5/external_access_log.csv
+2026-11-21,after_freeze,GSE164522,Author continuous PT MT PN MN matrices and aligned cell metadata,Frozen program measurements and same-patient four-tissue contrasts,artifacts/m6/GSE164522/external_access_log.csv
+2026-11-21,after_freeze,GSE164522,21 tumor specimens and frozen model inputs,External tissue-classification predictions and coverage,artifacts/m6/GSE164522/model_predictions/predict_run.json
+2026-11-21,after_freeze,GSE203608,Original public integer matrix and original author labels,Two prespecified secondary programs and patient 49 sensitivity,artifacts/m6/GSE203608/external_access_log.csv
+2026-11-21,after_freeze,GSE335552,Four public measured H5 matrices and matched centroids,Panel coverage and within-region marker distances,artifacts/m7/spatial_measurement_audit/source_inputs.csv
+2026-11-21,terms_pending,GSE178318,Original GEO usage conditions,No new expression results,artifacts/m6/GSE178318/access_status.md

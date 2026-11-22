@@ -1,0 +1,7 @@
+WARN `--no-project` was provided, but no project was found
+method           accepted
+PCA_attention    True        3
+PCA_mean         True        3
+program_elastic  True        3
+scGPT_attention  True        3
+scGPT_mean       True        3

@@ -1,268 +1,31 @@
-lineage,program,gene_symbol,role,source_doi,source_location,on_discovery_axis
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ALDH18A1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ARFGAP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ASNS,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ATF3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ATF4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ATF6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ATP6V0D1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,BAG3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,BANF1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CALR,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CCL2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CEBPB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CEBPG,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CHAC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CKS1B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CNOT2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CNOT4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CNOT6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,CXXC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DCP1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DCP2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DCTN1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DDIT4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DDX10,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DKC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DNAJA4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DNAJB9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,DNAJC3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EDC4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EDEM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EEF2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF2AK3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF2S1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4A1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4A2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4A3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4E,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4EBP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EIF4G1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ERN1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ERO1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOC2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC10,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,EXOSC9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,FKBP14,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,FUS,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,GEMIN4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,GOSR2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HERPUD1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HSP90B1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HSPA5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HSPA9,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,HYOU1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,IFIT1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,IGFBP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,IMP3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,KDELR3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,KHSRP,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,KIF5B,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,LSM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,LSM4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,MTHFD2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,MTREX,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NABP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NFYA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NFYB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NHP2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NOLC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NOP14,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NOP56,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,NPM1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PAIP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PARN,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PDIA5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PDIA6,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,POP4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PREB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,PSAT1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SDAD1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SEC11A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SEC31A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SERP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SHC1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SLC1A4,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SLC30A5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SLC7A5,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SPCS1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SPCS3,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SRPRA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SRPRB,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,SSR1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,STC2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,TATDN2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,TSPYL2,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,TUBB2A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,VEGFA,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,WFS1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,WIPI1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,XBP1,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,XPOT,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,YIF1A,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,YWHAZ,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,ZBTB17,complete_program,10.1016/j.cels.2015.12.004,MSigDB 2025.1.Hs https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_UNFOLDED_PROTEIN_RESPONSE,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SPP1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MATK,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ZNF395,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,EMP1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SDC2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,HK2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLC11A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SPOCD1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,AK4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ENO2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,BNIP3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,FBP1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SFXN3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MMP9,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLC16A10,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CD109,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MMP7,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MAPK13,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,LAT,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MSC,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ANGPTL4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,GZMB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,FLT1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ITGA5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLAMF9,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,RAI14,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MSANTD3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLC6A8,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,GSDME,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,VMO1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p9,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ANPEP,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,EGLN3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PDE4A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CD82,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,RUNX1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MIR210HG,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MXI1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MMP8,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TM4SF19,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SELENON,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,LINC02345,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MYO1E,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,IRAK1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SDC4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SCG5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SPAG4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CCL7,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CRABP2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLC2A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TNIK,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TREM1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,COL27A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,NDRG1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ADM,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PARP6,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,IL2RG,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,GPC4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MECP2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,EZH1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,AC147651.4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,DUSP4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,GYS1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p10,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,RNF187,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CAVIN3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,AC093895.1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TNFRSF12A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ASPHD1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,AVL9,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,HTRA1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PLIN2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MAFK,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,KDM3A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ADAM17,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,AL136454.1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MIF-AS1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ZMIZ1-AS1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,GGA1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CTTN,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,METRNL,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,UAP1L1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,RAPH1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLCO4A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CEBPB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,RCAN1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,UBXN7,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,NRIP3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ACVR1B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLC17A5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CCR1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,EMILIN1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ARRDC3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SCIN,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MMP12,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,IDE,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p11,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CIR1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PHLDA1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PLAUR,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,NMB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLC16A3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PHF1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,C15orf48,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ADARB1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ELMO2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ARID5B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ZFYVE16,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,BCAT1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CLEC5A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PC,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ZBTB43,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PAQR5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,FAM214B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SMIM13,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,METTL7B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,EAF1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TFRC,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TRIP10,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MUCL1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,WHRN,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,LMBRD1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,AHNAK,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ANG,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,RYBP,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,DTX2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SHB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLC35E1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PRKAG2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CYP19A1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p12,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PDK1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PI4K2A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TMEM41B,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CSTB,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SMOX,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,P2RX4,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,AC073611.1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,VPS37C,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,IGFBP6,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MMP19,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,UBTD1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ANGPTL6,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ZFYVE28,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,GNLY,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CSF1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PCGF1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CA12,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SQOR,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ZNF397,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,CAVIN1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MITF,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,HOXB13,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,PHC2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TNS1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,INHBA,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ST3GAL1,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,ADAM10,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SLC35F5,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,TMEM45A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,STX1A,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MT3,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,MINDY2,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
-Mono/Mac/DC,B19_S4_Mac_SPP1,SEMA3C,complete_program,10.1126/science.ade2292,Table S4; Mac_SPP1; PDF p13,True
+lineage,program,gene_symbol,gene_symbol_original,gene_symbol_245_raw,hgnc_id,hgnc_match_type,role,candidate_class,mechanism_cluster,cleanliness_tier,focal_subtype,source_doi,source_location,on_discovery_axis,on_shared_nuclear_164,on_shared_nuclear_all
+Mono/Mac/DC,Core_Lipid_SAM_R,SPP1,SPP1,SPP1,HGNC:11255,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,TREM2,TREM2,TREM2,HGNC:17761,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,APOE,APOE,APOE,HGNC:613,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,APOC1,APOC1,APOC1,HGNC:607,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,GPNMB,GPNMB,GPNMB,HGNC:4462,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,FABP5,FABP5,FABP5,HGNC:3560,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,LGALS3,LGALS3,LGALS3,HGNC:6563,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,CTSB,CTSB,CTSB,HGNC:2527,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,CTSD,CTSD,CTSD,HGNC:2529,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,CTSL,CTSL,CTSL,HGNC:2537,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,MMP9,MMP9,MMP9,HGNC:7176,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,FTL,FTL,FTL,HGNC:3999,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,LIPA,LIPA,LIPA,HGNC:6617,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,PLD3,PLD3,PLD3,HGNC:17158,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,CD9,CD9,CD9,HGNC:1709,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+Mono/Mac/DC,Core_Lipid_SAM_R,CD63,CD63,CD63,HGNC:1692,approved_symbol,complete_program,candidate_program,Myeloid_R_Lipid_SAM,1,Macrophage,10.1158/1078-0432.CCR-22-2041;10.1038/s41586-019-1631-3;10.1158/2159-8290.CD-23-1300,CRLM_Research_Plan §5.1 H1-R (Sathe 2023 B06 / Ramachandran SAM / Matusiak 2024 B20),True,True,True
+T/NK,B07_Th17_TWEAK,IL17A,IL17A,IL17A,HGNC:5981,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,IL17F,IL17F,IL17F,HGNC:16404,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,RORC,RORC,RORC,HGNC:10260,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,RORA,RORA,RORA,HGNC:10258,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,CCR6,CCR6,CCR6,HGNC:1607,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,CCL20,CCL20,CCL20,HGNC:10619,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,IL23R,IL23R,IL23R,HGNC:19100,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,KLRB1,KLRB1,KLRB1,HGNC:6373,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,TNFSF12,TNFSF12,TNFSF12,HGNC:11927,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,IL22,IL22,IL22,HGNC:14900,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,IL26,IL26,IL26,HGNC:17119,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,CTSH,CTSH,CTSH,HGNC:2535,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,CXCR6,CXCR6,CXCR6,HGNC:16647,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True
+T/NK,B07_Th17_TWEAK,BHLHE40,BHLHE40,BHLHE40,HGNC:1046,approved_symbol,complete_program,candidate_program,TNK_CD4_Th17_TWEAK,1,CD4 T cell,10.1016/j.cell.2024.03.029,CRLM_Research_Plan §5.3 GSE245552 original study B07 Th17-TWEAK reference,True,True,True

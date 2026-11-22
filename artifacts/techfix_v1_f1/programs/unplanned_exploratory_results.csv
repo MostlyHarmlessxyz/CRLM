@@ -1,0 +1,15 @@
+dataset,role,lineage,program,contrast,n_patients,status,mean_difference,median_difference,bootstrap_mean_ci_low,bootstrap_mean_ci_high,n_positive,n_negative,n_ties,n_sign_test,positive_fraction_nonzero,positive_fraction_ties_half_descriptive,positive_fraction_exact_ci_low,positive_fraction_exact_ci_high,sign_p_two_sided,registry_exclusion_reason,registry_analysis_tier
+GSE164522,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_N,10,estimated,-0.016901111392830674,-0.020730751220044905,-0.026329842821939262,-0.006928957095797573,2,8,0,10,0.2,0.2,0.025210726326833386,0.5560954623076415,0.109375,not_in_frozen_plan,unplanned_exploratory
+GSE164522,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_T_Q,9,estimated,-0.018699955673502813,-0.025436162146722646,-0.029378617480223315,-0.00622144992069547,2,7,0,9,0.2222222222222222,0.2222222222222222,0.028144973477898204,0.6000935737163121,0.1796875,not_in_frozen_plan,unplanned_exploratory
+GSE164522,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_N_Q,9,estimated,-0.01560767593290436,-0.014797198603652695,-0.025984082911640873,-0.005081286829525922,2,7,0,9,0.2222222222222222,0.2222222222222222,0.028144973477898204,0.6000935737163121,0.1796875,not_in_frozen_plan,unplanned_exploratory
+GSE164522,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N,5,estimated,-3.777409975378177e-05,-0.0036567550544997773,-0.005099150146637569,0.007457021268882011,1,4,0,5,0.2,0.2,0.005050763379468062,0.7164179361180895,0.375,not_in_frozen_plan,unplanned_exploratory
+GSE164522,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_T_Q,5,estimated,0.016235663024986274,0.00928864547884202,0.0037006088637787536,0.0317056868486701,4,1,0,5,0.8,0.8,0.2835820638819106,0.9949492366205319,0.375,not_in_frozen_plan,unplanned_exploratory
+GSE164522,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N_Q,5,estimated,-3.777409975378177e-05,-0.0036567550544997773,-0.005099150146637569,0.007457021268882011,1,4,0,5,0.2,0.2,0.005050763379468062,0.7164179361180895,0.375,not_in_frozen_plan,unplanned_exploratory
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_N,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_T_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_N_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,I,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_T_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,I,0,no_complete_contrast,,,,,0,0,0,0,,,,,,not_in_frozen_plan,unplanned_exploratory

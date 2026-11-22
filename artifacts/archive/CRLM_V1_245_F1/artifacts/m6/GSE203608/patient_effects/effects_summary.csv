@@ -1,0 +1,11 @@
+dataset,role,lineage,program,contrast,n_patients,status,mean_difference,median_difference,bootstrap_mean_ci_low,bootstrap_mean_ci_high,n_positive,n_negative,n_ties,n_sign_test,positive_fraction_nonzero,positive_fraction_ties_half_descriptive,positive_fraction_exact_ci_low,positive_fraction_exact_ci_high,sign_p_two_sided
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_T,2,estimated,0.011734116292856672,0.011734116292856672,-0.009843023896687647,0.03331125648240099,1,1,0,2,0.5,0.5,0.01257911709342506,0.9874208829065749,1.0
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_N,0,no_complete_contrast,,,,,0,0,0,0,,,,,
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_T_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,D_N_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,
+GSE203608,external,B/Plasma,HALLMARK_UNFOLDED_PROTEIN_RESPONSE,I,0,no_complete_contrast,,,,,0,0,0,0,,,,,
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_T,4,estimated,-0.0049936054334169065,0.0011655127636697842,-0.02395091750419834,0.010111788879489457,2,2,0,4,0.5,0.5,0.06758598648854298,0.932414013511457,1.0
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N,0,no_complete_contrast,,,,,0,0,0,0,,,,,
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_T_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,D_N_Q,0,no_complete_contrast,,,,,0,0,0,0,,,,,
+GSE203608,external,Mono/Mac/DC,B19_S4_Mac_SPP1,I,0,no_complete_contrast,,,,,0,0,0,0,,,,,

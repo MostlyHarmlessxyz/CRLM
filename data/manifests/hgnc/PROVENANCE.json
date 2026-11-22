@@ -1,0 +1,263 @@
+{
+  "source_url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+  "local_path": "data/manifests/hgnc/hgnc_complete_set.txt",
+  "download_started_utc": "2026-11-21T14:15:46+00:00",
+  "download_completed_utc": "2026-11-21T14:15:50+00:00",
+  "http_status": 200,
+  "http_last_modified": "Fri, 13 Nov 2026 12:59:59 GMT",
+  "http_etag": "\"2a30aa650f51d6fed261f79057463d5a\"",
+  "http_x_goog_generation": "1794574799610852",
+  "http_content_length": 17007798,
+  "bytes": 17007798,
+  "total_lines_including_header": 45396,
+  "data_rows": 45395,
+  "n_columns": 53,
+  "columns": [
+    "hgnc_id",
+    "symbol",
+    "name",
+    "locus_group",
+    "locus_type",
+    "status",
+    "location",
+    "alias_symbol",
+    "alias_name",
+    "prev_symbol",
+    "prev_name",
+    "gene_group",
+    "gene_group_id",
+    "date_approved_reserved",
+    "date_symbol_changed",
+    "date_name_changed",
+    "date_modified",
+    "entrez_id",
+    "ensembl_gene_id",
+    "vega_id",
+    "ucsc_id",
+    "ena",
+    "refseq_accession",
+    "ccds_id",
+    "uniprot_ids",
+    "pubmed_id",
+    "mgd_id",
+    "rgd_id",
+    "lsdb",
+    "cosmic",
+    "omim_id",
+    "mirbase",
+    "homeodb",
+    "snornabase",
+    "bioparadigms_slc",
+    "orphanet",
+    "pseudogene.org",
+    "horde_id",
+    "merops",
+    "imgt",
+    "iuphar",
+    "kznf_gene_catalog",
+    "mamit-trnadb",
+    "cd",
+    "lncrnadb",
+    "enzyme_id",
+    "intermediate_filament_db",
+    "rna_central_id",
+    "lncipedia",
+    "gtrnadb",
+    "agr",
+    "mane_select",
+    "gencc"
+  ],
+  "sha256": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+  "version_note": "Official HGNC complete set TSV mirrored on Google Cloud Public Datasets (Last-Modified: Fri, 13 Nov 2026 12:59:59 GMT)",
+  "derived_manifests": {
+    "tumor_canonical_nuclear_245.txt": {
+      "path": "data/manifests/hgnc/tumor_canonical_nuclear_245.txt",
+      "bytes": 238046,
+      "lines": 29569,
+      "sha256": "5c1bedafa225fcc4b90104b43245bc19b787259a3bf79d395dddb9cfab056ecd"
+    },
+    "shared_nuclear_245_164.txt": {
+      "path": "data/manifests/hgnc/shared_nuclear_245_164.txt",
+      "bytes": 126246,
+      "lines": 18815,
+      "sha256": "82666ff4d7eb4fadd215d5290d074487a61fb486d15df2becafb2fd78c518eb4"
+    },
+    "shared_nuclear_245_164_203608.txt": {
+      "path": "data/manifests/hgnc/shared_nuclear_245_164_203608.txt",
+      "bytes": 125372,
+      "lines": 18733,
+      "sha256": "f5b4c9ddc2cb75ddd5589ec27e8b6e560554acdd9c944442aab10e88088e86d2"
+    },
+    "excluded_353_canonical.txt": {
+      "path": "data/manifests/hgnc/excluded_353_canonical.txt",
+      "bytes": 2258,
+      "lines": 353,
+      "sha256": "e65b82b56b8024ea5b1bb5851292cbc6b209bba278951c4597bc49bf84053be7"
+    },
+    "cross_cohort_gene_harmonization_audit.csv": {
+      "path": "data/manifests/hgnc/cross_cohort_gene_harmonization_audit.csv",
+      "bytes": 8530682,
+      "lines": 88751,
+      "sha256": "6b75e6763a0887963420d8039cf93f7148f1af7b0d5114aef4e976dd2875f296"
+    }
+  },
+  "summary_metrics": {
+    "n_245_tumor_canonical_nuclear": 29569,
+    "n_245_164_shared_nuclear": 18815,
+    "n_245_164_203608_shared_nuclear": 18733,
+    "n_excluded_353_canonical": 353,
+    "n_164_in_excluded_353": 352,
+    "n_203608_in_excluded_353": 353,
+    "n_203608_unique_measurable_before": 33626,
+    "n_203608_unique_measurable_after": 33658,
+    "scgpt_245_tumor_matched_before": 21170,
+    "scgpt_245_tumor_matched_after": 21463,
+    "scgpt_164_matched_before": 22344,
+    "scgpt_164_matched_after": 23293,
+    "scgpt_shared_245_164_matched": 18717,
+    "m4_pca_512_coverage": {
+      "T_NK": {
+        "n_hvg": 512,
+        "before_164": 486,
+        "after_164": 507,
+        "fraction_164": 0.990234375,
+        "absent_164": [
+          "GAS5",
+          "SNHG6",
+          "PCED1B-AS1",
+          "LINC01578",
+          "SNHG29"
+        ],
+        "before_203608": 486,
+        "after_203608": 507,
+        "fraction_203608": 0.990234375,
+        "absent_203608": [
+          "GAS5",
+          "SNHG6",
+          "PCED1B-AS1",
+          "LINC01578",
+          "SNHG29"
+        ],
+        "before_scgpt": 504,
+        "after_scgpt": 512
+      },
+      "Mono_Mac_DC": {
+        "n_hvg": 512,
+        "before_164": 496,
+        "after_164": 510,
+        "fraction_164": 0.99609375,
+        "absent_164": [
+          "SNHG29",
+          "CCL3L1"
+        ],
+        "before_203608": 496,
+        "after_203608": 510,
+        "fraction_203608": 0.99609375,
+        "absent_203608": [
+          "SNHG29",
+          "CCL3L1"
+        ],
+        "before_scgpt": 507,
+        "after_scgpt": 512
+      },
+      "B_Plasma": {
+        "n_hvg": 512,
+        "before_164": 485,
+        "after_164": 506,
+        "fraction_164": 0.98828125,
+        "absent_164": [
+          "GAS5",
+          "LINC02362",
+          "SNHG29",
+          "IGHV7-4-1",
+          "IGHV1-69D",
+          "IGLC1"
+        ],
+        "before_203608": 486,
+        "after_203608": 510,
+        "fraction_203608": 0.99609375,
+        "absent_203608": [
+          "GAS5",
+          "SNHG29"
+        ],
+        "before_scgpt": 505,
+        "after_scgpt": 512
+      }
+    },
+    "frozen_program_coverage": {
+      "B/Plasma::HALLMARK_UNFOLDED_PROTEIN_RESPONSE": {
+        "n_frozen_245": 107,
+        "before_164": 106,
+        "after_164": 107,
+        "before_203608": 106,
+        "after_203608": 107
+      },
+      "Mono/Mac/DC::B19_S4_Mac_CXCL10": {
+        "n_frozen_245": 90,
+        "before_164": 87,
+        "after_164": 88,
+        "before_203608": 87,
+        "after_203608": 88
+      },
+      "Mono/Mac/DC::B19_S4_Mac_SPP1": {
+        "n_frozen_245": 160,
+        "before_164": 149,
+        "after_164": 156,
+        "before_203608": 149,
+        "after_203608": 157
+      },
+      "T/NK::HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+        "n_frozen_245": 196,
+        "before_164": 196,
+        "after_164": 196,
+        "before_203608": 196,
+        "after_203608": 196
+      }
+    },
+    "raw_program_coverage": {
+      "HALLMARK_UNFOLDED_PROTEIN_RESPONSE": {
+        "n_raw": 113,
+        "n_canonical_dedup": 113,
+        "before_245": 107,
+        "after_245_nuclear": 111,
+        "in_excluded_353": [
+          "RPS14",
+          "RRP9"
+        ],
+        "after_shared_245_164": 111,
+        "after_shared_245_164_203608": 111
+      },
+      "HALLMARK_INTERFERON_GAMMA_RESPONSE": {
+        "n_raw": 200,
+        "n_canonical_dedup": 200,
+        "before_245": 196,
+        "after_245_nuclear": 200,
+        "in_excluded_353": [],
+        "after_shared_245_164": 200,
+        "after_shared_245_164_203608": 200
+      },
+      "B19_S4_Mac_SPP1": {
+        "n_raw": 164,
+        "n_canonical_dedup": 164,
+        "before_245": 160,
+        "after_245_nuclear": 162,
+        "in_excluded_353": [
+          "LONP1"
+        ],
+        "after_shared_245_164": 158,
+        "after_shared_245_164_203608": 157
+      },
+      "B19_S4_Mac_CXCL10": {
+        "n_raw": 94,
+        "n_canonical_dedup": 94,
+        "before_245": 90,
+        "after_245_nuclear": 93,
+        "in_excluded_353": [
+          "RPS6KC1"
+        ],
+        "after_shared_245_164": 91,
+        "after_shared_245_164_203608": 91
+      }
+    }
+  }
+}

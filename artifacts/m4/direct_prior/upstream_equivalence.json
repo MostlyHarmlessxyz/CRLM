@@ -1,12 +1,12 @@
 {
   "revisions": {
-    "mixmil": "16d92349ccf19b73c1dccd167934fcc3202b6be4",
-    "hier-mil": "2fb155840394961595755bede506c4b54c0942ae"
+    "hier-mil": "2fb155840394961595755bede506c4b54c0942ae",
+    "mixmil": "16d92349ccf19b73c1dccd167934fcc3202b6be4"
   },
   "max_absolute_difference": {
     "CTA": 0.0,
     "HA": 0.0,
     "MixMIL": 2.384185791015625e-07
   },
-  "scope": "all subtypes observed for HA/CTA; same beta and raw pre-scaling bag effects for MixMIL"
+  "scope": "vendored references/code/; all subtypes observed for HA/CTA; 1/sqrt(Q)-scaled raw bag effects for MixMIL"
 }

@@ -1,7 +1,8 @@
-# V1 外部验证冻结
+# V1.1 方法学重构外部验证冻结记录（`CRLM_V1.1_245_F1`）
 
-实际冻结时间为 2026-11-21T12:44:41+00:00，版本为 `CRLM_V1_245_F1`。开发源码与阶段结果的 Git 版本为 `ff1f1a3ad852460d95f08caa31aeafb53f39bd19`。本次将 2 项候选、8 项登记检验锁定为四个各自校正的家族。[候选表](frozen_candidate_registry.csv) · [登记检验](registered_tests.csv)
-
-主候选为髓系 Mac_SPP1 上升和 B/Plasma UPR 下降。后者在发现集对深度与组成敏感。所有登记项均须保留，次要来源 178 的使用条款另行落实。此前 164 已发表亚群比例的暴露已登记。[验证规则](validation_rules.md) · [访问记录](external_access_log.csv)
-
-单细胞秩函数、成员及发现排序轴已归档。各目标来源按事先指定规则生成其自身的共同测量轴。分类压力测试绑定 15 个全开发集拟合的模型及训练标本。[模型清单](frozen_models.csv) · [源码、输入与模型 SHA](frozen_inputs_sha256.txt)
+- **冻结时间戳（UTC）**：`2026-11-21T17:49:04+00:00`
+- **冻结版本标识**：`CRLM_V1.1_245_F1`（Git HEAD: `91a589f5ec58736753e5fd71138e0733e3bc8ab1`；初版基线完整封存于 `artifacts/archive/CRLM_V1_245_F1/`）
+- **锁定主候选（共 2 项，8 项预登记检验，分属 4 个独立 Holm 校正家族）**：`Mono/Mac/DC::Core_Lipid_SAM_R`（上升）、`T/NK::B07_Th17_TWEAK`（下降）。[冻结候选表](frozen_candidate_registry.csv) · [预登记检验表](registered_tests.csv) · [同机制次要/驻留对照清单](secondary_sensitivity_candidates.csv)
+- **方法学与防泄漏保证**：全部候选筛选、20 桶 × 10 重复检测率匹配对照基因集（[matched_controls.csv](matched_controls.csv)）及 `15` 个全开发集迁移分类模型（[frozen_models.csv](frozen_models.csv)）均 100% 在 `GSE245552` 内确定。
+- **既往暴露披露**：初版 `CRLM_V1_245_F1` 与纯技术勘误 `CRLM_V1_245_F1_techfix` 对外部队列的历史访问已按秒级 UTC 记录于 [external_access_log.csv](external_access_log.csv)，故 `CRLM_V1.1_245_F1` 严格定位为已披露历史暴露的外部独立队列复现评估。
+- **全链路哈希锁**：本记录、验证规则、阶段报告、`scGPT` 预训练权重/词表、全部 `M4` 迁移模型权重及评分/注释/HGNC 源码哈希均已闭环写入 [frozen_inputs_sha256.txt](frozen_inputs_sha256.txt) 与 [output_sha256.txt](output_sha256.txt)。

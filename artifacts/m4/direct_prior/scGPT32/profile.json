@@ -1,8 +1,20 @@
 {
   "mixmil_commit": "16d92349ccf19b73c1dccd167934fcc3202b6be4",
+  "hiermil_commit": "2fb155840394961595755bede506c4b54c0942ae",
+  "mixmil_posterior_sha256": "64c352ae4127526f1ff2952305484f3b3cabce05ade29e7af61e146775f9ce89",
+  "hiermil_model_sha256": "fefdb233563b56de3030e65d0b8ef203bb2dca19c342d9bc87defb6b2f460e2c",
+  "gene_universe": "245_164_shared_nuclear",
+  "tasks": [
+    "T/NK",
+    "Mono/Mac/DC",
+    "B/Plasma",
+    "All3Lineages"
+  ],
+  "inner_cv_tuned": true,
+  "hier_device": "xpu",
   "torch": "2.15.0+xpu",
-  "torch_threads": 2,
-  "seconds": 33.25542607599982,
-  "peak_rss_bytes": 1337827328,
-  "command": "/home/mostly_harmless/Projects/CRLM/.venv-scgpt/bin/python scripts/benchmark_prior_mil.py --representation scGPT32"
+  "torch_threads": 4,
+  "seconds": 848.2008428749978,
+  "peak_rss_bytes": 5347229696,
+  "command": "/home/mostly_harmless/Projects/CRLM/.venv-scgpt/bin/python scripts/benchmark_prior_mil.py --representation scGPT32 --device xpu"
 }

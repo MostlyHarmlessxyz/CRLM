@@ -1,5 +1,5 @@
 family,analysis_tier,alpha,n_planned_tests,n_raw_p_available,n_missing_planned_tests,n_matched_summary_rows,n_all_ties
-BACKGROUND_I_164_V1,background,0.05,2,2,0,2,0
-PRIMARY_DT_164_V1,primary,0.05,2,2,0,2,0
-SECONDARY_DT_178_V1,secondary,0.05,2,0,2,0,0
-SECONDARY_DT_203608_V1,secondary,0.05,2,2,0,2,0
+BACKGROUND_I_164_V1_1,background,0.05,2,2,0,2,0
+PRIMARY_DT_164_V1_1,primary,0.05,2,2,0,2,0
+SECONDARY_DT_178_V1_1,secondary,0.05,2,0,2,0,0
+SECONDARY_DT_203608_V1_1,secondary,0.05,2,2,0,2,0

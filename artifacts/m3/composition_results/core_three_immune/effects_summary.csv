@@ -1,0 +1,16 @@
+dataset,role,lineage,program,contrast,n_patients,status,mean_difference,median_difference,bootstrap_mean_ci_low,bootstrap_mean_ci_high,n_positive,n_negative,n_ties,n_sign_test,positive_fraction_nonzero,positive_fraction_ties_half_descriptive,positive_fraction_exact_ci_low,positive_fraction_exact_ci_high,sign_p_two_sided
+GSE245552,development,B/Plasma,core_three_immune_fraction,D_T,13,estimated,-0.26919989534043337,-0.2229138520709339,-0.35869709206301764,-0.18077464111455754,0,13,0,13,0.0,0.0,0.0,0.24705263800047098,0.000244140625
+GSE245552,development,B/Plasma,core_three_immune_fraction,D_N,1,one_patient_no_bootstrap_ci,-0.46387121729199754,-0.46387121729199754,,,0,1,0,1,0.0,0.0,0.0,0.975,1.0
+GSE245552,development,B/Plasma,core_three_immune_fraction,D_T_Q,1,one_patient_no_bootstrap_ci,-0.1216537629567277,-0.1216537629567277,,,0,1,0,1,0.0,0.0,0.0,0.975,1.0
+GSE245552,development,B/Plasma,core_three_immune_fraction,D_N_Q,1,one_patient_no_bootstrap_ci,-0.46387121729199754,-0.46387121729199754,,,0,1,0,1,0.0,0.0,0.0,0.975,1.0
+GSE245552,development,B/Plasma,core_three_immune_fraction,I,1,one_patient_no_bootstrap_ci,0.34221745433526984,0.34221745433526984,,,1,0,0,1,1.0,1.0,0.025000000000000022,1.0,1.0
+GSE245552,development,Mono/Mac/DC,core_three_immune_fraction,D_T,13,estimated,0.18877241157790553,0.23169598787965015,0.032424204679021525,0.335656410325495,10,3,0,13,0.7692307692307693,0.7692307692307693,0.46186846076595905,0.9496189265088485,0.09228515625
+GSE245552,development,Mono/Mac/DC,core_three_immune_fraction,D_N,1,one_patient_no_bootstrap_ci,0.11454118779307818,0.11454118779307818,,,1,0,0,1,1.0,1.0,0.025000000000000022,1.0,1.0
+GSE245552,development,Mono/Mac/DC,core_three_immune_fraction,D_T_Q,1,one_patient_no_bootstrap_ci,-0.17593498879285874,-0.17593498879285874,,,0,1,0,1,0.0,0.0,0.0,0.975,1.0
+GSE245552,development,Mono/Mac/DC,core_three_immune_fraction,D_N_Q,1,one_patient_no_bootstrap_ci,0.11454118779307818,0.11454118779307818,,,1,0,0,1,1.0,1.0,0.025000000000000022,1.0,1.0
+GSE245552,development,Mono/Mac/DC,core_three_immune_fraction,I,1,one_patient_no_bootstrap_ci,-0.29047617658593694,-0.29047617658593694,,,0,1,0,1,0.0,0.0,0.0,0.975,1.0
+GSE245552,development,T/NK,core_three_immune_fraction,D_T,13,estimated,0.08042748376252792,0.007886193477433301,-0.07863385588556594,0.2366106661110695,8,5,0,13,0.6153846153846154,0.6153846153846154,0.3157776029140631,0.8614206611098394,0.5810546875
+GSE245552,development,T/NK,core_three_immune_fraction,D_N,1,one_patient_no_bootstrap_ci,0.34933002949891934,0.34933002949891934,,,1,0,0,1,1.0,1.0,0.025000000000000022,1.0,1.0
+GSE245552,development,T/NK,core_three_immune_fraction,D_T_Q,1,one_patient_no_bootstrap_ci,0.2975887517495865,0.2975887517495865,,,1,0,0,1,1.0,1.0,0.025000000000000022,1.0,1.0
+GSE245552,development,T/NK,core_three_immune_fraction,D_N_Q,1,one_patient_no_bootstrap_ci,0.34933002949891934,0.34933002949891934,,,1,0,0,1,1.0,1.0,0.025000000000000022,1.0,1.0
+GSE245552,development,T/NK,core_three_immune_fraction,I,1,one_patient_no_bootstrap_ci,-0.05174127774933285,-0.05174127774933285,,,0,1,0,1,0.0,0.0,0.0,0.975,1.0

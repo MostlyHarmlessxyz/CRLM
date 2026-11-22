@@ -37,7 +37,7 @@ def main():
             if len(accessions) != len(set(accessions)):
                 errors.append("Duplicate dataset accession; conflicting roles cannot be silently collapsed")
             roles = {row["accession"]: row["role"] for row in dataset_rows}
-            if config.get("research_version") in ("V1_DRAFT", "V1_FROZEN"):
+            if config.get("research_version") in ("V1_DRAFT", "V1_FROZEN", "V1.1_AUDIT_REMEDIATED"):
                 developers = {row["accession"] for row in dataset_rows if row["role"] == "development"}
                 if developers != {"GSE245552"}:
                     errors.append("V1 development sources must be exactly {GSE245552}")

@@ -1,7 +1,7 @@
 {
   "n_planned_tests": 8,
   "n_families": 4,
-  "n_unplanned_results": 14,
+  "n_unplanned_results": 64,
   "n_missing_planned_tests": 2,
   "unplanned_policy": "separate",
   "synthetic_example": false,
@@ -12,6 +12,6 @@
     "A Holm rejection plus direction match is a statistical criterion, not proof of full biological replication, independence or mechanism.",
     "A frozen timestamp declaration is checked for format, not historical truth; use the external-access log and archived registry hash."
   ],
-  "plan_sha256": "d4651f49e11b8c98747cfbb55b672c4816e1203a054358c93bea03fa5e230e8a",
-  "summaries_sha256": "b16a264f09ff8a9ff7b5a2af8c9b68d8e79af32fb22a6dfbaeec94a5bd1eb1d0"
+  "plan_sha256": "e69a79ea1869b8755e4a1c81d2b23ab4fef48a1b7a999d179713dc8f1f8eed07",
+  "summaries_sha256": "57340abaa5ee7d5fbd6ca47b91e5ed02aedd0313d02fd400002340fa69dffde4"
 }

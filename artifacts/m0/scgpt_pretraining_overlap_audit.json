@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "audit_scope": "scGPT-whole-human CELLxGENE Census pretraining overlap audit across CRLM datasets",
+  "checkpoint": {
+    "local_directory": "models/scGPT-whole-human",
+    "hf_repo": "wanglab/scGPT-human",
+    "hf_revision": "a24c237737a40f3720f75abb555489e9fe753be6",
+    "upstream_code_commit": "cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+    "files": {
+      "best_model.pt": {
+        "path": "models/scGPT-whole-human/best_model.pt",
+        "size_bytes": 205385258,
+        "sha256": "6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922"
+      },
+      "vocab.json": {
+        "path": "models/scGPT-whole-human/vocab.json",
+        "size_bytes": 1317639,
+        "sha256": "acca93d114ca62c3f0f50debbd23e8c87f0714f4737764454f6b2b13f2e8580f"
+      },
+      "args.json": {
+        "path": "models/scGPT-whole-human/args.json",
+        "size_bytes": 1300,
+        "sha256": "c18e075e018140cb8b2d9029387b9de26607a5ce6a8ccabd6ead70cd76b95d60"
+      },
+      "scGPT_source.tar.gz": {
+        "path": "models/scGPT-whole-human/scGPT_source.tar.gz",
+        "size_bytes": 12072234,
+        "sha256": "46be386b0fae377844f908a007cdda2a7c29c75667e8460b88879b60a677bb81"
+      }
+    },
+    "vocab_token_count": 60697,
+    "architecture": {
+      "nlayers": 12,
+      "nheads": 8,
+      "embsize": 512,
+      "d_hid": 512,
+      "n_bins": 51,
+      "max_seq_len": 1200
+    },
+    "pretraining_objective": {
+      "USE_CLS": false,
+      "USE_CCE": false,
+      "MVC": true,
+      "USE_GENERATIVE_TRAINING": true,
+      "mask_ratio": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "supervised_pt_lm_labels_used": false,
+      "crlm_finetuning_performed": false
+    }
+  },
+  "pretraining_corpus": {
+    "census_snapshot_version": "2023-05-08",
+    "checkpoint_save_dir_tag": "cellxgene_census_human-May23-08-36-2023",
+    "data_source": "/scratch/ssd004/datasets/cellxgene/scb_strict/human",
+    "whole_human_filter": "suspension_type != 'na' and disease == 'normal'",
+    "major_tissue_list": [
+      "heart",
+      "blood",
+      "brain",
+      "lung",
+      "kidney",
+      "intestine",
+      "pancreas"
+    ],
+    "others_partition_includes_normal_liver": true,
+    "pan_cancer_filter_includes_colorectal_cancer": true,
+    "pan_cancer_cancer_list_line_17": "colorectal cancer",
+    "legacy_metainfo_json_collections": 60,
+    "legacy_metainfo_crlm_accession_hits": 0,
+    "census_soma_dataset_id_manifest_bundled": false
+  },
+  "dataset_assessments": [
+    {
+      "accession": "GSE245552",
+      "project_role": "development",
+      "geo_submission_date": "2023-10-17",
+      "geo_public_date": "2024-01-05",
+      "publication_year": 2024,
+      "doi": "10.1158/0008-5472.CAN-23-2123",
+      "temporal_relation_to_snapshot": "strictly_after_2023-05-08",
+      "used_for_scgpt_encoding": true,
+      "overlap_status": "DEFINITE_ZERO_OVERLAP",
+      "rationale": "Initial GEO submission (2023-10-17) and public release (2024-01-05) occurred >5 and ~8 months after the 2023-05-08 CELLxGENE Census snapshot.",
+      "interpretive_rule": "Development OOF scGPT vs PCA comparisons have zero pretraining data overlap."
+    },
+    {
+      "accession": "GSE164522",
+      "project_role": "external_primary",
+      "geo_submission_date": "2021-01-10",
+      "geo_public_date": "2022-02-12",
+      "publication_year": 2022,
+      "doi": "10.1016/j.ccell.2022.02.013",
+      "temporal_relation_to_snapshot": "before_2023-05-08",
+      "used_for_scgpt_encoding": true,
+      "overlap_status": "POTENTIAL_UNSUPERVISED_EXPOSURE_UNVERIFIED",
+      "rationale": "Public ~15 months before 2023-05-08. If ingested into CELLxGENE Census by 2023-05-08, adjacent normal colon (intestine), normal liver (others), and PBMC (blood) cells match disease == 'normal' in whole-human; tumor cells match colorectal cancer in pan-cancer queries. Exact SOMA dataset_id roster is not bundled with best_model.pt.",
+      "interpretive_rule": "Primary biological confirmation relies on non-scGPT gene-program statistics; M6 scGPT classifiers must be reported alongside zero-pretraining PCA baselines on identical donor bags without claiming blind zero-exposure foundation generalization."
+    },
+    {
+      "accession": "GSE178318",
+      "project_role": "external_secondary_terms_pending",
+      "geo_submission_date": "2021-06-16",
+      "geo_public_date": "2021-09-10",
+      "publication_year": 2021,
+      "doi": "10.1038/s41421-021-00312-y",
+      "temporal_relation_to_snapshot": "before_2023-05-08",
+      "used_for_scgpt_encoding": false,
+      "overlap_status": "POTENTIAL_UNSUPERVISED_EXPOSURE_UNVERIFIED_NOT_RUN",
+      "rationale": "Public ~20 months before 2023-05-08; currently terms_pending with zero expression files downloaded or encoded.",
+      "interpretive_rule": "Keep terms_pending until PI confirmation; if later evaluated, apply non-scGPT program statistics as primary endpoint."
+    },
+    {
+      "accession": "GSE203608",
+      "project_role": "external_secondary_optional",
+      "geo_submission_date": "2022-05-23",
+      "geo_public_date": "2023-10-20",
+      "publication_year": 2023,
+      "doi": "10.1038/s41467-023-43746-6",
+      "temporal_relation_to_snapshot": "submitted_before_but_public_after_2023-05-08",
+      "used_for_scgpt_encoding": false,
+      "overlap_status": "NEGLIGIBLE_POST_CUTOFF_PUBLIC_RELEASE",
+      "rationale": "Remained embargoed/non-public on GEO until 2023-10-20 (5.4 months after 2023-05-08 Census snapshot) and is not used for scGPT model inference.",
+      "interpretive_rule": "Evaluated with gene-program statistics only; unaffected by scGPT representation pretraining."
+    },
+    {
+      "accession": "GSE225857",
+      "project_role": "excluded",
+      "geo_submission_date": "2023-02-22",
+      "geo_public_date": "2023-02-22",
+      "publication_year": 2023,
+      "temporal_relation_to_snapshot": "before_2023-05-08",
+      "used_for_scgpt_encoding": false,
+      "overlap_status": "NOT_USED_EXCLUDED",
+      "rationale": "Excluded from V1/V1.1 paired inference pending donor-ID resolution.",
+      "interpretive_rule": "Not used."
+    },
+    {
+      "accession": "GSE298084",
+      "project_role": "context_only",
+      "geo_submission_date": "2025-05-27",
+      "geo_public_date": "2025-08-11",
+      "publication_year": 2025,
+      "temporal_relation_to_snapshot": "strictly_after_2023-05-08",
+      "used_for_scgpt_encoding": false,
+      "overlap_status": "DEFINITE_ZERO_OVERLAP",
+      "rationale": "Public >2 years after 2023-05-08 snapshot and not encoded with scGPT.",
+      "interpretive_rule": "Zero overlap."
+    },
+    {
+      "accession": "GSE335552",
+      "project_role": "spatial_support_m7",
+      "geo_submission_date": "2026-06-16",
+      "geo_public_date": "2026-08-03",
+      "publication_year": 2026,
+      "temporal_relation_to_snapshot": "strictly_after_2023-05-08",
+      "used_for_scgpt_encoding": false,
+      "overlap_status": "DEFINITE_ZERO_OVERLAP",
+      "rationale": "Public >3 years after 2023-05-08 snapshot; 377-gene 10x Xenium spatial imaging cohort not encoded with scGPT.",
+      "interpretive_rule": "Zero overlap."
+    }
+  ]
+}

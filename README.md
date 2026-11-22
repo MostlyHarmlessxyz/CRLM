@@ -1,69 +1,42 @@
 # CRLM 免疫程序项目
 
-**研究目标：** 寻找结直肠癌原发灶与肝转移灶之间跨患者、跨独立来源可复现的免疫细胞状态与分子程序，评估组成、状态及器官背景。项目意图以 [说明.md](docs/source_brief/说明.md) 为最高依据。
+**研究目标：** 寻找结直肠癌原发灶（PT）与肝转移灶（LM）之间跨患者、跨独立来源可复现的免疫细胞状态与分子程序，分离细胞组成、亚型内转录状态与正常结肠–肝脏器官背景。项目原始需求以 [说明.md](docs/source_brief/说明.md) 为最高依据。
 
-**[V1 实证报告与主图](artifacts/m8/final_report.md)**。髓系 Mac_SPP1 与 B/Plasma UPR 在发现集和主要外部来源的患者多数方向一致，均未通过预登记的外部 Holm 校正。四组织分析显示 UPR 的正常器官差与肿瘤差幅度相近。独立的 UPenn 患者差、三位空间患者及组织分类的结果均已归档。[全部登记检验](artifacts/m6/registered_tests/registered_test_results.csv) · [复算入口](artifacts/m8/reproduce.md) · [项目状态](STATUS.md)
+**[主交付报告与四幅主图（`CRLM_V1.1_AUDIT_REMEDIATED`）](artifacts/m8/final_report.md)**。本项目采用透明三版本并列架构：主线 **`CRLM_V1.1_AUDIT_REMEDIATED`**（冻结标识 `CRLM_V1.1_245_F1`）完整修复了单细胞排序深度偏倚、HGNC 基因别名脱节与粗谱系混杂；原版基线 **`CRLM_V1_245_F1`**（`M3–M8` 阶段产物与模型/嵌入快照）封存于 [archive/](artifacts/archive/CRLM_V1_245_F1/)；纯客观技术勘误 **`CRLM_V1_245_F1_techfix`** 对照存于 [techfix_v1_f1/](artifacts/techfix_v1_f1/)。核心实证结论：
+- **`T/NK::B07_Th17_TWEAK` 显著负向四组织观测交互**：开发集 `GSE245552` `10/12` 配对患者下调（状态占比 `95.2%`）；主外部 `GSE164522` 同患者四组织观测交互 **`I = −0.04918`（`1+/9−`, `N=10`, `raw p = 0.0215`, 家族校正 `Holm p = 0.0430 <= 0.05` 通过）**，焦点纯 `CD4 T cell` 肿瘤差 `−0.02938`（`1+/9−`），显示结直肠原发肿瘤相对正常结肠正向偏移（`+0.03404`）而肝转移相对正常肝反向偏移（`−0.01514`），显著超出正常结肠–肝脏本底差；
+- **`Mono/Mac/DC::Core_Lipid_SAM_R` 巨噬脂质/重塑核心程序**：开发集 `11/11` 患者升高（`+0.18092, p = 0.00098`），外部 `GSE164522`（`5+/3−`，四组织 `I` `4+/1−`；共线去污染 `Mac_SPP1_clean` `7+/1−` `D_T`、`5+/0−` `I`）与 `GSE203608` 纯巨噬（`3+/1−`，宽髓系 `2+/2−`）未达主族显著；初版 `B/Plasma::UPR` 经深度去偏、伪批量（`0` DEG）与对称分解（`72.6%–77.3%` 比例驱动）证伪淘汰；
+- **`15/15` 零特征拒判全袋迁移与多尺度原位空间审计**：共享核基因空间下 `GSE164522` 全部 `15/15` 迁移分类头激活（6 个 PCA 头 `512/512 = 100%` HVG 覆盖），透明 `PCA` 在三谱系点估计上一致高于对应 `scGPT`；`GSE335552` 原位切片救回 `3,584` 个接触态 `CD8 T`（其中 `M397T` `3,236` 个）后显示 `200–400 µm` 距离差随尺度细化大幅衰减，且在 `M397T` 主要集中于距 `EPCAM+` 上皮 `<15 µm` 肿瘤巢带。[三版本对照总表](artifacts/m6/three_version_evidence_comparison.md) · [复算指南](artifacts/m8/reproduce.md) · [项目状态](STATUS.md)
 
 ## 从这里开始
 
-1. 研究问题、数据角色和阶段验收见 [完整报告](docs/CRLM_Research_Plan.md) 与 [实施计划](docs/IMPLEMENTATION_PLAN.md)。
-2. 患者身份和本机自检见 [M0 报告](artifacts/m0/stage_report.md)。重建 Pt18 对象、检查基因范围和初级谱系覆盖见 [M1 报告](artifacts/m1/stage_report.md)。
-3. 患者程序分析使用 [M3 开发规则](artifacts/m3/program_definitions_draft/development_rules.md)，模型比较使用 [M4 患者分折方案](artifacts/m4/benchmark_design.md)。
+1. 研究问题、统计框架与阶段门禁见 [完整研究设计](docs/CRLM_Research_Plan.md) 与 [实施计划](docs/IMPLEMENTATION_PLAN.md)。
+2. 患者身份核实、本机 106 项基线自检与 `scGPT` 预训练重叠审计见 [M0 报告](artifacts/m0/stage_report.md)；全开发集 39 库（`173,450` 保留细胞，零 `unresolved` 层级注释）见 [M2 报告](artifacts/m2/stage_report.md)。
+3. 去偏 `UCell` 候选筛选与配对伪批量见 [M3 报告](artifacts/m3/stage_report.md)；全袋分类消融与 A750 XPU 精度验证见 [M4 报告](artifacts/m4/stage_report.md)；冻结契约与历史暴露披露见 [M5 报告](artifacts/m5/stage_report.md)；外部队列与空间/实验设计见 [M6 报告](artifacts/m6/stage_report.md) 与 [M7 报告](artifacts/m7/stage_report.md)。
 
 ## 目录与用途
 
 | 路径 | 用途及当前状态 |
 |---|---|
-| `AGENTS.md` | 简明、持续生效的研究与工程约束 |
-| `docs/source_brief/` | 用户原始材料，保留原文件名 |
-| `docs/CRLM_Research_Plan.md`、`docs/report_assets/` | 对应原 68 页报告的正文、附录、参考文献和三张图 |
-| `docs/IMPLEMENTATION_PLAN.md` | M0–M8 的输入、产物、验收及停止规则 |
-| `docs/PAPERS_AND_DATA_PREPARATION.md` | 哪些论文先读、缺哪些 Methods/补充表、如何交给 Agent |
-| `docs/COMPUTE_GUIDE.md` | i5-13400/64 GB/A750 本地路线与按需 GPU 判断 |
-| `prompts/` | Plan 与 M0–M1 执行提示词，按使用阶段选择 |
-| `configs/project.json` | **草案**配置；患者单位、数据角色、资源默认，不是冻结注册或已完成结果 |
-| `starter/` | 原始、已验证的小型实现；直接看自己的 `README.txt`，不要当成完整单细胞流水线 |
-| `scripts/preflight.py` | 无第三方依赖的只读环境/资源探测；可选保存本次结果 |
-| `scripts/check_project.py` | 只读检查交接文件、相对路径、角色和参考表是否齐全 |
-| `scripts/import_gse245552.py`、`src/crlm/annotation_m1.py` | GSE245552 的真实稀疏导入、重读核对与初级谱系标记 |
-| `workflow/` | 阶段运行与输出约定；没有冒充可运行全流程的 DAG |
-| `references/reading_manifest.csv` | 85 条文献记录的优先级、获取/阅读状态及用途 |
-| `references/papers/` | 已归档的本地论文 PDF，见 [本地文件清单](references/local_files.csv) |
-| `references/supplements/`、`references/code/` | 新增原始补充材料与第三方代码 provenance 的位置 |
-| `data/raw/`、`data/processed/`、`data/manifests/` | 真实数据的位置；交付时没有新增全量矩阵 |
-| `embeddings/`、`models/` | 冻结表示和模型版本的位置；交付时为空 |
-| `artifacts/m0/` … `artifacts/m8/` | 各阶段的正式执行与验收记录 |
-| `artifacts/handoff/` | **本次交接包核验**，不属于真实研究或用户主机验收 |
+| `AGENTS.md` | 持续生效的科学、统计与防泄漏工程约束 |
+| `docs/` | 原始需求（`source_brief/说明.md`）、68 页研究计划、M0–M8 实施计划、文献准备与算力指南 |
+| `configs/project.json` | 与 M5 冻结快照保持同哈希锁定的项目配置（`V1.1_AUDIT_REMEDIATED` / `CRLM_V1.1_245_F1`） |
+| `src/crlm/` | 核心可复用库：官方 HGNC 单射对齐、两阶段层级注释、20 桶检测率匹配去偏 `UCell`、全袋构建与先验 MIL |
+| `starter/` | 经 106 项合成检查验证的配对效应、对称组成分解、Holm 注册校正与透明线性 attention 原型 |
+| `scripts/` | `M0–M8` 全链路实证分析、Track 1 纯技术勘误与自动化回归测试脚本（`test_audit_remediations.py`） |
+| `references/` | 85 条主参考文献元数据、本地论文索引及仓内锁定的 `MixMIL` / `hier-mil` 第三方源码（`references/code/`） |
+| `data/`、`embeddings/`、`models/` | 本地真实单细胞对象、A750 XPU `scGPT` 表示缓存、全集迁移模型及 `CRLM_V1_245_F1` 历史归档 |
+| `artifacts/m0/` … `artifacts/m8/` | `CRLM_V1.1_AUDIT_REMEDIATED` 各阶段正式报告、结果表、主图与 `output_sha256.txt` 清单 |
+| `artifacts/archive/CRLM_V1_245_F1/` | 初版 `M3–M8` 阶段产物与根级快照及 `archive_sha256.txt` |
+| `artifacts/techfix_v1_f1/` | Track 1 冻结程序与冻结分类器纯技术勘误分步消融结果 |
 
-## 两条现在可运行的轻量命令
-
-这些命令只读并向终端输出 JSON，不安装软件、不联网、不下载数据、不训练。需 Python 3.10+；原 `starter/` 的已验证环境为 Python 3.12.14。
+## 快速校验与全套回归测试
 
 ```bash
-python scripts/check_project.py
-python scripts/preflight.py
+PYTHONDONTWRITEBYTECODE=1 .venv-m4/bin/python scripts/check_project.py
+PYTHONDONTWRITEBYTECODE=1 .venv-scgpt/bin/python scripts/preflight.py --torch-probe
+PYTHONDONTWRITEBYTECODE=1 .venv-m4/bin/python scripts/test_audit_remediations.py
 ```
 
-脚本按自身位置寻找项目，换工作目录也能使用其完整路径调用。`preflight.py` 的运行位置就是被检测机器，**交付包内的沙箱检测不能代表你的本地主机**。
+## 当前硬件实测结论
 
-在执行阶段，若已安装 PyTorch 且希望显式探测其后端：
-
-```bash
-python scripts/preflight.py --torch-probe
-```
-
-本次主机检测保存在 [M0 环境记录](artifacts/m0/environment_report.md)。
-
-CPU 基础环境、单细胞分析环境、scGPT 环境应隔离。不要为运行只读检查安装 CUDA，也不要把当前起步包的 NumPy 版本强行用于第三方旧 scGPT 依赖。具体环境锁定在 M0/M4 按真实兼容性完成，见 [environments/README.md](environments/README.md)。
-
-## 已验证代码的范围
-
-`starter/` 包含患者级 manifest 校验、分折、配对效应、同患者四组织对比、组成/状态代数分解、预登记检验与 Holm 校正，以及冻结表示上的透明线性 attention MIL 与 mean 对照。历史 106 项合成/逻辑检查为 33 + 41 + 32，记录见 `starter/evidence/` 及对应结果文件。它不是 scGPT、HA/CTA、MixMIL 的完整复现。
-
-正式 M0 已在隔离的 starter 副本中逐项复核这三组检查。结果与资源记录见 [baseline_checks](artifacts/m0/baseline_checks/)。
-
-## 当前硬件结论
-
-本机 i5-13400 已完成开发集 39 个文库的稀疏处理和患者级统计。Intel Arc A750 在与 CPU 核对后编码了 18,610 个肿瘤细胞，PCA/scGPT 及直接前作在同一患者分折上完成比较。[M2 资源与输出](artifacts/m2/stage_report.md) · [M4 资源与输出](artifacts/m4/stage_report.md)
-
-未附大规模原始数据、模型权重及受版权/访问条件约束的其他论文全文。已有审计是可追溯证据，不取代正式实施时的输入核对。论文、第三方代码和数据的原有使用条件仍适用。
+本机 Intel Core i5-13400（64 GB RAM）与 Intel Arc A750 XPU（隔离 `.venv-scgpt`，`torch 2.15.0+xpu`，72 细胞实测相对 CPU 最大绝对误差 `2.09 × 10⁻⁷`）已完成开发集 `39` 个文库（`173,450` 保留细胞，其中肿瘤全袋 `70,628` 个免疫细胞）与外部队列 `GSE164522`（`156,511` 洁净细胞，其中肿瘤全袋 `68,050` 个免疫细胞）、`GSE203608`（`47,525` 洁净体内细胞）及 `GSE335552`（`4` 张原位切片）的全量计算与哈希闭环验证。`GSE178318` 保持零表达矩阵暴露（仅 M0 核查公开 GEO 临床/配对元数据），待获取作者书面使用条款；论文、代码与公开数据的原有许可条款持续适用。

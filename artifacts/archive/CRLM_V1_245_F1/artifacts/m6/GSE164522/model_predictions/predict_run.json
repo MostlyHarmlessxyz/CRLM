@@ -1,0 +1,13 @@
+{
+  "command": [
+    "scripts/predict_gse164522.py",
+    "predict",
+    "--freeze-commit",
+    "72ee86b"
+  ],
+  "freeze_commit": "72ee86bb6a9891609077a08f8350a3e84e102ffd",
+  "python": "3.12.13",
+  "executable": "/home/mostly_harmless/Projects/CRLM/.venv-m4/bin/python",
+  "seconds": 6.771698414000639,
+  "peak_rss_bytes": 333418496
+}

@@ -1,0 +1,6 @@
+tissue,path,url,bytes,sha256
+PT,data/raw/GSE164522/GSE164522_CRLM_PT_expression.csv.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164522/suppl/GSE164522_CRLM_PT_expression.csv.gz,627881778,9262db6779faadf58a49507568abe130abb25f3e002dcbfe12ca7b150359d2e9
+LM,data/raw/GSE164522/GSE164522_CRLM_MT_expression.csv.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164522/suppl/GSE164522_CRLM_MT_expression.csv.gz,610164930,e7b47ac440f3445a2105869197c440c156deeb0d0048468044ba69ddfa28d860
+NC,data/raw/GSE164522/GSE164522_CRLM_PN_expression.csv.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164522/suppl/GSE164522_CRLM_PN_expression.csv.gz,465402747,cde0d1fb75302772e7134a758108983a317b0cdc06f92e1ec7f66f11b2814612
+NL,data/raw/GSE164522/GSE164522_CRLM_MN_expression.csv.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164522/suppl/GSE164522_CRLM_MN_expression.csv.gz,882136610,a8e6341ae38cd3cb59f4591526b67b2d1dd03f389ffef9a50995180c8c098755
+metadata,data/raw/GSE164522/GSE164522_CRLM_metadata.csv.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164522/suppl/GSE164522_CRLM_metadata.csv.gz,5826154,3c01aacf5a82c1a479371e90161bf28709156e07fbaebac5413890be3da13f95

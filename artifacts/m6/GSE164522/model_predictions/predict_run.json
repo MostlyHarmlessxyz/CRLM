@@ -3,11 +3,16 @@
     "scripts/predict_gse164522.py",
     "predict",
     "--freeze-commit",
-    "72ee86b"
+    "WORKTREE"
   ],
-  "freeze_commit": "72ee86bb6a9891609077a08f8350a3e84e102ffd",
+  "freeze_commit": "91a589f5ec58736753e5fd71138e0733e3bc8ab1",
+  "freeze_mode": "WORKTREE",
+  "frozen_inputs_sha256": "5ce11557b7bc565184ad7418befc08fec0fe411ab11586de7a92a8d1c7314f14",
+  "gene_universe": "245_164_shared_nuclear",
+  "exclude_doublets": true,
+  "max_cells": null,
   "python": "3.12.13",
   "executable": "/home/mostly_harmless/Projects/CRLM/.venv-m4/bin/python",
-  "seconds": 6.771698414000639,
-  "peak_rss_bytes": 333418496
+  "seconds": 29.934000623999964,
+  "peak_rss_bytes": 825516032
 }

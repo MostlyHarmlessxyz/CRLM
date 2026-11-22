@@ -1,45 +1,59 @@
-WARN `--no-project` was provided, but no project was found
-GSM7844812 4593 QC-retained cells; completed program scoring
-GSM7844813 6464 QC-retained cells; completed program scoring
-GSM7844814 3704 QC-retained cells; completed program scoring
-GSM7844815 6243 QC-retained cells; completed program scoring
-GSM7844816 2526 QC-retained cells; completed program scoring
-GSM7844817 3693 QC-retained cells; completed program scoring
-GSM7844818 2775 QC-retained cells; completed program scoring
-GSM7844819 4111 QC-retained cells; completed program scoring
-GSM7844820 3842 QC-retained cells; completed program scoring
-GSM7844821 4447 QC-retained cells; completed program scoring
-GSM7844822 2963 QC-retained cells; completed program scoring
-GSM7844823 815 QC-retained cells; completed program scoring
-GSM7844824 1454 QC-retained cells; completed program scoring
-GSM7844825 7277 QC-retained cells; completed program scoring
-GSM7844826 4513 QC-retained cells; completed program scoring
-GSM7844827 5018 QC-retained cells; completed program scoring
-GSM7844828 7745 QC-retained cells; completed program scoring
-GSM7844829 3950 QC-retained cells; completed program scoring
-GSM7844830 6327 QC-retained cells; completed program scoring
-GSM7844831 6152 QC-retained cells; completed program scoring
-GSM7844832 5516 QC-retained cells; completed program scoring
-GSM7844833 8176 QC-retained cells; completed program scoring
-GSM7844834 8503 QC-retained cells; completed program scoring
-GSM7844835 7175 QC-retained cells; completed program scoring
-GSM7844836 5352 QC-retained cells; completed program scoring
-GSM7844837 4471 QC-retained cells; completed program scoring
-GSM7844838 8136 QC-retained cells; completed program scoring
-GSM7844839 11377 QC-retained cells; completed program scoring
-GSM7844840 5752 QC-retained cells; completed program scoring
-GSM7844841 5853 QC-retained cells; completed program scoring
-GSM7844842 396 QC-retained cells; completed program scoring
-GSM7844843 285 QC-retained cells; completed program scoring
-GSM7844844 1677 QC-retained cells; completed program scoring
-GSM7844845 1907 QC-retained cells; completed program scoring
-GSM7844846 4801 QC-retained cells; completed program scoring
-GSM7844847 4639 QC-retained cells; completed program scoring
-GSM7844848 7009 QC-retained cells; completed program scoring
-GSM7844849 3089 QC-retained cells; completed program scoring
-GSM7844850 7305 QC-retained cells; completed program scoring
-    lineage                            program  n_pairs  mean_D_T  shortlisted
-Mono/Mac/DC                    B19_S4_Mac_SPP1       11  0.019736         True
-   B/Plasma HALLMARK_UNFOLDED_PROTEIN_RESPONSE        8 -0.012189         True
-Mono/Mac/DC                  B19_S4_Mac_CXCL10       11 -0.005706        False
-       T/NK HALLMARK_INTERFERON_GAMMA_RESPONSE       12  0.001384        False
+GSM7844812 4338 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844813 6288 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844814 3487 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844815 5980 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844816 2439 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844817 3514 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844818 2611 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844819 3913 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844820 3580 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844821 4243 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844822 2946 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844823 787 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844824 1408 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844825 7143 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844826 4311 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844827 4353 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844828 7410 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844829 3695 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844830 5580 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844831 5000 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844832 5224 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844833 7854 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844834 8280 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844835 6842 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844836 5218 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844837 4198 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844838 5824 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844839 10523 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844840 5378 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844841 3831 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844842 385 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844843 281 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844844 1620 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844845 1854 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844846 4492 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844847 3751 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844848 6088 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844849 2329 QC-retained cells; completed multi-mode debiased program scoring
+GSM7844850 6452 QC-retained cells; completed multi-mode debiased program scoring
+    lineage                            program  n_pairs  mean_D_T  direction_fraction  within_state_share focal_subtype  focal_direction_fraction  shortlisted
+Mono/Mac/DC                   Core_Lipid_SAM_R       11  0.180915            1.000000            0.505476    Macrophage                  1.000000         True
+       T/NK                     B07_Th17_TWEAK       12 -0.032747            0.833333            0.952164    CD4 T cell                  0.833333         True
+Mono/Mac/DC                    B19_S4_Mac_APOE       11  0.023459            1.000000            0.597404    Macrophage                  1.000000        False
+Mono/Mac/DC                   B19_S4_Mac_CCL18       11  0.021191            1.000000            0.949262    Macrophage                  1.000000        False
+Mono/Mac/DC              B19_S4_Mac_SPP1_clean       11  0.016254            0.909091            0.765036    Macrophage                  0.909091        False
+Mono/Mac/DC                 B19_S4_Mono_CCL3L1       11 -0.047641            0.909091            1.421251      Monocyte                  1.000000        False
+Mono/Mac/DC                   Resident_Kupffer       11  0.056343            0.909091            0.441079    Macrophage                  0.636364        False
+   B/Plasma HALLMARK_UNFOLDED_PROTEIN_RESPONSE        8 -0.009861            0.750000            0.273982   plasma cell                  0.625000        False
+       T/NK             CD8_Cytotoxic_Effector       12  0.032928            0.750000            0.418324    CD8 T cell                  0.500000        False
+       T/NK             CD8_CXCL13_Dysfunction       12  0.013357            0.666667            0.806943    CD8 T cell                  0.416667        False
+Mono/Mac/DC                   B19_S4_Mac_F13A1       11 -0.000546            0.636364            1.300875    Macrophage                  0.727273        False
+Mono/Mac/DC                  B19_S4_Mac_CXCL10       11 -0.005965            0.636364            2.404161    Macrophage                  0.545455        False
+   B/Plasma         B_Antigen_Presentation_TLS        8  0.080508            0.625000            0.186406        B cell                  0.666667        False
+   B/Plasma          Plasma_Antibody_Secretion        8 -0.049664            0.625000            0.000168   plasma cell                  0.375000        False
+       T/NK                T_Progenitor_Memory       12 -0.022584            0.583333            0.683712    CD8 T cell                  0.583333        False
+       T/NK               CD4_Treg_Suppressive       12 -0.013250            0.583333            0.295301    CD4 T cell                  0.416667        False
+Mono/Mac/DC               Core_Chemokine_IFN_C       11 -0.009265            0.545455            5.327390    Macrophage                  0.545455        False
+Mono/Mac/DC          Core_MHCII_Presentation_A       11  0.008403            0.545455            0.271582    Macrophage                  0.454545        False
+       T/NK HALLMARK_INTERFERON_GAMMA_RESPONSE       12  0.003901            0.500000            0.739756    CD4 T cell                  0.666667        False

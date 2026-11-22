@@ -1,2 +1,3 @@
 access_date_utc,dataset,phase,material_seen,result,freeze_version
-2026-11-21,GSE203608,post_freeze_validation,Original archived integer matrix and ordered author annotation of 126014 barcodes,Computed frozen state scores in original in-vivo specimens and patient contrasts,CRLM_V1_245_F1
+2026-11-21,GSE203608,post_freeze_validation_archived,Original archived integer matrix and ordered author annotation of 126014 barcodes,Computed V1 frozen state scores in original in-vivo specimens (archived in artifacts/archive/CRLM_V1_245_F1/),CRLM_V1_245_F1
+2026-11-21,GSE203608,post_freeze_validation_v1_1,"Original integer matrix (33658 HGNC+ENSG unique genes -> 18733 shared nuclear genes) and clean in-vivo QC (47525 cells with Cell_type!=NA and MitoFraction<=0.20)",Computed CRLM_V1.1_245_F1 debiased UCell and log1p_cp10k_debiased contrasts under clean author and unified annotation_m1 branches after M5 freeze (2026-11-21T17:49:04+00:00),CRLM_V1.1_245_F1

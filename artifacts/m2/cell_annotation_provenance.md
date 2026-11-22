@@ -1,24 +1,33 @@
-# GSE245552 发现集统一 QC 与标注
+# GSE245552 发现集统一 QC、两阶段层级标注与双免疫分母（V1.1 审计整改版）
 
-## 计数与纳入规则
+## 计数与统一 QC 纳入规则
 
-每库沿用已核对的 GSM、作者标本号、原始 barcode 与交付整数计数。首先按固定组合给所有原细胞赋予初级身份，再在同一 GSM 内计算可见计数和检出基因数的 `log1p` 分布。低界取中位数减去 3 倍经 1.4826 缩放的 MAD，并变换回计数尺度。主要排除条件为以下两种之一。
+每库沿用已核对的 GSM、作者标本号、原始 barcode 与交付整数计数。首先基于 `src/crlm/annotation_m1.py` 对所有细胞执行两阶段确定性标注，再在同一 GSM 内按宽谱系（`n >= 50` 时取该谱系内分布，否则回退至整库分布）计算可见计数和检出基因数的 `log1p` 中位数与 `1.4826 * MAD` 界限，并将基因上限截断于各库交付维度内（`high_genes <= native_genes`）。主要排除条件（`qc_retained == False`）按优先级互斥记录于 `obs.qc_exclusion`：
 
-- 空细胞。
-- 两项指标同时低于整库低界，且同时低于本库同一初级谱系内两项低界。该谱系至少有 50 个细胞才估计其低界，较小群仅保留整库尾部标记。
+1. `empty`：`n_counts_visible == 0`。
+2. `below_min_300g_500c`：`n_genes_visible < 300` 或 `n_counts_visible < 500` 硬下限剔除低复杂度碎片。
+3. `within_lineage_low`：同时低于所属宽谱系（或整库回退）`median - 3.0 * 1.4826 * MAD` 的双指标低端细胞。
+4. `joint_high_multiplet`：硬上限多联体（`n_genes_visible > 8,500` 或 `n_counts_visible > 80,000`），或同时高于谱系内 `median + 3.5 * 1.4826 * MAD` 且满足生物学多联体下界（`n_genes_visible > 6,000` 或 `n_counts_visible > 40,000`），避免在淋巴细胞占优的肿瘤库（如 `GSM7844820`）中误杀正常高表达肿瘤上皮细胞。
+5. `high_pct_mt_gt20`：仅对具备真实生理性线粒体分布的邻近正常组织库（`pct_mt_scope == "visible_axis"`，共 5 个 GSM）剔除 `pct_mt > 20.0%` 的受损细胞。
 
-高端记录同时高于两项整库高界的细胞。所有记录均保存在 H5AD 的 `obs`，`qc_retained` 定义主要分析输入。多种细胞共存使全库的 RNA 分布明显混合；面对低 RNA 的免疫谱系，谱系内参照让正常落在该谱系范围的细胞保留。Pt18 的邻近肝中，270 个 Mono/Mac/DC 与 244 个 Neutrophil 落入整库双低尾，却均在本类双低尾之外。整库双低规则与仅排空规则各自给出配对人数。各规则下的样本×谱系分子、分母可从 [伪批量索引](pseudobulk_manifest.csv) 的 `n_cells`、`n_nonempty`、`n_library_qc` 和对应样本总数取得。[QC 规则敏感性](qc_sensitivity.csv)
+肿瘤交付轴（33 个 GSM）缺失全部 13 个 `MT-` 基因，`pct_mt` 严格保留为 `NaN`（`unavailable_no_MT_features`）；`Pt18` 的邻近肝 `GSM7844850` 虽含 13 个 `MT-` 行，但 `7,441 / 7,442`（`99.987%`）细胞的 `MT-` 计数为 0，自动标记为 `visible_axis_depleted_source_anomaly`（`pct_mt_usable_for_qc = False`），不施加虚假的 `pct_mt` 截断。所有细胞及其 5 组敏感性布尔掩码（`qc_pass_g200`、`qc_pass_g300_primary`、`qc_pass_g500`、`qc_pass_g800` 对齐 `GSE164522` 的 800 基因门槛、`qc_pass_no_mt_filter`）均完整保存在 H5AD 的 `obs` 中，配对患者人数敏感性汇总于 [QC 规则敏感性](qc_sensitivity.csv)。队列 CD45 磁选及重混协议见 [M0 原始来源核查](../m0/manifest_review.md) 与 [B07 正文](../../references/papers/B07_2024.pdf)。
 
-肿瘤交付轴缺 MT 基因。邻近组织的 MT 比例在其可见轴上计算，四种组织均未按 MT 比例过滤。作者提供的文件用于已捕获细胞分析，空液滴背景不可得。混合标记与极高计数构成技术复查标志，混合标记本身不诊断物理双细胞。队列 CD45 磁选及重混协议见 [M0 原始来源核查](../m0/manifest_review.md)。
+## 两阶段层级身份标记与显式双联体剥离
 
-原论文第 1353–1354 页记载了作者按原始基因检出与 MT 比例筛选、去除核糖体与 MT 基因以及处理跨谱系标记的过程；结果段给出的 160,584 个肿瘤样本细胞，恰等于 33 个公开肿瘤 GSM 的入口数（PT 77,494、LM 83,090）。另 6 个邻近组织 GSM 共 29,606 个细胞。本轮从交付矩阵开始的附加 QC 和宽谱系判定，与作者在更早处理阶段执行的检测分别记录。[B07 正文](../../references/papers/B07_2024.pdf)
+1. **第一阶段（粗谱系解耦与跨谱系双联体剥离）**：将 `CSF3R` 移出中性粒细胞锚点，保留给生理性共表达 `CSF3R + S100A8/A9` 但缺乏 `FCGR3B/CEACAM8` 的经典单核/巨噬细胞，真性中性粒细胞由 `FCGR3B/CEACAM8/CXCR2/CMTM2` 锚定；同时将显式跨谱系混合表达（`CD3+B`、`CD3+多髓系`、`B+多髓系`、`PTPRC+EPCAM/HNF4A+` 等）统一剥离至 `Mixed`（`subtype_m2 = "Cross_lineage_doublet"`），不进入任何单谱系状态或免疫组成分母。
+2. **第二阶段（谱系内零 `unresolved` 层级细分）**：
+   - `T/NK`：`CD8 T cell`、`CD4 T cell`、`Double_neg_or_unsplit_T`、`NK cell`（优先保护肝脏 `CD3D/E/G/TRAC == 0` 但携带无菌 `TRBC1/2` 转录本的 `NK cell`）；
+   - `Mono/Mac/DC`：`monocyte/macrophage`（并在 `obs.myeloid_fine` 及 `level == "myeloid_fine"` 进一步无损细分为 `Macrophage` 与 `Monocyte`）、`conventional DC`、`plasmacytoid DC`、`mature DC`；
+   - `B/Plasma`：`B cell`、`plasma cell`；
+   - `Nonimmune`：`epithelial`、`hepatocyte`、`endothelial`、`fibroblast`、`mural`。
 
-## 身份标记与二级层次
+程序评分和 PT–LM 效应均未参与上述规则。另采用与赋类面板及辅助标记**完全零交集**的预留独立标记（`HELD_OUT_CORROBORATION_GENES`）逐库核验本类与其他已解析类的检出率，结果记录于 [独立标记检查表](annotation_marker_check.csv)。[标记规则](../../src/crlm/annotation_m1.py) · [M2 入口](../../scripts/process_gse245552.py)
 
-沿用 M1 的 15 组固定身份标记，每组需检出至少两个不同基因且包括身份锚点。一个大类中单组命中保留该组名称，多组命中记为该大类 unresolved。跨不同大类命中记 Mixed，没有命中记 Unknown。程序评分和 PT–LM 效应均未参与这些规则。三大免疫谱系在 `obs.lineage_m2` 中为 T/NK、Mono/Mac/DC、B/Plasma；另保留 Neutrophil、Mast、Nonimmune、Mixed、Unknown。 `obs.subtype_m2` 给出可辨的宽子组，如 monocyte/macrophage、conventional DC 或 plasma cell。T 和 NK/cytotoxic 两套标记可以共同出现，二级 unresolved 保持父谱系归属。
+## 估计单位与双免疫组成分母
 
-上述身份来自源表达上的标记组合。S3 为作者按群发表的基因表，未提供本项目逐细胞标签。M2 保留每个细胞的标记原始计数、支持组合和 S3 交叉记录。另用未参加赋类的标记检查各类，对每一个 GSM 分开给出本类阳性细胞数、其他已分辨类的阳性细胞数及各自分母。基因在 [独立标记检查表](annotation_marker_check.csv) 中逐项列出。“独立”指这些基因与赋类面板无交集；同一研究的作者标记和同一次捕获只能提供一致性支持。B/Plasma 的免疫球蛋白、LYZ 等高表达标志可能有环境背景，故同时报告其他类的检出。精细功能状态留待后续实证评估。[标记规则](../../src/crlm/annotation_m1.py) · [M2 入口](../../scripts/process_gse245552.py)
+每个 GSM 各自计数；同患者同组织的多个病灶（如 `Pt08` 的 2 PT + 2 LM、`Pt05/Pt06` 的 2 LM）保留各自 `lesion_uid`。由于肿瘤与正常文库经 CD45+ 与 CD45− 磁珠分选后重混，全捕获细胞分母受实验富集比干扰；M2 在 [伪批量索引](pseudobulk_manifest.csv) 与 [各库 QC 表](qc_and_exclusions.csv) 中同步记录两套标准化免疫组成分母：
 
-## 估计单位
+- `n_total_resolved_immune`（`prop_total_resolved_immune`）：`T/NK + Mono/Mac/DC + B/Plasma + Neutrophil + Mast`；
+- `n_core_three_lineage_immune`（`prop_core_three_lineage_immune`）：`T/NK + Mono/Mac/DC + B/Plasma`（跨队列与仅含核心三谱系的外部子集直接对齐）。
 
-每个 GSM 各自计数。相同患者同一侧的多个不同标本保留各自病灶键。连续读数先在合格标本内求均值，再等权合并病灶；组成使用该 GSM 捕获并保留的全部细胞作分母，零个已标注细胞照常计数。细胞内状态要求每个标本×谱系至少 50 个保留细胞，并列出 20、100 的敏感性。有一个合格病灶即为该侧提供支持，另一侧另行判定。未取材组织的细胞数记缺失，已取材未检出某类则记 0。所有患者的组织、病灶、宽子组和三档资格均可从 [患者覆盖](donor_tissue_lineage_coverage.csv) 回到对应 GSM。
+`Nonimmune`、`Mixed` 与 `Unknown` 的免疫组成比例严格记为 `NaN`。细胞内连续状态主门槛要求每个标本×谱系（或细类）至少 50 个保留细胞，并同步列出 20、100 的敏感性。[患者覆盖](donor_tissue_lineage_coverage.csv) · [配对支持](paired_support.csv)

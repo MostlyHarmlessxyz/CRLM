@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0",
+  "description": "In-repository vendor archive of direct-prior MIL upstream reference implementations, eliminating implicit ~/.cache/crlm-m4-priors/ state.",
+  "git_metadata_stripped": true,
+  "repositories": [
+    {
+      "id": "hier-mil",
+      "paper_ref": "M02",
+      "citation": "Do & Lähdesmäki (2025), Incorporating Hierarchical Information into Multiple Instance Learning for Patient Phenotype Prediction with scRNA-seq Data",
+      "upstream_url": "https://github.com/minhchaudo/hier-mil",
+      "commit": "2fb155840394961595755bede506c4b54c0942ae",
+      "commit_date": "2025-04-10T10:33:37+03:00",
+      "license": "No explicit LICENSE file in upstream repository (public academic reference code archived read-only for audit/reproduction)",
+      "key_files": [
+        "model.py",
+        "train.py",
+        "utils.py",
+        "run.py",
+        "README.md",
+        "requirements.txt"
+      ],
+      "archived_path": "references/code/hier-mil",
+      "file_count": 18,
+      "total_bytes": 29685158,
+      "key_file_sha256": {
+        "README.md": "a5abb30db804a0fbb19310c4c9a969089c65d8eec5841a0cf7cf88306bd26de4",
+        "model.py": "fefdb233563b56de3030e65d0b8ef203bb2dca19c342d9bc87defb6b2f460e2c",
+        "requirements.txt": "8555b082e32a7c55b0946bfd5f003e810295d18a827138d62da948910d06eed9",
+        "run.py": "f09f0e979c49bc8732082c12ca8461caa4d40641fde696007fb8ff04dd7362a0",
+        "train.py": "ac2c72ad7207253b394cafb23f122e621a506cab9d67ea2d0663798fa9fe1237",
+        "utils.py": "d1323b1927a79788430af448e904d99054033b7a33d7840a46f393c213d1696e"
+      },
+      "files": [
+        {
+          "path": "references/code/hier-mil/.gitignore",
+          "relpath_in_repo": ".gitignore",
+          "size_bytes": 18,
+          "sha256": "cb598d4ca223b780d9e1de6c56b9a66a99d13feb8e7582728746ebb1d5a98a63",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/Original_code.ipynb",
+          "relpath_in_repo": "Original_code.ipynb",
+          "size_bytes": 46232,
+          "sha256": "763c2be844943988db5b35df0c848c4fe3874bf131b74613009d20785621cd26",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/README.md",
+          "relpath_in_repo": "README.md",
+          "size_bytes": 2402,
+          "sha256": "a5abb30db804a0fbb19310c4c9a969089c65d8eec5841a0cf7cf88306bd26de4",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/hier-mil/data/cardio/cardio.py",
+          "relpath_in_repo": "data/cardio/cardio.py",
+          "size_bytes": 1729,
+          "sha256": "d255cc6be8185e92f9bb755f17b5e9cb999e7bfc47c6ed4a3882a32ff3e86314",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/data/covid/covid.py",
+          "relpath_in_repo": "data/covid/covid.py",
+          "size_bytes": 1619,
+          "sha256": "41a0c9e27d1926a415426a63337f8cfc10642d79147d7f5d7dbae6727e9d2265",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/data/covid/singler_covid.csv",
+          "relpath_in_repo": "data/covid/singler_covid.csv",
+          "size_bytes": 24478024,
+          "sha256": "5827948eca462ff354fb0bc5432456c588091bb2272bccbb09538f557c12a7f3",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/data/icb/genes_icb.csv",
+          "relpath_in_repo": "data/icb/genes_icb.csv",
+          "size_bytes": 5172,
+          "sha256": "50f2b8b1b8876bba8fd2abf68b8bf9d3bb57a4f9a615c5bb641981f14d576618",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/data/icb/icb.py",
+          "relpath_in_repo": "data/icb/icb.py",
+          "size_bytes": 1170,
+          "sha256": "c1c0ff23f3e9215b7d5a48a05ac2d83beb5d03e5f98df0f63ce8a6b1ba89d053",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/data/icb/icb_sample_id_to_patient_id.csv",
+          "relpath_in_repo": "data/icb/icb_sample_id_to_patient_id.csv",
+          "size_bytes": 1425,
+          "sha256": "8304e576e992b36e16953dad3e4c0b49011d09f8cf8db2247008e054648a0192",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/data/icb/singler_icb.csv",
+          "relpath_in_repo": "data/icb/singler_icb.csv",
+          "size_bytes": 5118785,
+          "sha256": "a9dd6a3c35f5871a864e373e8f196cadf1671d0e114110e36bcd06c3d6f93729",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/model.py",
+          "relpath_in_repo": "model.py",
+          "size_bytes": 3042,
+          "sha256": "fefdb233563b56de3030e65d0b8ef203bb2dca19c342d9bc87defb6b2f460e2c",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/hier-mil/requirements.txt",
+          "relpath_in_repo": "requirements.txt",
+          "size_bytes": 128,
+          "sha256": "8555b082e32a7c55b0946bfd5f003e810295d18a827138d62da948910d06eed9",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/hier-mil/run.py",
+          "relpath_in_repo": "run.py",
+          "size_bytes": 3642,
+          "sha256": "f09f0e979c49bc8732082c12ca8461caa4d40641fde696007fb8ff04dd7362a0",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/hier-mil/run.sh",
+          "relpath_in_repo": "run.sh",
+          "size_bytes": 2624,
+          "sha256": "0740493c0ad1223a20beac277d3cf250aaf2410cb41bec919ea63221e50a3ac7",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/run_permute.py",
+          "relpath_in_repo": "run_permute.py",
+          "size_bytes": 3299,
+          "sha256": "269790302ab830022cefe0b977558a28fe7208e24bb2990665746f9a388f2fc7",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/hier-mil/train.py",
+          "relpath_in_repo": "train.py",
+          "size_bytes": 5242,
+          "sha256": "ac2c72ad7207253b394cafb23f122e621a506cab9d67ea2d0663798fa9fe1237",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/hier-mil/utils.py",
+          "relpath_in_repo": "utils.py",
+          "size_bytes": 4129,
+          "sha256": "d1323b1927a79788430af448e904d99054033b7a33d7840a46f393c213d1696e",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/hier-mil/vary_data_quality.py",
+          "relpath_in_repo": "vary_data_quality.py",
+          "size_bytes": 6476,
+          "sha256": "8d10e12a678a0dc5ee175efdd2c5ea4cb2039ea60c1bf18625c5f6966f470ef9",
+          "is_key_file": false
+        }
+      ]
+    },
+    {
+      "id": "mixmil",
+      "paper_ref": "M01",
+      "citation": "Engelmann, Palma & Casale (2024/2025), Attention-based Multi-instance Mixed Models (MixMIL)",
+      "upstream_url": "https://github.com/AIH-SGML/mixmil",
+      "commit": "16d92349ccf19b73c1dccd167934fcc3202b6be4",
+      "commit_date": "2025-11-10T18:13:22+01:00",
+      "license": "Apache-2.0 (see references/code/mixmil/LICENSE)",
+      "key_files": [
+        "LICENSE",
+        "pyproject.toml",
+        "README.md",
+        "mixmil/__init__.py",
+        "mixmil/model.py",
+        "mixmil/posterior.py",
+        "mixmil/data.py",
+        "mixmil/utils.py"
+      ],
+      "archived_path": "references/code/mixmil",
+      "file_count": 17,
+      "total_bytes": 76172,
+      "key_file_sha256": {
+        "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "README.md": "24317cf23f582ef52b093fda148a2aa68a3687e7ec93e80b66ea2c92377da5b5",
+        "mixmil/__init__.py": "7d77f273e2176317d43c842d1140bc1d2b76d03c6c6b6b533e2f604cefb81c2e",
+        "mixmil/data.py": "2d8ee2ad3a08c13053f14cee311fcbaf687dd2eca641b7ad15b39fca73f5bfb8",
+        "mixmil/model.py": "be10e3a865c21c420d9d8a97b4dd9e1c175e9de789f5556d227daa8152062310",
+        "mixmil/posterior.py": "64c352ae4127526f1ff2952305484f3b3cabce05ade29e7af61e146775f9ce89",
+        "mixmil/utils.py": "a96ba88d4f54040c25334ca3d7b4c6889e46c1d51073b9561bb632e1d56c6203",
+        "pyproject.toml": "99ff918d77654b935c6adde6f95a12d81d0562ca3e0416eec69922be6288f446"
+      },
+      "files": [
+        {
+          "path": "references/code/mixmil/.gitignore",
+          "relpath_in_repo": ".gitignore",
+          "size_bytes": 3107,
+          "sha256": "10c691e2a2dc34cd802d1e89f5473ed2527c6d3b9d56471ee2ef35c7c7900351",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/mixmil/LICENSE",
+          "relpath_in_repo": "LICENSE",
+          "size_bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/mixmil/README.md",
+          "relpath_in_repo": "README.md",
+          "size_bytes": 2522,
+          "sha256": "24317cf23f582ef52b093fda148a2aa68a3687e7ec93e80b66ea2c92377da5b5",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/mixmil/experiments/histopathology_camelyon16.ipynb",
+          "relpath_in_repo": "experiments/histopathology_camelyon16.ipynb",
+          "size_bytes": 12909,
+          "sha256": "9a7e3c6717bba456c8c491f89a004cfa97a69bd43ae028d3dce7b61cd9168d8e",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/mixmil/experiments/reduced_histopathology_camelyon16.ipynb",
+          "relpath_in_repo": "experiments/reduced_histopathology_camelyon16.ipynb",
+          "size_bytes": 13022,
+          "sha256": "71175e507e231e2b5cd3aca3c74d915680814ab42d7c4d463a9bd4b28fcef939",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/mixmil/experiments/simulation.ipynb",
+          "relpath_in_repo": "experiments/simulation.ipynb",
+          "size_bytes": 7915,
+          "sha256": "6f92a3d1677d6648b7a86b3295fe14bb8b1716633cb6a5fc4230105eb5127119",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/mixmil/mixmil/__init__.py",
+          "relpath_in_repo": "mixmil/__init__.py",
+          "size_bytes": 143,
+          "sha256": "7d77f273e2176317d43c842d1140bc1d2b76d03c6c6b6b533e2f604cefb81c2e",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/mixmil/mixmil/data.py",
+          "relpath_in_repo": "mixmil/data.py",
+          "size_bytes": 1869,
+          "sha256": "2d8ee2ad3a08c13053f14cee311fcbaf687dd2eca641b7ad15b39fca73f5bfb8",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/mixmil/mixmil/model.py",
+          "relpath_in_repo": "mixmil/model.py",
+          "size_bytes": 8649,
+          "sha256": "be10e3a865c21c420d9d8a97b4dd9e1c175e9de789f5556d227daa8152062310",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/mixmil/mixmil/paths.py",
+          "relpath_in_repo": "mixmil/paths.py",
+          "size_bytes": 84,
+          "sha256": "a97361a8c870ffacfc198684e457ae6aad14693f9b906fee70cca2576ddb1159",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/mixmil/mixmil/posterior.py",
+          "relpath_in_repo": "mixmil/posterior.py",
+          "size_bytes": 2071,
+          "sha256": "64c352ae4127526f1ff2952305484f3b3cabce05ade29e7af61e146775f9ce89",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/mixmil/mixmil/simulation.py",
+          "relpath_in_repo": "mixmil/simulation.py",
+          "size_bytes": 2288,
+          "sha256": "109cef107c6e1922fcd89d6bcd2053f50da8523c1e6f7eab33bb35989945eaa0",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/mixmil/mixmil/utils.py",
+          "relpath_in_repo": "mixmil/utils.py",
+          "size_bytes": 3141,
+          "sha256": "a96ba88d4f54040c25334ca3d7b4c6889e46c1d51073b9561bb632e1d56c6203",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/mixmil/pyproject.toml",
+          "relpath_in_repo": "pyproject.toml",
+          "size_bytes": 1875,
+          "sha256": "99ff918d77654b935c6adde6f95a12d81d0562ca3e0416eec69922be6288f446",
+          "is_key_file": true
+        },
+        {
+          "path": "references/code/mixmil/scripts/dsmil_data_download.py",
+          "relpath_in_repo": "scripts/dsmil_data_download.py",
+          "size_bytes": 2035,
+          "sha256": "17b8960627360757dd37c4f514752b01e0dc6a5753c9421998fb03f4cd4ac6ca",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/mixmil/tests/test_model.py",
+          "relpath_in_repo": "tests/test_model.py",
+          "size_bytes": 2059,
+          "sha256": "9d0def219c725fee1cc8e1eb6adfb9fcd3b7f49832d2461fdb23ec57c61e4e86",
+          "is_key_file": false
+        },
+        {
+          "path": "references/code/mixmil/tests/test_simulation.py",
+          "relpath_in_repo": "tests/test_simulation.py",
+          "size_bytes": 1126,
+          "sha256": "ef0e360598dd0c5478a010a47e072bb247638789faa9e8c7c7c94b871e7571fa",
+          "is_key_file": false
+        }
+      ]
+    }
+  ]
+}

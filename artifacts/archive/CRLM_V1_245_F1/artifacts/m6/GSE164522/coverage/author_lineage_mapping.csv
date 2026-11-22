@@ -1,0 +1,89 @@
+celltype_global,celltype_major,lineage,celltype_sub
+Lymphoid-B,Bcell,B/Plasma,hC68_B-CD79B
+Lymphoid-B,Bcell,B/Plasma,hC69_B-CD55
+Lymphoid-B,Bcell,B/Plasma,hC70_B-GPR183
+Lymphoid-B,Bcell,B/Plasma,hC71_B-HSPA1A
+Lymphoid-B,Bcell,B/Plasma,hC72_B-IGLC3
+Lymphoid-B,Bcell,B/Plasma,hC73_B-RGS13
+Lymphoid-B,Bcell,B/Plasma,hC74_B-MKI67
+Lymphoid-B,Bcell,B/Plasma,hC75_B-CD3E
+Lymphoid-B,Bcell,B/Plasma,hC76_plasmaB-IGHA1
+Lymphoid-B,Bcell,B/Plasma,hC77_plasmaB-IGHA1|IGLC2
+Lymphoid-B,Bcell,B/Plasma,hC78_plasmaB-IGHG1
+CD45-,CD45-,CD45-,CD45-
+Myeloid,ILC3,ILC3,hC58_ILC3-KIT
+MAST,ILC3,ILC3,hC58_ILC3-KIT
+MAST,MAST,Mast,hC57_Mast-CPA3
+Myeloid,MAST,Mast,hC57_Mast-CPA3
+Myeloid,DC,Mono/Mac/DC,hC33_cDC-LAMP3
+Myeloid,DC,Mono/Mac/DC,hC34_cDC-MKI67
+Myeloid,DC,Mono/Mac/DC,hC35_cDC1-CLEC9A
+Myeloid,DC,Mono/Mac/DC,hC36_cDC1-CD3E
+Myeloid,DC,Mono/Mac/DC,hC37_cDC2-CD1C
+MAST,DC,Mono/Mac/DC,hC37_cDC2-CD1C
+Myeloid,DC,Mono/Mac/DC,hC38_cDC2-C1QC
+MAST,DC,Mono/Mac/DC,hC38_cDC2-C1QC
+Myeloid,DC,Mono/Mac/DC,hC39_cDC2-FCN1
+Myeloid,DC,Mono/Mac/DC,hC40_cDC2-TIMP1
+Myeloid,DC,Mono/Mac/DC,hC41_cDC2-CD3E
+MAST,DC,Mono/Mac/DC,hC41_cDC2-CD3E
+Myeloid,DC,Mono/Mac/DC,hC42_pDC-LILRA4
+MAST,DC,Mono/Mac/DC,hC42_pDC-LILRA4
+Myeloid,Macrophage,Mono/Mac/DC,hC48_Mph-FCN1
+Myeloid,Macrophage,Mono/Mac/DC,hC49_Mph-NLRP3
+Myeloid,Macrophage,Mono/Mac/DC,hC50_Mph-IL1B
+Myeloid,Macrophage,Mono/Mac/DC,hC51_Mph-PLTP
+Myeloid,Macrophage,Mono/Mac/DC,hC52_Mph-CXCL12
+Myeloid,Macrophage,Mono/Mac/DC,hC53_Mph-C1QC
+Myeloid,Macrophage,Mono/Mac/DC,hC54_Mph-SPP1
+MAST,Macrophage,Mono/Mac/DC,hC55_Mph-MKI67
+Myeloid,Macrophage,Mono/Mac/DC,hC55_Mph-MKI67
+Myeloid,Macrophage,Mono/Mac/DC,hC56_Mph-CD3E
+MAST,Macrophage,Mono/Mac/DC,hC56_Mph-CD3E
+Myeloid,Monocyte,Mono/Mac/DC,hC43_MonoDC-CLEC10A
+Myeloid,Monocyte,Mono/Mac/DC,hC44_Mono-CD14
+Myeloid,Monocyte,Mono/Mac/DC,hC45_Mono-FCGR3A
+Myeloid,Monocyte,Mono/Mac/DC,hC46_Mono-CD14|FCGR3A
+Myeloid,Monocyte,Mono/Mac/DC,hC47_Mono-CD3E
+Lymphoid-T-NK,CD4 T,T/NK,hC15_CD4_Tn-CCR7
+Lymphoid-T-NK,CD4 T,T/NK,hC16_CD4_Tcm-ANXA1
+Lymphoid-T-NK,CD4 T,T/NK,hC17_CD4_Temra-GNLY
+Lymphoid-T-NK,CD4 T,T/NK,hC18_CD4_Temra-GNLY|RGS1
+Lymphoid-T-NK,CD4 T,T/NK,hC19_CD4_Tn-TCF7
+Lymphoid-T-NK,CD4 T,T/NK,hC20_CD4_Tfh-CXCR5
+Lymphoid-T-NK,CD4 T,T/NK,hC21_CD4_Tem-GZMK
+Lymphoid-T-NK,CD4 T,T/NK,hC22_CD4_Trm-CXCR6
+Lymphoid-T-NK,CD4 T,T/NK,hC23_CD4_Th17-IL23R
+Lymphoid-T-NK,CD4 T,T/NK,hC24_CD4_Th1-CXCL13
+Lymphoid-T-NK,CD4 T,T/NK,hC25_CD4_Treg-FOXP3
+Lymphoid-T-NK,CD4 T,T/NK,hC26_CD4_Tfr-IL10
+Lymphoid-T-NK,CD4 T,T/NK,hC27_CD4_Treg-CTLA4
+Lymphoid-T-NK,CD4 T,T/NK,hC28_CD4_HSPA1A
+Lymphoid-T-NK,CD4 T,T/NK,hC29_CD4_MKI67
+Lymphoid-T-NK,CD8 T,T/NK,hC01_CD8_Tn-LEF1
+Lymphoid-T-NK,CD8 T,T/NK,hC02_CD8_Tcm-GPR183
+Lymphoid-T-NK,CD8 T,T/NK,hC03_CD8_Temra-CX3CR1
+Lymphoid-T-NK,CD8 T,T/NK,hC04_CD8_Temra-CX3CR1|RGS1
+Lymphoid-T-NK,CD8 T,T/NK,hC05_CD8_Tem-GZMK
+Lymphoid-T-NK,CD8 T,T/NK,hC06_CD8_Tem-CXCR5
+Lymphoid-T-NK,CD8 T,T/NK,hC07_CD8_IEL-CD160
+Lymphoid-T-NK,CD8 T,T/NK,hC08_CD8_Trm-CD6
+Lymphoid-T-NK,CD8 T,T/NK,hC09_CD8_Trm-XCL1
+Lymphoid-T-NK,CD8 T,T/NK,hC10_CD8_Trm-KLRB1
+Lymphoid-T-NK,CD8 T,T/NK,hC11_CD8_Tex-LAYN
+Lymphoid-T-NK,CD8 T,T/NK,hC12_CD8-HSPA1A
+Lymphoid-T-NK,CD8 T,T/NK,hC13_CD8-MKI67
+Lymphoid-T-NK,CD8 T,T/NK,hC14_CD8_MAIT-SLC4A10
+Lymphoid-T-NK,NK cell,T/NK,CD3D-CD4+
+Lymphoid-T-NK,NK cell,T/NK,hC59_NK-FCGR3A
+Lymphoid-T-NK,NK cell,T/NK,hC60_NK-SELL
+Lymphoid-T-NK,NK cell,T/NK,hC61_NK-FCGR3A|IFNG
+Lymphoid-T-NK,NK cell,T/NK,hC62_NK-DUSP4
+Lymphoid-T-NK,NK cell,T/NK,hC63_NK-CD160
+Lymphoid-T-NK,NK cell,T/NK,hC64_NK-CD160|IFNG
+Lymphoid-T-NK,NK cell,T/NK,hC65_NK-CD160|ICAM1
+Lymphoid-T-NK,NK cell,T/NK,hC66_NK-MKI67
+Lymphoid-T-NK,NK cell,T/NK,hC67_NK-IL7R
+Lymphoid-T-NK,NKT,T/NK,hC30_NKT-FCGR3A
+Lymphoid-T-NK,NKT,T/NK,hC31_NKT-CD27
+Lymphoid-T-NK,gdT,T/NK,hC32_γδT-TRDV2
