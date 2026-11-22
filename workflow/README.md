@@ -1,7 +1,9 @@
-# 阶段运行合同
+# 阶段执行与复算约定（`workflow/`）
 
-每阶段在 `artifacts/mN/` 下保留一个实际运行记录（JSON 或 Markdown）：开始/结束时间、命令与工作目录、输入相对路径与哈希、配置版本、环境、随机种子、有效患者 N、输出路径、退出状态、警告和验收结论。阶段定义见 `docs/IMPLEMENTATION_PLAN.md`。
+项目按 `M0 → M1 → M2 → M3 → M4 → M5（密码学冻结）→ M6 → M7 → M8` 顺序执行，阶段门禁定义见 [IMPLEMENTATION_PLAN.md](../docs/IMPLEMENTATION_PLAN.md)，完整复算命令序列与 26 项脚本入口映射见 [reproduce.md](../artifacts/m8/reproduce.md) 与 [reproducibility_manifest.csv](../artifacts/m8/reproducibility_manifest.csv)。
 
-全局顺序为 M0 → M1 → M2 → M3 → M4 → M5 → M6 → M7 → M8。M3/M4 可在遵守冻结和分折约束时迭代；不能用 M6 外部结果反调原 V1 主候选。复杂方法失败不阻止报告已完成的简单基线和负结果。
+## 核心规则
 
-真实大文件放入 data/embeddings/models，阶段目录保存轻量索引与结果；`starter/` 保留历史版本。尚未建立 Snakemake/Nextflow 等全流程调度器，不把不存在的 DAG 声称为可运行流水线。需要时在 M0–M2 根据实际输入再选择。
+1. **阶段可追溯性**：每个阶段在 `artifacts/m0/` … `artifacts/m8/` 下输出正式 `stage_report.md`、统计结果表与 `output_sha256.txt` 清单。
+2. **单向防泄漏**：`M5` 冻结后不得根据 `M6` 外部队列结果反向修改 `V1.1` 候选定义、特征映射或分类头权重（由 `artifacts/m5/frozen_inputs_sha256.txt` 强制核验）。
+3. **存储分层**：原始矩阵、细胞表示缓存与模型权重分别存放于 `data/`、`embeddings/`、`models/`，不混入轻量阶段产物目录。
